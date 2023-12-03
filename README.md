@@ -11,7 +11,5 @@ https://www.edrawmax.com/online/share.html?code=6cfaefac903f11ee98490a54be41f961
 ![C4 diagram - level 4](https://github.com/HrimiucDaniel/WADe-Project/assets/79639186/35e5e55d-acda-4a0c-9f26-bb221d0fb56e)
 ### 3.Bussiness diagram : Represents the flow of the application when a user is using the guided tour functionality
 ![image](https://github.com/HrimiucDaniel/WADe-Project/assets/79639186/c7c04816-6cfb-436b-ae1f-9a0871e46cee)
-## Open API specification
-
 
 
