@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/documentation.css">
+    <title>Bogx - Documentation</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bogx - Documentation</h1>
+        <p>Authors: Hrimiuc Daniel-Marin and Chirila Sabin</p>
+        <p>Date: December 3, 2023</p>
+    </header>
+
+    <section>
+        <h2>Abstract - The requirments of the project</h2>
+
+        <p>Develop a service-oriented system offering features regarding botanical gardens' cartography, including the digital ways to explore and display educational information about species of plants. Additionally, the application will be able to manage different dataflows/workflows concerning guided tours, plant/art exhibitions (e.g., the annual Chrysanthemums autumnal exhibition), taxonomic-oriented studies (i.e. learning about plant classification), specific activities (plant conservation, soil preparation, seeding procedures, pollution prevention, etc.) and others. For each item (thing), the user could specify useful information like comments, images, relations with other near-by objects – for example, "Rosa bunda" variety of roses is placed in the centre of the rosarium section of the Botanical Gardens of Iasi. Available knowledge will be accessed via a SPARQL endpoint, in conjunction to other sources of interest such as DBpedia and/or Wikidata. Bonus: adopting (multilingual) conversational user interactions.</p>
+    </section>
+
+    <section>
+        <h2>Introduction</h2>
+
+        <p></p>
+    </section>
+
+    <section>
+        <h2>Front End</h2>
+
+        <p>The user interface of the application ought to demonstrate a high degree of navigational accessibility while incorporating established best practices within the realm of user experience. We plan on having the diverse accesability features, such as the provision of text alternatives for images, utilization of semantic HTML tags, implementation of high-contrast color schemes on the site, maintenance of a consistent layout, and adoption of responsive design. These features are undertaken with the objective of preserving clarity and simplicity in our web pages, thereby facilitating ease of information retrieval for a broad spectrum of users.</p>
+        <p>We plan to start by sketching the user interface by using Figma, a collaborative design and prototyping tool. Recognized for its capacity to facilitate real-time collaboration, Figma enables teams to collectively develop, share, and iterate upon digital designs. Widely embraced within the domains of user interface (UI) and user experience (UX) design, this approach is anticipated to instill a well-defined architectural framework for the user interface. The adoption of Figma is expected to mitigate potential ambiguities and unanticipated elements, ensuring a coherent and planned design trajectory. Furthermore, our strategic initiative includes the incorporation of multilingual conversational user interactions, aiming to broaden the spectrum of potential users for our application. This approach is designed to enhance inclusivity by accommodating users across diverse linguistic backgrounds, thereby fostering a more expansive and accessible user base.</p>
+        <p>The procedural phase of implementing the user interface is poised to leverage React JS in conjunction with Bootstrap. React.js, commonly referred to as React, constitutes a JavaScript library specifically designed for constructing user interfaces. Originating from Facebook and actively maintained, React has gained widespread adoption for the creation of interactive and dynamic web applications. Its inherent component-based architecture affords developers the capability to construct encapsulated and reusable UI components. Bootstrap, a prominent front-end framework, will complement React in this implementation endeavor. Bootstrap streamlines the complexities associated with designing and developing responsive, aesthetically pleasing, and uniform user interfaces. The synergistic integration of React and Bootstrap is anticipated to yield a formidable alliance in crafting a robust and visually appealing user interface. This combination capitalizes on React's proficiency in generating dynamic user interfaces and Bootstrap's efficacy in rapid prototyping and maintaining stylistic consistency. The outcome is expected to manifest as a well-structured, responsive, and visually captivating user interface, underscored by an efficient development workflow. </p>
+    </section>
+
+    <section>
+        <h2>API</h2>
+
+        <p></p>
+    </section>
+
+    <section>
+        <h2>Authentication Service</h2>
+
+        <p></p>
+    </section>
+
+    <section>
+        <h2>Guided Tour Service</h2>
+
+        <p></p>
+    </section>
+
+    <section>
+      <h2>Reservation Service</h2>
+
+      <p></p>
+    </section>
+
+    <section>
+      <h2>Plant Database</h2>
+
+      <p>Our web application will also contains a list of all the plants of the botanical garden we are modeling: The Botanical Garden of Iasi. The plants are categorized by zones, and each plant will have it’s own page that will be generated dynamically based on it’s information from our database and/or other sources like DBpedia and/or Wikidata. Our system will leverage a cloud-based database, specifically Microsoft Azure Cosmos DB, chosen for its superior scalability and performance attributes. Within this database framework, multiple tables will be implemented to meticulously store an array of pertinent resources integral to our application. These resources encompass user data, botanical information regarding plants, user-generated comments, image repositories, and other relevant datasets. By harnessing the capabilities of Microsoft Azure Cosmos DB, our application endeavors to achieve heightened scalability and optimized system performance, thereby ensuring a robust and responsive user experience.</p>
+      <p>The fundamental information intended for display encompasses a diverse array of details, spanning from plant conservation strategies, soil preparation guidelines, and seeding procedures to more advanced botanical concepts such as plant taxonomy. Additionally, the application will strive to provide nuanced insights specific to each plant, delving into intricacies that may not be readily available for other plants.</p>
+      <p>An added dimension to our application involves the consideration of temporal aspects, recognizing that flowers and trees undergo distinct phases, including blooming periods. This temporal dimension will be meticulously stored for each flower or tree within every designated zone. Consequently, users will be apprised of the current blooming status of a particular flower or tree, enabling them to ascertain whether their desired botanical specimen is currently in bloom. This feature aims to enhance the user experience by providing timely and relevant information about the botanical garden's dynamic ecosystem.</p>
+    </section>
+
+    <section>
+      <h2>Community Gallery and Disscution Platform</h2>
+
+      <p>Each dedicated plant page, as previously outlined, will feature a designated section enabling users to contribute commentaries pertaining to the specific plant. Authenticated users with accounts will have the capability to engage in discussions, provide suggestions, or offer explanations related to the individual plant.</p>
+      <p>Moreover, each plant will host a public gallery wherein registered users can upload photographs they have captured of the corresponding plant. This gallery will facilitate interactions such as commenting and tagging of the uploaded photos. It is noteworthy that both photos and associated comments will undergo moderation by the system administrator to ensure adherence to established guidelines and maintain the overall integrity of the platform. This administrative oversight aims to cultivate a collaborative and respectful online environment within the context of the botanical community facilitated by the application.</p>
+    </section>
+
+    <section>
+      <h2>Linked Data</h2>
+
+      <p>Our application conforms Linked Data principles involves highlighting the key aspects of Linked Data, as outlined by Tim Berners-Lee in his Linked Data principles document.</p>
+      <p>The representation of plant data within our system will adhere to the Resource Description Framework (RDF) paradigm. RDF vocabularies will be employed to establish interconnections among data entities and facilitate linking to external resources through the utilization of HTTP Uniform Resource Identifiers (URIs). To enhance accessibility for both human and machine consumption, the data will be serialized in multiple RDF formats, ranging from Turtle to RDF/XML. The serialization process will be executed using the rdflib library within the Node.js environment, aligning with best practices in semantic web technologies. This approach ensures that the plant data is not only interpretable by human users but also accessible and comprehensible to machine-based processes, fostering interoperability and facilitating seamless integration with the broader Linked Data ecosystem.</p>
+     <p>As a secondary infrastructure component, we will establish a SPARQL endpoint utilizing Communica, a framework designed for querying Linked Data on the Web. This framework incorporates a SPARQL query engine, tailored for decentralized querying over RDF (Resource Description Framework) data sources. By implementing this SPARQL endpoint, our system will facilitate the exploration and utilization of semantic data on the web. This infrastructure will empower users to execute SPARQL queries, enabling them to retrieve and analyze data distributed across decentralized RDF sources. The adoption of Communica aligns with our commitment to leveraging cutting-edge technologies that enhance the accessibility and query capabilities of our linked data resources, contributing to a more dynamic and interconnected web experience.</p>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+
+      <p>In summary, our overarching objective is to significantly enhance the user experience for individuals interested in the Botanical Garden of Iasi. This enhancement will be achieved through the provision of real-time information regarding the diverse array of plants available for viewing, guidance on optimal routes to explore specific plant species, notifications about upcoming exhibitions, and the capability to reserve time slots for attendance.</p>
+      <p>Beyond the informative aspects, users will be actively encouraged to engage in discussions through the comment service, sharing their unique experiences within the botanical garden. Additionally, users can contribute to a shared visual narrative by uploading pictures and applying specific tags to highlight their favorite botanical specimens.</p>
+      <p>Furthermore, the application could be taken to the next step through the potential gamification of the social aspect of the application. This entails the introduction of a scoring mechanism wherein users accrue points based on the reception of likes for their photos and commentaries. Additionally, users can earn virtual medals or achievements through consistent and meaningful use of relevant tags in their contributions, fostering a sense of community and competition within the application. This multifaceted approach is intended to create a dynamic, interactive, and socially rewarding platform for enthusiasts and visitors of the Botanical Garden of Iasi.</p>
+    </section>
+
+    <footer>
+        <p class="citation">Hrimiuc Daniel-Marin and Chirila Sabin. (2023). "Documentation - Bogx"; Web Application Development Project</p>
+    </footer>
+
+</body>
+</html>
