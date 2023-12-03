@@ -18,12 +18,14 @@
         <h2>Abstract - The requirments of the project</h2>
 
         <p>Develop a service-oriented system offering features regarding botanical gardens' cartography, including the digital ways to explore and display educational information about species of plants. Additionally, the application will be able to manage different dataflows/workflows concerning guided tours, plant/art exhibitions (e.g., the annual Chrysanthemums autumnal exhibition), taxonomic-oriented studies (i.e. learning about plant classification), specific activities (plant conservation, soil preparation, seeding procedures, pollution prevention, etc.) and others. For each item (thing), the user could specify useful information like comments, images, relations with other near-by objects – for example, "Rosa bunda" variety of roses is placed in the centre of the rosarium section of the Botanical Gardens of Iasi. Available knowledge will be accessed via a SPARQL endpoint, in conjunction to other sources of interest such as DBpedia and/or Wikidata. Bonus: adopting (multilingual) conversational user interactions.</p>
+        <p>The main purpose of the web application is to provide an integrated environment where users can find out information about the areas, the plants of a botanical garden, can make reservations for the exhibitions organized by the botanical garden and can also contribute to the community with their own comments and images related to different plants.</p>
+    
     </section>
 
     <section>
         <h2>Introduction</h2>
 
-        <p></p>
+        <p>BogX (Botanical Gardens Smart Explorer)" is a service-oriented system that provides functionality related to the mapping of botanical gardens, including digital ways to explore and display educational information about plant species.</p>
     </section>
 
     <section>
@@ -37,25 +39,66 @@
     <section>
         <h2>API</h2>
 
-        <p></p>
+        <p>Within our application, we will use the REST paradigm, so we will have several APIs that we will use:</p>
+        <h3>Areas</h3>
+        <ul>
+            <li>GET /areas  - to get all areas of botanic garden</li>
+            <li>GET /areas/{name_area} - to get a specific area of botanic garden</li>
+        </ul>
+        <h3>Users</h3>
+        <ul>
+            <li>GET /users  - to get all users</li>
+            <li>GET/user/{user_name} - to get a user by name</li>
+            <li>POST /user/{user_name} - to post a new user with specific name</li>
+            <li>PUT /user/{user_name} - to modify a user</li>
+        </ul>
+        <h3>Users</h3>
+        <ul>
+            <li>GET /users  - to get all users</li>
+            <li>GET/user/{user_name} - to get a user by name</li>
+            <li>POST /user/{user_name} - to post a new user with specific name</li>
+            <li>PUT /user/{user_name} - to modify a user</li>
+        </ul>
+        <h3>Plants</h3>
+        <ul>
+            <li>GET /plants - to get all  plants</li>
+            <li>GET /plants/{plant_name} - to get a plant by name</li>
+            <li>GET /plants/category/{category_name} - to get all plants by a specific category</li>
+        </ul>
+        <h3>Exhibitions</h3>
+        <ul>
+            <li>GET/exhibitions - to get all exhibitions avaible</li>
+            <li>GET /exhibitions/{exhibition_name} - to get a exhibition by name</li>
+        </ul>
+
+
+    
+
     </section>
 
     <section>
         <h2>Authentication Service</h2>
 
-        <p></p>
+        <p>In order to use all the services available in our application, we will first have to create an account and log in to the application.</p>
+        <p>Without logging in, we can get recommendations for visiting the botanical garden, depending on which options we will tick there, but we will not be able to make reservations for exhibitions.</p>
+        <p>Therefore, we will have a separate service for creating accounts, managing them, as well as logging into the application.</p>
     </section>
 
     <section>
         <h2>Guided Tour Service</h2>
 
-        <p></p>
+        <p>This service is in charge of providing personalized recommendations for routes in the garden botany.</p>
+        <p>The botanical garden is conceptualized as a connected graph, where specific areas and attractions are represented as interconnected nodes. The process starts by marking areas or plants of interest, and then advanced algorithms from graph theory are applied to determine the shortest path between these points of interest.</p>
+        <p>Through the service, users are guided through a unique itinerary so that they can discover the plants and attractions that fascinate them the most. This personalized trail maximizes time and provides detailed information about the plants along the trail, contributing to a rich and educational experience in the botanical garden.</p>
+        <p>This combined approach of user data, graph theory and interactive interface creates a complete and personalized experience within the botanic garden, enhancing the attraction and accessibility for all visitors.</p>
     </section>
 
     <section>
       <h2>Reservation Service</h2>
 
-      <p></p>
+      <p>This is a service designed to make it easier for users to make reservations for the exhibitions offered by the botanical garden. To benefit from this service, users are invited to create an account in the dedicated web application and log in</p>
+      <p>Through this service, users have access to an intuitive interface that allows them to view all the exhibitions proposed by the botanical garden. This detailed overview provides information on the theme, duration and location of each exhibition, helping you make an informed choice.</p>
+      <p>A distinctive aspect of the service is the ability to reserve seats for desired exhibitions. The booking functionality is available exclusively to authenticated users, guaranteeing security and booking management. After logging in, users can explore exhibition options, select the desired event and make a reservation.</p>
     </section>
 
     <section>
