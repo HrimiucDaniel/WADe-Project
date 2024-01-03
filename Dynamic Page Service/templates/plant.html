@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ plant_name }}</title>
+</head>
+<body>
+  <h1>{{ plant_name }}</h1>
+  
+  {% set subjects = rdf_data|map(attribute=0)|unique %}
+  
+  {% for subject in subjects %}
+    <h2>{{ subject }}</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Predicate</th>
+          <th>Object</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for triple in rdf_data %}
+          {% if triple[0] == subject %}
+            <tr>
+              <td>{{ triple[1] }}</td>
+              <td>{{ triple[2] }}</td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+  
+</body>
+</html>
