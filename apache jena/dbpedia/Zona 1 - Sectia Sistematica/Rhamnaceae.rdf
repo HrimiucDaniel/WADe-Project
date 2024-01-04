@@ -1,0 +1,81 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>predicate</res:resultVariable>
+    <res:resultVariable>object</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>object</res:variable><res:value xml:lang="en">The Rhamnaceae are a large family of flowering plants, mostly trees, shrubs, and some vines, commonly called the buckthorn family. Rhamnaceae is included in the order Rosales. The family contains about 55 genera and 950 species. The Rhamnaceae have a worldwide distribution, but are more common in the subtropical and tropical regions. The earliest fossil evidence of Rhamnaceae is from the Late Cretaceous. Fossil flowers have been collected from the Upper Cretaceous of Mexico and the Paleocene of Argentina. 
+* Alphitonia ponderosa 
+* Ceanothus 
+*</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/name"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenus"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnus</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageCaption"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnus pumila (Turra)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/rangeMap"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae Distribution.svg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/rangeMapCaption"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>object</res:variable><res:value xml:lang="en">The range of Rhamnaceae.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivision"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>object</res:variable><res:value xml:lang="en">See text</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivisionRanks"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>object</res:variable><res:value xml:lang="en">Genera</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/synonyms"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>object</res:variable><res:value xml:lang="en">Frangulaceae (DC.)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/synonyms"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>object</res:variable><res:value xml:lang="en">Phylicaceae (J.Agardh)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r13">
+      <res:binding rdf:nodeID="r13c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/synonyms"/></res:binding>
+      <res:binding rdf:nodeID="r13c1"><res:variable>object</res:variable><res:value xml:lang="en">Ziziphaceae (Adans. ex Post &amp; Kuntze)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r14">
+      <res:binding rdf:nodeID="r14c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/taxon"/></res:binding>
+      <res:binding rdf:nodeID="r14c1"><res:variable>object</res:variable><res:value xml:lang="en">Rhamnaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r15">
+      <res:binding rdf:nodeID="r15c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r15c1"><res:variable>object</res:variable><res:value xml:lang="en">The Rhamnaceae are a large family of flowering plants, mostly trees, shrubs, and some vines, commonly called the buckthorn family. Rhamnaceae is included in the order Rosales. The family contains about 55 genera and 950 species. The Rhamnaceae have a worldwide distribution, but are more common in the subtropical and tropical regions. The earliest fossil evidence of Rhamnaceae is from the Late Cretaceous. Fossil flowers have been collected from the Upper Cretaceous of Mexico and the Paleocene of Argentina. Leaves of family Rhamnaceae members are simple, i.e., the leaf blades are not divided into smaller leaflets. Leaves can be either alternate or opposite. Stipules are present. These leaves are modified into spines in many genera, in some (e.g. Paliurus spina-christi and Colletia cruciata) spectacularly so. Colletia stands out by having two axillary buds instead of one, one developing into a thorn, the other one into a shoot. The flowers are radially symmetrical. There are 5 (sometimes 4) separate sepals and 5 (sometimes 4 or none) separate petals. The petals may be white, yellowish, greenish, pink or blue, and are small and inconspicuous in most genera, though in some (e.g. Ceanothus) the dense clusters of flowers are conspicuous. The 5 or 4 stamens are opposite the petals. The ovary is mostly superior, with 2 or 3 ovules (or one by abortion). The fruits are mostly berries, fleshy drupes, or nuts. Some are adapted to wind carriage, but most are dispersed by mammals and birds. Chinese jujube is the fruit of the jujube tree (Ziziphus zizyphus) and is a major fruit in China. The American genus Ceanothus, which has several showy ornamental species, has nitrogen-fixing root nodules. Economic uses of the Rhamnaceae are chiefly as ornamental plants and as the source of many brilliant green and yellow dyes. The wood of Rhamnus was also the most favoured species to make charcoal for use in gunpowder before the development of modern propellants. 
+* Alphitonia ponderosa 
+* Ceanothus 
+* Ceanothus papillosus var. roweanus at the Regional Parks Botanic Garden, Berkeley, California</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r16">
+      <res:binding rdf:nodeID="r16c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/oldestFossil"/></res:binding>
+      <res:binding rdf:nodeID="r16c1"><res:variable>object</res:variable><res:value xml:lang="en">Albian</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

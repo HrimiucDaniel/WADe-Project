@@ -1,0 +1,56 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>predicate</res:resultVariable>
+    <res:resultVariable>object</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae is a family of flowering plants placed in the order Geraniales. The family name is derived from the genus Geranium. The family includes both the genus Geranium (the cranesbills, or true geraniums) and the garden plants called geraniums, which modern botany classifies as genus Pelargonium, along with other related genera. The family comprises 830 species in five to seven genera. The largest genera are Geranium (430 species), Pelargonium (280 species) and Erodium (80 species).</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenus"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>object</res:variable><res:value xml:lang="en">Geranium</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenusAuthority"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>object</res:variable><res:value xml:lang="en">L.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageCaption"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>object</res:variable><res:value xml:lang="en">Geranium rotundifolium</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivision"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>object</res:variable><res:value xml:lang="en">* California (Aldasoro et al.) 
+*Erodium (Aiton)
+*Geranium (L.)
+*Hypseocharis (J. Remy)
+*Monsonia (L.)
+*Pelargonium (Aiton)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivisionRanks"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>object</res:variable><res:value xml:lang="en">Genera</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/taxon"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>object</res:variable><res:value xml:lang="en">Geraniaceae is a family of flowering plants placed in the order Geraniales. The family name is derived from the genus Geranium. The family includes both the genus Geranium (the cranesbills, or true geraniums) and the garden plants called geraniums, which modern botany classifies as genus Pelargonium, along with other related genera. The family comprises 830 species in five to seven genera. The largest genera are Geranium (430 species), Pelargonium (280 species) and Erodium (80 species).</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

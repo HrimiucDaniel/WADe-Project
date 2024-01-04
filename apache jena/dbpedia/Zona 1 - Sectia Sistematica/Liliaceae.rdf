@@ -1,0 +1,281 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>predicate</res:resultVariable>
+    <res:resultVariable>object</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>object</res:variable><res:value xml:lang="en">Liliaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>object</res:variable><res:value xml:lang="en">Liliaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>object</res:variable><res:value xml:lang="en">The lily family, Liliaceae, consists of about 15 genera and 610 species of flowering plants within the order Liliales. They are monocotyledonous, perennial, herbaceous, often bulbous geophytes. Plants in this family have evolved with a fair amount of morphological diversity despite genetic similarity. Common characteristics include large flowers with parts arranged in threes: with six colored or patterned petaloid tepals (undifferentiated petals and sepals) arranged in two whorls, six stamens and a superior ovary. The leaves are linear in shape, with their veins usually arranged parallel to the edges, single and arranged alternating on the stem, or in a rosette at the base. Most species are grown from bulbs, although some have rhizomes. First described in 1789, the lily family became a par</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>object</res:variable><res:value xml:lang="en">Liliaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenus"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenusAuthority"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>object</res:variable><res:value xml:lang="en">L. Sp. Pl. 1: 302.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/align"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>object</res:variable><res:value xml:lang="en">left</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/align"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>object</res:variable><res:value xml:lang="en">right</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/bot"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>object</res:variable><res:value xml:lang="en">InternetArchiveBot</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium candidum</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>object</res:variable><res:value xml:lang="en">General floral formula of the Liliacaeae:  and hermaphrodite with 6  in , the same  of , and a  with . Individual species and genera may have more or less derived formulas.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulipa clusiana with three sepals resembling petals</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>object</res:variable><res:value xml:lang="en">Erythronium revolutum flower with three stigmata and pseudo-basifixed anthers surrounding the filament tip</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r13">
+      <res:binding rdf:nodeID="r13c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r13c1"><res:variable>object</res:variable><res:value xml:lang="en">Calochortoideae: Flower of Calochortus catalinae, California</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r14">
+      <res:binding rdf:nodeID="r14c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r14c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulipa humilis flower showing multiple connate  carpels surrounded by stamens.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r15">
+      <res:binding rdf:nodeID="r15c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r15c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium anthers in cross section</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r16">
+      <res:binding rdf:nodeID="r16c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r16c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium with longitudinal dehiscence of anthers</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r17">
+      <res:binding rdf:nodeID="r17c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r17c1"><res:variable>object</res:variable><res:value xml:lang="en">Lillium fruit capsule</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r18">
+      <res:binding rdf:nodeID="r18c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r18c1"><res:variable>object</res:variable><res:value xml:lang="en">Lily production, Japan</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r19">
+      <res:binding rdf:nodeID="r19c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r19c1"><res:variable>object</res:variable><res:value xml:lang="en">Section through flower of Fritillaria meleagris</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r20">
+      <res:binding rdf:nodeID="r20c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r20c1"><res:variable>object</res:variable><res:value xml:lang="en">Tricyrtis flower with patterned tepals</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r21">
+      <res:binding rdf:nodeID="r21c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r21c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulip production, Hillegom, the Netherlands</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r22">
+      <res:binding rdf:nodeID="r22c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r22c1"><res:variable>object</res:variable><res:value xml:lang="en">Streptopoideae: Leaves and berries of Streptopus lanceolatus, Ontario, Canada</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r23">
+      <res:binding rdf:nodeID="r23c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r23c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium auratum pollen with typical single-grooved  pattern</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r24">
+      <res:binding rdf:nodeID="r24c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r24c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilies  growing in the Paradiesgärtlein, Meister des Frankfurter Paradiesgärtleins</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r25">
+      <res:binding rdf:nodeID="r25c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r25c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium flower with perigonium of six undifferentiated tepals, arranged in two trimerous whorls and side-connected  anthers.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r26">
+      <res:binding rdf:nodeID="r26c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r26c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilieae: Flower of Nomocharis aperta, Yunnan, China</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r27">
+      <res:binding rdf:nodeID="r27c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r27c1"><res:variable>object</res:variable><res:value xml:lang="en">Medeoleae: Leaves and fruit of Clintonia borealis, Quebec, Canada</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r28">
+      <res:binding rdf:nodeID="r28c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r28c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium longiflorum: 1. Stigma, 2. style, 3. stamens, 4. filament, 5. tepal</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r29">
+      <res:binding rdf:nodeID="r29c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r29c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulipa varieties are popular ornamental flowers in public and private spaces in the spring</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r30">
+      <res:binding rdf:nodeID="r30c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/caption"/></res:binding>
+      <res:binding rdf:nodeID="r30c1"><res:variable>object</res:variable><res:value xml:lang="en">Sego lily  with tepals in two clearly distinguished whorls of three sepals and three petals.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r31">
+      <res:binding rdf:nodeID="r31c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/date"/></res:binding>
+      <res:binding rdf:nodeID="r31c1"><res:variable>object</res:variable><res:value xml:lang="en">October 2019</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r32">
+      <res:binding rdf:nodeID="r32c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/direction"/></res:binding>
+      <res:binding rdf:nodeID="r32c1"><res:variable>object</res:variable><res:value xml:lang="en">vertical</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r33">
+      <res:binding rdf:nodeID="r33c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/fixAttempted"/></res:binding>
+      <res:binding rdf:nodeID="r33c1"><res:variable>object</res:variable><res:value xml:lang="en">yes</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r34">
+      <res:binding rdf:nodeID="r34c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/fossilRange"/></res:binding>
+      <res:binding rdf:nodeID="r34c1"><res:variable>object</res:variable><res:value xml:lang="en">Late Cretaceous - Recent</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r35">
+      <res:binding rdf:nodeID="r35c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/header"/></res:binding>
+      <res:binding rdf:nodeID="r35c1"><res:variable>object</res:variable><res:value xml:lang="en">Cultivation</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r36">
+      <res:binding rdf:nodeID="r36c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/header"/></res:binding>
+      <res:binding rdf:nodeID="r36c1"><res:variable>object</res:variable><res:value xml:lang="en">Examples of the four subdivisions of Liliaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r37">
+      <res:binding rdf:nodeID="r37c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/header"/></res:binding>
+      <res:binding rdf:nodeID="r37c1"><res:variable>object</res:variable><res:value xml:lang="en">Liliaceae floral morphology</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r38">
+      <res:binding rdf:nodeID="r38c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r38c1"><res:variable>object</res:variable><res:value xml:lang="en">Kievitsbloem.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r39">
+      <res:binding rdf:nodeID="r39c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r39c1"><res:variable>object</res:variable><res:value xml:lang="en">Antera Lilium.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r40">
+      <res:binding rdf:nodeID="r40c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r40c1"><res:variable>object</res:variable><res:value xml:lang="en">Anther dehiscence in Lilium.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r41">
+      <res:binding rdf:nodeID="r41c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r41c1"><res:variable>object</res:variable><res:value xml:lang="en">Bollenveld Hillegom.JPG</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r42">
+      <res:binding rdf:nodeID="r42c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r42c1"><res:variable>object</res:variable><res:value xml:lang="en">Calochortus catalinae.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r43">
+      <res:binding rdf:nodeID="r43c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r43c1"><res:variable>object</res:variable><res:value xml:lang="en">Clintonia borealis.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r44">
+      <res:binding rdf:nodeID="r44c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r44c1"><res:variable>object</res:variable><res:value xml:lang="en">Erythronium revolutum 8.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r45">
+      <res:binding rdf:nodeID="r45c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r45c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium auratum - pollen.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r46">
+      <res:binding rdf:nodeID="r46c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r46c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium candidum 1.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r47">
+      <res:binding rdf:nodeID="r47c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r47c1"><res:variable>object</res:variable><res:value xml:lang="en">Lillium Stamens.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r48">
+      <res:binding rdf:nodeID="r48c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r48c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilyfruit.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r49">
+      <res:binding rdf:nodeID="r49c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r49c1"><res:variable>object</res:variable><res:value xml:lang="en">Meister des Frankfurter Paradiesgärtleins 001.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r50">
+      <res:binding rdf:nodeID="r50c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r50c1"><res:variable>object</res:variable><res:value xml:lang="en">Nomocharis aperta 02EB Napa Hai Yunnan 17 6 01.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r51">
+      <res:binding rdf:nodeID="r51c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r51c1"><res:variable>object</res:variable><res:value xml:lang="en">Sego lily cm.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r52">
+      <res:binding rdf:nodeID="r52c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r52c1"><res:variable>object</res:variable><res:value xml:lang="en">Spring 22.JPG</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r53">
+      <res:binding rdf:nodeID="r53c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r53c1"><res:variable>object</res:variable><res:value xml:lang="en">Streptopus lanceolatus WPC.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r54">
+      <res:binding rdf:nodeID="r54c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r54c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulipa aucheriana 240408 stamens and pistil.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r55">
+      <res:binding rdf:nodeID="r55c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r55c1"><res:variable>object</res:variable><res:value xml:lang="en">Zanlophator1a.UME.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r56">
+      <res:binding rdf:nodeID="r56c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r56c1"><res:variable>object</res:variable><res:value xml:lang="en">玉水ユリ園.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r57">
+      <res:binding rdf:nodeID="r57c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/image"/></res:binding>
+      <res:binding rdf:nodeID="r57c1"><res:variable>object</res:variable><res:value xml:lang="en">Tulip Tulipa clusiana &#39;Lady Jane&#39; Rock Ledge Flower 2000px.jpg</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r58">
+      <res:binding rdf:nodeID="r58c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageCaption"/></res:binding>
+      <res:binding rdf:nodeID="r58c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium martagon</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r59">
+      <res:binding rdf:nodeID="r59c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/pos"/></res:binding>
+      <res:binding rdf:nodeID="r59c1"><res:variable>object</res:variable><res:value xml:lang="en">bottom</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r60">
+      <res:binding rdf:nodeID="r60c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivision"/></res:binding>
+      <res:binding rdf:nodeID="r60c1"><res:variable>object</res:variable><res:value xml:lang="en">* subfamily: Streptopoideae
+* subfamily: Calochortoideae
+* subfamily: Medeoloideae
+* subfamily: Lilioideae
+** tribe: Lilieae
+** tribe: Tulipeae
+sensu APWeb</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r61">
+      <res:binding rdf:nodeID="r61c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivisionRanks"/></res:binding>
+      <res:binding rdf:nodeID="r61c1"><res:variable>object</res:variable><res:value xml:lang="en">Subfamilies and tribes</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r62">
+      <res:binding rdf:nodeID="r62c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/taxon"/></res:binding>
+      <res:binding rdf:nodeID="r62c1"><res:variable>object</res:variable><res:value xml:lang="en">Liliaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r63">
+      <res:binding rdf:nodeID="r63c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeSpecies"/></res:binding>
+      <res:binding rdf:nodeID="r63c1"><res:variable>object</res:variable><res:value xml:lang="en">Lilium candidum</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r64">
+      <res:binding rdf:nodeID="r64c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeSpeciesAuthority"/></res:binding>
+      <res:binding rdf:nodeID="r64c1"><res:variable>object</res:variable><res:value xml:lang="en">L. Sp. Pl. 1: 302.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r65">
+      <res:binding rdf:nodeID="r65c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r65c1"><res:variable>object</res:variable><res:value xml:lang="en">The lily family, Liliaceae, consists of about 15 genera and 610 species of flowering plants within the order Liliales. They are monocotyledonous, perennial, herbaceous, often bulbous geophytes. Plants in this family have evolved with a fair amount of morphological diversity despite genetic similarity. Common characteristics include large flowers with parts arranged in threes: with six colored or patterned petaloid tepals (undifferentiated petals and sepals) arranged in two whorls, six stamens and a superior ovary. The leaves are linear in shape, with their veins usually arranged parallel to the edges, single and arranged alternating on the stem, or in a rosette at the base. Most species are grown from bulbs, although some have rhizomes. First described in 1789, the lily family became a paraphyletic &quot;catch-all&quot; (wastebasket) group of lilioid monocots that did not fit into other families and included a great number of genera now included in other families and in some cases in other orders. Consequently, many sources and descriptions labelled &quot;Liliaceae&quot; deal with the broader sense of the family. The family evolved approximately 68 million years ago during the Late Cretaceous to Early Paleogene epochs. Liliaceae are widely distributed, mainly in temperate regions of the Northern Hemisphere and the flowers are insect pollinated. Many Liliaceae are important ornamental plants, widely grown for their attractive flowers and involved in a major floriculture of cut flowers and dry bulbs. Some species are poisonous if eaten and can have adverse health effects in humans and household pets. A number of Liliaceae genera are popular cultivated plants in private and public spaces. Lilies and tulips in particular have had considerable symbolic and decorative value, and appear frequently in paintings and the decorative arts. They are also an economically important product. Most of their genera, Lilium in particular, face considerable herbivory pressure from deer in some areas, both wild and domestic.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r66">
+      <res:binding rdf:nodeID="r66c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/diversity"/></res:binding>
+      <res:binding rdf:nodeID="r66c1"><res:variable>object</res:variable><res:value xml:lang="en">About 600 species</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

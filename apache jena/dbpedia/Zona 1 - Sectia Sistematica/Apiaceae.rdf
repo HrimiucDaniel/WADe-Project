@@ -1,0 +1,62 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>predicate</res:resultVariable>
+    <res:resultVariable>object</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae or Umbelliferae is a family of mostly aromatic flowering plants named after the type genus Apium and commonly known as the celery, carrot or parsley family, or simply as umbellifers. It is the 16th-largest family of flowering plants, with more than 3,700 species in 434 genera including such well-known and economically important plants as ajwain, angelica, anise, asafoetida, caraway, carrot, celery, chervil, coriander, cumin, dill, fennel, lovage, cow parsley, parsley, parsnip and sea holly, as well as silphium, a plant whose identity is unclear and which may be extinct.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://www.w3.org/2004/02/skos/core#prefLabel"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/typeGenus"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>object</res:variable><res:value xml:lang="en">Apium</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/from"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>object</res:variable><res:value xml:lang="en">Q10387485</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/from"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>object</res:variable><res:value xml:lang="en">Q145794</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/imageCaption"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae: Apium leaves and tiny inflorescences, Daucus habit, Foeniculum inflorescences, Eryngium inflorescences, Petroselinum root.</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivision"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>object</res:variable><res:value xml:lang="en">*Mackinlayoideae (Plunkett &amp; Lowry)
+*Azorelloideae (Plunkett &amp; Lowry)
+*Saniculoideae (Burnett)
+*Apioideae (Seem.)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/subdivisionRanks"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>object</res:variable><res:value xml:lang="en">Subfamilies</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/synonyms"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>object</res:variable><res:value xml:lang="en">Umbelliferae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/property/taxon"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>predicate</res:variable><res:value rdf:resource="http://dbpedia.org/ontology/abstract"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>object</res:variable><res:value xml:lang="en">Apiaceae or Umbelliferae is a family of mostly aromatic flowering plants named after the type genus Apium and commonly known as the celery, carrot or parsley family, or simply as umbellifers. It is the 16th-largest family of flowering plants, with more than 3,700 species in 434 genera including such well-known and economically important plants as ajwain, angelica, anise, asafoetida, caraway, carrot, celery, chervil, coriander, cumin, dill, fennel, lovage, cow parsley, parsley, parsnip and sea holly, as well as silphium, a plant whose identity is unclear and which may be extinct. The family Apiaceae includes a significant number of phototoxic species, such as giant hogweed, and a smaller number of highly poisonous species, such as poison hemlock, water hemlock, spotted cowbane, fool&#39;s parsley, and various species of water dropwort.</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ex="https://botanica.uaic.ro/home.htm#">
+
+  <rdf:Description rdf:about="https://botanica.uaic.ro/home.htm#BotanicalZone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:label>Botanical Garden Zone</rdfs:label>
+    <rdfs:comment>A zone in a botanical garden.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- Define properties -->
+  <rdf:Description rdf:about="https://botanica.uaic.ro/home.htm#name">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>Name</rdfs:label>
+    <rdfs:comment>The name of the zone.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://botanica.uaic.ro/home.htm#positioning">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>Positioning</rdfs:label>
+    <rdfs:comment>The positioning of the zone in terms of sunlight exposure.</rdfs:comment>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://botanica.uaic.ro/home.htm#list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:label>List of Plants</rdfs:label>
+    <rdfs:comment>A list of plants in the zone.</rdfs:comment>
+  </rdf:Description>
+
+  <!-- Zone resources -->
+  <rdf:Description rdf:about="hhttps://botanica.uaic.ro/home.htm#Zone1">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_sistematic_detalii.htm"/>
+    <ex:name>Zona 1 - Sectia Sistematica</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/botanical-garden#Zone2">
+    <rdf:type rdf:resource="http://example.org/botanical-garden#BotanicalZone"/>
+    <ex:name>Zona 2 - Sectia Fitogeografica</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+</rdf:RDF>
