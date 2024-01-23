@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botanical Garden Zones</title>
+</head>
+<body>
+    <h1>Botanical Garden Zones</h1>
+    <ul>
+        {% for zone in zones %}
+            <li><a href="{{ url_for('zone', zone_name=zone) }}">{{ zone }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

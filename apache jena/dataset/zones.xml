@@ -37,8 +37,67 @@
   </rdf:Description>
 
   <rdf:Description rdf:about="http://example.org/botanical-garden#Zone2">
-    <rdf:type rdf:resource="http://example.org/botanical-garden#BotanicalZone"/>
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_floraglobului_detalii.htm"/>
     <ex:name>Zona 2 - Sectia Fitogeografica</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+
+  </rdf:Description>
+    <rdf:Description rdf:about="hhttps://botanica.uaic.ro/home.htm#Zone3">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_sere_detalii.htm"/>
+    <ex:name>Zona 3 - Complexul de sere</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/botanical-garden#Zone4">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_floraveg_detalii.htm"/>
+    <ex:name>Zona 4 - Sectia Sectia Flora si Vegetatia Romaniei</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  </rdf:Description>
+    <rdf:Description rdf:about="hhttps://botanica.uaic.ro/home.htm#Zone5">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_silvostepa_detalii.htm"/>
+    <ex:name>Zona 5 - Sectia Silvostepa Moldovei</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/botanical-garden#Zone6">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_biologic_detalii.htm"/>
+    <ex:name>Zona 6 - Sectia Biologica</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  </rdf:Description>
+    <rdf:Description rdf:about="hhttps://botanica.uaic.ro/home.htm#Zone7">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_planteutil_detalii.htm"/>
+    <ex:name>Zona 7 - Sectia Plante Utile</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/botanical-garden#Zone8">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_dendrologic_detalii.htm"/>
+    <ex:name>Zona 8 - Sectia Dendrarium</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  </rdf:Description>
+    <rdf:Description rdf:about="hhttps://botanica.uaic.ro/home.htm#Zone9">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_ornamental_detalii.htm"/>
+    <ex:name>Zona 9 - Sectia Ornamentala</ex:name>
+    <ex:positioning>---</ex:positioning>
+    <ex:list_of_plants>---</ex:list_of_plants>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/botanical-garden#Zone10">
+    <rdf:type rdf:resource="https://botanica.uaic.ro/sector_rozariu_detalii.htm"/>
+    <ex:name>Zona 10 - Sectia Rosarium</ex:name>
     <ex:positioning>---</ex:positioning>
     <ex:list_of_plants>---</ex:list_of_plants>
   </rdf:Description>

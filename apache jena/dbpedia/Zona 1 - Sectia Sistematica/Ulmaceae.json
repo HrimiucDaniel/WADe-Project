@@ -1,0 +1,19 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmaceae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmaceae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "The Ulmaceae (/\u028Cl\u02C8me\u026Asi/) are a family of flowering plants that includes the elms (genus Ulmus), and the zelkovas (genus Zelkova). Members of the family are widely distributed throughout the north temperate zone, and have a scattered distribution elsewhere except for Australasia." }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmaceae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Mirb. 1815" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmus laciniata" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Morton Arboretum acc. 180-84-1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmaceae Distribution.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "The range of Ulmaceae." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Ampelocera (Klotzsch 1847) \n* Hemiptelea (Planch. 1872) \n* Holoptelea (Planch. 1848) \n* Phyllostylon (Benth. 1880) \n* Planera (J.F.Gmel. 1791) \n* Ulmus (L. 1753) \n* Zelkova (Spach 1841)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Genera" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Samaracaceae (Dulac)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmaceae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpecies" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ulmus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpeciesAuthority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "L. 1753" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "The Ulmaceae (/\u028Cl\u02C8me\u026Asi/) are a family of flowering plants that includes the elms (genus Ulmus), and the zelkovas (genus Zelkova). Members of the family are widely distributed throughout the north temperate zone, and have a scattered distribution elsewhere except for Australasia. The family was formerly sometimes treated to include the hackberries, (Celtis and allies), but an analysis by the Angiosperm Phylogeny Group suggests that these genera are better placed in the related family Cannabaceae. It generally is considered to include ca 7 genera and about 45 species. Some classifications also include the genus Ampelocera." }} ] } }

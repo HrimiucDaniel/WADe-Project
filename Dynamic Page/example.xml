@@ -1,0 +1,37 @@
+<sparql xmlns="http://www.w3.org/2005/sparql-results#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/sw/DataAccess/rf1/result2.xsd">
+ <head>
+  <variable name="predicate"/>
+  <variable name="object"/>
+ </head>
+ <results distinct="false" ordered="true">
+  <result>
+   <binding name="predicate"><uri>http://www.w3.org/2000/01/rdf-schema#label</uri></binding>
+   <binding name="object"><literal xml:lang="en">Doronicum orientale</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://www.w3.org/2000/01/rdf-schema#comment</uri></binding>
+   <binding name="object"><literal xml:lang="en">Doronicum orientale, the leopard&#39;s bane, is a European plant species in the family Asteraceae.</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://dbpedia.org/property/name</uri></binding>
+   <binding name="object"><literal xml:lang="en">Leopard&#39;s bane</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://dbpedia.org/property/genus</uri></binding>
+   <binding name="object"><literal xml:lang="en">Doronicum</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://dbpedia.org/property/species</uri></binding>
+   <binding name="object"><literal xml:lang="en">orientale</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://dbpedia.org/property/synonyms</uri></binding>
+   <binding name="object"><literal xml:lang="en">*Arnica cordata (Wulfen)
+*Doronicum caucasicum (M.Bieb.)</literal></binding>
+  </result>
+  <result>
+   <binding name="predicate"><uri>http://dbpedia.org/ontology/abstract</uri></binding>
+   <binding name="object"><literal xml:lang="en">Doronicum orientale, the leopard&#39;s bane, is a European plant species in the family Asteraceae.</literal></binding>
+  </result>
+ </results>
+</sparql>

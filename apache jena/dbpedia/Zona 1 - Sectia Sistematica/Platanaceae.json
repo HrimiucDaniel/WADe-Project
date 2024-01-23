@@ -1,0 +1,16 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae, the \"plane-tree family\", is a family of flowering plants in the order Proteales. The family consists of only a single extant genus Platanus, with eight known species. The plants are tall trees, native to temperate and subtropical regions of the Northern Hemisphere. The hybrid London plane is widely planted in cities worldwide." }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeGenus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/bot" }	, "object": { "type": "literal", "xml:lang": "en", "value": "InternetArchiveBot" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/date" }	, "object": { "type": "literal", "xml:lang": "en", "value": "May 2020" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/fixAttempted" }	, "object": { "type": "literal", "xml:lang": "en", "value": "yes" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Inflorescence of Platanus \u00D7 hispanica" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "*\u2020Ambiplatanus \n*\u2020Credneria \n*\u2020Ettingshausenia \n*\u2020Langeranthus \n*\u2020Langeria \n*\u2020Macginicarpa \n*\u2020Macginitiea \n*\u2020Plataninium \n*\u2020Platananthus \n*\u2020Platimeliphyllum \n*\u2020Pseudoprotophyllum \n*\u2020Sapindopsis" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Other genera" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Platanaceae, the \"plane-tree family\", is a family of flowering plants in the order Proteales. The family consists of only a single extant genus Platanus, with eight known species. The plants are tall trees, native to temperate and subtropical regions of the Northern Hemisphere. The hybrid London plane is widely planted in cities worldwide." }} ] } }
