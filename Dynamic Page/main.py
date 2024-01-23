@@ -1,8 +1,9 @@
 import os
 from flask import Flask, render_template, jsonify
-import sec
 import third
+import re
 import json
+import plant_info
 
 app = Flask(__name__)
 
@@ -28,6 +29,27 @@ def read_json(json_path):
     return data
 
 
+def split_and_filter(text):
+    # Split the text using both "\n" and "*" as delimiters
+    substrings = re.split(r'[\n*]', text)
+
+    # Filter out empty strings from the resulting list
+    filtered_substrings = [substring for substring in substrings if substring]
+
+    return filtered_substrings
+
+
+
+def remove_text_inside_square_brackets(input_string):
+    # Define the regular expression pattern for text inside square brackets
+    pattern = re.compile(r'\[[^\]]*\]')
+
+    # Use the sub function to replace matches with an empty string
+    result_string = re.sub(pattern, '', input_string)
+
+    return result_string
+
+
 @app.route('/plant/<zone_name>/<plant_name>')
 def plant(zone_name, plant_name):
     # Get data from the selected plant JSON file
@@ -37,10 +59,19 @@ def plant(zone_name, plant_name):
         data = third.return_predicate(data_dict, "abstract", "ontology")
         abstract_text = data
         data2 = third.return_predicate(data_dict, "subdivision", "property")
-        subspecies_text = data2
-
-    # Render the HTML with the title and text
-    return render_template('plant.html', title=plant_name, abstract=abstract_text, subspecies=subspecies_text)
+        habitat_info = plant_info.get_distribution_and_habitat(plant_name, "Distribution_and_habitat")
+        info = remove_text_inside_square_brackets(habitat_info)
+        eco_info = plant_info.get_distribution_and_habitat(plant_name, "Ecology")
+        ecological = remove_text_inside_square_brackets(eco_info)
+        taxo_info = plant_info.get_distribution_and_habitat(plant_name, "Taxonomy")
+        taxonomic = remove_text_inside_square_brackets(taxo_info)
+        if data2 is not None:
+            subspecies_text = split_and_filter(data2)
+            return render_template('plant.html', title=plant_name, abstract=abstract_text, subspecies=subspecies_text,
+                                   habitat=info, ecology=ecological, taxonomy=taxonomic)
+        else:
+            return render_template('plant.html', title=plant_name, abstract=abstract_text, habitat=info,
+                                   ecology=ecological, taxonomy=taxonomic)
 
 
 def get_zones():

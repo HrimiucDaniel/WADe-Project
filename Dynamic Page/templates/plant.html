@@ -7,9 +7,22 @@
 </head>
 <body>
     <h1>{{ title }}</h1>
-    <h2>Description</h2>
+    <h2>Abstract</h2>
     <p>{{ abstract }}</p>
     <h2>Subspecies</h2>
-    <p>{{ subspecies }}</p>
+    <ul>
+        {% for subspecies_item in subspecies %}
+            <a href="https://dbpedia.org/page/{{subspecies_item}}">
+                <li>{{ subspecies_item }}</li>
+            </a>
+        {% endfor %}
+    </ul>
+    <h2>Distribution and habitat</h2>
+    <p>{{habitat}}</p>
+    <h2>Ecology</h2>
+    <p>{{ecology}}</p>
+    <h2>Taxonomy</h2>
+    <p>{{taxonomy}}</p>
+    
 </body>
 </html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+
+    {% if abstract %}
+        <h2>Abstract</h2>
+        <p>{{ abstract }}</p>
+    {% endif %}
+
+    {% if subspecies %}
+    <h2>Subspecies</h2>
+    <ul>
+        {% for item in subspecies %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if ecology %}
+        <h2>Ecology</h2>
+        <p>{{ ecology }}</p>
+    {% endif %}
+
+    {% if taxonomy %}
+        <h2>Taxonomy</h2>
+        <p>{{ taxonomy }}</p>
+    {% endif %}
+</body>
+</html>

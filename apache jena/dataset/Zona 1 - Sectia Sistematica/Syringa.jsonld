@@ -1,0 +1,16 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Syringa",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "Syringa (lilac) is a genus of 12 currently recognized species of flowering woody plants in the olive family (Oleaceae), native to woodland and scrub from southeastern Europe to eastern Asia, and widely and commonly cultivated in temperate areas elsewhere. The genus is most closely related to Ligustrum (privet), classified with it in Oleaceae tribus Oleeae subtribus Ligustrinae. Lilacs are used as food plants by the larvae of some moth species, including copper underwing, scalloped oak and Svensson's copper underwing."
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Syringa"
+      }
+    ]
+  }
+]

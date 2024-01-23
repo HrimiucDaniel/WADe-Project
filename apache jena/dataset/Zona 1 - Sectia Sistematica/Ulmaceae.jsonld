@@ -1,0 +1,21 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Ulmaceae",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Ulmaceae (/ʌlˈmeɪsi/) are a family of flowering plants that includes the elms (genus Ulmus), and the zelkovas (genus Zelkova). Members of the family are widely distributed throughout the north temperate zone, and have a scattered distribution elsewhere except for Australasia. The family was formerly sometimes treated to include the hackberries, (Celtis and allies), but an analysis by the Angiosperm Phylogeny Group suggests that these genera are better placed in the related family Cannabaceae. It generally is considered to include ca 7 genera and about 45 species. Some classifications also include the genus Ampelocera."
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Ulmaceae"
+      }
+    ],
+    "https://dbpedia.org/property/subspecies": [
+      {
+        "@value": "[' Ampelocera (Klotzsch 1847) ', ' Hemiptelea (Planch. 1872) ', ' Holoptelea (Planch. 1848) ', ' Phyllostylon (Benth. 1880) ', ' Planera (J.F.Gmel. 1791) ', ' Ulmus (L. 1753) ', ' Zelkova (Spach 1841)']"
+      }
+    ]
+  }
+]

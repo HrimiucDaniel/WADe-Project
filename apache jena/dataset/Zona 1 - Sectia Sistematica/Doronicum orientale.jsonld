@@ -1,0 +1,16 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Doronicum%20orientale",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "Doronicum orientale, the leopard's bane, is a European plant species in the family Asteraceae."
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Doronicum orientale"
+      }
+    ]
+  }
+]

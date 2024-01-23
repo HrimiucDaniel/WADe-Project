@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ plant_name }} RDF Data</title>
+</head>
+<body>
+    <h1>{{ plant_name }} RDF Data</h1>
+    <dl>
+        {% for data in rdf_data %}
+            <dt>{{ data['predicate'] }}</dt>
+            <dd>{{ data['object'] }}</dd>
+        {% endfor %}
+    </dl>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Platanaceae",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "Platanaceae, the \"plane-tree family\", is a family of flowering plants in the order Proteales. The family consists of only a single extant genus Platanus, with eight known species. The plants are tall trees, native to temperate and subtropical regions of the Northern Hemisphere. The hybrid London plane is widely planted in cities worldwide."
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Platanaceae"
+      }
+    ],
+    "https://dbpedia.org/property/subspecies": [
+      {
+        "@value": "['†Ambiplatanus ', '†Credneria ', '†Ettingshausenia ', '†Langeranthus ', '†Langeria ', '†Macginicarpa ', '†Macginitiea ', '†Plataninium ', '†Platananthus ', '†Platimeliphyllum ', '†Pseudoprotophyllum ', '†Sapindopsis']"
+      }
+    ]
+  }
+]

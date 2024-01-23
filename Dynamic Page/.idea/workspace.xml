@@ -2,58 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c17508-48ed-41c6-9ba9-ac30e5b62344" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/Dynamic Page Service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/dynamic main update.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/dynamic main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/all_plants.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/plant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/plant_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/plants.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/rdf_data.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dynamic Page Service/templates/zone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/zones.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../apache jena/dataset/zones.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Alyssum borzeanum.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Apiaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Celastraceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Cerastium banaticum.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Chenopodiaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Corylaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Dianthus tenuifolius.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Doronicum orientale.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Echinops bannaticus.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Erysimum witmannii.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Euphorbiaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Fabaceae (Leguminosae).rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Fagaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Fraxinus.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Geraniaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Juglandaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Lamiaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Ligustrum.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Liliaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Moraceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Orchidaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Platanaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Poaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Polygonaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Rhamnaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Rosaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Schivereckia podolica.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Scrophulariaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Serratula coronata.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Solanaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Syringa.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Ulmaceae.rdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dbpedia sparql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sparql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/plant.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/plant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Alyssum borzeanum.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Apiaceae (Umbelliferae).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Celastraceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Cerastium banaticum.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Chenopodiaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Dianthus tenuifolius.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Doronicum orientale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Echinops bannaticus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Erysimum witmannii.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Euphorbiaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Fabaceae (Leguminosae).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Fagaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Fraxinus.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Geraniaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Juglandaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Lamiaceae (Labiatae).xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Ligustrum.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Liliaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Moraceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Orchidaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Petrorhagia illyrica ssp. haynaldiana.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Platanaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Poaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Polygonaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Rhamnaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Rosaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Schivereckia podolica.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Scrophulariaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Serratula coronata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Solanaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Syringa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dataset/Zona 1 - Sectia Sistematica/Ulmaceae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Chenopodiaceae.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Chenopodiaceae.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Corylaceae.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apache jena/dbpedia/Zona 1 - Sectia Sistematica/Corylaceae.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

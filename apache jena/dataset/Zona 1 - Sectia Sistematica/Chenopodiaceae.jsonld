@@ -1,0 +1,21 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Chenopodiaceae",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Chenopodioideae are a subfamily of the flowering plant family Amaranthaceae in the APG III system, which is largely based on molecular phylogeny, but were included - together with other subfamilies - in family Chenopodiaceae in the Cronquist system. Food species comprise Spinach (Spinacia oleracea), Good King Henry (Blitum bonus-henricus), several Chenopodium species (Quinoa, Kañiwa, Fat Hen), Orache (Atriplex spp.), and Epazote (Dysphania ambrosioides). The name is Greek for goosefoot, the common name of a genus of plants having small greenish flowers."
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Chenopodiaceae"
+      }
+    ],
+    "https://dbpedia.org/property/subspecies": [
+      {
+        "@value": "['About 26 genera, see text']"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http%3A//127.0.0.1%3A5000/plant/Zona%201%20-%20Sectia%20Sistematica/Fabaceae",
+    "https://dbpedia.org/property/abstract": [
+      {
+        "@language": "en",
+        "@value": "The Fabaceae or Leguminosae, commonly known as the legume, pea, or bean family, are a large and agriculturally important family of flowering plants. It includes trees, shrubs, and perennial or annual herbaceous plants, which are easily recognized by their fruit (legume) and their compound, stipulate leaves. The family is widely distributed, and is the third-largest land plant family in number of species, behind only the Orchidaceae and Asteraceae, with about 765 genera and nearly 20,000 known species. The five largest genera of the family are Astragalus (over 3,000 species), Acacia (over 1,000 species), Indigofera (around 700 species), Crotalaria (around 700 species), and Mimosa (around 400 species), which constitute about a quarter of all legume species. The ca. 19,000 known legume species amount to about 7% of flowering plant species. Fabaceae is the most common family found in tropical rainforests and dry forests of the Americas and Africa. Recent molecular and morphological evidence supports the fact that the Fabaceae is a single monophyletic family. This conclusion has been supported not only by the degree of interrelation shown by different groups within the family compared with that found among the Leguminosae and their closest relations, but also by all the recent phylogenetic studies based on DNA sequences. These studies confirm that the Fabaceae are a monophyletic group that is closely related to the families Polygalaceae, Surianaceae and Quillajaceae and that they belong to the order Fabales. Along with the cereals, some fruits and tropical roots, a number of Leguminosae have been a staple human food for millennia and their use is closely related to human evolution. The family Fabaceae includes a number of plants that are common in agriculture, including Glycine max (soybean), Phaseolus (beans), Pisum sativum (pea), Cicer arietinum (chickpeas), Vicia faba (broad bean), Medicago sativa (alfalfa), Arachis hypogaea (peanut), Ceratonia siliqua (carob), and Glycyrrhiza glabra (liquorice). A number of species are also weedy pests in different parts of the world, including: Cytisus scoparius (broom), Robinia pseudoacacia (black locust), Ulex europaeus (gorse), Pueraria montana (kudzu), and a number of Lupinus species."
+      }
+    ],
+    "https://dbpedia.org/property/ecology": [
+      {
+        "@value": "\n"
+      }
+    ],
+    "https://dbpedia.org/property/habitat": [
+      {
+        "@value": "\n\nThe Fabaceae have an essentially worldwide distribution, being found everywhere except Antarctica and the high Arctic.\n\nThe trees are often found in tropical regions, while the herbaceous plants and shrubs are predominant outside the tropics.\n\n\n\n\n"
+      }
+    ],
+    "https://dbpedia.org/property/label": [
+      {
+        "@value": "Fabaceae"
+      }
+    ],
+    "https://dbpedia.org/property/subspecies": [
+      {
+        "@value": "[' Caesalpinioideae DC.', ' Cercidoideae (LPWG)', ' Detarioideae (Burmeist.)', ' Dialioideae (LPWG)', ' Duparquetioideae (LPWG)', ' Faboideae (Rudd)']"
+      }
+    ],
+    "https://dbpedia.org/property/taxonomy": [
+      {
+        "@value": "\n\nThe Fabaceae are placed in the order\nFabales\naccording to most taxonomic systems, including the\nAPG III system\n.\n\nThe family now includes six subfamilies:\n\nFabales\nAPG III system\n\n\n\n\nCercidoideae\n: 12 genera and ~335 species. Mainly tropical.\nBauhinia\n,\nCercis\n.\nDetarioideae\n: 84 genera and ~760 species. Mainly tropical.\nAmherstia\n,\nDetarium\n,\nTamarindus\n.\nDuparquetioideae\n: 1 genus and 1 species. West and Central Africa.\nDuparquetia\n.\nDialioideae\n: 17 genera and ~85 species. Widespread throughout the tropics.\nDialium\n.\nCaesalpinioideae\n: 148 genera and ~4400 species.\nPantropical\n.\nCaesalpinia\n,\nSenna\n,\nMimosa\n,\nAcacia\n. Includes the former subfamily\nMimosoideae\n(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).\nFaboideae\n(Papilionoideae\n\n): 503 genera and ~14,000 species.\nCosmopolitan\n.\nAstragalus\n,\nLupinus\n,\nPisum\n.\nCercidoideae\n: 12 genera and ~335 species. Mainly tropical.\nBauhinia\n,\nCercis\n.\nCercidoideae\nBauhinia\nBauhinia\nCercis\nCercis\nDetarioideae\n: 84 genera and ~760 species. Mainly tropical.\nAmherstia\n,\nDetarium\n,\nTamarindus\n.\nDetarioideae\nAmherstia\nAmherstia\nDetarium\nDetarium\nTamarindus\nTamarindus\nDuparquetioideae\n: 1 genus and 1 species. West and Central Africa.\nDuparquetia\n.\nDuparquetioideae\nDuparquetia\nDuparquetia\nDialioideae\n: 17 genera and ~85 species. Widespread throughout the tropics.\nDialium\n.\nDialioideae\nDialium\nDialium\nCaesalpinioideae\n: 148 genera and ~4400 species.\nPantropical\n.\nCaesalpinia\n,\nSenna\n,\nMimosa\n,\nAcacia\n. Includes the former subfamily\nMimosoideae\n(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).\nCaesalpinioideae\nPantropical\nCaesalpinia\nCaesalpinia\nSenna\nSenna\nMimosa\nMimosa\nAcacia\nAcacia\nMimosoideae\nFaboideae\n(Papilionoideae\n\n): 503 genera and ~14,000 species.\nCosmopolitan\n.\nAstragalus\n,\nLupinus\n,\nPisum\n.\nFaboideae\n\n\nCosmopolitan\nAstragalus\nAstragalus\nLupinus\nLupinus\nPisum\nPisum"
+      }
+    ]
+  }
+]
