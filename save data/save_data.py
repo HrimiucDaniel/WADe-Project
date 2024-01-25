@@ -4,8 +4,6 @@ import re
 import json
 import plant_info
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
-from rdflib.namespace import RDF, FOAF
-from urllib.parse import quote
 
 
 def read_json(json_path):
@@ -55,7 +53,7 @@ def plant(zone_name, plant_name):
         if abstract_text is not None:
             plant_dict["abstract"] = abstract_text
 
-        if data2 is not None and data2 != "See text" and data2 !="['See text']":
+        if data2 is not None and data2 != "See text" and data2 != "['See text']":
             subspecies_text = split_and_filter(data2)
             plant_dict["subspecies"] = subspecies_text
 
@@ -68,6 +66,12 @@ def plant(zone_name, plant_name):
         if taxonomic is not None and info != "No information found on the section.":
             plant_dict["taxonomy"] = taxonomic
 
+        plant_dict["comments"] = []
+        plant_dict["images"] = []
+        plant_dict["positioning"] = "---"
+
+        plant_dict["zone"] = zone_name
+
         return plant_dict
 
 
@@ -79,7 +83,8 @@ def create_rdf(subject_url, predicate_object_dict):
     custom_ns = Namespace("https://dbpedia.org/property/")
 
     # Add the subject to the graph
-    subject = URIRef(subject_url)
+    # subject = URIRef(subject_url)
+    subject = URIRef(f"{subject_url.replace(' ', '%20')}")
 
     # Iterate through the predicate-object dictionary and add triples to the graph
     for predicate, obj in predicate_object_dict.items():
@@ -99,30 +104,49 @@ def save_rdf_to_json_ld(graph, label, path):
         f.write(json_ld_data)
 
 
+def save_rdf_data(subject, predicate_object_dict, file_path):
+    # Create an RDF graph
+    g = Graph()
+
+    # Define a custom namespace for your predicates
+    custom_ns = Namespace("https://dbpedia.org/property/")
+
+    # Convert the subject to a URIRef
+    subject_uri = URIRef(f"{subject.replace(' ', '%20')}")
+
+    # Add triples to the graph using the subject, predicate, and object
+    for predicate, obj in predicate_object_dict.items():
+        predicate_uri = custom_ns[predicate]
+        g.add((subject_uri, predicate_uri, Literal(obj)))
+
+    # Serialize the RDF graph to RDF/XML and save it to the specified file path
+    g.serialize(destination=file_path, format="xml")
+
+
 def apply_plant_function_to_folder(zone_name):
     folder_path = os.path.join('D:/WAD3/WADe-Project/apache jena/dbpedia', zone_name)
 
     # Iterate over all files in the folder
     for filename in os.listdir(folder_path):
         if filename.endswith('.json'):
-            # Extract plant_name from the filename (assuming filenames are like 'plant_name.json')
             plant_name = os.path.splitext(filename)[0]
 
-            # Call the plant function for each file
             result = plant(zone_name, plant_name)
 
-            # Print or do something with the result (e.g., store it in a list or another data structure)
+            subject_url = f'http://127.0.0.1:5000/zone/{zone_name}/plant/{result["label"]}'
+            # valid_url = quote(subject_url)
+            subject_uri = URIRef(f"{subject_url.replace(' ', '%20')}")
 
-            # print(f'http://127.0.0.1:5000/plant/{zone_name}/{result["title"]}', result)
-
-            subject_url = f'http://127.0.0.1:5000/plant/{zone_name}/{result["label"]}'
-            valid_url = quote(subject_url)
-
-            rdf_graph = create_rdf(valid_url, result)
             label = result["label"]
-            path = "D:/WAD3/WADe-Project/apache jena/dataset/Zona 1 - Sectia Sistematica"
+            path = f'D:/WAD3/WADe-Project/apache jena/dataset/{zone_name}/{result["label"]}.xml'
 
-            save_rdf_to_json_ld(rdf_graph, label, path)  # Corrected indentation
+            save_rdf_data(subject_uri, result, path)
 
 
 apply_plant_function_to_folder("Zona 1 - Sectia Sistematica")
+
+# result = plant("Zona 1 - Sectia Sistematica", "Liliaceae")
+# subject_url = f'http://127.0.0.1:5000/plant/{result["zone"]}/{result["label"]}'
+# valid_sub = quote(subject_url)
+# save_rdf_data(valid_sub, result, f'D:/WAD3/WADe-Project/apache jena/dataset/Zona 1 - Sectia Sistematica/'
+#                                  f'{result["label"]}.xml')

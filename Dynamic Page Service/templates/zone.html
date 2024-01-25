@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ zone_name }} Zone</title>
+</head>
+<body>
+    <h1>{{ zone_name }} Zone</h1>
+    <ul>
+        {% for plant in plants %}
+            <li><a href="{{ generate_url(zone_name, 'plant', plant) }}">{{ plant }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

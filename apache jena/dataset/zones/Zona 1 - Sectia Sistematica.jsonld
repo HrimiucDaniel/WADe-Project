@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "label": "https://dbpedia.org/property/label",
+    "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "positioning": "https://dbpedia.org/property/positioning"
+  },
+  "@id": "http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica",
+  "label": "Zona 1 - Sectia Sistematica",
+  "list_of_plants": [
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Apiaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Celastraceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Chenopodiaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Corylaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Doronicum%20orientale",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Echinops%20bannaticus",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Euphorbiaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fabaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fagaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Geraniaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Juglandaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Lamiaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ligustrum",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Liliaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Moraceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Orchidaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Platanaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Poaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Polygonaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rhamnaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rosaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Scrophulariaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Solanaceae",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Syringa",
+    "http%3A//127.0.0.1%3A5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ulmaceae"
+  ],
+  "positioning": "---"
+}

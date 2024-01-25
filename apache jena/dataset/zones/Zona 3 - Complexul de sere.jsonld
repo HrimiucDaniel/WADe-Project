@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "label": "https://dbpedia.org/property/label",
+    "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "positioning": "https://dbpedia.org/property/positioning"
+  },
+  "@id": "http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere",
+  "label": "Zona 3 - Complexul de sere",
+  "list_of_plants": "---",
+  "positioning": "---"
+}

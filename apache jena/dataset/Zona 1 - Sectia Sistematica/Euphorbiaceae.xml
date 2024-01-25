@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Euphorbiaceae">
+    <ns1:label>Euphorbiaceae</ns1:label>
+    <ns1:abstract xml:lang="en">Euphorbiaceae, the spurge family, is a large family of flowering plants. In English, they are also commonly called euphorbias, which is also the name of a genus in the family. Most spurges, such as Euphorbia paralias, are herbs, but some, especially in the tropics, are shrubs or trees, such as Hevea brasiliensis. Some, such as Euphorbia canariensis, are succulent and resemble cacti because of convergent evolution. This family has a cosmopolitan global distribution. The greatest diversity of species is in the tropics, however, the Euphorbiaceae also have many species in nontropical areas of all continents except Antarctica.</ns1:abstract>
+    <ns1:subspecies>['Acalyphoideae', 'Crotonoideae', 'Euphorbioideae']</ns1:subspecies>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 1 - Sectia Sistematica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

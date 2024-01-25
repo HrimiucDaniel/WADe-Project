@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zones</title>
+</head>
+<body>
+    <h1>Zones</h1>
+    <ul>
+        {% for label in labels %}
+            <li><a href="{{ generate_url('zone', label) }}">{{ label }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

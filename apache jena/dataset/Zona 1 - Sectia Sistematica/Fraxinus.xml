@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus">
+    <ns1:label>Fraxinus</ns1:label>
+    <ns1:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), commonly called ash, is a genus of flowering plants in the olive and lilac family, Oleaceae. It contains 45–65 species of usually medium to large trees, mostly deciduous, though a number of subtropical species are evergreen. The genus is widespread across much of Europe, Asia, and North America. The leaves are opposite (rarely in whorls of three), and mostly pinnately compound, though simple in a few species. The seeds, popularly known as "keys" or "helicopter seeds", are a type of fruit known as a samara. Some Fraxinus species are dioecious, having male and female flowers on separate plants but sex in ash is expressed as a continuum between male and female individuals, dominated by unisexual trees. With age, ash may change their sexual function from predominantly male and hermaphrodite towards femaleness; if grown as an ornamental and both sexes are present, ashes can cause a considerable litter problem with their seeds. Rowans or mountain ashes have leaves and buds superficially similar to those of true ashes, but belong to the unrelated genus Sorbus in the rose family.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 1 - Sectia Sistematica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "label": "https://dbpedia.org/property/label",
+    "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "positioning": "https://dbpedia.org/property/positioning"
+  },
+  "@id": "http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica",
+  "label": "Zona 6 - Sectia Biologica",
+  "list_of_plants": "---",
+  "positioning": "---"
+}
