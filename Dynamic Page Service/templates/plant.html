@@ -52,5 +52,20 @@
             {% endfor %}
         </ul>
     {% endif %}
+
+    <form action="{{ url_for('upload_image', zone_name=zone, plant_name=title) }}" method="post" enctype="multipart/form-data">
+        <label for="images">Upload Images:</label>
+        <input type="file" name="images" accept="image/*" multiple>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if images %}
+    <h2>Images</h2>
+    <ul>
+        {% for image_path in images %}
+            <li><img src="{{ image_path }}" alt="Image"></li>
+        {% endfor %}
+    </ul>
+{% endif %}
 </body>
 </html>

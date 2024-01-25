@@ -1,18 +1,25 @@
 import requests
 
 
-def add_comments_to_plant(plant_uri, comments):
+def add_images_to_plant(plant_uri, image_urls):
     # Fuseki server details
     fuseki_endpoint = "http://localhost:3030/Plants/update"
 
-    # Constructing a SPARQL Update query for each comment
+    # Define a namespace prefix for your property URI
+    prefix = """
+    PREFIX prop: <https://dbpedia.org/property/>
+    """
+
+    # Constructing a SPARQL Update query for each image
     queries = []
-    for comment in comments:
+    for image_url in image_urls:
         query = f"""
+        {prefix}
         INSERT DATA {{
-            <{plant_uri}> <https://dbpedia.org/property/comments> "{comment}" .
+            <{plant_uri}> prop:images <{image_url}> .
         }}
         """
+        print(f"Constructed Query: {query}")
         queries.append(query)
 
     # Sending the SPARQL Update queries to the Fuseki server using PATCH method
@@ -22,7 +29,7 @@ def add_comments_to_plant(plant_uri, comments):
 
         # Checking the response status for each query
         if response.status_code == 200:
-            print(f"Comment added successfully for {plant_uri}")
+            print(f"Image added successfully for {plant_uri}")
         else:
-            print(f"Failed to add comment for {plant_uri}. Status code: {response.status_code}")
+            print(f"Failed to add image for {plant_uri}. Status code: {response.status_code}")
             print(response.text)

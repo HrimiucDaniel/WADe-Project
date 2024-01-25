@@ -1,7 +1,6 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-
 def get_plant_info(zone, name):
     endpoint_url = "http://localhost:3030/Plants/sparql"
     # Create a SPARQLWrapper object and set the endpoint URL
@@ -29,7 +28,7 @@ def get_plant_info(zone, name):
     results = sparql.query().convert()
 
     # Process the results and create a dictionary with predicates and objects
-    plant_info_dict = {"https://dbpedia.org/property/comments": []}
+    plant_info_dict = {"https://dbpedia.org/property/comments": [], "https://dbpedia.org/property/images": []}
 
     for result in results["results"]["bindings"]:
         predicate = result["predicate"]["value"]
@@ -37,11 +36,12 @@ def get_plant_info(zone, name):
 
         if predicate == "https://dbpedia.org/property/comments":
             plant_info_dict["https://dbpedia.org/property/comments"].append(object_value)
+        elif predicate == "https://dbpedia.org/property/images":
+            plant_info_dict["https://dbpedia.org/property/images"].append(object_value)
         else:
             plant_info_dict[predicate] = object_value
 
     return plant_info_dict
-
 
 
 def get_all_plants(zone):
@@ -76,7 +76,6 @@ def get_all_plants(zone):
         label_list.append(object_value)
 
     return label_list
-
 
 # endpoint_url = "http://localhost:3030/Plants/sparql"
 # zone = "Zona 1 - Sectia Sistematica"
