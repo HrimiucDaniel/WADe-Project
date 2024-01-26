@@ -1,0 +1,10 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa gallica" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa gallica, the Gallic rose, French rose, or rose of Provins, is a species of flowering plant in the rose family, native to southern and central Europe eastwards to Turkey and the Caucasus. Rosa gallica was one of the first species of rose to be cultivated in central Europe. It is a parent of several important ." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Wild Rosa gallica in Romania" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "gallica" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa portlandica (R\u00F6ssig)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa gallica, the Gallic rose, French rose, or rose of Provins, is a species of flowering plant in the rose family, native to southern and central Europe eastwards to Turkey and the Caucasus. Rosa gallica was one of the first species of rose to be cultivated in central Europe. It is a parent of several important ." }} ] } }

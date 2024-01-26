@@ -1,0 +1,11 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus knappii" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus knappii, or Knapp's carnation, in Bosnian Knapov karanfil or Knapov klin\u010Di\u0107, is a perennial herbaceous plant in the carnation family, Caryophyllaceae. It is endemic at Dinaric mountains, on the border area between Herzegovina (Bosnia and Herzegovina) and Montenegro. In chromosome set has 2n = 30." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Asch. & Kanitz ex Borb\u00E1s" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "knappii" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus balbisii subsp. knappii ( Peruzzi & Uzunov)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus liburnicus var. knappii (Pant.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus knappii, or Knapp's carnation, in Bosnian Knapov karanfil or Knapov klin\u010Di\u0107, is a perennial herbaceous plant in the carnation family, Caryophyllaceae. It is endemic at Dinaric mountains, on the border area between Herzegovina (Bosnia and Herzegovina) and Montenegro. In chromosome set has 2n = 30." }} ] } }

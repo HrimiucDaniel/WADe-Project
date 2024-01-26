@@ -1,0 +1,12 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa rubiginosa" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa rubiginosa (sweet briar, sweetbriar rose, sweet brier or eglantine; syn. R. eglanteria) is a species of rose native to Europe and western Asia." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/from" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Q15546415" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/from" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Q87585478" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "rubiginosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "LC" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Rosa rubiginosa (sweet briar, sweetbriar rose, sweet brier or eglantine; syn. R. eglanteria) is a species of rose native to Europe and western Asia." }} ] } }

@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus monspessulanus" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus monspessulanus, the fringed pink, is a herbaceous perennial plant of the genus Dianthus of the family Caryophyllaceae. The genus name Dianthus derives from the Greek words for divine (\"dios\") and flower (\"anthos\"), while the species name monspessulanus means \"from Montpellier\"." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "monspessulanus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Dianthus hyssopifolius (L.)\n* Dianthus sternbergii (Capelli) subsp. marsicus ( Pign.)\n* Dianthus marsicus (Ten.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus monspessulanus, the fringed pink, is a herbaceous perennial plant of the genus Dianthus of the family Caryophyllaceae. The genus name Dianthus derives from the Greek words for divine (\"dios\") and flower (\"anthos\"), while the species name monspessulanus means \"from Montpellier\"." }} ] } }

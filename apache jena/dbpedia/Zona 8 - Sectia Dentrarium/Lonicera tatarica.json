@@ -1,0 +1,15 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lonicera tatarica" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lonicera tatarica is a species of honeysuckle known by the common name Tatarian honeysuckle. Native to Eurasia, the plant is one of several exotic bush honeysuckles present in North America, being considered an invasive species there." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lonicera" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Naturalized near Lethbridge, Alberta" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "tatarica" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Caprifolium tataricum ( Kuntze)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Chamaecerasus tatarica ( Medik.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lonicera micrantha ( Trautv. ex Regel)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Xylosteon tartaricum ( Medik)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Xylosteon tataricum ( Michx.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lonicera tatarica is a species of honeysuckle known by the common name Tatarian honeysuckle. Native to Eurasia, the plant is one of several exotic bush honeysuckles present in North America, being considered an invasive species there." }} ] } }

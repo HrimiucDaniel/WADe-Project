@@ -1,0 +1,12 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Sorbus torminalis" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Sorbus torminalis, with common names wild service tree, chequers, and checker tree, is a species of tree in the mountain ash or rowan genus (Sorbus) of the rose family (Rosaceae), that is native to Europe, parts of northern Africa and western Asia." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Crantz" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A mature tree in spring" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Sorbus torminalis range.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Torminalis clusii ( K.R.Robertson & J.B.Phipps)\n* Sorbus orientalis (Sch\u00F6nb.-Tem.)\n* Crataegus torminalis (L.)\n* ''Pyrus torminalis ( Ehrh)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Sorbus torminalis" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Sorbus torminalis, with common names wild service tree, chequers, and checker tree, is a species of tree in the mountain ash or rowan genus (Sorbus) of the rose family (Rosaceae), that is native to Europe, parts of northern Africa and western Asia." }} ] } }

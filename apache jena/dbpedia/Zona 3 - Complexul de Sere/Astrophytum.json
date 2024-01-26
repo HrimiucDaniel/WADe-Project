@@ -1,0 +1,17 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words \u03AC\u03C3\u03C4\u03C1\u03BF\u03BD (astron), meaning \"star,\" and \u03C6\u03C5\u03C4\u03CC\u03BD (phyton), meaning \"plant.\"" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum myriostigma" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. asterias" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. capricorne" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. caput-medusae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. coahuilense" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. myriostigma" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "A. ornatum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpecies" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum myriostigma" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words \u03AC\u03C3\u03C4\u03C1\u03BF\u03BD (astron), meaning \"star,\" and \u03C6\u03C5\u03C4\u03CC\u03BD (phyton), meaning \"plant.\"" }} ] } }

@@ -1,0 +1,19 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia tomentosa" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia tomentosa, known as silver linden in the US and silver lime in the UK, is a species of flowering plant in the family Malvaceae, native to southeastern Europe and southwestern Asia, from Romania and the Balkans east to western Turkey, occurring at moderate altitudes." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia tomentosa range.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "tomentosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lindnera alba (Fuss)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia alba (Aiton)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia argentea (DC.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia gigantea (Dippel)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia pannonica (J.Jacq. ex Bayer)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia peduncularis (Delile ex Bayer)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia petiolaris (DC.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia rotundifolia (Vent.)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Tilia tomentosa, known as silver linden in the US and silver lime in the UK, is a species of flowering plant in the family Malvaceae, native to southeastern Europe and southwestern Asia, from Romania and the Balkans east to western Turkey, occurring at moderate altitudes." }} ] } }

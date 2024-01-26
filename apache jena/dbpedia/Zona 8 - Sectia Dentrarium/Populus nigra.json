@@ -1,0 +1,15 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus nigra" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus nigra, the black poplar, is a species of cottonwood poplar, the type species of section Aigeiros of the genus Populus, native to Europe, southwest and central Asia, and northwest Africa." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Black poplar" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Black poplars in Poland" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus sect. Aigeiros" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus nigra range.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "nigra" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "DD" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Populus nigra, the black poplar, is a species of cottonwood poplar, the type species of section Aigeiros of the genus Populus, native to Europe, southwest and central Asia, and northwest Africa." }} ] } }

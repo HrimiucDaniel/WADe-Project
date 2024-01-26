@@ -1,0 +1,14 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum (/\u02CC\u00E6di\u02C8\u00E6nt\u0259m/), the maidenhair fern, is a genus of about 250 species of ferns in the subfamily Vittarioideae of the family Pteridaceae, though some researchers place it in its own family, Adiantaceae. The genus name comes from Greek, meaning \"unwetted\", referring to the fronds' ability to shed water without becoming wet." }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Western five-fingered fern" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "See text" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Species" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpecies" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum capillus-veneris" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpeciesAuthority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "L." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Adiantum (/\u02CC\u00E6di\u02C8\u00E6nt\u0259m/), the maidenhair fern, is a genus of about 250 species of ferns in the subfamily Vittarioideae of the family Pteridaceae, though some researchers place it in its own family, Adiantaceae. The genus name comes from Greek, meaning \"unwetted\", referring to the fronds' ability to shed water without becoming wet." }} ] } }

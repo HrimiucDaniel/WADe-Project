@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Laburnum anagyroides" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Medik., 1787" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cytisus laburnum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Laburnum anagyroides" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe." }} ] } }

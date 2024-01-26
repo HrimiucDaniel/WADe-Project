@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus spiculifolius" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus spiculifolius is a species of pink native to the Carpathians; Romania, Moldova and Ukraine. Occasionally grown in rock gardens, it is available from commercial suppliers." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "spiculifolius" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Dianthus spiculifolius is a species of pink native to the Carpathians; Romania, Moldova and Ukraine. Occasionally grown in rock gardens, it is available from commercial suppliers." }} ] } }

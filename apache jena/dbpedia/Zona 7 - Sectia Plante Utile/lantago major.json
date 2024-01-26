@@ -1,0 +1,10 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Plantago major" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Plantago" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "major" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "LC" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten." }} ] } }

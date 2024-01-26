@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Morus nigra" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Morus nigra, called black mulberry or blackberry (not to be confused with the blackberries that are various species of Rubus), is a species of flowering plant in the family Moraceae that is native to southwestern Asia and the Iberian Peninsula, where it has been cultivated for so long that its precise natural range is unknown. The black mulberry is known for its large number of chromosomes." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Mulberries, raw" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Plate from book: Flora of Germany, Austria, and Switzerland" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Morus nigra" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Morus nigra, called black mulberry or blackberry (not to be confused with the blackberries that are various species of Rubus), is a species of flowering plant in the family Moraceae that is native to southwestern Asia and the Iberian Peninsula, where it has been cultivated for so long that its precise natural range is unknown. The black mulberry is known for its large number of chromosomes." }} ] } }

@@ -1,0 +1,13 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia kobus" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia kobus, known as mokryeon, kobus magnolia, or kobushi magnolia, is a species of Magnolia native to Japan (Kyushu, Honshu, and Hokkaido) and Korea and occasionally cultivated in temperate areas. It is a deciduous, small to tall tree which has a slow rate of growth but can reach 8\u201315 m (25\u201350 ft) in height and up to 10 m (35 ft) in spread." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "DC." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia kobus var. borealis" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia subsect. Yulania" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "kobus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "DD" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Magnolia kobus, known as mokryeon, kobus magnolia, or kobushi magnolia, is a species of Magnolia native to Japan (Kyushu, Honshu, and Hokkaido) and Korea and occasionally cultivated in temperate areas. It is a deciduous, small to tall tree which has a slow rate of growth but can reach 8\u201315 m (25\u201350 ft) in height and up to 10 m (35 ft) in spread." }} ] } }

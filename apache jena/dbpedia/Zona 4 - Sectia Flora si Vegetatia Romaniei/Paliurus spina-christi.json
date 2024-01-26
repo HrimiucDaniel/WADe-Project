@@ -1,0 +1,11 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Paliurus spina-christi" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the Mediterranean region and southwest and central Asia, from Morocco and Spain east to Iran and Tajikistan." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/date" }	, "object": { "type": "literal", "xml:lang": "en", "value": "May 2019" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Paliurus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Jerusalem thorn" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/reason" }	, "object": { "type": "literal", "xml:lang": "en", "value": "By whom?" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "spina-christi" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the Mediterranean region and southwest and central Asia, from Morocco and Spain east to Iran and Tajikistan." }} ] } }

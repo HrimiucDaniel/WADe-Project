@@ -1,0 +1,11 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Malus sylvestris" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Malus sylvestris, the European crab apple, is a species of the genus Malus, native to Europe. Its scientific name means \"forest apple\" and the truly wild tree has thorns." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Mill." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "DD" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Malus sylvestris" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Malus sylvestris, the European crab apple, is a species of the genus Malus, native to Europe. Its scientific name means \"forest apple\" and the truly wild tree has thorns." }} ] } }

@@ -1,0 +1,10 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Spiraea chamaedryfolia" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Spiraea chamaedryfolia, common name germander meadowsweet or elm-leaved spirea, is a species of plant belonging to the family Rosaceae." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Spiraea" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Flowers of Spyraea chamaedryfolia at the Orto Botanico dell'Universit\u00E0 di Genova" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "chamaedryfolia" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Spiraea chamaedryfolia var. ulmifolia( Maxim.)\n* Spiraea ussuriensis( Pojark. )" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Spiraea chamaedryfolia, common name germander meadowsweet or elm-leaved spirea, is a species of plant belonging to the family Rosaceae." }} ] } }
