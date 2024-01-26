@@ -23,7 +23,8 @@ def get_file_names_without_extension(folder_path):
 
 
 def create_list_plants(zone_name):
-    folder_path = f'D:/WAD3/WADe-Project/apache jena/dataset/{zone_name}'
+    folder_path = f'D:/WAD3/WADe-Project/apache jena/dbpedia/{zone_name}'
     file_names = get_file_names_without_extension(folder_path)
     url_names = [transform_in_url(zone_name, file) for file in file_names]
     return url_names
+

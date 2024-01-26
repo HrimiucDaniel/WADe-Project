@@ -144,6 +144,17 @@ def apply_plant_function_to_folder(zone_name):
 
 
 apply_plant_function_to_folder("Zona 1 - Sectia Sistematica")
+apply_plant_function_to_folder("Zona 2 - Sectia Fitogeografica")
+apply_plant_function_to_folder("Zona 3 - Complexul de Sere")
+apply_plant_function_to_folder("Zona 4 - Sectia Flora si Vegetatia Romaniei")
+apply_plant_function_to_folder("Zona 5 - Sectia Silvostepa Moldovei")
+apply_plant_function_to_folder("Zona 6 - Sectia Biologica")
+apply_plant_function_to_folder("Zona 7 - Sectia Plante Utile")
+apply_plant_function_to_folder("Zona 8 - Sectia Dentrarium")
+apply_plant_function_to_folder("Zona 9 - Sectia Ornamentala")
+apply_plant_function_to_folder("Zona 10 - Sectia Rosarium")
+
+
 
 # result = plant("Zona 1 - Sectia Sistematica", "Liliaceae")
 # subject_url = f'http://127.0.0.1:5000/plant/{result["zone"]}/{result["label"]}'

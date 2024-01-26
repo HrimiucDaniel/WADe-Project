@@ -2,10 +2,30 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile",
   "label": "Zona 7 - Sectia Plante Utile",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Atropa%20belladonna",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Capsicum%20annuum",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Hypericum%20perforatum",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/lantago%20major",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Lavandula%20angustifolia",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Matricaria%20chamomilla",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Mentha",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Morus%20alba",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Papaver%20somniferum",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Picea%20abies",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Pinus%20sylvestris",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Ruscus%20aculeatus",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Salvia%20officinalis",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Scopolia%20carniolica",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Thymus%20vulgaris",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Tilia%20tomentosa",
+    "https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Urtica%20dioica"
+  ],
+  "description": "Prin tematica sectiei si transpunerea acesteia \u00een teren se urmareste reprezentarea a peste 450 de taxoni vegetali pe principale grupe de utilitati, fiind expuse catre public colectii de plante utilizate \u00een industria alimentara, specii de plante medicinale, aromatice si condimentare, melifere si furajere, tanante si tinctoriale, dar si specii de plante toxice.",
   "positioning": "---"
 }

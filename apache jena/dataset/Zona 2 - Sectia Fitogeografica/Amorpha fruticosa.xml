@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Amorpha%20fruticosa">
+    <ns1:label>Amorpha fruticosa</ns1:label>
+    <ns1:abstract xml:lang="en">Amorpha fruticosa is a species of flowering plant in the legume family Fabaceae, known by several common names, including desert false indigo, false indigo-bush, and bastard indigobush. It is native to North America.</ns1:abstract>
+    <ns1:habitat>
+
+The native range extends through much of the United States and south into Mexico.
+
+Its native habitats include stream and pond edges, open woods, roadsides and canyons.
+
+
+
+
+
+The species has escaped cultivation elsewhere and is present as an
+introduced species
+in
+Europe
+,
+
+Asia, and other continents. It is often cultivated as an
+ornamental plant
+, and some wild populations may be descended from garden escapes.
+introduced species
+Europe
+
+
+ornamental plant
+Flowers
+Flowers</ns1:habitat>
+    <ns1:ecology>
+
+It is a larval host to the
+clouded sulphur
+,
+gray hairstreak
+,
+hoary edge
+,
+Io moth
+,
+marine blue
+,
+silver-spotted skipper
+, and
+southern dogface
+.
+
+The plentiful seeds are a food source for
+bobwhite quail
+. Both bees and butterflies use the flowers as a nectar source.
+
+clouded sulphur
+gray hairstreak
+hoary edge
+Io moth
+marine blue
+silver-spotted skipper
+southern dogface
+
+
+bobwhite quail
+
+</ns1:ecology>
+    <ns1:taxonomy>No information found on the section.</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

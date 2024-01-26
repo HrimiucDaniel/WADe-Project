@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Artemisia%20austriaca">
+    <ns1:label>Artemisia austriaca</ns1:label>
+    <ns1:abstract xml:lang="en">Artemisia austriaca is a species of plants belonging to the family Asteraceae. Its native range is Europe to Western Siberia, and Iran.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 5 - Sectia Silvostepa Moldovei</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

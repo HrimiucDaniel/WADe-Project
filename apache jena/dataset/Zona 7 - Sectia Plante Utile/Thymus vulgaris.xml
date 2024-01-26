@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Thymus%20vulgaris">
+    <ns1:label>Thymus vulgaris</ns1:label>
+    <ns1:abstract xml:lang="en">Thymus vulgaris (common thyme, German thyme, garden thyme or just thyme) is a species of flowering plant in the mint family Lamiaceae, native to southern Europe from the western Mediterranean to southern Italy. Growing to 15–30 cm (6–12 in) tall by 40 cm (16 in) wide, it is a bushy, woody-based evergreen subshrub with small, highly aromatic, grey-green leaves and clusters of purple or pink flowers in early summer. It is useful in the garden as groundcover, where it can be short-lived, but is easily propagated from cuttings. It is also the main source of thyme as an ingredient in cooking and as an herbal medicine. It is slightly spicier than oregano and sweeter than sage. The Latin specific epithet vulgaris means “common” in the sense of “widespread”.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

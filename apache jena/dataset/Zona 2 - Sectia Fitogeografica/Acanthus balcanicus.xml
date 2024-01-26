@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Acanthus%20balcanicus">
+    <ns1:label>Acanthus balcanicus</ns1:label>
+    <ns1:abstract xml:lang="en">Acanthus balcanicus, is an endemic herbaceous perennial plant in the genus Acanthus, native to the Balkan peninsula, up to Dalmatia. This plant is also cultivated in many European and American gardens. It grows to 80 cm tall, with basal clusters of deeply lobed and cut leaves. Leaves are dark green and shiny. It flowers in mid summer from July to August. Flowers are on a very long flowering stem and consist of a lower lip and upper tooth-like lip. 
+* Inflorescence bud 
+* Opening inflorescence 
+* Inflorescence 
+* Flower close-up 
+* Leaf</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

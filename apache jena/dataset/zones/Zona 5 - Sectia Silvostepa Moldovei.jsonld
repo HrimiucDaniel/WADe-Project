@@ -2,10 +2,25 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei",
   "label": "Zona 5 - Sectia Silvostepa Moldovei",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Abies%20alba",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Artemisia%20austriaca",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Astragalus%20onobrychis",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Carpinus%20betulus",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Corylus%20colurna",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Crocus%20reticulatus",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Iris%20brandzae",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Malus%20sylvestris",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Quercus%20robur",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Sorbus%20torminalis",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Taxus%20baccata",
+    "https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Tilia%20tomentosa"
+  ],
+  "description": "Sectia Silvostepa Moldovei se gaseste in partea de nord a Gradinii Botanice, ocupand o suprafata de 13,92 hectare. Se invecineaza la sud cu sectiile Flora si Vegetatia Romaniei si Flora Globului, la nord si vest cu Ferma Agricola Copou, iar la est cu proprietati particulare.",
   "positioning": "---"
 }

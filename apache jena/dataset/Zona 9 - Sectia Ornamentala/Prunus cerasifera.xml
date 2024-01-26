@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Prunus%20cerasifera">
+    <ns1:label>Prunus cerasifera</ns1:label>
+    <ns1:abstract xml:lang="en">Prunus cerasifera is a species of plum known by the common names cherry plum and myrobalan plum. It is native to Southeast Europe and Western Asia, and is naturalised in the British Isles and scattered locations in North America. Also naturalized in parts of SE Australia where it is considered to be a mildly invasive weed of bushland near urban centers.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

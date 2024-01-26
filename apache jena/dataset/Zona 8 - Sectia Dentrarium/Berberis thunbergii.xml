@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Berberis%20thunbergii">
+    <ns1:label>Berberis thunbergii</ns1:label>
+    <ns1:abstract xml:lang="en">Berberis thunbergii, the Japanese barberry, Thunberg's barberry, or red barberry, is a species of flowering plant in the barberry family Berberidaceae, native to Japan and eastern Asia, though widely naturalized in China and North America, where it has become a problematic invasive in many places, leading to declines in species diversity, increased tick habitat, and soil changes. Growing to 1 m (3 ft 3 in) tall by 2.5 m (8 ft 2 in) broad, it is a small deciduous shrub with green leaves turning red in the autumn, brilliant red fruits in autumn and pale yellow flowers in spring.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dentrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

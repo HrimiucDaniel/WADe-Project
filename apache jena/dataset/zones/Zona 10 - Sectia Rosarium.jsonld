@@ -2,10 +2,25 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium",
   "label": "Zona 10 - Sectia Rosarium",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Albizia%20julibrissin",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Buxus%20sempervirens",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Cercis%20siliquastrum",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Magnolia%20kobus",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Pinus%20nigra",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Pinus%20sylvestris",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20canina",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20gallica",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pendulina",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pimpinellifolia",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Tamarix%20ramosissima",
+    "https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Taxus%20baccata"
+  ],
+  "description": "Pentru a evidentia prezenta colectiei de roze pe fondul verde al peluzei inierbate, in ansamblul compozitional al Rosarium-ului, la periferie, s-au plantat conifere de talie inalta: Pinus nigra, Pinus sylvestris, Thuja orientalis, Taxus baccata, precum si specii de talie mica spre centru: Buxus sempervirens si Juniperus horizontalis. Ca elemente de contrast, sunt plantate intercalat sau in grupuri speciile: Betula pendula, Larix decidua, Picea pungens 'Argentea', Albizia julibrissin, Cercis siliquastrum, Magnolia kobus, Spiraea \u00d7 vanhouttei si Tamarix ramosissima.",
   "positioning": "---"
 }

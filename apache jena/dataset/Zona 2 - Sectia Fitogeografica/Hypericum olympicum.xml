@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Hypericum%20olympicum">
+    <ns1:label>Hypericum olympicum</ns1:label>
+    <ns1:abstract xml:lang="en">Hypericum olympicum, commonly known as the Mount Olympus St. John's wort, is a species of flowering plant in the family Hypericaceae found in the Balkans and Turkey and introduced to western Europe. It has been widely cultivated for centuries because of its large, showy flowers, which are far larger than those of most other species in Hypericum.</ns1:abstract>
+    <ns1:subspecies>[' H. olympicum f. minus (Hausskn.)', ' H. olympicum f. olympicum', ' H. olympicum f. tenuifolium ( N. Robson)', ' H. olympicum f. uniflorum (Boiss. &amp; Balansa)']</ns1:subspecies>
+    <ns1:habitat>
+
+The species is native to Southeastern
+Serbia
+,
+Macedonia
+,
+Albania
+,
+Bulgaria
+,
+Greece
+(excluding Crete and western Aegean islands), and northwestern
+Turkey
+.
+
+
+The species was first introduced to England in 1676 by
+Sir George Wheeler
+from seeds found in Turkey, and it was cultivated at the
+Oxford Botanical Garden
+.
+
+The species has also been recorded as establishing itself in Belgium and France, where it is considered an invasive species.
+
+
+Serbia
+Macedonia
+Albania
+Bulgaria
+Greece
+Turkey
+
+
+
+
+Sir George Wheeler
+Oxford Botanical Garden
+
+
+
+
+
+
+It can be found in sandy, stony, and sometimes grassy places or among rocks in open ground,  or in
+pine
+woodland at elevations of 0–2000 m.
+
+pine
+
+</ns1:habitat>
+    <ns1:ecology>No information found on the section.</ns1:ecology>
+    <ns1:taxonomy>
+
+H. olympicum
+was first described in
+Carolus Linnaeus's
+Species Plantarum
+in 1753.
+
+H. olympicum
+Carolus Linnaeus's
+Species Plantarum
+Species Plantarum
+
+</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Colocasia">
+    <ns1:label>Colocasia</ns1:label>
+    <ns1:abstract xml:lang="en">Colocasia is a genus of flowering plants in the family Araceae, native to southeastern Asia and the Indian subcontinent. Some species are widely cultivated and naturalized in other tropical and subtropical regions. The names elephant-ear and cocoyam are also used for some other large-leaved genera in the Araceae, notably Xanthosoma and Caladium. The generic name is derived from the ancient Greek word kolokasion, which in Greek, botanist Dioscorides (1st century AD) may have inferred the edible roots of both Colocasia esculenta and Nelumbo nucifera. The species Colocasia esculenta is invasive in wetlands along the American Gulf coast, where it threatens to displace native wetland plants.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

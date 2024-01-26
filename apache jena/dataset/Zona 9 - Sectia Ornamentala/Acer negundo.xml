@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20negundo">
+    <ns1:label>Acer negundo</ns1:label>
+    <ns1:abstract xml:lang="en">Acer negundo, the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America. It is a fast-growing, short-lived tree with opposite, compound leaves. It is sometimes considered a weedy or invasive species, and has been introduced to and naturalized throughout much of the world, including in South America, Australia, New Zealand, South Africa, much of Europe, and parts of Asia.</ns1:abstract>
+    <ns1:habitat>
+
+Acer negundo
+often grows alongside waterbodies
+Acer negundo
+often grows alongside waterbodies
+Acer negundo
+Growing as a weed in pavement crack in Russia
+Growing as a weed in pavement crack in Russia
+Acer negundo
+is native across much of the
+United States
+(mostly in the east)
+
+and south-central
+Canada
+, and can be found as far south as
+Guatemala
+.
+Acer negundo
+United States
+
+
+Canada
+Guatemala
+Box Elder County
+,
+Utah
+is named for this tree.
+
+Box Elder County
+Utah
+
+citation needed
+citation needed
+citation needed
+Although native to
+North America
+, it is considered a weedy species in some areas, such as in parts of the
+Northeastern United States
+, and has increased greatly in these areas.
+
+In 1928, Joseph Illick, chief forester for the state of
+Pennsylvania
+, wrote in
+Pennsylvania Trees
+
+that box elder was "rare and localized" in the state. After
+World War II
+, box elder's rapid growth made it a popular landscaping tree in suburban housing developments despite its poor form, vulnerability to storm damage, and tendency to attract large numbers of
+box elder bugs
+. Intentional cultivation has thus made the tree far more abundant than it once was.
+
+North America
+Northeastern United States
+
+
+Pennsylvania
+Pennsylvania Trees
+
+citation needed
+citation needed
+citation needed
+World War II
+box elder bugs
+
+citation needed
+citation needed
+citation needed
+It can quickly
+colonize
+both cultivated and uncultivated areas and the range is therefore expanding both in North America and elsewhere. In Europe where it was introduced in 1688 as a park tree it is able to spread quickly and is considered an invasive species in parts of Central Europe, including
+Germany
+, the
+Czech Republic
+,
+Hungary
+,
+Slovenia
+, and
+Poland
+) where it can form mass growth in lowlands, disturbed areas, and riparian biomes on calcareous soils. It has also become
+naturalized
+in eastern
+China
+,
+
+is listed as a pest
+invasive species
+in some of the cooler areas of the
+Australian continent
+, and is invasive in the
+Rio de la Plata
+area.
+
+colonize
+Germany
+Czech Republic
+Hungary
+Slovenia
+Poland
+naturalized
+China
+
+
+invasive species
+Australian continent
+Rio de la Plata
+
+citation needed
+citation needed
+citation needed
+This species prefers bright sunlight. It often grows on flood plains and other disturbed areas with ample water supply, such as
+riparian
+habitats.
+
+Human influence has greatly favored this species; it grows around houses and in hedges, as well as on disturbed ground and vacant lots.
+riparian
+
+</ns1:habitat>
+    <ns1:ecology>
+
+Boxelder bugs (
+Boisea trivittata
+) feed on
+Acer negundo
+Boxelder bugs (
+Boisea trivittata
+) feed on
+Acer negundo
+Boisea trivittata
+Acer negundo
+Several
+birds
+and some
+squirrels
+feed on the seeds. The
+evening grosbeak
+uses them extensively.
+
+birds
+squirrels
+evening grosbeak
+
+
+The
+boxelder bug
+(
+Boisea trivittata
+) lays its
+eggs
+on all maples, but prefers this species, clustering the eggs in bark crevices.
+
+The rosy maple moth (
+Dryocampa rubicunda
+) also lays its eggs on the leaves of maple trees, including
+Acer negundo
+. The larvae feed on the leaves, and in very dense populations can cause defoliation.
+
+boxelder bug
+Boisea trivittata
+eggs
+
+
+Dryocampa rubicunda
+Dryocampa rubicunda
+Acer negundo
+
+
+Small
+galls
+are formed on the leaves by a bladder mite,
+Aceria negundi
+. A gall midge,
+Contarinia negundinis
+joins and enlarges the galls of
+Aceria negundi
+. The midge sometimes creates a separate, tubular gall on the midrib or veins of the undersides of the leaves.
+
+galls
+Aceria negundi
+Aceria negundi
+Contarinia negundinis
+Contarinia negundinis
+Aceria negundi
+
+
+The cottony maple leaf scale,
+Pulvinaria acericola
+, occurs on the foliage of
+Acer negundo
+.
+
+A leaf spot fungus,
+Septoria negundinis
+creates black-ringed lesions on the leaves.
+
+Pulvinaria acericola
+Pulvinaria acericola
+Acer negundo
+
+
+Septoria negundinis
+Septoria negundinis
+
+</ns1:ecology>
+    <ns1:taxonomy>
+
+A few botanists treat boxelder maple in its own distinct genus (
+Negundo aceroides
+) but this is not widely accepted.
+
+Negundo aceroides
+
+citation needed
+citation needed
+citation needed</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

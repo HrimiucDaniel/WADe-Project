@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Tropaeolum%20majus">
+    <ns1:label>Tropaeolum majus</ns1:label>
+    <ns1:abstract xml:lang="en">Tropaeolum majus, the garden nasturtium, nasturtium, Indian cress or monks cress, is a species of flowering plant in the family Tropaeolaceae, originating in the Andes from Bolivia north to Colombia. An easily-grown annual or short-lived perennial with disc-shaped leaves and brilliant yellow, orange or red flowers, it is of cultivated, probably hybrid origin. It is not closely related to the genus Nasturtium (which includes watercress).</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

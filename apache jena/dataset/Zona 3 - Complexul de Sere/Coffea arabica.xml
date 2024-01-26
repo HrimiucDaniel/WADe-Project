@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Coffea%20arabica">
+    <ns1:label>Coffea arabica</ns1:label>
+    <ns1:abstract xml:lang="en">Coffea arabica (/əˈræbɪkə/), also known as the Arabic coffee, is a species of flowering plant in the coffee and madder family Rubiaceae. It is believed to be the first species of coffee to have been cultivated and is currently the dominant cultivar, representing about 60% of global production. Coffee produced from the less acidic, more bitter, and more highly caffeinated robusta bean (C. canephora) makes up most of the remaining coffee production. Arabica coffee originates from and was first cultivated in Yemen, and documented by the 12th century. Coffea arabica is called ‏بُنّ‎ (būnn) in Arabic, borrowed from the Amharic "Buna".</ns1:abstract>
+    <ns1:habitat>
+
+Endemic to the southwestern
+highlands
+of
+Ethiopia
+,
+
+Coffea arabica
+is today grown in dozens of countries between the
+Tropic of Capricorn
+and the
+Tropic of Cancer
+.
+
+It is commonly used as an
+understory
+shrub. It has also been recovered from the
+Boma Plateau
+in
+South Sudan
+.
+Coffea arabica
+is also found on Mount
+Marsabit
+in northern
+Kenya
+, but it is unclear whether this is a truly native or naturalised occurrence; recent studies support it being naturalised.
+
+
+The species is widely naturalised in areas outside its native land, in many parts of
+Africa
+,
+Latin America
+,
+Southeast Asia
+,
+India
+,
+China
+, and assorted islands in the
+Caribbean
+and in the
+Pacific
+.
+
+highlands
+Ethiopia
+
+
+Coffea arabica
+Tropic of Capricorn
+Tropic of Cancer
+
+
+understory
+Boma Plateau
+South Sudan
+Coffea arabica
+Marsabit
+Kenya
+
+
+
+
+Africa
+Latin America
+Southeast Asia
+India
+China
+Caribbean
+Pacific
+
+
+The coffee tree was first brought to
+Hawaii
+in 1813, and it began to be extensively grown by about 1850.
+
+It was formerly more widely grown than at present, especially in
+Kona
+,
+
+and it persists after cultivation in many areas. In some valleys, it is a highly invasive weed.
+
+In the
+Udawattakele
+and Gannoruwa Forest Reserves near Kandy, Sri Lanka, coffee shrubs are also a problematic invasive species.
+
+Hawaii
+
+
+Kona
+
+
+
+
+Udawattakele
+
+
+Coffee has been produced in Queensland and New South Wales of Australia, starting in the 1980s and 90s.
+
+The Wet Tropics Management Authority has classified
+Coffea arabica
+as an environmental weed for southeast Queensland due to its invasiveness in non-agricultural areas.
+
+
+
+
+Coffea arabica
+
+
+
+</ns1:habitat>
+    <ns1:ecology>No information found on the section.</ns1:ecology>
+    <ns1:taxonomy>
+
+Coffea arabica
+was first
+described
+scientifically by
+Antoine de Jussieu
+, who named it
+Jasminum arabicum
+after studying a specimen from the
+Botanic Gardens of Amsterdam
+.
+Linnaeus
+placed it in its own genus
+Coffea
+in 1737.
+
+Coffea arabica
+described
+Antoine de Jussieu
+Jasminum arabicum
+Botanic Gardens of Amsterdam
+Linnaeus
+Coffea
+Coffea
+
+
+Coffea arabica
+is one of the
+polyploid
+species of the genus
+Coffea
+,
+as it carries 4 copies of the 11 chromosomes (44 total) instead of the 2 copies of diploid species. Specifically,
+Coffea arabica
+is itself the result of a hybridization between the diploids
+Coffea canephora
+and
+Coffea eugenioides,
+
+thus making it an
+allotetraploid
+, with
+two
+copies of two different genomes. This hybridization event at the origin of
+Coffea arabica
+is estimated between 1.08 million and 543,000 years ago and is linked to changing environmental conditions in East Africa.
+
+Coffea arabica
+polyploid
+Coffea
+,
+Coffea
+Coffea arabica
+Coffea canephora
+Coffea canephora
+Coffea eugenioides,
+
+
+allotetraploid
+two
+Coffea arabica
+
+</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

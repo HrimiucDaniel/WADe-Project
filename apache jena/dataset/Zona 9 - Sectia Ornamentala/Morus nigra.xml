@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Morus%20nigra">
+    <ns1:label>Morus nigra</ns1:label>
+    <ns1:abstract xml:lang="en">Morus nigra, called black mulberry or blackberry (not to be confused with the blackberries that are various species of Rubus), is a species of flowering plant in the family Moraceae that is native to southwestern Asia and the Iberian Peninsula, where it has been cultivated for so long that its precise natural range is unknown. The black mulberry is known for its large number of chromosomes.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

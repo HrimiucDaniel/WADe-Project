@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Juglans%20regia">
+    <ns1:label>Juglans regia</ns1:label>
+    <ns1:abstract xml:lang="en">Juglans regia, the Persian walnut, English walnut, Carpathian walnut, Madeira walnut, or especially in Great Britain, common walnut, is an Old World walnut tree species native to the region stretching from the Balkans eastward to the Himalayas and southwest China. It is widely cultivated across Europe. It is the origin of cultivated varieties which produce the edible walnut, consumed around the world. China is the major commercial producer of walnuts.</ns1:abstract>
+    <ns1:habitat>
+
+Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Juglans regia
+Khotan
+In August,
+Czech Republic
+In August,
+Czech Republic
+Czech Republic</ns1:habitat>
+    <ns1:ecology>
+
+It tends to grow taller and narrower in dense forest competition. It is a light-demanding species, requiring full sun to grow well.
+Juglans regia
+is infested by
+Rhagoletis juglandis
+, commonly known as the walnut husk fly, which lays its eggs in the husks of walnut fruit.
+Juglans regia
+Rhagoletis juglandis
+Rhagoletis juglandis
+Other plants often will not grow under walnut trees because the fallen leaves and husks contain
+juglone
+, a chemical which acts as a natural
+herbicide
+. Horses that eat walnut leaves may develop
+laminitis
+, a hoof ailment.
+juglone
+herbicide
+laminitis</ns1:ecology>
+    <ns1:taxonomy>No information found on the section.</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dentrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

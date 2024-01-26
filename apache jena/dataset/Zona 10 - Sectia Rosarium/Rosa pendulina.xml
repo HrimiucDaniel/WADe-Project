@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pendulina">
+    <ns1:label>Rosa pendulina</ns1:label>
+    <ns1:abstract xml:lang="en">Rosa pendulina, (syn. Rosa alpina), the Alpine rose or mountain rose, is a species of wild rose found in the mountains of central and southern Europe. It appears to have survived in glacial refugia in the Alps and Carpathians, and spread out from there. A climbing shrub with deep pink flowers and relatively few thorns, it has had a history of cultivation as an ornamental plant.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

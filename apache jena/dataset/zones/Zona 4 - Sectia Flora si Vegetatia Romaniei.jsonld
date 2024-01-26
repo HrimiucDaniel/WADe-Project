@@ -2,10 +2,24 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei",
   "label": "Zona 4 - Sectia Flora si Vegetatia Romaniei",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Berberis%20vulgaris",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Betula%20pendula",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Corylus%20colurna",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Fraxinus%20ornus",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Paliurus%20spina-christi",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Pinus%20cembra",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20cerris",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20frainetto",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20pubescens",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20robur",
+    "https://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Typha%20latifolia"
+  ],
+  "description": "Principiul de baza este cel al reprezentarii pe verticala a principalelor zone si etaje de vegetatie din tara noastra (favorizata de formele de relief naturale existente), iar pe orizontala a florei si vegetatiei specifice fiecarei provincii istorice a Romaniei. Un alt principiu este cel al conservarii prin cultura a unui fond genetic vegetal cat mai variat din flora tarii noastre (popularea acestei sectii se realizeaza cu material autentic, colectat din flora spontana a tinuturilor respective).",
   "positioning": "---"
 }

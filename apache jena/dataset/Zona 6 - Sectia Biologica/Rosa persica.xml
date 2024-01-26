@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20persica">
+    <ns1:label>Rosa persica</ns1:label>
+    <ns1:abstract xml:lang="en">Rosa persica is an anomalous species of rose that at one time was placed in a separate genus Hulthemia. It is native to deserts and steppes from Iran and Afghanistan in the south, through Central Asia, to western Siberia in the north. Its distinctive characteristics include a simple leaf without stipules (most rose leaves are pinnate with 3 to 7 leaflets, and have stipules), and a distinctive flower with a darker coloured central zone. In its natural habitat it is a deep-rooted weed that suckers – growing in Iranian fields for example, where it is collected for fuel once the grain crop has been harvested – but it is difficult to grow in gardens and rarely cultivated. is sometimes considered to be variety of this species, as R. persica var. berberifolia.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

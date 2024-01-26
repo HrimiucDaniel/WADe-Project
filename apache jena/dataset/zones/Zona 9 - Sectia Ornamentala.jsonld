@@ -2,10 +2,30 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala",
   "label": "Zona 9 - Sectia Ornamentala",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20negundo",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20platanoides",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20pseudoplatanus",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Artemisia%20absinthium",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Calendula%20officinalis",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Chrysanthemum%20indicum",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Dahlia",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Echinacea%20purpurea",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Gladiolus",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hosta",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hyssopus%20officinalis",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Lavandula%20angustifolia",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Morus%20nigra",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Parrotia%20persica",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Prunus%20cerasifera",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Rhus%20typhina",
+    "https://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Tropaeolum%20majus"
+  ],
+  "description": "Grupate in colectii, genurile Tulipa, Narcissus, Crocus, Hyacinthus, Muscari, sunt prezentate in spatiile tranzitorii ale sectiei, acestea oferind o gama coloristica foarte variata si trecand prin tot spectrul, devin o adevarata expozitie de culoare. In ultimii 10 ani, aceste genuri au dobandit o reala importanta datorita diversitatii soiurilor introduse in cultura in spatiile destinate sectiei ornamentale.",
   "positioning": "---"
 }

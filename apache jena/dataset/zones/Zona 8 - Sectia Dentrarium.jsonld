@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "label": "https://dbpedia.org/property/label",
+    "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
+    "positioning": "https://dbpedia.org/property/positioning"
+  },
+  "@id": "http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium",
+  "label": "Zona 8 - Sectia Dentrarium",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Acer%20campestre",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Amorpha%20fruticosa",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Berberis%20julianae",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Berberis%20thunbergii",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Carpinus%20betulus",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Carpinus%20orientalis",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Cornus%20hemsleyi",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Corylus%20colurna",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Fraxinus%20excelsior",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Fraxinus%20ornus",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Juglans%20nigra",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Juglans%20regia",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Lonicera%20tatarica",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Pinus%20nigra",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Pinus%20strobus",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Populus%20alba",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Populus%20nigra",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Quercus%20robur",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Salix%20alba",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Salix%20babylonica",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Sorbus%20aucuparia",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Sorbus%20torminalis",
+    "https://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Syringa%20villosa"
+  ],
+  "description": "Colectiile de arbori si arbusti au fost grupate pe genuri si in functie de cerintele ecologice ale plantelor, urmarindu-se valorificarea potentialului stational local. In amenajarea sectiei s-a folosit stilul mixt, cu inclinatie spre cel peisager. La contact cu orasul, sectia este protejata de o perdea perimetrala arborescenta alcatuita, preponderent, din specii indigene rustice care au coronament des. Dendrarium-ul are o forma oarecum dreptunghiulara si prezinta o axa de simetrie orientata nord-sud ce marcheaza limita dintre subsectiile Gymnospermae si Angiospermae. Aleile pietonale, mai inguste, intersecteaza din loc in loc axa de simetrie si fac legatura cu toate punctele din sectie, inclusiv cu cele perimetrale.",
+  "positioning": "---"
+}

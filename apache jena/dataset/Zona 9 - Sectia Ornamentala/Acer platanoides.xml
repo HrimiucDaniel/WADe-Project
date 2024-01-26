@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20platanoides">
+    <ns1:label>Acer platanoides</ns1:label>
+    <ns1:abstract xml:lang="en">Acer platanoides, commonly known as the Norway maple, is a species of maple native to eastern and central Europe and western Asia, from Spain east to Russia, north to southern Scandinavia and southeast to northern Iran. It was introduced to North America in the mid-1700s as a shade tree. It is a member of the family Sapindaceae.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

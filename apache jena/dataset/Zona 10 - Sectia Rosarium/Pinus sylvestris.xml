@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Pinus%20sylvestris">
+    <ns1:label>Pinus sylvestris</ns1:label>
+    <ns1:abstract xml:lang="en">Pinus sylvestris, the Scots pine (UK), Scotch pine (US) or Baltic pine, is a species of tree in the pine family Pinaceae that is native to Eurasia. It can readily be identified by its combination of fairly short, blue-green leaves and orange-red bark.</ns1:abstract>
+    <ns1:habitat>
+
+Scots pine in Stockholm archipelago, Sweden
+Scots pine in Stockholm archipelago, Sweden
+Scots pine in Stockholm archipelago, Sweden
+Pinus sylvestris
+is the only pine native to northern Europe,
+
+
+ranging from
+Western Europe
+to Eastern
+Siberia
+, south to the
+Caucasus Mountains
+and
+Anatolia
+, and north to well inside the
+Arctic Circle
+in
+Fennoscandia
+. In the north of its range, it occurs from sea level to 1,000 m (3,300 ft), while in the south of its range it is a mountain tree, growing at 1,200–2,600 m (3,900–8,500 ft) altitude.
+
+
+
+
+Pinus sylvestris
+
+
+
+
+Western Europe
+Siberia
+Caucasus Mountains
+Anatolia
+Arctic Circle
+Fennoscandia
+
+
+
+
+
+
+
+
+The species is mainly found on poorer, sandy soils, rocky outcrops, peat bogs or close to the forest limit. On fertile sites, the pine is out-competed by other tree species, usually
+spruce
+or
+broad-leaved trees
+.
+
+spruce
+broad-leaved trees
+
+</ns1:habitat>
+    <ns1:ecology>
+
+It forms either pure forests or mixes with
+Norway spruce
+,
+common juniper
+,
+silver birch
+,
+European rowan
+,
+Eurasian aspen
+and other
+hardwood
+species. In central and southern Europe, it occurs with numerous additional species, including
+European black pine
+,
+mountain pine
+,
+Macedonian pine
+, and
+Swiss pine
+. In the eastern part of its range, it occurs with
+Siberian pine
+, among others.
+
+
+Norway spruce
+common juniper
+silver birch
+European rowan
+Eurasian aspen
+hardwood
+European black pine
+mountain pine
+Macedonian pine
+Swiss pine
+Siberian pine
+
+
+
+
+In 2020, black spot needle blight was found on hundreds of
+Pinus sylvestris
+var.
+mongolica
+trees in four forest farms in northeastern China. It first appeared on the upper part of the needles, and then the needles became withered and gradually showed light black spots, although they still remained green. As the fungal disease progressed, the needles eventually died and turned gray with many dark black spots. The fungus was identified as
+Heterotruncatella spartii
+(within the family
+Sporocadaceae
+) based on morphology and molecular methods.
+
+Pinus sylvestris
+mongolica
+Heterotruncatella spartii
+Heterotruncatella spartii
+Sporocadaceae
+
+</ns1:ecology>
+    <ns1:taxonomy>No information found on the section.</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

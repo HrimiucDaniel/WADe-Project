@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dentrarium/plant/Juglans%20nigra">
+    <ns1:label>Juglans nigra</ns1:label>
+    <ns1:abstract xml:lang="en">Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to North America. It grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas. Wild trees in the upper Ottawa Valley may be an isolated native population or may have derived from planted trees. Black walnut is an important tree commercially, as the wood is a deep brown color and easily worked. Walnut seeds (nuts) are cultivated for their distinctive and desirable taste. Walnut trees are grown both for lumber and food, and many cultivars have been developed for improved quality wood or nuts. Black walnut is susceptible to thousand cankers disease, which provoked a decline of walnut trees in some regions. Black walnut is anecdotally known for being allelopathic, which means that it releases chemicals from its roots and other tissues that may harm other organisms and give the tree a competitive advantage. There is not, however, solid scientific consensus that allelopathic chemicals in black walnut are the primary source of its competitive growth in an area.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dentrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

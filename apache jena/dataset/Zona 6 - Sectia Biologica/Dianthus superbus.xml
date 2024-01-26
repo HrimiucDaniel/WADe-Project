@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20superbus">
+    <ns1:label>Dianthus superbus</ns1:label>
+    <ns1:abstract xml:lang="en">Dianthus superbus, the fringed pink or large pink, is a species of Dianthus native to Europe and northern Asia, from northernmost Spain and France north to arctic Norway, and east to Japan; in the south of its range, it occurs at high altitudes, up to 2,400 m. It is a herbaceous perennial plant growing to 80 cm tall. The leaves are green to greyish green, slender, up to 8 cm long. The flowers are sweetly scented, 3–5 cm in diameter, with five deeply cut fringed petals, pink to lavender with a greenish base; they are produced in branched clusters at the top of the stems from early to late summer. There are six subspecies: 
+* Dianthus superbus subsp. superbus. Most of the species' range. 
+* Dianthus superbus subsp. autumnalis Oberd. Southwestern France. 
+* Dianthus superbus subsp. sylvestris Čelak. Germany. 
+* Dianthus superbus subsp. alpestris Kablík. ex Čelak. (syn. D. s. subsp. speciosus). Alps, Carpathians, at high altitudes. Shorter stems; leaves greyer; flowers large. 
+* Dianthus superbus subsp. stenocalyx (Trautv. ex Juz.) Kleopow. Southern Russia, Ukraine. 
+* Dianthus superbus subsp. longicalycinus (Maxim.) Kitam. Japan. Also called nadeshiko (ナデシコ). It is the only food source of the large moth Coleophora musculella.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Iris%20brandzae">
+    <ns1:label>Iris brandzae</ns1:label>
+    <ns1:abstract xml:lang="en">Iris brandzae is a species in the genus Iris, it is also in the subgenus Limniris and in series Spuriae. It is a rhizomatous perennial plant, originally from Romania with violet and white flowers. It was once thought to be a subspecies of Iris sintenisii, but now classified as a separate species. It is also called Iris Brandzy or Prodan Iris in Russia. It is cultivated as an ornamental plant in temperate regions.</ns1:abstract>
+    <ns1:habitat>
+
+Iris brandzea
+is
+native
+to Central Europe.
+
+Iris brandzea
+native
+
+</ns1:habitat>
+    <ns1:ecology>No information found on the section.</ns1:ecology>
+    <ns1:taxonomy>
+
+The Latin
+specific epithet
+brandzae
+refers to botanist
+Dimitrie Brândză
+(1846–1895).
+specific epithet
+brandzae
+Dimitrie Brândză
+It is sometimes called
+Prodan Iris
+,
+
+or
+Iris Brandzy
+in Russia.
+
+
+Prodan Iris
+
+
+Iris Brandzy
+
+
+
+
+It was originally published and described as
+Iris brandzae
+by
+Iuliu Prodan
+in
+Buletinul Gradinii Botanice si al Muzeului Botanic dela Universitatea din Cluj
+(Bul. Grad. Bot. Univ. Cluj) Vol.15 page103 in 1935.
+
+
+
+Iris brandzae
+Iuliu Prodan
+Buletinul Gradinii Botanice si al Muzeului Botanic dela Universitatea din Cluj
+
+
+
+
+
+
+It was also published by Czerep, in 1973 Svod Dopolm. Izmen
+Flora SSSR
+page301 and then by Geiderman in 1975, Opred. Vyssh. Rast. Mold SSR Ed2 page109.
+
+Flora SSSR
+
+
+It was later published as
+Iris sintenisii Janka subsp. brandzae
+(Prod.) D.A. Webb &amp; Chater by D.A. Webb &amp; Chater in the 'Botanical Journal of the Linnean Society' (Bot. J. Linn. Soc. 76.) in 1978,.
+
+
+It was thought to have a more limited geographical distribution than
+Iris sintenisii
+, around Romania.
+
+It stayed like this for many years until the authors of the Romanian flora books ('Flora Ilustrata a Romanie' by Ciocarlan 2009 and 'Plante Vasculare din Romania. Determinator ilustrat de teren (Vascular Plants of Romania. An illustrated field guide)' by Sarbu, Stefan et Oprea 2013
+
+) re-classified the taxon as an independent and separate species.
+
+Iris sintenisii Janka subsp. brandzae
+
+
+
+
+Iris sintenisii
+
+
+
+
+
+
+Although some references still call it
+Iris sintenisii
+Janka subsp.
+brandzae
+.
+
+Iris sintenisii
+brandzae
+
+
+It has not yet been verified by
+United States Department of Agriculture
+Agricultural Research Service
+as of February 2015.
+United States Department of Agriculture
+Agricultural Research Service
+Iris sintenisii
+subsp.
+brandzae
+, as of February 2015 was a tentatively accepted name by the
+RHS
+.
+
+Iris sintenisii
+brandzae
+RHS
+
+</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 5 - Sectia Silvostepa Moldovei</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Opuntia">
+    <ns1:label>Opuntia</ns1:label>
+    <ns1:abstract xml:lang="en">Opuntia, commonly called prickly pear or pear cactus, is a genus of flowering plants in the cactus family Cactaceae. Prickly pears are also known as tuna (fruit), sabra, nopal (paddle, plural nopales) from the Nahuatl word nōpalli for the pads, or nostle, from the Nahuatl word nōchtli for the fruit; or paddle cactus. The genus is named for the Ancient Greek city of Opus, where, according to Theophrastus, an edible plant grew and could be propagated by rooting its leaves. The most common culinary species is the Indian fig opuntia (O. ficus-indica).</ns1:abstract>
+    <ns1:subspecies>['Many, [[#Species']</ns1:subspecies>
+    <ns1:habitat>
+
+Like most true cactus species, prickly pears are native only to the
+Americas
+. Through human action, they have since been introduced to many other areas of the world.
+
+
+Prickly pear species are found in abundance in
+Mexico
+, especially in the central and western regions, and in the
+Caribbean
+islands (
+West Indies
+). In the
+United States
+, prickly pears are native to many areas of the arid, semi-arid, and drought-prone
+Western
+and
+South Central
+United States, including the lower elevations of the
+Rocky Mountains
+and southern
+Great Plains
+, where species such as
+O. phaeacantha
+and
+O. polyacantha
+have become dominant, and to the desert Southwest, where several types are endemic. Prickly pear cactus is also native to sandy coastal beach scrub environments of the
+East Coast
+from
+Florida
+to southern
+Connecticut
+, where
+O. humifusa
+,
+O. stricta
+, and
+O. pusilla
+, are found from the East Coast south into the
+Caribbean
+and the
+Bahamas
+.  Additionally, the eastern prickly pear is native to the midwestern "sand prairies" near major river systems, such as the Mississippi, Illinois, and Ohio rivers.
+
+The plant also occurs naturally in hilly areas of southern
+Illinois
+, and sandy or rocky areas of northern Illinois.
+
+Americas
+
+
+
+
+Mexico
+Caribbean
+West Indies
+United States
+Western
+South Central
+Rocky Mountains
+Great Plains
+O. phaeacantha
+O. phaeacantha
+O. polyacantha
+O. polyacantha
+East Coast
+Florida
+Connecticut
+O. humifusa
+O. humifusa
+O. stricta
+O. stricta
+O. pusilla
+O. pusilla
+Caribbean
+Bahamas
+
+
+Illinois
+
+
+Opuntia
+species are the most cold-tolerant of the lowland cacti, extending into western and southern
+Canada
+. One
+subspecies
+,
+O. fragilis
+var.
+fragilis
+, has been found growing along the
+Beatton River
+in north-eastern
+British Columbia
+, southwest of
+Cecil Lake
+at 56° 17’ N latitude and 120° 39’ W longitude.
+
+Others are seen in the Kleskun Hills Natural Area of north-west
+Alberta
+at 55° 15’ 30’’ N latitude and 118° 30’ 36’’ W longitude.
+
+Opuntia
+Canada
+subspecies
+O. fragilis
+var.
+fragilis
+O. fragilis
+fragilis
+Beatton River
+British Columbia
+Cecil Lake
+
+
+Alberta
+
+
+Prickly pears produce a fruit known as
+tuna
+, commonly eaten in
+Mexico
+and in the
+Mediterranean region
+, which is also used to make
+aguas frescas
+.
+
+The fruit can be red, wine-red, green, or yellow-orange. In the
+Galápagos Islands
+, the Galápagos prickly pear,
+O. galapageia
+, has previously been treated as a number of different species, but is now only divided into varieties and subvarieties.
+
+Most of these are confined to one or a few islands, so they have been described as "an excellent example of
+adaptive radiation
+".
+
+On the whole, islands with tall, trunked varieties are also the home of giant tortoises, whereas islands lacking tortoises have low or prostrate forms of
+Opuntia
+. Prickly pears are a prime source of food for the common giant tortoises in the Galápagos Islands, so they are important in the food web.
+tuna
+Mexico
+Mediterranean region
+aguas frescas
+aguas frescas
+
+
+Galápagos Islands
+O. galapageia
+O. galapageia
+
+
+adaptive radiation
+
+
+Opuntia
+Charles Darwin
+was the first to note that the cacti have
+thigmotactic
+anthers
+. When the anthers are touched, they curl over, depositing their
+pollen
+. That movement can be seen by gently poking the anthers of an open
+Opuntia
+flower
+. The same trait has
+evolved convergently
+in other species (e.g.
+Lophophora
+).
+Charles Darwin
+thigmotactic
+anthers
+pollen
+Opuntia
+flower
+evolved convergently
+Lophophora
+Lophophora
+Prickly pears (mostly
+O. stricta
+) were originally imported into Europe during the 16th century.
+
+They are now found in the Mediterranean region of
+Northern Africa
+, especially in
+Algeria
+,
+Morocco
+and
+Tunisia
+, where they grow all over the countryside, and in parts of
+Southern Europe
+, especially
+Spain
+, where they can be found in the east, south-east, and south of the country, and also in
+Malta
+, where they grow all over the islands. They can be found in enormous numbers in parts of
+South Africa
+, where they were introduced from South America. The prickly pear is considered an
+invasive species
+in
+Australia
+,
+Ethiopia
+,
+South Africa
+, and
+Hawaii
+, among other locations.
+
+O. stricta
+
+
+Northern Africa
+Algeria
+Morocco
+Tunisia
+Southern Europe
+Spain
+Malta
+South Africa
+invasive species
+Australia
+Ethiopia
+South Africa
+Hawaii
+
+
+The first introduction of prickly pears into
+Australia
+is ascribed to the founding governor of the New South Wales colony,
+Arthur Phillip
+, and the earliest European colonists, in 1788. Brought from
+Brazil
+to
+Sydney
+, they were most likely
+O. monacantha
+. That variety did not spread beyond the east coast. However, a number of other types of prickly pear were introduced to Australian gardens in the mid-19th century. The cactus was also used as agricultural fencing and a feedstock for animals in times of drought,
+
+
+as well as in an attempt to establish a
+cochineal
+dye industry.
+Australia
+Arthur Phillip
+Brazil
+Sydney
+O. monacantha
+
+
+
+
+cochineal
+The cactus quickly became a widespread
+invasive weed
+in the dry interior climate west of the
+Great Dividing Range
+, in New South Wales and
+Queensland
+,
+
+eventually converting 260,000 km
+2
+(101,000 sq mi) of farming land into an impenetrable green jungle of prickly pear, in places 6 m (20 ft) high. Scores of farmers were driven off their land by what they called the "green hell", and their abandoned homes were crushed under the cactus growth, which advanced at a rate of 400,000 hectares (1,000,000 acres) per year.
+
+invasive weed
+Great Dividing Range
+Queensland
+
+
+2
+
+
+In 1919, the
+Australian federal government
+established the Commonwealth Prickly Pear Board to coordinate efforts with state governments to eradicate the weed. Early attempts, comprising mechanical removal and poisonous chemicals failed. As a last resort, biological control was attempted.
+
+In 1925, the
+Cactoblastis cactorum
+moth
+was introduced from
+South America
+, and its larvae rapidly began to control the infestation.
+Alan Dodd
+, the son of the noted entomologist
+Frederick Parkhurst Dodd
+, was a leading official in combating the prickly pear menace. A memorial hall in
+Boonarga, Queensland
+, commemorates the efforts of the moth.
+
+The release of cochineal insects, that eat the cactus and simultaneously kill the plant, has also proven an effective measure for combating its spread.
+
+Australian federal government
+
+
+Cactoblastis cactorum
+Cactoblastis cactorum
+moth
+South America
+Alan Dodd
+Frederick Parkhurst Dodd
+Boonarga, Queensland
+
+
+
+
+Natural distribution of the plant occurs via consumption and associated
+seed dispersal
+by many animals, including
+antelopes
+, nonhuman
+primates
+,
+elephants
+, birds, and humans.
+
+When ingested by elephants, the sharp components of the plant cause harm to the mouth, stomach, and intestines.
+
+seed dispersal
+antelopes
+primates
+elephants
+
+
+
+</ns1:habitat>
+    <ns1:ecology>
+
+See also:
+Prickly pears in Australia
+and
+Prickly pears in South Africa
+Prickly pears in Australia
+Prickly pears in South Africa
+O. ficus-indica
+thrives in regions with mild winters having a prolonged dry spell followed by hot summers with occasional rain and relatively low humidity.
+
+A mean annual rainfall of
+350–500 mm (14–
+19
++
+1
+⁄
+2
+in) provides good growth rates.
+
+O. ficus-indica
+proliferates in various soils ranging from sub
+acid
+to sub
+alkaline
+, with clay content not exceeding 15–20% and the soil well-drained.
+
+The shallow root system enables the plant to grow in shallow, loose soils, such as on mountain slopes.
+
+Opuntia
+spreads into large clonal colonies, which contribute to its being considered a
+noxious weed
+in some places.
+
+
+O. ficus-indica
+
+
+19
++
+1
+⁄
+2
++
+1
+2
+
+
+O. ficus-indica
+acid
+alkaline
+
+
+
+
+Opuntia
+noxious weed
+
+
+
+
+Animals that eat
+Opuntia
+include the
+prickly pear island snail
+and
+Cyclura
+rock iguanas. The fruit are relished by many arid-land animals, chiefly birds, which thus help distribute the seeds.
+Opuntia
+pathogens
+include the sac fungus
+Colletotrichum coccodes
+and
+Sammons'
+Opuntia
+virus
+. The ant
+Crematogaster opuntiae
+and the spider
+Theridion opuntia
+are named because of their association with prickly pear cactus.
+Opuntia
+prickly pear island snail
+Cyclura
+Cyclura
+Opuntia
+pathogens
+Colletotrichum coccodes
+Colletotrichum coccodes
+Sammons'
+Opuntia
+virus
+Opuntia
+Crematogaster opuntiae
+Crematogaster opuntiae
+Theridion opuntia
+Theridion opuntia</ns1:ecology>
+    <ns1:taxonomy>
+
+O. lindheimeri
+,
+Behbahan
+O. lindheimeri
+,
+Behbahan
+O. lindheimeri
+O. lindheimeri
+Behbahan
+O. cochenillifera
+O. cochenillifera
+O. cochenillifera
+O. cochenillifera
+When
+Carl Linnaeus
+published
+Species Plantarum
+in 1753 – the starting point for modern botanical nomenclature – he placed all the species of cactus known to him in one genus,
+Cactus
+. In 1754, the Scottish botanist
+Philip Miller
+divided them into several genera, including
+Opuntia
+. He distinguished the genus largely on the form of its flowers and fruits.
+
+Carl Linnaeus
+Species Plantarum
+Species Plantarum
+Cactus
+Philip Miller
+Opuntia
+
+
+Considerable variation of taxonomy occurs within
+Opuntia
+species, resulting in names being created for variants or subtypes within a species, and use of
+DNA sequencing
+to define and isolate various species.
+
+Opuntia
+DNA sequencing
+
+</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

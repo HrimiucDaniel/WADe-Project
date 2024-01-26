@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Campanula%20punctata">
+    <ns1:label>Campanula punctata</ns1:label>
+    <ns1:abstract xml:lang="en">Campanula punctata, the spotted bellflower, is a herbaceous perennial flowering plant in the bellflower family. It has leaves and stems which fall down at the end of the blooming season. Campanula is a Latin word that means "bell".Punkta is said to have the meaning of "with dots" and "joining a group".</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

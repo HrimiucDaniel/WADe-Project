@@ -2,10 +2,33 @@
   "@context": {
     "label": "https://dbpedia.org/property/label",
     "list_of_plants": "https://dbpedia.org/property/list_of_plants",
+    "description": "https://dbpedia.org/property/description",
     "positioning": "https://dbpedia.org/property/positioning"
   },
   "@id": "http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere",
   "label": "Zona 3 - Complexul de sere",
-  "list_of_plants": "---",
+  "list_of_plants": [
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Adiantum",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Agapanthus%20africanus",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Asplenium",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Astrophytum",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Begonia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Clivia%20miniata",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Coffea%20arabica",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Colocasia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Davallia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Dieffenbachia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Echinocereus",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Haemanthus%20albiflos",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Monstera",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Myrsine%20africana",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Nephrolepis",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Opuntia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Peperomia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Pilea",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Rebutia",
+    "https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20sere/plant/Theobroma%20cacao"
+  ],
+  "description": "Complexul de sere adaposteste circa 2.600 taxoni, cu origine \u00een tinuturile subtropicale, tropicale si ecuatoriale ale globului. Colectiile sunt grupate dupa provenienta geografica a plantelor, tin\u00e2nd cont de cerintele ecologice, \u00een sere calde, temperate sau reci. Colectia plantelor xerofile reprezinta o asociatie eterogena de taxoni cu aspect arboricol, care provin din zone cu climat subtropical de tip mediteranean. Cei mai multi taxoni sunt binecunoscuti: maslinul (Olea europaea), rodiul (Punica granatum), roscovul (Ceratonia siliqua), oleandrul (Nerium oleander), rosmarinul (Rosmarinus officinalis), chiparosul (Cupressus sempervirens). Vegetatia din zonele analoage celor mediteraneene, localizata \u00een sudul Africii de Sud este reprezentata in colectiile noastre prin speciile Myrsine africana, Agapanthus africanus (crin albastru), Haemanthus albiflos, Clivia miniata (crin rosu).",
   "positioning": "---"
 }

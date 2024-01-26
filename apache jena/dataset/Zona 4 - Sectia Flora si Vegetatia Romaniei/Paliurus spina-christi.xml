@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Paliurus%20spina-christi">
+    <ns1:label>Paliurus spina-christi</ns1:label>
+    <ns1:abstract xml:lang="en">Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the Mediterranean region and southwest and central Asia, from Morocco and Spain east to Iran and Tajikistan.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 4 - Sectia Flora si Vegetatia Romaniei</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

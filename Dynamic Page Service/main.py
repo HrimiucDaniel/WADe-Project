@@ -40,6 +40,7 @@ def zones():
 @app.route('/zone/<zone_name>')
 def zone(zone_name):
     plants = plant_labels.get_all_plants(zone_name)
+
     return render_template('zone.html', zone_name=zone_name, plants=plants, generate_url=generate_url)
 
 

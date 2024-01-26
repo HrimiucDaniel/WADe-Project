@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/lantago%20major">
+    <ns1:label>lantago major</ns1:label>
+    <ns1:abstract xml:lang="en">Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten.</ns1:abstract>
+    <ns1:habitat>Failed to retrieve data. Status code: 404</ns1:habitat>
+    <ns1:ecology>Failed to retrieve data. Status code: 404</ns1:ecology>
+    <ns1:taxonomy>Failed to retrieve data. Status code: 404</ns1:taxonomy>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

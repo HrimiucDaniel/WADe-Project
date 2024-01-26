@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Ruscus%20aculeatus">
+    <ns1:label>Ruscus aculeatus</ns1:label>
+    <ns1:abstract xml:lang="en">Ruscus aculeatus, known as butcher's-broom, is a low evergreen dioecious Eurasian shrub, with flat shoots known as cladodes that give the appearance of stiff, spine-tipped leaves. Small greenish flowers appear in spring, and are borne singly in the centre of the cladodes. The female flowers are followed by a red berry, and the seeds are bird-distributed, but the plant also spreads vegetatively by means of rhizomes. It is native to Eurasia and some northern parts of Africa. Ruscus aculeatus occurs in woodlands and hedgerows, where it is tolerant of deep shade, and also on coastal cliffs. Likely due to its attractive winter/spring color, Ruscus aculeatus has become a fairly common landscape plant. It is also widely planted in gardens, and has spread as a garden escapee in many areas outside its native range. The plant grows well in zones 7 to 9 on the USDA hardiness zone map. The Latin specific epithet aculeatus means “prickly”.</ns1:abstract>
+    <ns1:comments>[]</ns1:comments>
+    <ns1:images>[]</ns1:images>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>
