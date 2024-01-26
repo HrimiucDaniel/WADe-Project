@@ -60,12 +60,50 @@
     </form>
 
     {% if images %}
-    <h2>Images</h2>
+        <h2>Images</h2>
+        <ul>
+            {% for image_path in images %}
+                <li><img src="{{ image_path }}" alt="Image"></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <h2>Add Relation</h2>
+    <form method="post" action="{{ url_for('add_relation', zone_name=zone, plant_name=title) }}">
+        <textarea name="relation"></textarea>
+        <select name="near_by_option">
+            {% if near_by_list %}
+                {% for option in near_by_list %}
+                    {% set parts = option.split('/') %}
+                    {% set last_part = parts[-1] %}
+                    <option value="{{ last_part }}">{{ last_part }}</option>
+                {% endfor %}
+            {% endif %}
+        </select>
+        <input type="submit" value="Add Relation">
+    </form>
+
+    {% if relations %}
+    <h2>User Relations:</h2>
     <ul>
-        {% for image_path in images %}
-            <li><img src="{{ image_path }}" alt="Image"></li>
+        {% for key, value in relations.items() %}
+            {% set predicate_parts = key.split('/') %}
+            {% set predicate_name = predicate_parts[-1]|replace('%20', ' ') %}
+            {% if value is iterable and value is not string %}
+                {% for obj in value %}
+                    {% set object_parts = obj.split('/') %}
+                    {% set object_name = object_parts[-1]|replace('%20', ' ') %}
+                    <a href = {{key}}><li><strong>{{ predicate_name }}:</strong></a><a href={{obj}}> {{ object_name }}</li></a>
+                {% endfor %}
+            {% else %}
+                {% set object_parts = value.split('/') %}
+                {% set object_name = object_parts[-1]|replace('%20', ' ') %}
+                <a href = {{key}}><li><strong>{{ predicate_name }}:</strong></a><a href={{value}}> {{ object_name }}</li></a>
+            {% endif %}
         {% endfor %}
     </ul>
 {% endif %}
+
+
 </body>
 </html>

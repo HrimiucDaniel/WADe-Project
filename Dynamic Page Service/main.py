@@ -6,6 +6,8 @@ import add_comments
 from werkzeug.utils import secure_filename
 import os
 import add_images
+import add_relations
+import get_relations
 
 app = Flask(__name__)
 
@@ -85,21 +87,24 @@ def plant(zone_name, plant_name):
     else:
         comments = None
 
-
-
-
     image_key = "https://dbpedia.org/property/images"
     if image_key in plant_info:
         image = plant_info[image_key]
     else:
         image = None
 
+    plants = plant_labels.get_all_plants(zone_name)
 
+    near_by_list = plants
+    near_by_list.append(zone_name)
 
-   #print(f"Uploaded Images: {image}")
+    relation_dict = get_relations.get_plant_info(zone_name, plant_name)
+
+    # print(f"Uploaded Images: {image}")
 
     return render_template('plant.html', title=plant_name, abstract=abstract, subspecies=subspecies, ecology=ecology,
-                           taxonomy=taxonomy, zone=zone_name, comments=comments, images=image)
+                           taxonomy=taxonomy, zone=zone_name, comments=comments, images=image,
+                           near_by_list=near_by_list, relations=relation_dict)
 
 
 @app.route('/zone/<zone_name>/plant/<plant_name>/add_comment', methods=['POST'])
@@ -111,6 +116,16 @@ def add_comment(zone_name, plant_name):
     # Add the comment to the triple store using your existing function
     add_comments.add_comments_to_plant(plant_uri, good_comment)
     # Redirect back to the plant page after adding the comment
+    return redirect(url_for('plant', zone_name=zone_name, plant_name=plant_name))
+
+
+@app.route('/zone/<zone_name>/plant/<plant_name>/add_relation', methods=['POST'])
+def add_relation(zone_name, plant_name):
+    relation = request.form.get('relation')
+    near_by_option = request.form.get('near_by_option')
+    uri = f'http://127.0.0.1:5000/zone/{zone_name}/plant/{plant_name}'
+    plant_uri = uri.replace(" ", "%20")
+    add_relations.add_relation_to_plant(plant_uri, relation, near_by_option, zone_name)
     return redirect(url_for('plant', zone_name=zone_name, plant_name=plant_name))
 
 
