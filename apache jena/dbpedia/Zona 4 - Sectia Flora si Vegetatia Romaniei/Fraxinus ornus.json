@@ -1,0 +1,14 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus ornus" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus ornus, the manna ash or South European flowering ash, is a species of Fraxinus native to southern Europe and southwestern Asia, from Spain and Italy north to Austria and the Czech Republic, and east through the Balkans, Turkey, and western Syria to Lebanon and Armenia." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Manna ash" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "South European flowering ash" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Foliage and flowers" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus sect. Ornus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus ornus range.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "ornus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus ornus, the manna ash or South European flowering ash, is a species of Fraxinus native to southern Europe and southwestern Asia, from Spain and Italy north to Austria and the Czech Republic, and east through the Balkans, Turkey, and western Syria to Lebanon and Armenia." }} ] } }

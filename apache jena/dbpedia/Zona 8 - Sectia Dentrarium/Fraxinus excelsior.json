@@ -1,0 +1,18 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus excelsior" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus excelsior, known as the ash, or European ash or common ash to distinguish it from other types of ash, is a flowering plant species in the olive family Oleaceae. It is native throughout mainland Europe east to the Caucasus and Alborz mountains, and Britain and Ireland, the latter determining its western boundary. The northernmost location is in the Trondheimsfjord region of Norway. The species is widely cultivated and reportedly naturalised in New Zealand and in scattered locales in the United States and Canada." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "European ash" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/align" }	, "object": { "type": "literal", "xml:lang": "en", "value": "right" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/image" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ash  Wales 160730 .jpg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/image" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Ash  Wales 190310 .jpg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Foliage and immature fruit" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus sect. Fraxinus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMap" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus excelsior range.svg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/rangeMapCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Distribution map" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "excelsior" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "NT" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Fraxinus excelsior, known as the ash, or European ash or common ash to distinguish it from other types of ash, is a flowering plant species in the olive family Oleaceae. It is native throughout mainland Europe east to the Caucasus and Alborz mountains, and Britain and Ireland, the latter determining its western boundary. The northernmost location is in the Trondheimsfjord region of Norway. The species is widely cultivated and reportedly naturalised in New Zealand and in scattered locales in the United States and Canada." }} ] } }

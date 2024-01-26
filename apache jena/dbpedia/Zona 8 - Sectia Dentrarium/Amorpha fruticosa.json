@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Amorpha fruticosa" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Amorpha fruticosa is a species of flowering plant in the legume family Fabaceae, known by several common names, including desert false indigo, false indigo-bush, and bastard indigobush. It is native to North America." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Amorpha" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "fruticosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Amorpha angustifolia F.E.Boynton\n* Amorpha arizonica Rydb.\n* Amorpha bushii Rydb.\n* Amorpha croceolanata Watson\n* Amorpha curtissii Rydb.\n* Amorpha dewinkeleri Small\n* Amorpha emarginata Sweet\n* Amorpha emarginata Eastw.\n* Amorpha fragrans Sweet\n* Amorpha humilis Tausch\n* Amorpha occidentalis Abrams\n* Amorpha pendula Carriere\n* Amorpha tennesseensis Kunze\n* Amorpha virgata Small" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Amorpha fruticosa is a species of flowering plant in the legume family Fabaceae, known by several common names, including desert false indigo, false indigo-bush, and bastard indigobush. It is native to North America." }} ] } }

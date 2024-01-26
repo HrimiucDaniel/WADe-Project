@@ -1,0 +1,12 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena is a genus of plants in the family Amaranthaceae. They are known as the globe amaranths. Species include: \n* Gomphrena agrestis \n* Gomphrena canescens \n* Gomphrena celosioides \n* Gomphrena globosa\u2014Globe amaranth \n* Gomphrena haageana\u2014Strawberry globe amaranth \n* \n* Gomphrena pohlii \n* Gomphrena prostrata \n* \n* \n* Gomphrena sonorae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena globosa" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "See text" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Species" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gomphrena is a genus of plants in the family Amaranthaceae. They are known as the globe amaranths. Species include: \n* Gomphrena agrestis \n* Gomphrena canescens \n* Gomphrena celosioides \n* Gomphrena globosa\u2014Globe amaranth \n* Gomphrena haageana\u2014Strawberry globe amaranth \n* \n* Gomphrena pohlii \n* Gomphrena prostrata \n* \n* \n* Gomphrena sonorae" }} ] } }

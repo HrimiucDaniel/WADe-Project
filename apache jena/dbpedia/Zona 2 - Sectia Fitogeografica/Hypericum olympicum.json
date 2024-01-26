@@ -1,0 +1,19 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum olympicum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum olympicum, commonly known as the Mount Olympus St. John's wort, is a species of flowering plant in the family Hypericaceae found in the Balkans and Turkey and introduced to western Europe. It has been widely cultivated for centuries because of its large, showy flowers, which are far larger than those of most other species in Hypericum." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Mount Olympus St. John's wort" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "L." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/image" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum olympicum Liberec 1.jpg" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageAlt" }	, "object": { "type": "literal", "xml:lang": "en", "value": "In Wroc\u0142aw University Botanical Garden, Poland" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cultivated flower at the University of Wroc\u0142aw Botanical Garden, Poland" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum sect. Olympia" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "olympicum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* H. olympicum f. minus (Hausskn.)\n* H. olympicum f. olympicum\n* H. olympicum f. tenuifolium ( N. Robson)\n* H. olympicum f. uniflorum (Boiss. & Balansa)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Forms" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Androsaemum adenophyllum (K.Koch)\n* Hypericum adenophyllum (Ledeb.)\n* Hypericum dimoniei (Velen.)\n* Olympia glauca (Spach)" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Hypericum olympicum, commonly known as the Mount Olympus St. John's wort, is a species of flowering plant in the family Hypericaceae found in the Balkans and Turkey and introduced to western Europe. It has been widely cultivated for centuries because of its large, showy flowers, which are far larger than those of most other species in Hypericum." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/image2Alt" }	, "object": { "type": "literal", "xml:lang": "en", "value": "In Botanical Garden Liberec, Czech Republic" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/image2Caption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Whole of the flowering plant in the Botanical Garden Liberec, Czech Republic" }} ] } }

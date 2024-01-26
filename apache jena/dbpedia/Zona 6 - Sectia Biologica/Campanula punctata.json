@@ -1,0 +1,10 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Campanula punctata" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Campanula punctata, the spotted bellflower, is a herbaceous perennial flowering plant in the bellflower family. It has leaves and stems which fall down at the end of the blooming season. Campanula is a Latin word that means \"bell\".Punkta is said to have the meaning of \"with dots\" and \"joining a group\"." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/name" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Spotted bellflower" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Lam. 1785" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Campanula" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "punctata" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Campanula punctata, the spotted bellflower, is a herbaceous perennial flowering plant in the bellflower family. It has leaves and stems which fall down at the end of the blooming season. Campanula is a Latin word that means \"bell\".Punkta is said to have the meaning of \"with dots\" and \"joining a group\"." }} ] } }

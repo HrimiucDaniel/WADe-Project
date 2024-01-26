@@ -1,0 +1,12 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone is a genus of flowering plants in the family Papaveraceae commonly known as prickly poppies. There are about 32 species native to the Americas and Hawaii. The generic name originated as \u1F00\u03C1\u03B3\u03B5\u03BC\u03CE\u03BD\u03B7 in Greek and was applied by Dioscorides to a poppy-like plant used to treat cataracts." }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone subfusiformis" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivision" }	, "object": { "type": "literal", "xml:lang": "en", "value": "See text" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/subdivisionRanks" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Species" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Argemone is a genus of flowering plants in the family Papaveraceae commonly known as prickly poppies. There are about 32 species native to the Americas and Hawaii. The generic name originated as \u1F00\u03C1\u03B3\u03B5\u03BC\u03CE\u03BD\u03B7 in Greek and was applied by Dioscorides to a poppy-like plant used to treat cataracts." }} ] } }

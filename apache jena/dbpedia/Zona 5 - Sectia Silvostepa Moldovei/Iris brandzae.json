@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Iris brandzae" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Iris brandzae is a species in the genus Iris, it is also in the subgenus Limniris and in series Spuriae. It is a rhizomatous perennial plant, originally from Romania with violet and white flowers. It was once thought to be a subspecies of Iris sintenisii, but now classified as a separate species. It is also called Iris Brandzy or Prodan Iris in Russia. It is cultivated as an ornamental plant in temperate regions." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Iris" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Iris ser. Spuriae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "brandzae" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Iris brandzae is a species in the genus Iris, it is also in the subgenus Limniris and in series Spuriae. It is a rhizomatous perennial plant, originally from Romania with violet and white flowers. It was once thought to be a subspecies of Iris sintenisii, but now classified as a separate species. It is also called Iris Brandzy or Prodan Iris in Russia. It is cultivated as an ornamental plant in temperate regions." }} ] } }

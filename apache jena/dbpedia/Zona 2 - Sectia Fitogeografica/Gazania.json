@@ -1,0 +1,16 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania /\u0261\u0259\u02C8ze\u026Ani\u0259/ is a genus of flowering plants in the family Asteraceae, native to Southern Africa. They produce large, daisy-like composite flowerheads in brilliant shades of yellow and orange, over a long period in summer. They are often planted as drought-tolerant groundcover." }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2004/02/skos/core#prefLabel" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/bot" }	, "object": { "type": "literal", "xml:lang": "en", "value": "InternetArchiveBot" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/date" }	, "object": { "type": "literal", "xml:lang": "en", "value": "December 2019" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/fixAttempted" }	, "object": { "type": "literal", "xml:lang": "en", "value": "yes" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania rigens" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "* Melanchrysum Cass." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/taxon" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpecies" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania rigens" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/typeSpeciesAuthority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gaertn." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Gazania /\u0261\u0259\u02C8ze\u026Ani\u0259/ is a genus of flowering plants in the family Asteraceae, native to Southern Africa. They produce large, daisy-like composite flowerheads in brilliant shades of yellow and orange, over a long period in summer. They are often planted as drought-tolerant groundcover." }} ] } }

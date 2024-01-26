@@ -1,0 +1,10 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cornus hemsleyi" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cornus hemsleyi is a species of dogwood found in Gansu, Guizhou, Hebei, Henan, Hubei, Qinghai, Shaanxi, Shanxi, Sichuan, Xizang, Yunnan provinces of China at elevations of 1000\u20134000 meters." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/authority" }	, "object": { "type": "literal", "xml:lang": "en", "value": "C. K. Schneider & Wangerin 1909" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cornus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/parent" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cornus subg. Kraniopsis" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "hemsleyi" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Cornus hemsleyi is a species of dogwood found in Gansu, Guizhou, Hebei, Henan, Hubei, Qinghai, Shaanxi, Shanxi, Sichuan, Xizang, Yunnan provinces of China at elevations of 1000\u20134000 meters." }} ] } }

@@ -1,0 +1,9 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Chrysanthemum indicum" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Chrysanthemum indicum is a flowering plant commonly called Indian chrysanthemum, within the family Asteraceae and genus Chrysanthemum." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Chrysanthemum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "indicum" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/synonyms" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Several, including:\n* Achillea bandana Buch.-Ham.\n* Achillea berdana Buch.-Ham. ex DC.\n* Arctotis elegans Thunb.\n* Bidens bardanna Wall.\n* Bidens marginata DC." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Chrysanthemum indicum is a flowering plant commonly called Indian chrysanthemum, within the family Asteraceae and genus Chrysanthemum." }} ] } }

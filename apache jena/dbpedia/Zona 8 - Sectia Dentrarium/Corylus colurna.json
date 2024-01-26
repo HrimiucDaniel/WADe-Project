@@ -1,0 +1,11 @@
+
+{ "head": { "link": [], "vars": ["predicate", "object"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#label" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Corylus colurna" }},
+    { "predicate": { "type": "uri", "value": "http://www.w3.org/2000/01/rdf-schema#comment" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Corylus colurna, the Turkish hazel or Turkish filbert, is a deciduous tree native to southeast Europe and southwest Asia, from the Balkans through northern Turkey to northern Iran. It is also found growing wild in the forests of Western Himalayan range in the north Indian state of Himachal Pradesh particularly in the temperate regions of districts of Kullu, Shimla, Kinnaur district and Chamba district." }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/genus" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Corylus" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/imageCaption" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Turkish hazel leaves and nuts" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/species" }	, "object": { "type": "literal", "xml:lang": "en", "value": "colurna" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/status" }	, "object": { "type": "literal", "xml:lang": "en", "value": "LC" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/property/statusSystem" }	, "object": { "type": "literal", "xml:lang": "en", "value": "IUCN3.1" }},
+    { "predicate": { "type": "uri", "value": "http://dbpedia.org/ontology/abstract" }	, "object": { "type": "literal", "xml:lang": "en", "value": "Corylus colurna, the Turkish hazel or Turkish filbert, is a deciduous tree native to southeast Europe and southwest Asia, from the Balkans through northern Turkey to northern Iran. It is also found growing wild in the forests of Western Himalayan range in the north Indian state of Himachal Pradesh particularly in the temperate regions of districts of Kullu, Shimla, Kinnaur district and Chamba district." }} ] } }
