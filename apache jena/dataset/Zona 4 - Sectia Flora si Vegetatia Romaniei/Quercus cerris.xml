@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20cerris">
     <ns1:label>Quercus cerris</ns1:label>
     <ns1:abstract xml:lang="en">Quercus cerris, the Turkey oak or Austrian oak, is an oak native to south-eastern Europe and Asia Minor. It is the type species of Quercus sect. Cerris, a section of the genus characterised by shoot buds surrounded by soft bristles, bristle-tipped leaf lobes, and acorns that usually mature in 18 months.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 4 - Sectia Flora si Vegetatia Romaniei</ns1:zone>
   </rdf:Description>

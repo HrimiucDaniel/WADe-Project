@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zones</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/zones.css') }}">
 </head>
 <body>
-    <h1>Zones</h1>
-    <ul>
-        {% for label in labels %}
-            <li><a href="{{ generate_url('zone', label) }}">{{ label }}</a></li>
-        {% endfor %}
-    </ul>
+    <div class="container">
+        <h1>Zones</h1>
+        <ul>
+            {% for label in labels %}
+            <li class="li-item">
+                <div class="img-container">
+                    <a href="{{ generate_url('zone', label) }}">
+                        <img src="/static/images/{{ loop.index }}.jpg" alt="{{ label }}">
+                    </a>
+                    <div class="img-label">{{ label }}</div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>

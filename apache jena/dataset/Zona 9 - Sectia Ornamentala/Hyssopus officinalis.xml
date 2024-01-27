@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hyssopus%20officinalis">
     <ns1:label>Hyssopus officinalis</ns1:label>
     <ns1:abstract xml:lang="en">Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its purported properties as an antiseptic, cough reliever, and expectorant, it has been used in traditional herbal medicine.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
   </rdf:Description>

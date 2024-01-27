@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Agastache">
     <ns1:label>Agastache</ns1:label>
     <ns1:abstract xml:lang="en">Agastache (/ˌæɡəˈstɑːkiː/) is a genus of aromatic flowering herbaceous perennial plants in the family Lamiaceae. It contains 22 species, mainly native to North America, one species native to eastern Asia. The common names of the species are a variety of fairly ambiguous and confusing "hyssops" and "mints"; as a whole the genus is known as giant hyssops or hummingbird mints. Most species are very upright, 0.5–3 m tall, with stiff, angular stems clothed in toothed-edged, lance shaped leaves ranging from 1–15 cm long and 0.5–11 cm broad depending on the species. Upright spikes of tubular, two-lipped flowers develop at the stem tips in summer. The flowers are usually white, pink, mauve, or purple, with the bracts that back the flowers being of the same or a slightly contrasting color.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
   </rdf:Description>

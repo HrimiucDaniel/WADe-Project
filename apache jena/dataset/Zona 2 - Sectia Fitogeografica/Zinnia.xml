@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Zinnia">
     <ns1:label>Zinnia</ns1:label>
     <ns1:abstract xml:lang="en">Zinnia is a genus of plants of the tribe Heliantheae within the family Asteraceae. They are native to scrub and dry grassland in an area stretching from the Southwestern United States to South America, with a centre of diversity in Mexico. Members of the genus are notable for their solitary long-stemmed 12 petal flowers that come in a variety of bright colors. The genus name honors German master botanist Johann Gottfried Zinn (1727–59).</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
   </rdf:Description>

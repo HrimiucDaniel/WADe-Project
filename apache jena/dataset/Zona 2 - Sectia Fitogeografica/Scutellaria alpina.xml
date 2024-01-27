@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Scutellaria%20alpina">
     <ns1:label>Scutellaria alpina</ns1:label>
     <ns1:abstract xml:lang="en">Scutellaria alpina, the alpine skullcap, is a species of flowering plant in the mint family, Lamiaceae.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
   </rdf:Description>

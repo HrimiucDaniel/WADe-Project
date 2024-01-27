@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Quercus%20robur">
     <ns1:label>Quercus robur</ns1:label>
     <ns1:abstract xml:lang="en">Quercus robur, commonly known as common oak, pedunculate oak, European oak or English oak, is a species of flowering plant in the beech and oak family, Fagaceae. It is a large tree, native to most of Europe west of the Caucasus. It is widely cultivated in temperate regions elsewhere and has escaped into the wild in scattered parts of China and North America.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 5 - Sectia Silvostepa Moldovei</ns1:zone>
   </rdf:Description>

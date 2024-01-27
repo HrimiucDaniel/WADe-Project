@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Lavandula%20angustifolia">
     <ns1:label>Lavandula angustifolia</ns1:label>
     <ns1:abstract xml:lang="en">Lavandula angustifolia, formerly L. officinalis, is a flowering plant in the family Lamiaceae, native to the Mediterranean (Spain, France, Italy, Croatia etc.). Its common names include lavender, true lavender and English lavender (though not native to England); also garden lavender, common lavender and narrow-leaved lavender.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
   </rdf:Description>

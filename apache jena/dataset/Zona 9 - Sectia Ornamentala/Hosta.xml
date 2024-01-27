@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hosta">
     <ns1:label>Hosta</ns1:label>
     <ns1:abstract xml:lang="en">Hosta (/ˈhɒstə/, syn. Funkia) is a genus of plants commonly known as hostas, plantain lilies and occasionally by the Japanese name gibōshi. Hostas are widely cultivated as shade-tolerant foliage plants. The genus is currently placed in the family Asparagaceae, subfamily Agavoideae, and is native to northeast Asia (China, Japan, Korea, and the Russian Far East). Like many "lilioid monocots", the genus was once classified in the Liliaceae. The genus was named by Austrian botanist Leopold Trattinnick in 1812, in honor of the Austrian botanist Nicholas Thomas Host. In 1817, the generic name Funkia was used by German botanist Kurt Sprengel in honor of Heinrich Christian Funck, a collector of ferns and alpines; this was later used as a common name and can be found in some older literature.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
   </rdf:Description>

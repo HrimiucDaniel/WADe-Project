@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20monspessulanus">
     <ns1:label>Dianthus monspessulanus</ns1:label>
     <ns1:abstract xml:lang="en">Dianthus monspessulanus, the fringed pink, is a herbaceous perennial plant of the genus Dianthus of the family Caryophyllaceae. The genus name Dianthus derives from the Greek words for divine ("dios") and flower ("anthos"), while the species name monspessulanus means "from Montpellier".</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
   </rdf:Description>

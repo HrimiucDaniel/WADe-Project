@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f2e9; /* Light greenish background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Add more space between the title and the list */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li-item {
+  margin-bottom: 20px; /* Spacing between items */
+}
+
+.img-container {
+  text-align: center;
+}
+
+.img-label {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-label div {
+  margin-top: 10px; /* Adjust the spacing between image and label */
+  text-align: center;
+}
+
+img {
+  width: 250px; /* Set a wider width */
+  height: 250px; /* Set a taller height */
+  display: block;
+  margin: 0 auto;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  border-radius: 10px; /* Adds rounded corners */
+}
+
+.label {
+  font-size: 18px; /* Adjust label font size */
+}

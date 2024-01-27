@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Carpinus%20betulus">
+    <ns1:label>Carpinus betulus</ns1:label>
+    <ns1:abstract xml:lang="en">Carpinus betulus, the European or common hornbeam, is a species of tree in the birch family Betulaceae, native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 1,000 metres (3,281 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests. Hornbeam was also known as 'Yoke Elm'.</ns1:abstract>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

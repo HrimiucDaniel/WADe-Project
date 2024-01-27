@@ -6,7 +6,7 @@ import add_plants
 def rdf_to_jsonld(subject, rdf_data, output_path):
     # Create an RDF graph
     g = Graph()
-    #print(subject)
+    # print(subject)
 
     # Define a namespace for your properties
     ns = Namespace("https://dbpedia.org/property/")
@@ -60,10 +60,7 @@ save_zones("Zona 2 - Sectia Fitogeografica", add_plants.create_list_plants("Zona
            "in clima noastra ca plante anuale: Ageratum (pufuleti), Cosmos, Eschscholtzia (mac de California),"
            " Portulaca, Mirabilis, Agastache, Zinnia, Tagetes, Argemone, Cuphea, Gomphrena, Gazania, Dimorphoteca etc.")
 
-
-
-
-save_zones("Zona 3 - Complexul de sere", add_plants.create_list_plants("Zona 3 - Complexul de sere"), "---",
+save_zones("Zona 3 - Complexul de Sere", add_plants.create_list_plants("Zona 3 - Complexul de Sere"), "---",
            "Complexul de sere adaposteste circa 2.600 taxoni, cu origine în tinuturile subtropicale, tropicale"
            " si ecuatoriale ale globului. Colectiile sunt grupate dupa provenienta geografica a plantelor, tinând"
            " cont de cerintele ecologice, în sere calde, temperate sau reci. Colectia plantelor xerofile reprezinta o"
@@ -73,7 +70,6 @@ save_zones("Zona 3 - Complexul de sere", add_plants.create_list_plants("Zona 3 -
            "chiparosul (Cupressus sempervirens). Vegetatia din zonele analoage celor mediteraneene, localizata în sudul"
            " Africii de Sud este reprezentata in colectiile noastre prin speciile Myrsine africana, "
            "Agapanthus africanus (crin albastru), Haemanthus albiflos, Clivia miniata (crin rosu).")
-
 
 save_zones("Zona 4 - Sectia Flora si Vegetatia Romaniei",
            add_plants.create_list_plants("Zona 4 - Sectia Flora si Vegetatia Romaniei"), "---",
@@ -104,7 +100,7 @@ save_zones("Zona 7 - Sectia Plante Utile", add_plants.create_list_plants("Zona 7
            "industria alimentara, specii de plante medicinale, aromatice si condimentare, melifere si furajere, "
            "tanante si tinctoriale, dar si specii de plante toxice.")
 
-save_zones("Zona 8 - Sectia Dentrarium", add_plants.create_list_plants("Zona 8 - Sectia Dentrarium"), "---",
+save_zones("Zona 8 - Sectia Dendrarium", add_plants.create_list_plants("Zona 8 - Sectia Dendrarium"), "---",
            "Colectiile de arbori si arbusti au fost grupate pe genuri si in functie de cerintele ecologice ale "
            "plantelor, urmarindu-se valorificarea potentialului stational local. In amenajarea sectiei s-a folosit "
            "stilul mixt, cu inclinatie spre cel peisager. La contact cu orasul, sectia este protejata de o perdea "

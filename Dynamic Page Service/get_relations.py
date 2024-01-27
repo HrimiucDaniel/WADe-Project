@@ -7,8 +7,9 @@ def get_plant_info(zone, name):
     sparql = SPARQLWrapper(endpoint_url)
     uri = f'http://127.0.0.1:5000/zone/{zone}/plant/{name}'
     subject_uri = uri.replace(" ", "%20")
-    if subject_uri == "http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/[]":
+    if subject_uri.endswith("[]"):
         return 0
+
 
     # SPARQL query to get all predicates and objects based on zone and name
     query = """

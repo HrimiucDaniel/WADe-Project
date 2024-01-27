@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Fraxinus%20ornus">
     <ns1:label>Fraxinus ornus</ns1:label>
     <ns1:abstract xml:lang="en">Fraxinus ornus, the manna ash or South European flowering ash, is a species of Fraxinus native to southern Europe and southwestern Asia, from Spain and Italy north to Austria and the Czech Republic, and east through the Balkans, Turkey, and western Syria to Lebanon and Armenia.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 4 - Sectia Flora si Vegetatia Romaniei</ns1:zone>
   </rdf:Description>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Berberis%20julianae">
+    <ns1:label>Berberis julianae</ns1:label>
+    <ns1:abstract xml:lang="en">Berberis julianae, the wintergreen barberry or Chinese barberry, is a flowering evergreen shrub native to Central China (Guangxi, Guizhou, Hubei, Hunan, and Sichuan). It is widely grown as an ornamental in other temperate regions. It is reportedly naturalized in scattered parts of the United States (Mississippi, Alabama, North Carolina and New York State). Berberis julianae grows to a height of 3 metres, as a dense bush with spiny obovate leaves, suitable for hedging. Flowers are yellow flowers tinged with red, borne in clusters of up to 25 flowers. Berries are elliptical, dark purple, almost black, with a white bloom, up to 6 mm long. This plant has gained the Royal Horticultural Society's Award of Garden Merit.</ns1:abstract>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

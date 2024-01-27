@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20multiflora">
     <ns1:label>Rosa multiflora</ns1:label>
     <ns1:abstract xml:lang="en">Rosa multiflora — (syn. Rosa polyantha) is a species of rose known commonly as multiflora rose, baby rose, Japanese rose, many-flowered rose, seven-sisters rose, Eijitsu rose and rambler rose. It is native to eastern Asia, in China, Japan, and Korea. It should not be confused with Rosa rugosa, which is also known as "Japanese rose", or with polyantha roses which are garden cultivars derived from hybrids of R. multiflora. It was introduced to North America, where it is regarded as an invasive species.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
   </rdf:Description>

@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Carpinus%20caroliniana">
     <ns1:label>Carpinus caroliniana</ns1:label>
     <ns1:abstract xml:lang="en">Carpinus caroliniana, the American hornbeam, is a small hardwood tree in the genus Carpinus. American hornbeam is also known as blue-beech, ironwood, musclewood and muscle beech. It is native to eastern North America, from Minnesota and southern Ontario east to Maine, and south to eastern Texas and northern Florida. It also grows in Canada (southwest Quebec and southeast Ontario). It occurs naturally in shaded areas with moist soil, particularly near the banks of streams or rivers, and is often a natural constituent understory species of the riverine and maritime forests of eastern temperate North America.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
   </rdf:Description>

@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20canina">
     <ns1:label>Rosa canina</ns1:label>
     <ns1:abstract xml:lang="en">Rosa canina, commonly known as the dog rose, is a variable climbing, wild rose species native to Europe, northwest Africa, and western Asia.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
   </rdf:Description>

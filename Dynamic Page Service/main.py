@@ -34,6 +34,7 @@ def generate_url(*args):
 @app.route('/zones')
 def zones():
     labels = zone_labels.get_labels_from_sparql()
+    labels.remove("Zona 8 - Sectia Dentrarium")
     return render_template('zones.html', labels=labels, generate_url=generate_url)
 
 
@@ -163,3 +164,4 @@ def upload_image(zone_name, plant_name):
 
 if __name__ == '__main__':
     app.run(debug=True)
+

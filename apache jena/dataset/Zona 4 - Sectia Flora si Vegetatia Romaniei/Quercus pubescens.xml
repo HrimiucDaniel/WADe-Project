@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20pubescens">
     <ns1:label>Quercus pubescens</ns1:label>
     <ns1:abstract xml:lang="en">Quercus pubescens, the downy oak or pubescent oak, is a species of white oak (genus Quercus sect. Quercus) native to southern Europe and southwest Asia, from northern Spain (Pyrenees) east to the Crimea and the Caucasus. It is also found in France and parts of central Europe.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 4 - Sectia Flora si Vegetatia Romaniei</ns1:zone>
   </rdf:Description>

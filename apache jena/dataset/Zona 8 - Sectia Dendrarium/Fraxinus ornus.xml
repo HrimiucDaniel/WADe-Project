@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Fraxinus%20ornus">
+    <ns1:label>Fraxinus ornus</ns1:label>
+    <ns1:abstract xml:lang="en">Fraxinus ornus, the manna ash or South European flowering ash, is a species of Fraxinus native to southern Europe and southwestern Asia, from Spain and Italy north to Austria and the Czech Republic, and east through the Balkans, Turkey, and western Syria to Lebanon and Armenia.</ns1:abstract>
+    <ns1:positioning>---</ns1:positioning>
+    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+  </rdf:Description>
+</rdf:RDF>

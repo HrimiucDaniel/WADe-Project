@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Crocus%20reticulatus">
     <ns1:label>Crocus reticulatus</ns1:label>
     <ns1:abstract xml:lang="en">Crocus reticulatus is a species of flowering plant in the genus Crocus of the family Iridaceae. It is a cormous perennial native to central and southern European Russia, the northern Caucasus, the Transcaucasus, and Ukraine. Crocus reticulatus is found growing in woods and meadows at elevations up to 2000 meters, and flowering occurs February though April.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 5 - Sectia Silvostepa Moldovei</ns1:zone>
   </rdf:Description>

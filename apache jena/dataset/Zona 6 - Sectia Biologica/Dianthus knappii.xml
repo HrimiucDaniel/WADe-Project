@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20knappii">
     <ns1:label>Dianthus knappii</ns1:label>
     <ns1:abstract xml:lang="en">Dianthus knappii, or Knapp's carnation, in Bosnian Knapov karanfil or Knapov klinčić, is a perennial herbaceous plant in the carnation family, Caryophyllaceae. It is endemic at Dinaric mountains, on the border area between Herzegovina (Bosnia and Herzegovina) and Montenegro. In chromosome set has 2n = 30.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
   </rdf:Description>

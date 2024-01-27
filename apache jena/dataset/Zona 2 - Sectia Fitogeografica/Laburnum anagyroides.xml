@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Laburnum%20anagyroides">
     <ns1:label>Laburnum anagyroides</ns1:label>
     <ns1:abstract xml:lang="en">Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
   </rdf:Description>

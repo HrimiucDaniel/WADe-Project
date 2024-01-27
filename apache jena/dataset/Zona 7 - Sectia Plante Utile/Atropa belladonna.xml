@@ -6,8 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Atropa%20belladonna">
     <ns1:label>Atropa belladonna</ns1:label>
     <ns1:abstract xml:lang="en">Atropa belladonna, commonly known as belladonna or deadly nightshade, is a toxic perennial herbaceous plant in the nightshade family Solanaceae, which also includes tomatoes, potatoes, and eggplant (aubergine). It is native to Europe, North Africa, and Western Asia. Its distribution extends from Great Britain in the west to western Ukraine and the Iranian province of Gilan in the east. It is also naturalised or introduced in some parts of Canada and the United States. The foliage and berries are extremely toxic when ingested, containing tropane alkaloids. These toxins include atropine, scopolamine, and hyoscyamine, which cause delirium and hallucinations, and are also used as pharmaceutical anticholinergics. Tropane alkaloids are of common occurrence not only in the Old World tribes Hyoscyameae (to which the genus Atropa belongs) and Mandragoreae, but also in the New World tribe Datureae - all of which belong to the subfamily Solanoideae of the plant family Solanaceae. Atropa belladonna has unpredictable effects. The antidote for belladonna poisoning is physostigmine or pilocarpine, the same as for atropine.</ns1:abstract>
-    <ns1:comments>[]</ns1:comments>
-    <ns1:images>[]</ns1:images>
     <ns1:positioning>---</ns1:positioning>
     <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
   </rdf:Description>

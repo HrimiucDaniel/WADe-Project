@@ -66,8 +66,8 @@ def plant(zone_name, plant_name):
         if taxonomic is not None and info != "No information found on the section.":
             plant_dict["taxonomy"] = taxonomic
 
-        plant_dict["comments"] = []
-        plant_dict["images"] = []
+        # plant_dict["comments"] = ""
+        # plant_dict["images"] = ""
         plant_dict["positioning"] = "---"
 
         plant_dict["zone"] = zone_name
@@ -150,14 +150,16 @@ apply_plant_function_to_folder("Zona 4 - Sectia Flora si Vegetatia Romaniei")
 apply_plant_function_to_folder("Zona 5 - Sectia Silvostepa Moldovei")
 apply_plant_function_to_folder("Zona 6 - Sectia Biologica")
 apply_plant_function_to_folder("Zona 7 - Sectia Plante Utile")
-apply_plant_function_to_folder("Zona 8 - Sectia Dentrarium")
+apply_plant_function_to_folder("Zona 8 - Sectia Dendrarium")
 apply_plant_function_to_folder("Zona 9 - Sectia Ornamentala")
 apply_plant_function_to_folder("Zona 10 - Sectia Rosarium")
 
 
-
+#
 # result = plant("Zona 1 - Sectia Sistematica", "Liliaceae")
-# subject_url = f'http://127.0.0.1:5000/plant/{result["zone"]}/{result["label"]}'
+# for key in result:
+#     print(key, result[key])
+# # subject_url = f'http://127.0.0.1:5000/plant/{result["zone"]}/{result["label"]}'
 # valid_sub = quote(subject_url)
 # save_rdf_data(valid_sub, result, f'D:/WAD3/WADe-Project/apache jena/dataset/Zona 1 - Sectia Sistematica/'
 #                                  f'{result["label"]}.xml')

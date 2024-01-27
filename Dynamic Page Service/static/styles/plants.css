@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f2e9; /* Light greenish background */
+  color: #333; /* Text color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4c774e; /* Dark greenish color for title */
+}
+
+h2 {
+  color: #356340; /* Darker greenish color for section headings */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4c774e; /* Dark greenish button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #356340; /* Darker greenish color on hover */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px; /* Adds rounded corners to images */
+}
+
+form {
+  margin-bottom: 20px;
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/plants.css') }}">
+
 </head>
 <body>
     <h1>{{ title }}</h1>
@@ -53,6 +55,8 @@
         </ul>
     {% endif %}
 
+
+    <h2>Add Images</h2>
     <form action="{{ url_for('upload_image', zone_name=zone, plant_name=title) }}" method="post" enctype="multipart/form-data">
         <label for="images">Upload Images:</label>
         <input type="file" name="images" accept="image/*" multiple>
