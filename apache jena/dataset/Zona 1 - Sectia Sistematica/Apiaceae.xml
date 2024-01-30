@@ -8,6 +8,6 @@
     <ns1:abstract xml:lang="en">Apiaceae or Umbelliferae is a family of mostly aromatic flowering plants named after the type genus Apium and commonly known as the celery, carrot or parsley family, or simply as umbellifers. It is the 16th-largest family of flowering plants, with more than 3,700 species in 434 genera including such well-known and economically important plants as ajwain, angelica, anise, asafoetida, caraway, carrot, celery, chervil, coriander, cumin, dill, fennel, lovage, cow parsley, parsley, parsnip and sea holly, as well as silphium, a plant whose identity is unclear and which may be extinct. The family Apiaceae includes a significant number of phototoxic species, such as giant hogweed, and a smaller number of highly poisonous species, such as poison hemlock, water hemlock, spotted cowbane, fool's parsley, and various species of water dropwort.</ns1:abstract>
     <ns1:subspecies>['Mackinlayoideae (Plunkett &amp; Lowry)', 'Azorelloideae (Plunkett &amp; Lowry)', 'Saniculoideae (Burnett)', 'Apioideae (Seem.)']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 1 - Sectia Sistematica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

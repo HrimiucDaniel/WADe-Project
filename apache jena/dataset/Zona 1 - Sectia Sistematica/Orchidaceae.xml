@@ -6,6 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Orchidaceae">
     <ns1:label>Orchidaceae</ns1:label>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 1 - Sectia Sistematica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

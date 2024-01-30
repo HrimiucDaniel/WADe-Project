@@ -7,6 +7,6 @@
     <ns1:label>Chrysanthemum indicum</ns1:label>
     <ns1:abstract xml:lang="en">Chrysanthemum indicum is a flowering plant commonly called Indian chrysanthemum, within the family Asteraceae and genus Chrysanthemum.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

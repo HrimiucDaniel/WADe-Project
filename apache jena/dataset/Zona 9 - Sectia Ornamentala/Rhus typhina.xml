@@ -7,6 +7,6 @@
     <ns1:label>Rhus typhina</ns1:label>
     <ns1:abstract xml:lang="en">Rhus typhina, the staghorn sumac, is a species of flowering plant in the family Anacardiaceae, native to eastern North America. It is primarily found in southeastern Canada, the northeastern and midwestern United States, and the Appalachian Mountains, but it is widely cultivated as an ornamental throughout the temperate world.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

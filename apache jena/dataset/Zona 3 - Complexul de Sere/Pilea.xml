@@ -8,6 +8,6 @@
     <ns1:abstract xml:lang="en">Pilea, with 600–715 species, is the largest genus of flowering plants in the nettle family Urticaceae. It is distributed throughout the tropics, subtropics, and warm temperate regions (with the exception of Australia and New Zealand).</ns1:abstract>
     <ns1:subspecies>['See text']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

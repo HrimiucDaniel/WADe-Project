@@ -8,6 +8,6 @@
     <ns1:abstract xml:lang="en">Portulaca (/ˌpɔːrtjuːˈleɪkə/, is the type genus of the flowering plant family Portulacaceae, with over 100 species, found in the tropics and warm temperate regions. They are known as the purslanes. Common purslane (Portulaca oleracea) is widely consumed as an edible plant, and in some areas it is invasive. Portulaca grandiflora is a well-known ornamental garden plant. Purslanes are relished by chickens. Some Portulaca species are used as food plants by the larvae of some Lepidoptera species including the nutmeg moth (Hadula trifolii).</ns1:abstract>
     <ns1:subspecies>['see text']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

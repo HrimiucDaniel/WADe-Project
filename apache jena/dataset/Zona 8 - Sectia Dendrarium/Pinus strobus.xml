@@ -7,6 +7,6 @@
     <ns1:label>Pinus strobus</ns1:label>
     <ns1:abstract xml:lang="en">Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and perhaps very rarely in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana. The Native American Haudenosaunee named it the "Tree of Peace". It is known as the "Weymouth pine" in the United Kingdom, after Captain George Weymouth of the British Royal Navy, who brought its seeds to England from Maine in 1605.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

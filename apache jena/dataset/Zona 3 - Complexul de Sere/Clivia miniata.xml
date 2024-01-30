@@ -7,6 +7,6 @@
     <ns1:label>Clivia miniata</ns1:label>
     <ns1:abstract xml:lang="en">Clivia miniata, the Natal lily or bush lily, is a species of flowering plant in the genus Clivia of the family Amaryllidaceae, native to woodland habitats in South Africa (Eastern Cape, Mpumalanga and KwaZulu-Natal provinces) as well as in Eswatini. Given suitable conditions it grows into large clumps and is surprisingly water wise. It is also reportedly naturalized in Mexico. It is a popular plant for shady areas and is commonly seen growing in older established suburbs in most Australian states. It is also popular in New Zealand, Japan, China and the US, particularly California.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

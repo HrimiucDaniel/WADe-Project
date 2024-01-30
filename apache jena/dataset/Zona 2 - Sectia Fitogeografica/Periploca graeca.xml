@@ -7,6 +7,6 @@
     <ns1:label>Periploca graeca</ns1:label>
     <ns1:abstract xml:lang="en">Periploca graeca, the silkvine, is an ornamental plant in the family Apocynaceae. It is native to southern Europe and the Middle East, and is sparingly naturalized in scattered locations in the eastern United States.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

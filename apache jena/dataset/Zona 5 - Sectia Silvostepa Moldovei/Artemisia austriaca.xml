@@ -7,6 +7,6 @@
     <ns1:label>Artemisia austriaca</ns1:label>
     <ns1:abstract xml:lang="en">Artemisia austriaca is a species of plants belonging to the family Asteraceae. Its native range is Europe to Western Siberia, and Iran.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 5 - Sectia Silvostepa Moldovei</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

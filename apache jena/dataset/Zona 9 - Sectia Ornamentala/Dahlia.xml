@@ -55,6 +55,6 @@ The most common pollinators are bees and small beetles.
     <ns1:taxonomy>
 </ns1:taxonomy>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

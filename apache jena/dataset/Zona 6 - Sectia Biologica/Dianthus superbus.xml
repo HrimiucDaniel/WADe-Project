@@ -13,6 +13,6 @@
 * Dianthus superbus subsp. stenocalyx (Trautv. ex Juz.) Kleopow. Southern Russia, Ukraine. 
 * Dianthus superbus subsp. longicalycinus (Maxim.) Kitam. Japan. Also called nadeshiko (ナデシコ). It is the only food source of the large moth Coleophora musculella.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

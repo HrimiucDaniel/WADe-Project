@@ -7,6 +7,6 @@
     <ns1:label>Tamarix ramosissima</ns1:label>
     <ns1:abstract xml:lang="en">Tamarix ramosissima, commonly known as saltcedar salt cedar, or tamarisk, is a deciduous arching shrub with reddish stems, feathery, pale green foliage, and characteristic small pink flowers. The cultivar 'Pink Cascade' (dark pink flowered) has gained the Royal Horticultural Society's Award of Garden Merit.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

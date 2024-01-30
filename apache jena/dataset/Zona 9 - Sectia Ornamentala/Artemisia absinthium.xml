@@ -7,6 +7,6 @@
     <ns1:label>Artemisia absinthium</ns1:label>
     <ns1:abstract xml:lang="en">Artemisia absinthium (wormwood, grand wormwood, absinthe, absinthium, absinthe wormwood, mugwort, wermout, wermud, wormit, wormod) is a species of Artemisia, native to temperate regions of Eurasia and North Africa, and widely naturalized in Canada and the northern United States. It is grown as an ornamental plant and is used as an ingredient in the spirit absinthe and some other alcoholic beverages.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 9 - Sectia Ornamentala</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

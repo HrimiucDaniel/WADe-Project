@@ -122,6 +122,6 @@ Sporocadaceae
 </ns1:ecology>
     <ns1:taxonomy>No information found on the section.</ns1:taxonomy>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

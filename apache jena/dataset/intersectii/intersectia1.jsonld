@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "stanga": "http://127.0.0.1:5000/property/stanga",
+    "dreapta": "http://127.0.0.1:5000/property/dreapta",
+    "inainte": "http://127.0.0.1:5000/property/inainte",
+    "label": "http://127.0.0.1:5000/property/label"
+  },
+  "@id": "http://127.0.0.1:5000/intersectii/intersectia1",
+  "stanga": "http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica",
+  "dreapta": "http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei",
+  "inainte": "http://127.0.0.1:5000/intersectii/intersectia2",
+  "label": "Intersectia1"
+}

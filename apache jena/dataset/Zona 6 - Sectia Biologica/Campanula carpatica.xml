@@ -7,6 +7,6 @@
     <ns1:label>Campanula carpatica</ns1:label>
     <ns1:abstract xml:lang="en">Campanula carpatica, the tussock bellflower or Carpathian harebell, is a species of flowering plant in the family Campanulaceae.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

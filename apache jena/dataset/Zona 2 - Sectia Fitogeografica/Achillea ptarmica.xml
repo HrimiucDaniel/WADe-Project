@@ -7,6 +7,6 @@
     <ns1:label>Achillea ptarmica</ns1:label>
     <ns1:abstract xml:lang="en">Achillea ptarmica is a European species of herbaceous perennial flowering plant in the genus Achillea of the daisy family Asteraceae. Common names include the sneezewort, sneezeweed, bastard pellitory, European pellitory, fair-maid-of-France, goose tongue, sneezewort yarrow, wild pellitory, and white tansy. It is widespread across most of Europe and naturalized in scattered places in North America. It is native to Europe and western Asia. Achillea ptarmica has loose clusters of showy white composite flower heads that bloom from June to August. Its dark green leaves have finely toothed margins. Like many other plants, the sneezewort's pattern of development displays the Fibonacci sequence. The name ptarmica comes from the Greek word ptairo (=sneeze) and means 'causes sneezing'.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

@@ -6,8 +6,8 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Astrophytum">
     <ns1:label>Astrophytum</ns1:label>
     <ns1:abstract xml:lang="en">Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words άστρον (astron), meaning "star," and φυτόν (phyton), meaning "plant."</ns1:abstract>
-    <ns1:subspecies>['A. myriostigma']</ns1:subspecies>
+    <ns1:subspecies>['A. ornatum']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

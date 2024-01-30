@@ -7,6 +7,6 @@
     <ns1:label>Carpinus orientalis</ns1:label>
     <ns1:abstract xml:lang="en">Carpinus orientalis, known as the Oriental hornbeam, is a hornbeam native to Hungary, the Balkans, Italy, Crimea, Turkey, Iran, and the Caucasus. and occurs usually on hot dry sites at lower altitudes in comparison to the Carpinus betulus (European Hornbeam).</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

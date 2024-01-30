@@ -40,6 +40,6 @@ Species Plantarum
 
 </ns1:taxonomy>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</ns1:zone>
   </rdf:Description>
 </rdf:RDF>
