@@ -8,6 +8,6 @@
     <ns1:abstract xml:lang="en">The Scrophulariaceae are a family of flowering plants, commonly known as the figwort family. The plants are annual and perennial herbs, as well as shrubs. Flowers have bilateral (zygomorphic) or rarely radial (actinomorphic) symmetry. The Scrophulariaceae have a cosmopolitan distribution, with the majority found in temperate areas, including tropical mountains. The family name is based on the name of the included genus Scrophularia L.</ns1:abstract>
     <ns1:subspecies>['See text']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 1 - Sectia Sistematica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

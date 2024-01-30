@@ -7,6 +7,6 @@
     <ns1:label>Rosa pimpinellifolia</ns1:label>
     <ns1:abstract xml:lang="en">Rosa pimpinellifolia, the burnet rose, is a species of rose native to western, central and southern Europe (north to Iceland and Norway) and northwest Africa.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

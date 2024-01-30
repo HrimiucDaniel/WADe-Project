@@ -7,6 +7,6 @@
     <ns1:label>Agapanthus africanus</ns1:label>
     <ns1:abstract xml:lang="en">Agapanthus africanus, or the African lily, is a flowering plant from the genus Agapanthus found only on rocky sandstone slopes of the winter rainfall fynbos from the Cape Peninsula to Swellendam. It is also known as the lily-of-the-Nile in spite of only occurring in South Africa.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

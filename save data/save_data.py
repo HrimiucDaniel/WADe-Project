@@ -68,9 +68,8 @@ def plant(zone_name, plant_name):
 
         # plant_dict["comments"] = ""
         # plant_dict["images"] = ""
-        plant_dict["positioning"] = "---"
 
-        plant_dict["zone"] = zone_name
+        plant_dict["zone"] = f'http://127.0.0.1:5000/zone/{zone_name}'.replace(" ", "%20")
 
         return plant_dict
 

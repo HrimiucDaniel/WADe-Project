@@ -8,6 +8,6 @@
     <ns1:abstract xml:lang="en">Capsicum annuum is a species of the plant genus Capsicum native to southern North America, the Caribbean, and northern South America. This species is the most common and extensively cultivated of the five domesticated capsicums. The species encompasses a wide variety of shapes and sizes of peppers, including sweet bell peppers and some chili pepper varieties such as jalapeños, New Mexico chile, and cayenne peppers. Cultivars descended from the wild American bird pepper are still found in warmer regions of the Americas. In the past, some woody forms of this species have been called C. frutescens, but the features that were used to distinguish those forms appear in many populations of C. annuum and are not consistently recognizable features in C. frutescens species.</ns1:abstract>
     <ns1:subspecies>['C. annuum var. annuum', 'C. annuum var. glabriusculum', ' Capsicum annuum var. bola  ', ' Capsicum annuum New Mexico Group']</ns1:subspecies>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

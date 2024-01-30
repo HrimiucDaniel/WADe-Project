@@ -7,6 +7,6 @@
     <ns1:label>Theobroma cacao</ns1:label>
     <ns1:abstract xml:lang="en">Theobroma cacao, also called the cacao tree and the cocoa tree, is a small (6–12 m (20–39 ft) tall) evergreen tree in the family Malvaceae. Its seeds, cocoa beans, are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. The largest producer of cocoa beans in 2018 was Ivory Coast, 2.2 million tons. The genus name, Theobroma, is derived from the Greek words θεός (theos), meaning 'god', and βρῶμα (broma), meaning 'food'. The literal meaning is "food of the gods".</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

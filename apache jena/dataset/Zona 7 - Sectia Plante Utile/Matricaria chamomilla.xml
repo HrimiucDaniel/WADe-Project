@@ -7,6 +7,6 @@
     <ns1:label>Matricaria chamomilla</ns1:label>
     <ns1:abstract xml:lang="en">Matricaria chamomilla (synonym: Matricaria recutita), commonly known as chamomile (also spelled camomile), German chamomile, Hungarian chamomile (kamilla), wild chamomile, blue chamomile, or scented mayweed, is an annual plant of the composite family Asteraceae. Commonly, the name M. recutita is applied to the most popular source of the herbal product chamomile, although other species are also used as chamomile. Chamomile is known mostly for its use against gastrointestinal problems; additionally, it can be used to treat irritation of the skin.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

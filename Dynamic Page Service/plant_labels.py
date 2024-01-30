@@ -48,6 +48,7 @@ def get_all_plants(zone):
     endpoint_url = "http://localhost:3030/Plants/sparql"
     # Create a SPARQLWrapper object and set the endpoint URL
     sparql = SPARQLWrapper(endpoint_url)
+    zone2 = zone.split("/")[-1]
 
     # SPARQL query to get predicates and objects based on zone and name
     query = """
@@ -78,8 +79,8 @@ def get_all_plants(zone):
     return label_list
 
 # endpoint_url = "http://localhost:3030/Plants/sparql"
-# zone = "Zona 1 - Sectia Sistematica"
-# result_dict = get_all_plants(endpoint_url, zone)
+# zone = "http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei"
+# result_dict = get_all_plants(zone)
 # print(result_dict)
 
 # # Example usage:

@@ -7,6 +7,6 @@
     <ns1:label>Ageratum</ns1:label>
     <ns1:abstract xml:lang="en">Ageratum (/əˈdʒɛrətəm/) (whiteweed in the USA) is a genus of 40 to 60 tropical and warm temperate flowering annuals and perennials from the family Asteraceae, tribe Eupatorieae. Most species are native to Central America and Mexico but four are native to the United States. They form tussocks or small hills. They grow to a height of 30 in. The opposite leaves are cordate or oval, hairy or tomentose. The margins are slightly toothed or serrate. The leaves form compact clusters. The fluffy flowers are lavender-blue, pink, lilac, or white; and spread in small compound umbels. They give small, dry fruits.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

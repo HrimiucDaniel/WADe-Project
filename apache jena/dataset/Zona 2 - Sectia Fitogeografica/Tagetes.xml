@@ -7,6 +7,6 @@
     <ns1:label>Tagetes</ns1:label>
     <ns1:abstract xml:lang="en">Tagetes (/tæˈdʒiːtiːz/) is a genus of annual or perennial, mostly herbaceous plants in the family Asteraceae. They are among several groups of plants known in English as marigolds. The genus Tagetes was described by Carl Linnaeus in 1753. These plants are native to Mexico, growing naturally since Mexico's valley down to the south and even reaching several other Latinamerican countries, but some species have become naturalized around the world. One species, T. minuta, is considered a noxious invasive plant in some areas.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

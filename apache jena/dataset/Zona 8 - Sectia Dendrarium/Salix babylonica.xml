@@ -7,6 +7,6 @@
     <ns1:label>Salix babylonica</ns1:label>
     <ns1:abstract xml:lang="en">Salix babylonica (Babylon willow or weeping willow; Chinese: 垂柳; pinyin: chuí liǔ) is a species of willow native to dry areas of northern China, but cultivated for millennia elsewhere in Asia, being traded along the Silk Road to southwest Asia and Europe.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 8 - Sectia Dendrarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

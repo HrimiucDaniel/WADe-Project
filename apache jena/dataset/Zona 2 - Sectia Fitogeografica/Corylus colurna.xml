@@ -7,6 +7,6 @@
     <ns1:label>Corylus colurna</ns1:label>
     <ns1:abstract xml:lang="en">Corylus colurna, the Turkish hazel or Turkish filbert, is a deciduous tree native to southeast Europe and southwest Asia, from the Balkans through northern Turkey to northern Iran. It is also found growing wild in the forests of Western Himalayan range in the north Indian state of Himachal Pradesh particularly in the temperate regions of districts of Kullu, Shimla, Kinnaur district and Chamba district.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

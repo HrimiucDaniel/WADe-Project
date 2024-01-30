@@ -7,6 +7,6 @@
     <ns1:label>Epimedium alpinum</ns1:label>
     <ns1:abstract xml:lang="en">Epimedium alpinum, the alpine barrenwort, is a species of flowering plant in the genus Epimedium, native to the mountains of Italy, Austria, the former Yugoslavia, and Albania, and introduced into central Europe. A dwarf perennial suitable for rock gardens, it was jocularly said by John Lindley to be "known only in the gardens of botanists". Its hybrid with E. grandiflorum, Epimedium × rubrum, has gained the Royal Horticultural Society's Award of Garden Merit.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

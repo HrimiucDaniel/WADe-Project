@@ -7,6 +7,6 @@
     <ns1:label>Albizia julibrissin</ns1:label>
     <ns1:abstract xml:lang="en">Albizia julibrissin, the Persian silk tree, pink silk tree, or mimosa tree, is a species of tree in the family Fabaceae, native to southwestern Asia and eastern Asia. The genus is named after the Italian nobleman Filippo degli Albizzi, who introduced it to Europe in the mid-18th century. It is sometimes incorrectly spelled Albizzia. The specific epithet julibrissin is a corruption of the Persian word gul-i abrisham (گل ابریشم), which means "silk flower" (from gul گل "flower" + abrisham ابریشم "silk"). Albizia julibrissin was described by . John Gilbert Baker used the same scientific name to refer to Prain's , the Mimosa kalkora of William Roxburgh.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 10 - Sectia Rosarium</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

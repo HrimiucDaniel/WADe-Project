@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "stanga": "http://127.0.0.1:5000/property/stanga",
+    "dreapta": "http://127.0.0.1:5000/property/dreapta",
+    "inainte": "http://127.0.0.1:5000/property/inainte",
+    "label": "http://127.0.0.1:5000/property/label"
+  },
+  "@id": "http://127.0.0.1:5000/intersectii/intersectia4",
+  "stanga": "",
+  "dreapta": "",
+  "inainte": "http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei",
+  "label": "Intersectia4"
+}

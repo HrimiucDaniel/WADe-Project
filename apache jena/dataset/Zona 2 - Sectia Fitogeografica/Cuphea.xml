@@ -7,6 +7,6 @@
     <ns1:label>Cuphea</ns1:label>
     <ns1:abstract xml:lang="en">Cuphea /ˈkjuːfiːə/ is a genus containing about 260 species of annual and perennial flowering plants native to warm temperate to tropical regions of the Americas. The species range from low-growing herbaceous plants to semi-woody shrubs up to 2 m (6 ft 7 in) tall. Commonly they are known as cupheas, or, in the case of some species, as cigar plants. The generic name is derived from the Greek word κυφος (kyphos), meaning "bent," "curved," or "humped."</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 2 - Sectia Fitogeografica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

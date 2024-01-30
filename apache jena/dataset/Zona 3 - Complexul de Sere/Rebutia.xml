@@ -7,6 +7,6 @@
     <ns1:label>Rebutia</ns1:label>
     <ns1:abstract xml:lang="en">Rebutia is a genus of flowering plants in the family Cactaceae, native to Bolivia and Argentina. They are generally small, colorful cacti, globular in form, which freely produce flowers that are relatively large in relation to the body. They have no distinctive ribs, but do have regularly arranged small tubercles. They are considered fairly easy to grow and they may produce large quantities of seeds that germinate freely around the parent plant. The limits of the genus are currently uncertain – in particular whether or not it includes species formerly or currently placed in the genera Aylostera, Cintia, Sulcorebutia and Weingartia. The number of species included varies widely from source to source. A very large number of plants that have been treated in cultivation as species of Rebutia are now generally regarded as varieties, forms or synonyms of a much smaller number of species.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

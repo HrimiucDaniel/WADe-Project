@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "stanga": "http://127.0.0.1:5000/property/stanga",
+    "dreapta": "http://127.0.0.1:5000/property/dreapta",
+    "inainte": "http://127.0.0.1:5000/property/inainte",
+    "label": "http://127.0.0.1:5000/property/label"
+  },
+  "@id": "http://127.0.0.1:5000/intersectii/intersectia7",
+  "stanga": "http://127.0.0.1:5000/intersectii/intersectia10",
+  "dreapta": "http://127.0.0.1:5000/intersectii/intersectia11",
+  "inainte": "http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile",
+  "label": "Intersectia7"
+}

@@ -7,6 +7,6 @@
     <ns1:label>Rosa gallica</ns1:label>
     <ns1:abstract xml:lang="en">Rosa gallica, the Gallic rose, French rose, or rose of Provins, is a species of flowering plant in the rose family, native to southern and central Europe eastwards to Turkey and the Caucasus. Rosa gallica was one of the first species of rose to be cultivated in central Europe. It is a parent of several important .</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 6 - Sectia Biologica</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

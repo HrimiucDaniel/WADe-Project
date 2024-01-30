@@ -7,6 +7,6 @@
     <ns1:label>Asplenium</ns1:label>
     <ns1:abstract xml:lang="en">Myrsine africana, also called Cape myrtle, African boxwood or thakisa, is a species of shrub in the family Primulaceae. It is indigenous to Southern and Eastern Africa, the Azores, the Arabian Peninsula, South Asia and East Asia.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

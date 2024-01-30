@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory
+from flask import Flask, render_template, request, redirect, url_for, send_from_directory, jsonify
 import zone_labels
 import plant_labels
 import re
@@ -8,6 +8,7 @@ import os
 import add_images
 import add_relations
 import get_relations
+import add_intersectii
 
 app = Flask(__name__)
 
@@ -31,16 +32,19 @@ def generate_url(*args):
     return '/'.join(map(str, args))
 
 
+
 @app.route('/zones')
 def zones():
     labels = zone_labels.get_labels_from_sparql()
-    labels.remove("Zona 8 - Sectia Dentrarium")
+   # labels.remove("Zona 8 - Sectia Dentrarium")
     return render_template('zones.html', labels=labels, generate_url=generate_url)
 
 
 @app.route('/zone/<zone_name>')
 def zone(zone_name):
-    plants = plant_labels.get_all_plants(zone_name)
+    zone_url = f'http://127.0.0.1:5000/zone/{zone_name}'.replace(" ", "%20")
+    plants = plant_labels.get_all_plants(zone_url)
+    print(plants)
 
     return render_template('zone.html', zone_name=zone_name, plants=plants, generate_url=generate_url)
 
@@ -53,11 +57,12 @@ def uploaded_file(filename):
 @app.route('/zone/<zone_name>/plant/<plant_name>', methods=['GET', 'POST'])
 def plant(zone_name, plant_name):
     uploaded_images = []  # Initialize the variable here
+    zone_url = f'http://127.0.0.1:5000/zone/{zone_name}'.replace(" ", "%20")
 
     if request.method == 'POST':
         plant_uri, uploaded_images = process_image_upload(request, app.config['UPLOAD_FOLDER'], zone_name, plant_name)
         add_images.add_images_to_plant(plant_uri, uploaded_images)
-    plant_info = plant_labels.get_plant_info(zone_name, plant_name)
+    plant_info = plant_labels.get_plant_info(zone_url, plant_name)
     abstract_key = "https://dbpedia.org/property/abstract"
     if abstract_key in plant_info:
         abstract = plant_info[abstract_key]
@@ -164,4 +169,3 @@ def upload_image(zone_name, plant_name):
 
 if __name__ == '__main__':
     app.run(debug=True)
-

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Options</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/tour.css') }}">
+</head>
+<body>
+    <h1>Choose tour options:</h1>
+
+    <h2>Choose zone</h2>
+    <form action="/tour" method="post">
+        <select name="options[]" multiple>
+            {% for option in options %}
+                <option value="{{ option }}">{{ option }}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

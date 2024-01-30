@@ -7,6 +7,6 @@
     <ns1:label>Haemanthus albiflos</ns1:label>
     <ns1:abstract xml:lang="en">Haemanthus albiflos is a species of flowering plant in the family Amaryllidaceae, native to the coast and mountains of South Africa. It is sometimes given the English name paintbrush, not to be confused with Castilleja species which also have this name. It is an evergreen bulbous perennial geophyte, prized horticulturally for its unusual appearance and extreme tolerance of neglect. H. albiflos is the only Haemanthus species found in both winter and summer rainfall regions, and has a mainly coastal distribution from the southern Cape through the Eastern Cape to KwaZulu-Natal, showing a preference for cool, shady spots.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 3 - Complexul de Sere</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

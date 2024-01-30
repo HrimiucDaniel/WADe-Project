@@ -7,6 +7,6 @@
     <ns1:label>Tilia tomentosa</ns1:label>
     <ns1:abstract xml:lang="en">Tilia tomentosa, known as silver linden in the US and silver lime in the UK, is a species of flowering plant in the family Malvaceae, native to southeastern Europe and southwestern Asia, from Romania and the Balkans east to western Turkey, occurring at moderate altitudes.</ns1:abstract>
     <ns1:positioning>---</ns1:positioning>
-    <ns1:zone>Zona 7 - Sectia Plante Utile</ns1:zone>
+    <ns1:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</ns1:zone>
   </rdf:Description>
 </rdf:RDF>
