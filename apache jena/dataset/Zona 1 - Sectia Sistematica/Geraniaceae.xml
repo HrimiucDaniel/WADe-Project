@@ -116,7 +116,6 @@ gene
 inverted repeat
 
 </ns1:taxonomy>
-    <ns1:positioning>---</ns1:positioning>
     <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

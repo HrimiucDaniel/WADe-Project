@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Orchidaceae">
+    <rdfs:label>Orchidaceae</rdfs:label>
+    <ns2:ecology>
+
+A majority of orchids are
+perennial
+epiphytes
+, which grow anchored to
+trees
+or
+shrubs
+in the
+tropics
+and subtropics. Species such as
+Angraecum
+sororium
+are
+lithophytes
+,
+
+growing on rocks or very rocky soil. Other orchids (including the majority of
+temperate
+Orchidaceae) are terrestrial and can be found in habitat areas such as grasslands or forest.
+perennial
+epiphytes
+trees
+shrubs
+tropics
+Angraecum
+sororium
+Angraecum
+lithophytes
+
+
+temperate
+Some orchids, such as
+Neottia
+and
+Corallorhiza
+, lack
+chlorophyll
+, so are unable to photosynthesise. Instead, these species obtain energy and nutrients by
+parasitising
+soil fungi through the formation of
+orchid mycorrhizae
+. The fungi involved include those that form
+ectomycorrhizas
+with trees and other woody plants, parasites such as
+Armillaria
+, and
+saprotrophs
+.
+
+These orchids are known as
+myco-heterotrophs
+, but were formerly (incorrectly) described as saprophytes as it was believed they gained their nutrition by breaking down organic matter. While only a few species are achlorophyllous
+holoparasites
+, all orchids are myco-heterotrophic during germination and seedling growth, and even photosynthetic adult plants may continue to obtain carbon from their
+mycorrhizal
+fungi.
+
+
+The symbiosis is typically maintained throughout the lifetime of the orchid because they depend on the fungus for nutrients, sugars and minerals.
+
+Neottia
+Neottia
+Corallorhiza
+Corallorhiza
+chlorophyll
+parasitising
+orchid mycorrhizae
+ectomycorrhizas
+Armillaria
+Armillaria
+saprotrophs
+
+
+myco-heterotrophs
+holoparasites
+mycorrhizal
+
+
+
+
+
+</ns2:ecology>
+    <ns2:taxonomy>
+
+Main article:
+Taxonomy of the Orchid family
+Taxonomy of the Orchid family
+The
+taxonomy
+of this family is in constant flux, as new studies continue to clarify the relationships between species and groups of species, allowing more
+taxa
+at several
+ranks
+to be recognized. The Orchidaceae is currently placed in the
+order
+Asparagales
+by the
+APG III system
+of 2009.
+
+taxonomy
+taxa
+ranks
+order
+Asparagales
+APG III system
+
+
+Five
+subfamilies
+are recognised. The
+cladogram
+below was made according to the
+APG system
+of 1998. It represents the view that most botanists had held up to that time. It was supported by
+morphological
+studies
+, but never received strong support in
+molecular phylogenetic
+studies.
+subfamilies
+cladogram
+APG system
+morphological
+studies
+molecular phylogenetic
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Apostasioideae
+: 2 genera and 16 species, south-eastern
+Asia
+Apostasioideae
+Apostasioideae
+Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Cypripedioideae
+: 5 genera and 130 species, from the temperate regions of the world, as well as tropical
+America
+and tropical Asia
+Cypripedioideae
+Cypripedioideae
+America
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Monandrae
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Vanilloideae
+: 15 genera and 180 species, humid tropical and subtropical regions, eastern
+North America
+Vanilloideae
+Vanilloideae
+North America
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Epidendroideae
+: more than 500 genera and more or less 20,000 species, cosmopolitan
+Epidendroideae
+Epidendroideae
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Orchidoideae
+: 208 genera and 3,630 species, cosmopolitan
+Orchidoideae
+Orchidoideae
+In 2015, a
+phylogenetic
+study
+
+showed strong
+statistical support
+for the following
+topology
+of the orchid
+tree
+, using 9
+kb
+of
+plastid
+and
+nuclear
+DNA
+from 7
+genes
+, a topology that was confirmed by a
+phylogenomic
+study in the same year.
+
+phylogenetic
+
+
+statistical support
+topology
+tree
+kb
+plastid
+nuclear
+DNA
+genes
+phylogenomic
+
+
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Apostasioideae
+Apostasioideae
+Apostasioideae
+Apostasioideae
+Apostasioideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Vanilloideae
+Vanilloideae
+Vanilloideae
+Vanilloideae
+Vanilloideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Cypripedioideae
+Cypripedioideae
+Cypripedioideae
+Cypripedioideae
+Cypripedioideae
+Epidendroideae
+Orchidoideae
+Epidendroideae
+Orchidoideae
+Epidendroideae
+Orchidoideae
+Epidendroideae
+Orchidoideae
+Epidendroideae
+Epidendroideae
+Epidendroideae
+Epidendroideae
+Epidendroideae
+Orchidoideae
+Orchidoideae
+Orchidoideae
+Orchidoideae
+Orchidoideae</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_73496</rdfs:subClassOf>
+    <ns1:hasExactSynonym>orchid family</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4747', 'https://dbpedia.org/page/Orchidaceae']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

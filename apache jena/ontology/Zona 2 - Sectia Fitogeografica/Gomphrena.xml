@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Gomphrena">
+    <rdfs:label>Gomphrena</rdfs:label>
+    <ns1:abstract xml:lang="en">Gomphrena is a genus of plants in the family Amaranthaceae. They are known as the globe amaranths. Species include: 
+* Gomphrena agrestis 
+* Gomphrena canescens 
+* Gomphrena celosioides 
+* Gomphrena globosa—Globe amaranth 
+* Gomphrena haageana—Strawberry globe amaranth 
+* 
+* Gomphrena pohlii 
+* Gomphrena prostrata 
+* 
+* 
+* Gomphrena sonorae</ns1:abstract>
+    <ns3:subspecies>['See text']</ns3:subspecies>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_1316647</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_169521', 'https://dbpedia.org/page/Gomphrena']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

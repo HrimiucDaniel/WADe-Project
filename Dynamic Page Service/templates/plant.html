@@ -34,6 +34,21 @@
         <p>{{ taxonomy }}</p>
     {% endif %}
 
+    {% if habitat %}
+        <h2>Habitat</h2>
+        <p>{{ habitat }}</p>
+    {% endif %}
+
+    {% if classification %}
+        <h2>Main Group of plants:</h2>
+        <a href={{classification[0]}}><p>{{ classification[1] }}</a> : {{classification[2]}}</p>
+    {% endif %}
+
+    {% if other %}
+        <h2>Synonim:</h2>
+        <p>{{ other.capitalize() }}</p>
+    {% endif %}
+
     {% if zone %}
     <h2>Zone Name</h2>
     {% set last_substring = zone.split("/")[-1] %}

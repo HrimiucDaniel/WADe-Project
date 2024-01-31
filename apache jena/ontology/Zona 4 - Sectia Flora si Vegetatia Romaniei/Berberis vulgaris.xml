@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Berberis%20vulgaris">
+    <rdfs:label>Berberis vulgaris</rdfs:label>
+    <ns2:abstract xml:lang="en">Berberis vulgaris, also known as common barberry, European barberry or simply barberry, is a shrub in the genus Berberis native to the Old World. It produces edible but sharply acidic berries, which people in many countries eat as a tart and refreshing fruit.</ns2:abstract>
+    <ns4:habitat>
+
+The shrub is native to central and southern
+Europe
+, southern
+England
+,
+
+northwest
+Africa
+and western
+Asia
+;
+
+it is also
+naturalised
+in northern Europe and
+North America
+. In the
+United States
+and
+Canada
+, it has become established in the wild over an area from
+Nova Scotia
+to
+Nebraska
+, with additional populations in
+Colorado
+,
+Idaho
+,
+Washington state
+,
+Montana
+, and
+British Columbia
+.
+
+It is also cultivated in many countries.
+Europe
+England
+
+
+Africa
+Asia
+
+
+naturalised
+North America
+United States
+Canada
+Nova Scotia
+Nebraska
+Colorado
+Idaho
+Washington state
+Montana
+British Columbia
+
+</ns4:habitat>
+    <ns4:ecology>
+
+The berries are an important food for many small birds, which disperse the seeds in their droppings.
+B. vulgaris
+is the
+alternate host
+species of the wheat stem rust fungus (
+Puccinia graminis
+f. sp.
+tritici
+), a grass-infecting
+rust fungus
+that is a serious fungal disease of
+wheat
+and related grains. For this reason, cultivation of
+B. vulgaris
+is prohibited in Canada
+
+and some areas of the US (
+Connecticut
+,
+Massachusetts
+,
+Michigan
+, and
+New Hampshire
+).
+
+B. vulgaris
+alternate host
+Puccinia graminis
+f. sp.
+tritici
+Puccinia graminis
+tritici
+rust fungus
+wheat
+B. vulgaris
+
+
+Connecticut
+Massachusetts
+Michigan
+New Hampshire
+
+</ns4:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_41768</rdfs:subClassOf>
+    <ns1:hasExactSynonym>European barberry</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_258209', 'https://dbpedia.org/page/Berberis vulgaris']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

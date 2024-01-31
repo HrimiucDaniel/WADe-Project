@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Syringa">
+    <rdfs:label>Syringa</rdfs:label>
+    <ns2:abstract xml:lang="en">Syringa (lilac) is a genus of 12 currently recognized species of flowering woody plants in the olive family (Oleaceae), native to woodland and scrub from southeastern Europe to eastern Asia, and widely and commonly cultivated in temperate areas elsewhere. The genus is most closely related to Ligustrum (privet), classified with it in Oleaceae tribus Oleeae subtribus Ligustrinae. Lilacs are used as food plants by the larvae of some moth species, including copper underwing, scalloped oak and Svensson's copper underwing.</ns2:abstract>
+    <ns3:taxonomy>
+
+The genus Syringa was first formally described in 1753 by
+Carl Linnaeus
+and the description was published in
+Species Plantarum
+.
+
+
+The genus name
+Syringa
+is derived from
+Ancient Greek
+word
+syrinx
+meaning "pipe" or "tube" and refers to the hollow branches of
+S. vulgaris
+.
+
+
+Carl Linnaeus
+Species Plantarum
+Species Plantarum
+
+
+
+
+Syringa
+Ancient Greek
+syrinx
+S. vulgaris
+S. vulgaris
+
+
+
+
+Homonym
+Syringa
+Tourn. ex Adans.
+is a heterotypic
+synonym
+of
+Philadelphus
+.
+
+Syringa
+Tourn. ex Adans.
+synonym
+Philadelphus
+
+</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_426106</rdfs:subClassOf>
+    <ns1:hasExactSynonym>lilacs</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_24208', 'https://dbpedia.org/page/Syringa']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -9,6 +9,7 @@ import add_images
 import add_relations
 import get_relations
 import add_intersectii
+import get_classification
 
 app = Flask(__name__)
 
@@ -32,11 +33,10 @@ def generate_url(*args):
     return '/'.join(map(str, args))
 
 
-
 @app.route('/zones')
 def zones():
     labels = zone_labels.get_labels_from_sparql()
-   # labels.remove("Zona 8 - Sectia Dentrarium")
+    # labels.remove("Zona 8 - Sectia Dentrarium")
     return render_template('zones.html', labels=labels, generate_url=generate_url)
 
 
@@ -63,7 +63,7 @@ def plant(zone_name, plant_name):
         plant_uri, uploaded_images = process_image_upload(request, app.config['UPLOAD_FOLDER'], zone_name, plant_name)
         add_images.add_images_to_plant(plant_uri, uploaded_images)
     plant_info = plant_labels.get_plant_info(zone_url, plant_name)
-    abstract_key = "https://dbpedia.org/property/abstract"
+    abstract_key = "https://dbpedia.org/ontology/abstract"
     if abstract_key in plant_info:
         abstract = plant_info[abstract_key]
     else:
@@ -88,6 +88,13 @@ def plant(zone_name, plant_name):
     else:
         taxonomy = None
 
+    habitat_key = "https://dbpedia.org/property/habitat"
+    if habitat_key in plant_info:
+        habitat = plant_info[habitat_key]
+    else:
+        habitat = None
+
+
     comment_key = "https://dbpedia.org/property/comments"
     if comment_key in plant_info:
         comments = plant_info[comment_key]
@@ -99,6 +106,20 @@ def plant(zone_name, plant_name):
         image = plant_info[image_key]
     else:
         image = None
+        
+    other_key = "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    if other_key in plant_info:
+        other = plant_info[other_key]
+    else:
+        other = None
+
+    subClass_key = "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+    if subClass_key in plant_info:
+        class_url = plant_info[subClass_key]
+        class_label = get_classification.get_label_for_subject(class_url)
+        classification = [class_url, class_label, get_classification.get_wikipedia_description(class_label)]
+    else:
+        classification = None
 
     plants = plant_labels.get_all_plants(zone_name)
 
@@ -111,7 +132,8 @@ def plant(zone_name, plant_name):
 
     return render_template('plant.html', title=plant_name, abstract=abstract, subspecies=subspecies, ecology=ecology,
                            taxonomy=taxonomy, zone=zone_name, comments=comments, images=image,
-                           near_by_list=near_by_list, relations=relation_dict)
+                           near_by_list=near_by_list, relations=relation_dict, classification=classification,
+                           other=other, habitat=habitat)
 
 
 @app.route('/zone/<zone_name>/plant/<plant_name>/add_comment', methods=['POST'])

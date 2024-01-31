@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Prunus%20fruticosa">
+    <rdfs:label>Prunus fruticosa</rdfs:label>
+    <ns2:abstract xml:lang="en">Prunus fruticosa, the European dwarf cherry, dwarf cherry, Mongolian cherry or steppe cherry is a deciduous, xerophytic, winter-hardy, cherry-bearing shrub. It is also called ground cherry and European ground cherry, but is not to be confused with plants in the distinct "Groundcherry" genus of Physalis. Prunus fruticosa is native to Ciscaucasia, western Siberia, Kazakhstan, Xinjiang China, western Russia, Ukraine, Poland, Czech Republic, Germany, Belarus, Moldova, Bulgaria, Romania, Hungary, Serbia, Austria, and Italy.</ns2:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3754</rdfs:subClassOf>
+    <ns1:hasExactSynonym>European dwarf cherry</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_151433', 'https://dbpedia.org/page/Prunus fruticosa']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

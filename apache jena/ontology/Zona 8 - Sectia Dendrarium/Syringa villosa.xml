@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Syringa%20villosa">
+    <rdfs:label>Syringa villosa</rdfs:label>
+    <ns2:abstract xml:lang="en">Syringa villosa, the villous lilac, is a shrub native to Korea, the southern part of the Russian Far East (Primorye) and northern China. There are two subspecies currently recognized (April 2014); these are regarded as separate species in Flora of China. Combining the ranges for the two taxa yields a range within China of Hebei, Shanxi, Heilongjiang, Jilin, and Liaoning. Syringa villosa is a shrub up to 4 m tall, with red, white, pink or purple flowers.</ns2:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_24208</rdfs:subClassOf>
+    <ns1:hasExactSynonym>Japanese lilac</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_150409', 'https://dbpedia.org/page/Syringa villosa']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

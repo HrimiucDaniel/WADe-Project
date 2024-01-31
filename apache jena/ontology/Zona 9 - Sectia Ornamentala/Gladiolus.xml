@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Gladiolus">
+    <rdfs:label>Gladiolus</rdfs:label>
+    <ns1:abstract xml:lang="en">Gladiolus (from Latin, the diminutive of gladius, a sword) is a genus of perennial cormous flowering plants in the iris family (Iridaceae). It is sometimes called the 'sword lily', but is usually called by its generic name (plural gladioli). The genus occurs in Asia, Mediterranean Europe, South Africa, and tropical Africa. The center of diversity is in the Cape Floristic Region. The genera Acidanthera, Anomalesia, Homoglossum, and Oenostachys, formerly considered distinct, are now included in Gladiolus.</ns1:abstract>
+    <ns3:subspecies>['About 260, see text']</ns3:subspecies>
+    <ns3:ecology>
+
+The South African species were originally pollinated by long-tongued
+anthophorini
+bees,
+
+but some changes in the pollination system have occurred, allowing pollination by
+sunbirds
+,
+noctuid
+and
+Hawk-moths
+, long-tongued flies and several others.
+
+In the temperate zones of Europe many of the hybrid large flowering sorts of gladiolus can be pollinated by small well-known wasps. Actually, they are not very good pollinators because of the large flowers of the plants and the small size of the wasps. Another insect in this zone which can try some of the nectar of the gladioli is the best-known European Hawk-moth
+Macroglossum stellatarum
+which usually pollinates many popular garden flowers like
+Petunia
+,
+Zinnia
+,
+Dianthus
+and others.
+
+anthophorini
+
+
+sunbirds
+noctuid
+Hawk-moths
+
+
+Macroglossum stellatarum
+Macroglossum stellatarum
+Petunia
+Zinnia
+Dianthus
+
+
+Gladioli are used as food plants by the
+larvae
+of some
+Lepidoptera
+species including the
+Large Yellow Underwing
+,
+
+and gladiolus
+thrips
+.
+
+larvae
+Lepidoptera
+Large Yellow Underwing
+
+
+thrips
+
+</ns3:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_2508084</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_49747', 'https://dbpedia.org/page/Gladiolus']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -7,7 +7,6 @@
     <ns1:label>Celastraceae</ns1:label>
     <ns1:abstract xml:lang="en">The Celastraceae (staff-vine or bittersweet) are a family of 97 genera and 1,350 species of herbs, vines, shrubs and small trees, belonging to the order Celastrales. The great majority of the genera are tropical, with only Celastrus (the staff vines), Euonymus (the spindles) and Maytenus widespread in temperate climates, and Parnassia (bog-stars) found in alpine and arctic climates. Of the 97 currently recognized genera of the family Celastraceae, 19 are native to Madagascar and these include at least 57 currently recognized species. Six of these 19 genera (Brexiella, Evonymopsis, Hartogiopsis, Polycardia, Ptelidium, and Salvadoropsis) are endemic to Madagascar.</ns1:abstract>
     <ns1:subspecies>['Celastroideae', 'Hippocrateoideae', 'Parnassioideae', 'Salacioideae', 'Stackhousioideae']</ns1:subspecies>
-    <ns1:positioning>---</ns1:positioning>
     <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

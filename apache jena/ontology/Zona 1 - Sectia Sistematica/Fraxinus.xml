@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus">
+    <rdfs:label>Fraxinus</rdfs:label>
+    <ns2:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), commonly called ash, is a genus of flowering plants in the olive and lilac family, Oleaceae. It contains 45–65 species of usually medium to large trees, mostly deciduous, though a number of subtropical species are evergreen. The genus is widespread across much of Europe, Asia, and North America. The leaves are opposite (rarely in whorls of three), and mostly pinnately compound, though simple in a few species. The seeds, popularly known as "keys" or "helicopter seeds", are a type of fruit known as a samara. Some Fraxinus species are dioecious, having male and female flowers on separate plants but sex in ash is expressed as a continuum between male and female individuals, dominated by unisexual trees. With age, ash may change their sexual function from predominantly male and hermaphrodite towards femaleness; if grown as an ornamental and both sexes are present, ashes can cause a considerable litter problem with their seeds. Rowans or mountain ashes have leaves and buds superficially similar to those of true ashes, but belong to the unrelated genus Sorbus in the rose family.</ns2:abstract>
+    <ns4:ecology>
+
+North American native ash tree species are a critical food source for North American frogs, as their fallen leaves are particularly suitable for tadpoles to feed upon in ponds (both temporary and permanent), large puddles, and other water bodies.
+
+Lack of tannins in the American ash makes their leaves a good food source for the frogs, but also reduces its resistance to the
+ash borer
+. Species with higher leaf
+tannin
+levels (including maples and non-native ash species) are taking the place of native ash, thanks to their greater resistance to the ash borer. They produce much less suitable food for the tadpoles, resulting in poor survival rates and small frog sizes.
+
+
+
+ash borer
+tannin
+
+
+Ash species native to North America also provide important habitat and food for various other creatures native to North America. This includes the larvae of multiple
+long-horn beetles
+, as well as other insects including those in the genus
+Tropidosteptes
+,
+lace bugs
+,
+aphids
+, larvae of
+gall flies
+, and caterpillars. Birds are also interested in black, green, and white ash trees. The black ash alone supports
+wood ducks
+,
+wild turkey
+,
+cardinals
+,
+pine grosbeaks
+,
+cedar waxwings
+, and
+yellow-bellied sapsuckers
+, with habitat and food (such as the sap being of interest to the sapsucker) among others. Many mammalian species from
+meadow voles
+eating the seeds to
+white-tailed deer
+eating the foliage to
+silver-haired bats
+nesting will also make use of ash trees.
+
+
+
+
+long-horn beetles
+Tropidosteptes
+Tropidosteptes
+lace bugs
+aphids
+gall flies
+wood ducks
+wild turkey
+cardinals
+pine grosbeaks
+cedar waxwings
+yellow-bellied sapsuckers
+meadow voles
+white-tailed deer
+silver-haired bats
+
+
+
+
+
+
+
+
+Ash is used as a food plant by the
+larvae
+of some
+Lepidoptera
+species (
+butterflies
+and
+moths
+).
+larvae
+Lepidoptera
+butterflies
+moths</ns4:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_426106</rdfs:subClassOf>
+    <ns1:hasExactSynonym>ash trees</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_38871', 'https://dbpedia.org/page/Fraxinus']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

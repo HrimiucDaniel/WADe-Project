@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Mentha">
+    <rdfs:label>Mentha</rdfs:label>
+    <ns2:abstract xml:lang="en">Mentha (also known as mint, from Greek μίνθα míntha, Linear B mi-ta) is a genus of plants in the family Lamiaceae (mint family). The exact distinction between species is unclear; it is estimated that 13 to 24 species exist. Hybridization occurs naturally where some species' ranges overlap. Many hybrids and cultivars are known. The genus has a subcosmopolitan distribution across Europe, Africa - (Southern Africa), Asia, Australia - Oceania, North America and South America. Its species can be found in many environments, but most grow best in wet environments and moist soils.</ns2:abstract>
+    <ns3:taxonomy>
+
+Mentha
+is a member of the
+tribe
+Mentheae in the
+subfamily
+Nepetoideae
+. The tribe contains about 65 genera, and relationships within it remain obscure.
+
+Authors have disagreed on the
+circumscription
+of
+Mentha
+. For example,
+M. cervina
+has been placed in
+Pulegium
+and
+Preslia
+, and
+M. cunninghamii
+has been placed in
+Micromeria
+.
+
+In 2004, a
+molecular phylogenetic
+study indicated that both
+M. cervina
+and
+M. cunninghamii
+should be included in
+Mentha
+.
+
+However,
+M. cunninghamii
+was excluded in a 2007 treatment of the genus.
+
+Mentha
+tribe
+subfamily
+Nepetoideae
+
+
+circumscription
+Mentha
+M. cervina
+Pulegium
+Preslia
+M. cunninghamii
+Micromeria
+Micromeria
+
+
+molecular phylogenetic
+M. cervina
+M. cunninghamii
+Mentha
+
+
+M. cunninghamii
+
+
+More than 3,000 names have been published in the genus
+Mentha
+, at ranks from species to forms, the majority of which are regarded as
+synonyms
+or
+illegitimate names
+. The taxonomy of the genus is made difficult because many species hybridize readily, or are themselves derived from possibly ancient hybridization events. Seeds from hybrids give rise to variable offspring, which may spread through vegetative propagation. The variability has led to what has been described as "paroxysms of species and subspecific taxa"; for example, one taxonomist published 434 new mint taxa for central Europe alone between 1911 and 1916.
+
+Recent sources recognize between 18
+
+and 24
+
+species.
+
+Mentha
+synonyms
+illegitimate names
+
+
+
+
+
+
+
+</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_216718</rdfs:subClassOf>
+    <ns1:hasExactSynonym>mints</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_21819', 'https://dbpedia.org/page/Mentha']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

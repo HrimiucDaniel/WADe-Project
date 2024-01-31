@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Dieffenbachia">
+    <rdfs:label>Dieffenbachia</rdfs:label>
+    <ns1:abstract xml:lang="en">Dieffenbachia /ˌdiːfɪnˈbækiə/, commonly known as dumb cane or leopard lily, is a genus of tropical flowering plants in the family Araceae. It is native to the New World Tropics from Mexico and the West Indies south to Argentina. Some species are widely cultivated as ornamental plants, especially as houseplants, and have become naturalized on a few tropical islands. Dieffenbachia is a perennial herbaceous plant with straight stem, simple and alternate leaves containing white spots and flecks, making it attractive as indoor foliage. Species in this genus are popular as houseplants because of their tolerance of shade. The English names, dumb cane and mother-in-law's tongue (also used for Sansevieria species) refer to the poisoning effect of raphides, which can cause temporary inability to speak. Dieffenbachia was named by Heinrich Wilhelm Schott, director of the Botanical Gardens in Vienna, to honor his head gardener Joseph Dieffenbach (1796–1863).</ns1:abstract>
+    <ns3:ecology>
+
+In a survey that began in 1998, researchers in
+Costa Rica
+noticed that the strawberry poison frog
+Oophaga pumilio
+, deposited almost all (89%) of their tadpoles on the leaf axils of
+Dieffenbachia
+. As a result, the frog population fluctuated with the abundance of
+Dieffenbachia
+, especially in secondary forests
+. A majority of the plants were eradicated by 2012 when the surveyors returned to the same area, with only 28% of 2002 plant numbers remaining. Researchers concluded that the reason for the rapid decline in
+Dieffenbachia
+was due to increased abundance of the collared peccary
+Dicotyles tajacu
+in the
+La Selva Biological Station
+research area; a small pig-like animal that feeds on
+Dieffenbachia
+and other plants.
+
+Costa Rica
+Oophaga pumilio
+Oophaga pumilio
+Dieffenbachia
+Dieffenbachia
+Dieffenbachia
+Dicotyles tajacu
+Dicotyles tajacu
+La Selva Biological Station
+Dieffenbachia
+
+</ns3:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_293488</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_42195', 'https://dbpedia.org/page/Dieffenbachia']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

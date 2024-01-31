@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Geraniaceae">
+    <rdfs:label>Geraniaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">Geraniaceae is a family of flowering plants placed in the order Geraniales. The family name is derived from the genus Geranium. The family includes both the genus Geranium (the cranesbills, or true geraniums) and the garden plants called geraniums, which modern botany classifies as genus Pelargonium, along with other related genera. The family comprises 830 species in five to seven genera. The largest genera are Geranium (430 species), Pelargonium (280 species) and Erodium (80 species).</ns2:abstract>
+    <ns3:subspecies>[' California (Aldasoro et al.) ', 'Erodium (Aiton)', 'Geranium (L.)', 'Hypseocharis (J. Remy)', 'Monsonia (L.)', 'Pelargonium (Aiton)']</ns3:subspecies>
+    <ns3:habitat>
+
+Most species are found in temperate or warm temperate regions, though some are tropical.
+Pelargonium
+has its centre for diversity in the
+Cape
+region in
+South Africa
+, where there is a striking vegetative and floral variation.
+Pelargonium
+Pelargonium
+Cape
+South Africa</ns3:habitat>
+    <ns3:taxonomy>
+
+Geraniaceae and
+Francoaceae
+are the two families included in the order
+Geraniales
+under the
+Angiosperm Phylogeny Group
+(APG) classification (APG IV).
+
+There has been some uncertainty in the number of genera to be included.
+Stevens
+gives seven genera listed here,
+
+while Christenhusz and Byng
+
+state five genera.
+Francoaceae
+Geraniales
+Angiosperm Phylogeny Group
+
+
+Stevens
+
+
+
+
+Stevens also lists four
+synonyms
+of
+Geranium
+:
+Geraniopsis
+Chrtek
+Neurophyllodes
+(A. Gray) O. Degener
+Robertianum
+Picard
+Robertiella
+synonyms
+Geranium
+Geraniopsis
+Chrtek
+Neurophyllodes
+(A. Gray) O. Degener
+Robertianum
+Picard
+Robertiella
+Hypseocharis
+, with between one and three species, which comes from the south-west
+Andean
+region of
+South America
+, is considered the
+sister
+to the rest of the family. Some authors separate
+Hyspeocharis
+as a monogeneric family
+Hypseocharitaceae
+,
+
+while older sources placed it in the
+Oxalidaceae
+. The genus
+Rhynchotheca
+has also been separated into the
+Vivianiaceae
+.
+Hypseocharis
+Hypseocharis
+Andean
+South America
+sister
+Hyspeocharis
+Hypseocharitaceae
+
+
+Oxalidaceae
+Rhynchotheca
+Vivianiaceae
+The Geraniaceae have a number of genetic features unique amongst angiosperms, including highly rearranged
+plastid
+genomes
+differing in
+gene
+content, order and expansion of the
+inverted repeat
+.
+
+plastid
+genomes
+gene
+inverted repeat
+
+</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_41943</rdfs:subClassOf>
+    <ns1:hasExactSynonym>geranium family</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4027', 'https://dbpedia.org/page/Geraniaceae']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

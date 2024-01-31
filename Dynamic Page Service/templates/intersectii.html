@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intersectii</title>
+</head>
+<body>
+    <h1>Intersectii</h1>
+    <ul>
+        {% for obj in objects %}
+        <li><a href="/intersectii/{{ obj }}">{{ obj }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

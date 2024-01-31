@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Picea%20abies">
+    <rdfs:label>Picea abies</rdfs:label>
+    <ns2:abstract xml:lang="en">Picea abies, the Norway spruce or European spruce, is a species of spruce native to Northern, Central and Eastern Europe. It has branchlets that typically hang downwards, and the largest cones of any spruce, 9–17 cm long. It is very closely related to the Siberian spruce (Picea obovata), which replaces it east of the Ural Mountains, and with which it hybridizes freely. The Norway spruce has a wide distribution for it being planted for its wood, and is the species used as the main Christmas tree in several countries around the world. It was the first gymnosperm to have its genome sequenced. The Latin specific epithet abies means “like Abies, Fir tree”</ns2:abstract>
+    <ns3:taxonomy>
+
+Cones of
+P. obovata
+and
+Picea abies
+Cones of
+P. obovata
+are short and have rounded scales.
+Cones of
+P. abies
+are longer and have pointed scales.
+Cones of
+P. obovata
+and
+Picea abies
+Cones of
+P. obovata
+are short and have rounded scales.
+Cones of
+P. abies
+are longer and have pointed scales.
+Cones of
+P. obovata
+and
+Picea abies
+Cones of
+P. obovata
+and
+Picea abies
+P. obovata
+Picea abies
+Cones of
+P. obovata
+are short and have rounded scales.
+Cones of
+P. abies
+are longer and have pointed scales.
+Cones of
+P. obovata
+are short and have rounded scales.
+Cones of
+P. obovata
+are short and have rounded scales.
+P. obovata
+Cones of
+P. abies
+are longer and have pointed scales.
+Cones of
+P. abies
+are longer and have pointed scales.
+P. abies
+Populations in southeast Europe tend to have on average longer cones with more pointed scales; these are sometimes distinguished as
+Picea abies
+var.
+acuminata
+, but there is extensive overlap in variation with trees from other parts of the range.
+
+
+
+Picea abies
+acuminata
+
+
+
+
+
+
+Some botanists treat
+Siberian spruce
+as a subspecies of Norway spruce, though in their typical forms, they are very distinct, the Siberian spruce having cones only 5–10 cm long, with smoothly rounded scales, and pubescent shoots.
+
+
+
+Genetically
+Norway and Siberian spruces have turned out to be extremely similar and may be considered as two closely related
+subspecies
+of
+P. abies
+.
+
+Siberian spruce
+
+
+
+
+
+
+Genetically
+subspecies
+P. abies
+
+
+Another spruce with smoothly rounded cone scales and hairy shoots occurs rarely in the Central Alps in eastern
+Switzerland
+. It is also distinct in having thicker, blue-green leaves. Many texts treat this as a variant of Norway spruce, but it is as distinct as many other spruces, and appears to be more closely related to Siberian spruce (
+Picea obovata
+), Schrenk's spruce (
+Picea schrenkiana
+) from central
+Asia
+and Morinda spruce (
+Picea smithiana
+) in the
+Himalaya
+. Treated as a distinct species, it takes the name Alpine spruce (
+Picea alpestris
+). As with Siberian spruce, it hybridizes extensively with Norway spruce; pure specimens are rare. Hybrids are commonly known as Norwegian spruce, which should not be confused with the pure species Norway spruce.
+
+
+
+Switzerland
+Picea obovata
+Picea obovata
+Picea schrenkiana
+Picea schrenkiana
+Asia
+Picea smithiana
+Picea smithiana
+Himalaya
+Picea alpestris
+Picea alpestris
+
+
+
+
+
+</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3328</rdfs:subClassOf>
+    <ns1:hasExactSynonym>Norway spruce</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3329', 'https://dbpedia.org/page/Picea abies']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

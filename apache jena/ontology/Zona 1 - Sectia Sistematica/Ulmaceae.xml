@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ulmaceae">
+    <rdfs:label>Ulmaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Ulmaceae (/ʌlˈmeɪsi/) are a family of flowering plants that includes the elms (genus Ulmus), and the zelkovas (genus Zelkova). Members of the family are widely distributed throughout the north temperate zone, and have a scattered distribution elsewhere except for Australasia. The family was formerly sometimes treated to include the hackberries, (Celtis and allies), but an analysis by the Angiosperm Phylogeny Group suggests that these genera are better placed in the related family Cannabaceae. It generally is considered to include ca 7 genera and about 45 species. Some classifications also include the genus Ampelocera.</ns2:abstract>
+    <ns4:subspecies>[' Ampelocera (Klotzsch 1847) ', ' Hemiptelea (Planch. 1872) ', ' Holoptelea (Planch. 1848) ', ' Phyllostylon (Benth. 1880) ', ' Planera (J.F.Gmel. 1791) ', ' Ulmus (L. 1753) ', ' Zelkova (Spach 1841)']</ns4:subspecies>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3744</rdfs:subClassOf>
+    <ns1:hasExactSynonym>elm family</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3474', 'https://dbpedia.org/page/Ulmaceae']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

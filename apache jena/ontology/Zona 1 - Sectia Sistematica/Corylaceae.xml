@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Corylaceae">
+    <rdfs:label>Corylaceae</rdfs:label>
+    <ns1:abstract xml:lang="en">Coryloideae is a subfamily in the woody angiosperm family Betulaceae, commonly known as the birch family, and consists of four extant genera - Corylus L., Ostryopsis Decne., Carpinus L., and Ostrya Scop. These deciduous trees and shrubs are primarily distributed in the boreal and cool temperate zones of the Northern Hemisphere, with the majority occurring in Asia, many occurring in North America and a few species occurring as far south as South America. Synapomorphies such reduced staminate flowers, advanced wood anatomy features, and the presence of spermidines in pollen define the Coryloideae. While the division of the extant members of the Betulaceae into six genera is uncontroversial, the placement of these genera into higher taxonomic ranks and the level of these ranks are debated. Extensive studies on the basis of ribulose- 1,5-biphosphate carboxylase (rbcL) sequences, internal transcribed spacer (ITS) sequences, morphology, and various combined data sets support the dichotomy of the Betulaceae into two major clades. A few authors have divided the genera into two families, the Betulaceae (Alnus, Betula) and Corylaceae (Carpinus, Ostrya, Corylus, Ostryopsis). Many modern authors recognize two separate clades within the family, either as tribes Betuleae and Coryleae or subfamilies Betuloideae and Coryloideae. There has also been debate on the further division of the Coryloideae into two tribes: Coryleae (Corylus) and Carpineae (Ostryopsis, Carpinus, Ostrya).</ns1:abstract>
+    <ns2:subspecies>[' †Asterocarpinus', ' Carpinus', ' †Coryloides', ' Corylus', ' †Cranea', ' †Kardiasperma', ' Ostrya', ' Ostryopsis', ' †Palaeocarpinus']</ns2:subspecies>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <ns3:owlsameAs>[None, 'https://dbpedia.org/page/Corylaceae']</ns3:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

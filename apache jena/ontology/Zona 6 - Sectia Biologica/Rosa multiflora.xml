@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20multiflora">
+    <rdfs:label>Rosa multiflora</rdfs:label>
+    <ns2:abstract xml:lang="en">Rosa multiflora — (syn. Rosa polyantha) is a species of rose known commonly as multiflora rose, baby rose, Japanese rose, many-flowered rose, seven-sisters rose, Eijitsu rose and rambler rose. It is native to eastern Asia, in China, Japan, and Korea. It should not be confused with Rosa rugosa, which is also known as "Japanese rose", or with polyantha roses which are garden cultivars derived from hybrids of R. multiflora. It was introduced to North America, where it is regarded as an invasive species.</ns2:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3764</rdfs:subClassOf>
+    <ns1:hasExactSynonym>Japanese rose</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_74647', 'https://dbpedia.org/page/Rosa multiflora']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

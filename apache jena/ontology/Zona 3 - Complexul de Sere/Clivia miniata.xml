@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Clivia%20miniata">
+    <rdfs:label>Clivia miniata</rdfs:label>
+    <ns1:abstract xml:lang="en">Clivia miniata, the Natal lily or bush lily, is a species of flowering plant in the genus Clivia of the family Amaryllidaceae, native to woodland habitats in South Africa (Eastern Cape, Mpumalanga and KwaZulu-Natal provinces) as well as in Eswatini. Given suitable conditions it grows into large clumps and is surprisingly water wise. It is also reportedly naturalized in Mexico. It is a popular plant for shady areas and is commonly seen growing in older established suburbs in most Australian states. It is also popular in New Zealand, Japan, China and the US, particularly California.</ns1:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_16048</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_16049', 'https://dbpedia.org/page/Clivia miniata']</ns3:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>
