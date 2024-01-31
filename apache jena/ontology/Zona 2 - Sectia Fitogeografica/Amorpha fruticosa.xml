@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Amorpha%20fruticosa">
+    <rdfs:label>Amorpha fruticosa</rdfs:label>
+    <ns2:abstract xml:lang="en">Amorpha fruticosa is a species of flowering plant in the legume family Fabaceae, known by several common names, including desert false indigo, false indigo-bush, and bastard indigobush. It is native to North America.</ns2:abstract>
+    <ns4:habitat>
+
+The native range extends through much of the United States and south into Mexico.
+
+Its native habitats include stream and pond edges, open woods, roadsides and canyons.
+
+
+
+
+
+The species has escaped cultivation elsewhere and is present as an
+introduced species
+in
+Europe
+,
+
+Asia, and other continents. It is often cultivated as an
+ornamental plant
+, and some wild populations may be descended from garden escapes.
+introduced species
+Europe
+
+
+ornamental plant
+Flowers
+Flowers</ns4:habitat>
+    <ns4:ecology>
+
+It is a larval host to the
+clouded sulphur
+,
+gray hairstreak
+,
+hoary edge
+,
+Io moth
+,
+marine blue
+,
+silver-spotted skipper
+, and
+southern dogface
+.
+
+The plentiful seeds are a food source for
+bobwhite quail
+. Both bees and butterflies use the flowers as a nectar source.
+
+clouded sulphur
+gray hairstreak
+hoary edge
+Io moth
+marine blue
+silver-spotted skipper
+southern dogface
+
+
+bobwhite quail
+
+</ns4:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_48130</rdfs:subClassOf>
+    <ns1:hasExactSynonym>bastard indigo</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_48131', 'https://dbpedia.org/page/Amorpha fruticosa']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

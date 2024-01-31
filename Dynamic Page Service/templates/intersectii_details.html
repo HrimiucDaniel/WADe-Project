@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intersectii Details</title>
+</head>
+<body>
+    <h1>Details for {{ name }}</h1>
+    <ul>
+        {% for predicate, object in results %}
+        <li>{{ predicate }}: {{ object }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

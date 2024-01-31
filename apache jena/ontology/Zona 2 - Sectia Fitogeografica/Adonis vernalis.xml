@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Adonis%20vernalis">
+    <rdfs:label>Adonis vernalis</rdfs:label>
+    <ns2:abstract xml:lang="en">Adonis vernalis, known variously as pheasant's eye, spring pheasant's eye, yellow pheasant's eye and false hellebore, is a perennial flowering plant in the buttercup family Ranunculaceae. It is found in dry meadows and steppes in Eurasia. More specifically, this plant grows in a wide range of locations which include open forests, forest clearings, dry meadows, mesic steppe, and mostly calcareous soil. Isolated populations are found from Spain in the west across Central Europe with fine examples in Valais, Switzerland, and southern Europe, reaching southern Sweden in the north and Abruzzo in the south, with its main area of distribution being the Pannonian Basin and the West Siberian Plain. In contrast to most other European Adonis species, the flowers appear in springtime, and are up to 80 mm (3.1 in) in diameter, with up to 20 bright yellow petals. Not only do the flowers begin to grow, but so do the plants aerial organs, from around April to May. The plant is poisonous, containing cardiostimulant compounds, such as adonidin and aconitic acid. Infusions of the plant are used in the medicine Bekhterev's mixture. It is often used as an ornamental plant.</ns2:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_46984</rdfs:subClassOf>
+    <ns1:hasExactSynonym>oxeye</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_46985', 'https://dbpedia.org/page/Adonis vernalis']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

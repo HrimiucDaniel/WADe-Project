@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20rubiginosa">
+    <rdfs:label>Rosa rubiginosa</rdfs:label>
+    <ns2:abstract xml:lang="en">Rosa rubiginosa (sweet briar, sweetbriar rose, sweet brier or eglantine; syn. R. eglanteria) is a species of rose native to Europe and western Asia.</ns2:abstract>
+    <ns5:habitat>
+
+Rosa rubiginosa
+is native to most of Europe with the exception of the extreme north (above
+61°N
+), where it inhabits pastures and thorny bushes from the
+montane
+to the
+subalpine
+floor, with a sunny, continental climate. It is somewhat rare, with isolated specimens near roads and pastures frequented by cattle. Its presence is doubtful in western Asia. In
+Southern Europe
+it lives in higher altitudes, usually 1,000 to 1,700 m (3,300 to 5,600 ft).
+
+In
+Portugal
+it is classified as
+Critically Endangered
+and is restricted to the
+Serra da Estrela
+range.
+
+Rosa rubiginosa
+61°N
+montane
+subalpine
+Southern Europe
+
+
+Portugal
+Critically Endangered
+Serra da Estrela
+
+</ns5:habitat>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3764</rdfs:subClassOf>
+    <ns1:hasExactSynonym>eglantine</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_74636', 'https://dbpedia.org/page/Rosa rubiginosa']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

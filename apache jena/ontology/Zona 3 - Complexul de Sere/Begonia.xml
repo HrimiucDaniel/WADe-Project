@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Begonia">
+    <rdfs:label>Begonia</rdfs:label>
+    <ns1:abstract xml:lang="en">Begonia is a genus of perennial flowering plants in the family Begoniaceae. The genus contains more than 2,000 different plant species. The Begonias are native to moist subtropical and tropical climates. Some species are commonly grown indoors as ornamental houseplants in cooler climates. In cooler climates some species are cultivated outside in summertime for their bright colorful flowers, which have sepals but no petals.</ns1:abstract>
+    <ns2:taxonomy>
+
+The genus name
+Begonia
+was coined by
+Charles Plumier
+, a French patron of
+botany
+, and adopted by
+Linnaeus
+in 1753, to honor
+Michel Bégon
+, a former governor of the French colony of
+Saint-Domingue
+(now
+Haiti
+).
+Begonia
+Charles Plumier
+botany
+Linnaeus
+Michel Bégon
+Saint-Domingue
+Haiti</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3680</rdfs:subClassOf>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3681', 'https://dbpedia.org/page/Begonia']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Papaver%20somniferum">
+    <rdfs:label>Papaver somniferum</rdfs:label>
+    <ns2:abstract xml:lang="en">Papaver somniferum, commonly known as the opium poppy or breadseed poppy, is a species of flowering plant in the family Papaveraceae. It is the species of plant from which both opium and poppy seeds are derived and is also a valuable ornamental plant, grown in gardens. Its native range is probably the eastern Mediterranean, but is now obscured by ancient introductions and cultivation, being naturalized across much of Europe and Asia. This poppy is grown as an agricultural crop on a large scale, for one of three primary purposes. The first is to produce seeds that are eaten by humans, commonly known as poppy seed. The second is to produce opium for use mainly by the pharmaceutical industry. The third is to produce other alkaloids, mainly thebaine and oripavine, that are processed by the pharmaceutical industry into drugs such as hydrocodone and oxycodone. Each of these goals has special breeds that are targeted at one of these businesses, and breeding efforts (including biotechnological ones) are continually underway. A comparatively small amount of P. somniferum is also produced commercially for ornamental purposes. The common name "opium poppy" is increasingly a misnomer as many varieties have been bred that do not produce a significant quantity of opium. The cultivar 'Sujata' produces no latex at all. Breadseed poppy is more accurate as a common name today because all varieties of P. somniferum produce edible seeds. This differentiation has strong implications for legal policy surrounding the growing of this plant.</ns2:abstract>
+    <ns3:habitat>
+
+The native range of opium poppy is probably the Eastern Mediterranean, but extensive cultivation and introduction of the species throughout Europe since ancient times have obscured its origin. It has
+escaped from cultivation
+, or has been introduced and become naturalized extensively in all regions of the British Isles, particularly in the south and east
+
+and in almost all other countries of the world with suitable, temperate climates.
+
+escaped from cultivation
+
+
+
+</ns3:habitat>
+    <ns3:ecology>
+</ns3:ecology>
+    <ns3:taxonomy>
+
+Papaver somniferum
+was formally described by the Swedish botanist
+Carl Linnaeus
+in his seminal publication
+Species Plantarum
+in 1753 on page 508.
+
+
+Papaver somniferum
+Carl Linnaeus
+Species Plantarum
+Species Plantarum
+
+
+
+</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/FOODON_03411515</rdfs:subClassOf>
+    <ns1:hasExactSynonym>opium poppy</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3469', 'https://dbpedia.org/page/Papaver somniferum']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

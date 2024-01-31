@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Ageratum">
+    <rdfs:label>Ageratum</rdfs:label>
+    <ns1:abstract xml:lang="en">Ageratum (/əˈdʒɛrətəm/) (whiteweed in the USA) is a genus of 40 to 60 tropical and warm temperate flowering annuals and perennials from the family Asteraceae, tribe Eupatorieae. Most species are native to Central America and Mexico but four are native to the United States. They form tussocks or small hills. They grow to a height of 30 in. The opposite leaves are cordate or oval, hairy or tomentose. The margins are slightly toothed or serrate. The leaves form compact clusters. The fluffy flowers are lavender-blue, pink, lilac, or white; and spread in small compound umbels. They give small, dry fruits.</ns1:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_102815</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_55597', 'https://dbpedia.org/page/Ageratum']</ns3:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

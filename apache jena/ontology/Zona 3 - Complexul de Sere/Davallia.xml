@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Davallia">
+    <rdfs:label>Davallia</rdfs:label>
+    <ns1:abstract xml:lang="en">Davallia (deersfoot fern, hare's foot fern, shinobu fern, rabbit foot fern, ball fern) is a genus of about 40 species of fern. In the Pteridophyte Phylogeny Group classification of 2016 (PPG I), it is the only genus in the family Davalliaceae, which is placed in the suborder Polypodiineae, order Polypodiales. Alternatively, the family may be placed in a very broadly defined family Polypodiaceae sensu lato as the subfamily Davallioideae. The family is sister to the largest family of ferns, Polypodiaceae, and shares some morphological characters with it. Species are epiphytic ferns, with fronds arising from long aerial rhizomes which grow on and over thick bark on trees or on rock crevices.</ns1:abstract>
+    <ns2:subspecies>['See text']</ns2:subspecies>
+    <ns2:habitat>
+
+Davalliaceae is
+native
+to
+tropical
+and
+subtropical
+regions of the
+Pacific
+,
+Australia
+,
+Asia
+, and
+Africa
+.
+
+Plants are usually
+epiphytic
+, sometimes
+lithophytic
+or
+terrestrial
+.
+native
+tropical
+subtropical
+Pacific
+Australia
+Asia
+Africa
+
+
+epiphytic
+lithophytic
+terrestrial</ns2:habitat>
+    <ns2:taxonomy>
+
+Gymnogrammitis
+and
+Leucostegia
+were once included in Davalliaceae, but these are now known to belong elsewhere.
+Gymnogrammitis
+is in a
+clade
+with
+Selliguea
+and others in the family Polypodiaceae.
+
+Leucostegia
+is in the family
+Hypodematiaceae
+,
+
+which consists of
+Hypodematium
+and
+Leucostegia
+,
+
+and possibly
+Didymochlaena
+as well.
+
+Gymnogrammitis
+Gymnogrammitis
+Leucostegia
+Leucostegia
+Gymnogrammitis
+clade
+Selliguea
+Selliguea
+
+
+Leucostegia
+Hypodematiaceae
+
+
+Hypodematium
+Hypodematium
+Leucostegia
+
+
+Didymochlaena
+Didymochlaena
+
+
+In 2008, a
+molecular phylogenetic
+study
+of Davalliaceae showed that none of the
+polyspecific
+genera recognized at that time were
+monophyletic
+.
+
+In that same year, a revision of the family divided it into five genera.
+
+One of these,
+Araiostegiella
+, was newly described. The genus
+Davallia
+was divided into two
+sections
+,
+named
+Davallia
+and
+Trogostolon
+. Based on
+molecular phylogenetic
+studies, the
+Pteridophyte Phylogeny Group
+classification of 2016 (PPG I) accepts only one genus in the family,
+Davallia
+, sinking the other genera into synonymy.
+
+The study on which the PPG I
+circumscription
+is based divides the genus into seven sections.
+
+molecular phylogenetic
+study
+polyspecific
+monophyletic
+
+
+
+
+Araiostegiella
+Davallia
+sections
+named
+Davallia
+Trogostolon
+molecular phylogenetic
+Pteridophyte Phylogeny Group
+Davallia
+
+
+circumscription
+
+</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_29637</rdfs:subClassOf>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_29638', 'https://dbpedia.org/page/Davallia']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

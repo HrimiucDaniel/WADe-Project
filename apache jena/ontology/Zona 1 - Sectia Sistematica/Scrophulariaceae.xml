@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Scrophulariaceae">
+    <rdfs:label>Scrophulariaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Scrophulariaceae are a family of flowering plants, commonly known as the figwort family. The plants are annual and perennial herbs, as well as shrubs. Flowers have bilateral (zygomorphic) or rarely radial (actinomorphic) symmetry. The Scrophulariaceae have a cosmopolitan distribution, with the majority found in temperate areas, including tropical mountains. The family name is based on the name of the included genus Scrophularia L.</ns2:abstract>
+    <ns3:subspecies>['See text']</ns3:subspecies>
+    <ns3:taxonomy>
+
+This article
+needs attention from an expert in botany
+. The specific problem is:
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+(
+August 2015
+)
+This article
+needs attention from an expert in botany
+. The specific problem is:
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+(
+August 2015
+)
+This article
+needs attention from an expert in botany
+. The specific problem is:
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+(
+August 2015
+)
+This article
+needs attention from an expert in botany
+. The specific problem is:
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+(
+August 2015
+)
+This article
+needs attention from an expert in botany
+. The specific problem is:
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+(
+August 2015
+)
+needs attention from an expert in botany
+This article needs a comparison between the current and obsolete circumscriptions of the group, its current composition, and the present location of excluded taxa. None of these issues is adequately dealt with here.
+WikiProject Botany
+may be able to help recruit an expert.
+WikiProject Botany
+(
+August 2015
+)
+(
+August 2015
+)
+August 2015
+In the past, it was treated as including about 275 genera and over 5,000 species, but its circumscription has been radically altered since numerous molecular
+phylogenies
+have shown the traditional broad circumscription to be grossly
+polyphyletic
+.
+
+Many genera have recently been transferred to other families within the
+Lamiales
+, notably
+Plantaginaceae
+and
+Orobanchaceae
+, but also several new families.
+
+
+Several families of the Lamiales have had their circumscriptions enlarged to accommodate genera transferred from the Scrophulariacae
+sensu lato
+.
+phylogenies
+polyphyletic
+
+
+Lamiales
+Plantaginaceae
+Orobanchaceae
+
+
+
+
+sensu lato
+sensu lato
+Fischer (2004) considered the family to consist of three subfamilies –
+Antirrhinoideae
+,
+Gratioloideae
+, and
+Digitalidoideae
+. He further divided the Gratioloideae into five tribes –
+Gratioleae
+,
+Angeloniaeae
+,
+Stemodieae
+,
+Limoselleae
+, and
+Lindernieae
+. He then divided the Gratioleae, with its 16 genera (and about 182 species) into three subtribes –
+Caprarinae
+,
+Dopatrinae
+, and
+Gratiolinae
+. The Gratiolinae had 10 genera (about 121 species) distributed through temperate and tropical America –
+Bacopa
+and
+Mecardonia
+(formerly
+Herpestis
+),
+Amphianthus
+,
+Gratiola
+,
+Sophronanthe
+,
+Benjaminia
+,
+Scoparia
+,
+Boelkea
+,
+Maeviella
+, and
+Braunblequetia
+. Many of these were transferred to the family Plantaginaceae, in the tribe Gratioleae.
+Antirrhinoideae
+Gratioloideae
+Digitalidoideae
+Gratioleae
+Angeloniaeae
+Stemodieae
+Limoselleae
+Lindernieae
+Caprarinae
+Dopatrinae
+Gratiolinae
+Bacopa
+Bacopa
+Mecardonia
+Mecardonia
+Herpestis
+Herpestis
+Amphianthus
+Amphianthus
+Gratiola
+Gratiola
+Sophronanthe
+Sophronanthe
+Benjaminia
+Benjaminia
+Scoparia
+Scoparia
+Boelkea
+Boelkea
+Maeviella
+Maeviella
+Braunblequetia
+Braunblequetia</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4143</rdfs:subClassOf>
+    <ns1:hasExactSynonym>figwort family</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4149', 'https://dbpedia.org/page/Scrophulariaceae']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

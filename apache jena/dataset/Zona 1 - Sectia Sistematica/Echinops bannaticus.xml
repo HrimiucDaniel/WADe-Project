@@ -6,7 +6,6 @@
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Echinops%20bannaticus">
     <ns1:label>Echinops bannaticus</ns1:label>
     <ns1:abstract xml:lang="en">Echinops bannaticus, known as the blue globe-thistle, is a species of flowering plant in the family Asteraceae, native to southeastern Europe. It is an herbaceous perennial thistle, growing to 120 cm (47 in), with prickly foliage and spherical blue flower heads in summer. The Latin specific epithet bannaticus refers to the Banat, a region in Central Europe (now split between Romania, Hungary, and Serbia) where the plant is found.</ns1:abstract>
-    <ns1:positioning>---</ns1:positioning>
     <ns1:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</ns1:zone>
   </rdf:Description>
 </rdf:RDF>

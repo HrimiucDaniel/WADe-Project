@@ -9,10 +9,11 @@ def get_plant_info(zone, name):
     # SPARQL query to get all predicates and objects based on zone and name
     query = """
     PREFIX dbp: <https://dbpedia.org/property/>
+    PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
 
     SELECT ?predicate ?object
     WHERE {
-        ?subject dbp:label "%s" .
+        ?subject rdf:label "%s" .
         ?subject dbp:zone "%s" .
         ?subject ?predicate ?object .
     }
@@ -53,11 +54,12 @@ def get_all_plants(zone):
     # SPARQL query to get predicates and objects based on zone and name
     query = """
     PREFIX dbp: <https://dbpedia.org/property/>
+    PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
 
     SELECT ?predicate ?object
     WHERE {
         ?subject dbp:zone "%s" .
-        ?subject dbp:label ?object .
+        ?subject rdf:label ?object .
     }
     """ % (zone)
 

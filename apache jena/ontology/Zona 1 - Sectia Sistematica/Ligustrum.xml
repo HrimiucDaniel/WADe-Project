@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ligustrum">
+    <rdfs:label>Ligustrum</rdfs:label>
+    <ns3:ecology>
+
+A plant may produce thousands of fruits, most of which are eaten by birds.
+Privet is used as a food plant by the larvae of some
+Lepidoptera
+species including the
+common emerald
+,
+common marbled carpet
+, copper underwing,
+engrailed
+,
+mottled beauty
+,
+scalloped hazel
+, small angle shades,
+v-pug
+,
+privet hawk moth
+and
+willow beauty
+.
+Lepidoptera
+common emerald
+common marbled carpet
+engrailed
+mottled beauty
+scalloped hazel
+v-pug
+privet hawk moth
+willow beauty</ns3:ecology>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_426106</rdfs:subClassOf>
+    <ns1:hasExactSynonym>privets</ns1:hasExactSynonym>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13596', 'https://dbpedia.org/page/Ligustrum']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Rebutia">
+    <rdfs:label>Rebutia</rdfs:label>
+    <ns1:abstract xml:lang="en">Rebutia is a genus of flowering plants in the family Cactaceae, native to Bolivia and Argentina. They are generally small, colorful cacti, globular in form, which freely produce flowers that are relatively large in relation to the body. They have no distinctive ribs, but do have regularly arranged small tubercles. They are considered fairly easy to grow and they may produce large quantities of seeds that germinate freely around the parent plant. The limits of the genus are currently uncertain – in particular whether or not it includes species formerly or currently placed in the genera Aylostera, Cintia, Sulcorebutia and Weingartia. The number of species included varies widely from source to source. A very large number of plants that have been treated in cultivation as species of Rebutia are now generally regarded as varieties, forms or synonyms of a much smaller number of species.</ns1:abstract>
+    <ns2:taxonomy>
+
+The genus was designated in 1895 by
+Karl Moritz Schumann
+
+and named after
+Pierre Rebut
+(1828–1902), a French cactus nurseryman. The type species is
+R. minuscula
+, which has been in cultivation since 1887.
+
+
+Karl Moritz Schumann
+
+
+Pierre Rebut
+R. minuscula
+
+
+
+</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_186277</rdfs:subClassOf>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_432459', 'https://dbpedia.org/page/Rebutia']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

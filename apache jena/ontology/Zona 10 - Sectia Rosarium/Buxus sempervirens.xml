@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Buxus%20sempervirens">
+    <rdfs:label>Buxus sempervirens</rdfs:label>
+    <ns1:abstract xml:lang="en">Buxus sempervirens, the common box, European box, or boxwood, is a species of flowering plant in the genus Buxus, native to western and southern Europe, northwest Africa, and southwest Asia, from southern England south to northern Morocco, and east through the northern Mediterranean region to Turkey. Buxus colchica of western Caucasus and B. hyrcana of northern Iran and eastern Caucasus are commonly treated as synonyms of B. sempervirens.</ns1:abstract>
+    <ns4:habitat>
+
+The species typically grows on soils derived from
+chalk
+,
+limestone
+, usually as an understorey in forests of larger trees, most commonly associated with European beech (
+Fagus sylvatica
+) forests, but also sometimes in open dry montane scrub, particularly in the Mediterranean region.
+Box Hill, Surrey
+is named after its notable box population, which comprises the largest area of native box woodland in England.
+
+
+chalk
+limestone
+Fagus sylvatica
+Fagus sylvatica
+Box Hill, Surrey
+
+
+
+
+The species is locally
+naturalised
+in parts of North America.
+
+naturalised
+
+</ns4:habitat>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4001</rdfs:subClassOf>
+    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4002', 'https://dbpedia.org/page/Buxus sempervirens']</ns3:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

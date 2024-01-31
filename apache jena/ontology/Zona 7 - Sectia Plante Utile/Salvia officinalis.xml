@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Salvia%20officinalis">
+    <rdfs:label>Salvia officinalis</rdfs:label>
+    <ns2:abstract xml:lang="en">Salvia officinalis, the common sage or just sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family Lamiaceae and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of medicinal and culinary use, and in modern times it has been used as an ornamental garden plant. The common name "sage" is also used for closely related species and cultivars.</ns2:abstract>
+    <ns3:taxonomy>
+
+Salvia officinalis
+was described by
+Carl Linnaeus
+in 1753. It has been grown for centuries in the Old World for its food and healing properties, and was often described in old
+herbals
+for the many miraculous properties attributed to it.
+
+The binary name,
+officinalis
+, refers to the plant's medicinal use—the
+officina
+was the traditional storeroom of a monastery where herbs and medicines were stored.
+
+
+S. officinalis
+has been classified under many other scientific names over the years, including six different names since 1940 alone.
+
+It is the
+type species
+for the genus
+Salvia
+.
+Salvia officinalis
+Carl Linnaeus
+herbals
+
+
+officinalis
+officina
+
+
+
+
+S. officinalis
+
+
+type species
+Salvia</ns3:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_2291027</rdfs:subClassOf>
+    <ns1:hasExactSynonym>garden sage</ns1:hasExactSynonym>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_38868', 'https://dbpedia.org/page/Salvia officinalis']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

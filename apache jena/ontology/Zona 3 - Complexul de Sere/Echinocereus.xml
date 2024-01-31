@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Echinocereus">
+    <rdfs:label>Echinocereus</rdfs:label>
+    <ns1:abstract xml:lang="en">Echinocereus is a genus of ribbed, usually small to medium-sized, cylindrical shaped cacti, comprising about 70 species native to the southern United States and Mexico in very sunny, rocky places. Usually the flowers are large and the fruit edible. The name comes from the Ancient Greek ἐχῖνος (echinos), meaning "hedgehog", and the Latin cereus meaning "candle". They are sometimes known as hedgehog cacti, a term also used for the Pediocactus and Echinopsis.</ns1:abstract>
+    <ns2:subspecies>['See text']</ns2:subspecies>
+    <ns2:taxonomy>
+
+Echinocereus
+is a genus in the tribe Echinocereeae within the subfamily Cactoideae of the Cactaceae family.
+
+The Cactoideae can be further divided into two sister clades, Cactoideae I and II.
+
+Echinocereus is situated within the Cactoideae I clade within the Pachycereeae tribe, a tribe that represents a diversification that yielded columnar and arborescent forms.
+Echinocereus
+emerged 4.6 ± 1.7 million years ago.
+
+Echinocereus
+is a strongly supported monophyletic genus that is sister to
+Stenocereus,
+although there has historically been substantial debate about infrageneric classification because of the genus's high rates of morphological variation and convergent evolution.
+Echinocereus
+
+
+
+
+Echinocereus
+
+
+Echinocereus
+Stenocereus,</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_186275</rdfs:subClassOf>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_153853', 'https://dbpedia.org/page/Echinocereus']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

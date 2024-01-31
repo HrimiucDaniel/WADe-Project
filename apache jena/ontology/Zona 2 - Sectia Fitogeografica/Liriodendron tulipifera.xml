@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Liriodendron%20tulipifera">
+    <rdfs:label>Liriodendron tulipifera</rdfs:label>
+    <ns1:abstract xml:lang="en">Liriodendron tulipifera—known as the tulip tree, American tulip tree, tulipwood, tuliptree, tulip poplar, whitewood, fiddletree, and yellow-poplar—is the North American representative of the two-species genus Liriodendron (the other member is Liriodendron chinense), and the tallest eastern hardwood. It is native to eastern North America from Southern Ontario and possibly southern Quebec to Illinois eastward to southwestern Massachusetts and Rhode Island, and south to central Florida and Louisiana. It can grow to more than 50 m (160 ft) in virgin cove forests of the Appalachian Mountains, often with no limbs until it reaches 25–30 m (80–100 ft) in height, making it a very valuable timber tree. The tallest individual at the present time (2021) is one called the Fork Ridge Tulip Tree at a secret location in the Great Smoky Mountains of North Carolina. Repeated measurements by laser and tape-drop have shown it to be 191 feet 10 inches (58.47 m) in height. This is the tallest known individual tree in eastern North America. It is fast-growing, without the common problems of weak wood strength and short lifespan often seen in fast-growing species. April marks the start of the flowering period in the Southern United States (except as noted below); trees at the northern limit of cultivation begin to flower in June. The flowers are pale green or yellow (rarely white), with an orange band on the tepals; they yield large quantities of nectar. The tulip tree is the state tree of Indiana, Kentucky, and Tennessee.</ns1:abstract>
+    <ns2:habitat>
+
+In the
+Cretaceous
+age the genus was represented by several species, and was widely distributed over North America and Europe. Its remains are also found in
+Tertiary
+rocks.
+
+Cretaceous
+Tertiary
+
+
+Today the tulip tree is one of the largest and most valuable hardwoods of eastern North America, thriving in temperate deciduous forests east of the Mississippi River. It prefers rolling hills or mountains with moist, well-drained soil and is rarely found on coastal plains.
+
+It is native from Connecticut and southern New York, westward to southern Ontario and northern Ohio, and south to Louisiana and northern Florida.
+
+It is found sparingly in New England; it is abundant on the southern shore of Lake Erie and westward to Illinois. It extends south to north Florida, and is rare west of the Mississippi River, but is found occasionally for ornamentals. Its finest development is in the Southern Appalachian mountains, where trees may exceed 50 m (170 ft) in height. It was introduced into Great Britain before 1688 in
+Bishop Compton's
+garden at
+Fulham Palace
+and is now a popular ornamental in streets, parks, and large gardens.
+
+The Appalachian Mountains and adjacent Piedmont running south from Pennsylvania to Georgia contained 75 percent of all yellow-poplar growing stock in 1974.
+
+
+
+
+
+Bishop Compton's
+Fulham Palace
+
+
+
+</ns2:habitat>
+    <ns2:ecology>
+
+Liriodendron tulipifera
+is generally considered to be a
+shade-intolerant
+species that is most commonly associated with the first century of forest
+succession
+. In Appalachian forests, it is a dominant species during the 50–150 years of succession, but is absent or rare in stands of trees 500 years or older. One particular group of trees survived in the grounds of
+Orlagh College
+, Dublin for 200 years, before having to be cut down in 1990.
+
+On
+mesic
+, fertile soils, it often forms pure or nearly pure stands. It can and does persist in older forests when there is sufficient disturbance to generate large enough gaps for regeneration.
+
+Individual trees have been known to live for up to around 500 years.
+
+Liriodendron tulipifera
+shade-intolerant
+succession
+Orlagh College
+
+
+mesic
+
+
+
+
+All young tulip trees and most mature specimens are intolerant of prolonged inundation; however, a
+coastal plain
+swamp
+ecotype in the southeastern United States is relatively
+flood
+-tolerant.
+
+This ecotype is recognized by its blunt-lobed leaves, which may have a red tint.
+Liriodendron tulipifera
+produces a large amount of seed, which is dispersed by wind. The seeds typically travel a distance equal to 4–5 times the height of the tree, and remain viable for 4–7 years. The seeds are not one of the most important food sources for wildlife, but they are eaten by a number of birds and mammals.
+
+coastal plain
+swamp
+flood
+
+
+Liriodendron tulipifera
+
+
+Vines, especially
+wild grapevines
+, are known to be extremely damaging to young trees of this species. Vines are damaging both due to blocking out sunlight, and increasing weight on limbs which can lead to bending of the trunk and/or breaking of limbs.
+
+wild grapevines
+
+</ns2:ecology>
+    <ns2:taxonomy>
+
+Originally described by
+Carl Linnaeus
+,
+Liriodendron tulipifera
+is one of two species (see also
+L. chinense
+) in the genus
+Liriodendron
+in the magnolia family. The name
+Liriodendron
+is Greek for "lily tree".
+
+It is also called the tuliptree Magnolia, or sometimes, by the lumber industry, as the tulip-poplar or yellow-poplar. However, it is not closely related to true
+lilies
+,
+tulips
+or
+poplars
+.
+Carl Linnaeus
+Liriodendron tulipifera
+L. chinense
+Liriodendron
+Liriodendron
+Liriodendron
+
+
+lilies
+tulips
+poplars
+The tulip tree has impressed itself upon popular attention in many ways, and consequently has many common names. The tree's traditional name in the
+Miami-Illinois language
+is
+oonseentia
+. Native Americans so habitually made their
+dugout canoes
+of its trunk that the early settlers west of the
+Appalachian Mountains
+called it Canoewood. The color of its wood gives it the name Whitewood. In areas near the
+Mississippi River
+it is called a
+poplar
+largely because of the fluttering habits of its leaves, in which it resembles trees of that genus. It is sometimes called "fiddle tree," because its peculiar leaves, with their arched bases and in-cut sides, suggest the violin shape.
+
+Miami-Illinois language
+oonseentia
+oonseentia
+dugout canoes
+Appalachian Mountains
+Mississippi River
+poplar
+
+
+The external resemblance of its flowers to
+tulips
+named it the Tulip-tree.
+
+In their internal structure, however, they are quite different. Instead of the triple arrangements of stamens and pistil parts, they have indefinite numbers arranged in spirals.
+
+tulips
+
+
+
+</ns2:taxonomy>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3413</rdfs:subClassOf>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3415', 'https://dbpedia.org/page/Liriodendron tulipifera']</ns4:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

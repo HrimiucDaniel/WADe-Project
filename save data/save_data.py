@@ -4,6 +4,8 @@ import re
 import json
 import plant_info
 from rdflib import Graph, URIRef, Literal, BNode, Namespace
+import parse_ontology_data
+import get_ontology_data
 
 
 def read_json(json_path):
@@ -14,22 +16,14 @@ def read_json(json_path):
 
 
 def split_and_filter(text):
-    # Split the text using both "\n" and "*" as delimiters
     substrings = re.split(r'[\n*]', text)
-
-    # Filter out empty strings from the resulting list
     filtered_substrings = [substring for substring in substrings if substring]
-
     return filtered_substrings
 
 
 def remove_text_inside_square_brackets(input_string):
-    # Define the regular expression pattern for text inside square brackets
     pattern = re.compile(r'\[[^\]]*\]')
-
-    # Use the sub function to replace matches with an empty string
     result_string = re.sub(pattern, '', input_string)
-
     return result_string
 
 
@@ -60,16 +54,28 @@ def plant(zone_name, plant_name):
         if info is not None and info != "No information found on the section.":
             plant_dict["habitat"] = info
 
-        if ecological is not None and info != "No information found on the section.":
+        if ecological is not None and ecological != "No information found on the section.":
             plant_dict["ecology"] = ecological
 
-        if taxonomic is not None and info != "No information found on the section.":
+        if taxonomic is not None and taxonomic != "No information found on the section.":
             plant_dict["taxonomy"] = taxonomic
 
-        # plant_dict["comments"] = ""
-        # plant_dict["images"] = ""
-
         plant_dict["zone"] = f'http://127.0.0.1:5000/zone/{zone_name}'.replace(" ", "%20")
+
+        parameter_value = plant_name
+        result = get_ontology_data.send_sparql_query(parameter_value)
+        xml_response = result
+
+        parsed_data = parse_ontology_data.parse_sparql_response(xml_response)
+        new_data = {}
+        for key, item in parsed_data.items():
+            key2 = key.split("#")[-1]
+            new_data[key2] = item
+        plant_dict.update(new_data)
+        print(plant_name)
+        subject = get_ontology_data.get_subject_by_label(plant_name)
+
+        plant_dict["sameAs"] = [subject, f'https://dbpedia.org/page/{plant_name}']
 
         return plant_dict
 
@@ -87,6 +93,7 @@ def create_rdf(subject_url, predicate_object_dict):
 
     # Iterate through the predicate-object dictionary and add triples to the graph
     for predicate, obj in predicate_object_dict.items():
+        print(predicate)
         predicate_uri = custom_ns[predicate]
         g.add((subject, predicate_uri, Literal(obj)))
 
@@ -109,13 +116,41 @@ def save_rdf_data(subject, predicate_object_dict, file_path):
 
     # Define a custom namespace for your predicates
     custom_ns = Namespace("https://dbpedia.org/property/")
+    custom_label = Namespace("http://www.w3.org/2000/01/rdf-schema#")
+    custom_abstract = Namespace("https://dbpedia.org/ontology/")
+    custom_local = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    custom_type = Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    custom_sub = Namespace("http://www.w3.org/2000/01/rdf-schema#")
+    custom_synonim = Namespace("http://www.geneontology.org/formats/oboInOwl#")
+    custom_rank = Namespace("http://purl.obolibrary.org/obo/ncbitaxon#")
+    custom_owl = Namespace("https://www.w3.org/2002/07/owl")
 
     # Convert the subject to a URIRef
     subject_uri = URIRef(f"{subject.replace(' ', '%20')}")
 
     # Add triples to the graph using the subject, predicate, and object
     for predicate, obj in predicate_object_dict.items():
-        predicate_uri = custom_ns[predicate]
+        if predicate == "zone":
+            predicate_uri = custom_local[predicate]
+        elif predicate == "subspecies":
+            predicate_uri = custom_ns[predicate]
+        elif predicate == "label":
+            predicate_uri = custom_label[predicate]
+        elif predicate == "abstract":
+            predicate_uri = custom_abstract[predicate]
+        elif "type" in predicate:
+            predicate_uri = custom_type[predicate]
+        elif "rank" in predicate:
+            predicate_uri = custom_rank[predicate]
+        elif "Class" in predicate:
+            predicate_uri= custom_sub[predicate]
+        elif "Exact" in predicate:
+            predicate_uri = custom_synonim[predicate]
+        elif predicate == "sameAs":
+            predicate_uri = custom_owl[predicate]
+        else:
+            predicate_uri = custom_ns[predicate]
+
         g.add((subject_uri, predicate_uri, Literal(obj)))
 
     # Serialize the RDF graph to RDF/XML and save it to the specified file path
@@ -137,7 +172,7 @@ def apply_plant_function_to_folder(zone_name):
             subject_uri = URIRef(f"{subject_url.replace(' ', '%20')}")
 
             label = result["label"]
-            path = f'D:/WAD3/WADe-Project/apache jena/dataset/{zone_name}/{result["label"]}.xml'
+            path = f'D:/WAD3/WADe-Project/apache jena/ontology/{zone_name}/{result["label"]}.xml'
 
             save_rdf_data(subject_uri, result, path)
 
@@ -152,13 +187,3 @@ apply_plant_function_to_folder("Zona 7 - Sectia Plante Utile")
 apply_plant_function_to_folder("Zona 8 - Sectia Dendrarium")
 apply_plant_function_to_folder("Zona 9 - Sectia Ornamentala")
 apply_plant_function_to_folder("Zona 10 - Sectia Rosarium")
-
-
-#
-# result = plant("Zona 1 - Sectia Sistematica", "Liliaceae")
-# for key in result:
-#     print(key, result[key])
-# # subject_url = f'http://127.0.0.1:5000/plant/{result["zone"]}/{result["label"]}'
-# valid_sub = quote(subject_url)
-# save_rdf_data(valid_sub, result, f'D:/WAD3/WADe-Project/apache jena/dataset/Zona 1 - Sectia Sistematica/'
-#                                  f'{result["label"]}.xml')

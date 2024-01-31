@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pimpinellifolia">
+    <rdfs:label>Rosa pimpinellifolia</rdfs:label>
+    <ns2:abstract xml:lang="en">Rosa pimpinellifolia, the burnet rose, is a species of rose native to western, central and southern Europe (north to Iceland and Norway) and northwest Africa.</ns2:abstract>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
+    <ns1:owlsameAs>[None, 'https://dbpedia.org/page/Rosa pimpinellifolia']</ns1:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

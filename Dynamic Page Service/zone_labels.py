@@ -10,7 +10,7 @@ def get_labels_from_sparql():
     sparql.setQuery("""
         SELECT ?label
         WHERE {
-          ?subject <https://dbpedia.org/property/label> ?label
+          ?subject <https://www.w3.org/2000/01/rdf-schema#label> ?label
         }
         LIMIT 100
     """)
@@ -35,7 +35,7 @@ def get_labels_from_sparql_plants():
     sparql.setQuery("""
         SELECT ?label
         WHERE {
-          ?subject <https://dbpedia.org/property/label> ?label
+          ?subject <http://www.w3.org/2000/01/rdf-schema#label> ?label
         }
         LIMIT 100
     """)

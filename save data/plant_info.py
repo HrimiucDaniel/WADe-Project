@@ -30,7 +30,6 @@ def get_distribution_and_habitat(plant_name, section):
         return f"Failed to retrieve data. Status code: {response.status_code}"
 
 
-# Example usage
-#plant_name = "Liliaceae"
-#distribution_and_habitat_info = get_distribution_and_habitat(plant_name, "Distribution_and_habitat")
-#print(distribution_and_habitat_info)
+plant_name = "Doronicum%20orientale"
+distribution_and_habitat_info = get_distribution_and_habitat(plant_name, "Taxonomy")
+print(distribution_and_habitat_info)

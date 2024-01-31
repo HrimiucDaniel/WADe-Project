@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fagaceae">
+    <rdfs:label>Fagaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Fagaceae are a family of flowering plants that includes beeches, chestnuts and oaks, and comprises eight genera with about 927 species. Fagaceae in temperate regions are mostly deciduous, whereas in the tropics, many species occur as evergreen trees and shrubs. They are characterized by alternate simple leaves with pinnate venation, unisexual flowers in the form of catkins, and fruit in the form of cup-like (cupule) nuts. Their leaves are often lobed and both petioles and stipules are generally present. Their fruits lack endosperm and lie in a scaly or spiny husk that may or may not enclose the entire nut, which may consist of one to seven seeds. In the oaks, genus Quercus, the fruit is a non-valved nut (usually containing one seed) called an acorn. The husk of the acorn in most oaks only forms a cup in which the nut sits. Other members of the family have fully enclosed nuts. Fagaceae is one of the most ecologically important woody plant families in the Northern Hemisphere, as oaks form the backbone of temperate forest in North America, Europe, and Asia, and are one of the most significant sources of wildlife food. Several members of the Fagaceae have important economic uses. Many species of oak, chestnut, and beech (genera Quercus, Castanea, and Fagus, respectively) are commonly used as timber for floors, furniture, cabinets, and wine barrels. Cork for stopping wine bottles and a myriad other uses is made from the bark of cork oak, Quercus suber. Chestnuts are the fruits from species of the genus Castanea. Numerous species from several genera are prominent ornamentals, and wood chips from the genus Fagus are often used in flavoring beers. Nuts of some species in the Asian tropical genera Castanopsis and Lithocarpus are edible and often used as ornamentals.</ns2:abstract>
+    <ns4:subspecies>['See text.']</ns4:subspecies>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
+    <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3502</rdfs:subClassOf>
+    <ns1:hasExactSynonym>beech family</ns1:hasExactSynonym>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
+    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3503', 'https://dbpedia.org/page/Fagaceae']</ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>
