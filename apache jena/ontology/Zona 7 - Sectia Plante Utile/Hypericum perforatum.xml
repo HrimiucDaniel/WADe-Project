@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Hypericum%20perforatum">
     <rdfs:label>Hypericum perforatum</rdfs:label>
-    <ns1:abstract xml:lang="en">Hypericum perforatum, known as St. John's wort, is a flowering plant in the family Hypericaceae and the type species of the genus Hypericum. Possibly a hybrid between H. maculatum and H. attenuatum, the species can be found across temperate areas of Eurasia and has been introduced as an invasive weed to much of North and South America, as well as South Africa and Australia. While the species is harmful to livestock and can interfere with prescription drugs, it has been used in folk medicine over centuries, and remains commercially cultivated in the 21st century. Hyperforin, a phytochemical constituent of the species, is under basic research for possible therapeutic properties.</ns1:abstract>
-    <ns2:ecology>
+    <ns4:abstract xml:lang="en">Hypericum perforatum, known as St. John's wort, is a flowering plant in the family Hypericaceae and the type species of the genus Hypericum. Possibly a hybrid between H. maculatum and H. attenuatum, the species can be found across temperate areas of Eurasia and has been introduced as an invasive weed to much of North and South America, as well as South Africa and Australia. While the species is harmful to livestock and can interfere with prescription drugs, it has been used in folk medicine over centuries, and remains commercially cultivated in the 21st century. Hyperforin, a phytochemical constituent of the species, is under basic research for possible therapeutic properties.</ns4:abstract>
+    <ns1:ecology>
 
 H. perforatum
 is native to
@@ -26,8 +26,8 @@ invasive
 
 
 
-</ns2:ecology>
-    <ns2:taxonomy>
+</ns1:ecology>
+    <ns1:taxonomy>
 
 1913
 botanical illustration
@@ -294,11 +294,11 @@ H. triquetrifolium
 H. triquetrifolium
 H. undulatum
 H. undulatum
-H. undulatum</ns2:taxonomy>
+H. undulatum</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_55962</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_65561', 'https://dbpedia.org/page/Hypericum perforatum']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_65561', 'https://dbpedia.org/page/Hypericum perforatum']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

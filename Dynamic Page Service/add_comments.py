@@ -3,7 +3,7 @@ import requests
 
 def add_comments_to_plant(plant_uri, comments):
     # Fuseki server details
-    fuseki_endpoint = "http://localhost:3030/Plants/update"
+    fuseki_endpoint = "http://localhost:3030/plants/update"
 
     # Constructing a SPARQL Update query for each comment
     queries = []

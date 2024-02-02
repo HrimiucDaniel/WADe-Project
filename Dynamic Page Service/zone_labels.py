@@ -2,7 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 
 def get_labels_from_sparql():
-    endpoint_url = "http://localhost:3030/Zones/sparql"
+    endpoint_url = "http://localhost:3030/zones/sparql"
     # Set up the SPARQLWrapper with the provided endpoint URL
     sparql = SPARQLWrapper(endpoint_url)
 
@@ -10,7 +10,7 @@ def get_labels_from_sparql():
     sparql.setQuery("""
         SELECT ?label
         WHERE {
-          ?subject <https://www.w3.org/2000/01/rdf-schema#label> ?label
+          ?subject <http://www.w3.org/2000/01/rdf-schema#label> ?label
         }
         LIMIT 100
     """)
@@ -27,7 +27,7 @@ def get_labels_from_sparql():
 
 
 def get_labels_from_sparql_plants():
-    endpoint_url = "http://localhost:3030/Plants/sparql"
+    endpoint_url = "http://localhost:3030/plants/sparql"
     # Set up the SPARQLWrapper with the provided endpoint URL
     sparql = SPARQLWrapper(endpoint_url)
 
@@ -51,7 +51,7 @@ def get_labels_from_sparql_plants():
     return label_values
 
 # Example usage:
-# endpoint_url = "http://localhost:3030/Zones/sparql"
+# endpoint_url = "http://localhost:3030/zones/sparql"
 # labels = get_labels_from_sparql(endpoint_url)
 #
 # # Print the list of label values

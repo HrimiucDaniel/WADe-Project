@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns1="https://www.w3.org/2002/07/"
    xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Epimedium%20alpinum">
     <rdfs:label>Epimedium alpinum</rdfs:label>
-    <ns1:abstract xml:lang="en">Epimedium alpinum, the alpine barrenwort, is a species of flowering plant in the genus Epimedium, native to the mountains of Italy, Austria, the former Yugoslavia, and Albania, and introduced into central Europe. A dwarf perennial suitable for rock gardens, it was jocularly said by John Lindley to be "known only in the gardens of botanists". Its hybrid with E. grandiflorum, Epimedium × rubrum, has gained the Royal Horticultural Society's Award of Garden Merit.</ns1:abstract>
+    <ns3:abstract xml:lang="en">Epimedium alpinum, the alpine barrenwort, is a species of flowering plant in the genus Epimedium, native to the mountains of Italy, Austria, the former Yugoslavia, and Albania, and introduced into central Europe. A dwarf perennial suitable for rock gardens, it was jocularly said by John Lindley to be "known only in the gardens of botanists". Its hybrid with E. grandiflorum, Epimedium × rubrum, has gained the Royal Horticultural Society's Award of Garden Merit.</ns3:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_63350</rdfs:subClassOf>
     <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
-    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_168835', 'https://dbpedia.org/page/Epimedium alpinum']</ns3:owlsameAs>
+    <ns1:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_168835', 'https://dbpedia.org/page/Epimedium alpinum']</ns1:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/intersectii/" xml:base="http://127.0.0.1:5000/intersectii/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/zone"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/intersectii">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://127.0.0.1:5000/zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/intersectii/stanga">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/intersectii/"/>
+    <rdfs:range rdf:resource="http://127.0.0.1:5000/zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/intersectii/dreapta">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/intersectii/"/>
+    <rdfs:range rdf:resource="http://127.0.0.1:5000/zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/intersectii/inainte">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/intersectii/"/>
+    <rdfs:range rdf:resource="http://127.0.0.1:5000/zone"/>
+  </rdf:Description>
+  <ex:Intersection rdf:about="http://127.0.0.1:5000/intersectii/intersectia6">
+    <ex:stanga rdf:resource="http://127.0.0.1:5000/intersectii/intersectia7"/>
+    <ex:dreapta rdf:resource="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei"/>
+    <ex:inainte rdf:resource="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium"/>
+    <rdfs:label>Intersectia6</rdfs:label>
+  </ex:Intersection>
+</rdf:RDF>

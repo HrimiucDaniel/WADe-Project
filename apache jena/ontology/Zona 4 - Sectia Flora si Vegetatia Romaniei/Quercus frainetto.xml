@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://www.w3.org/2002/07/"
-   xmlns:ns4="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20frainetto">
     <rdfs:label>Quercus frainetto</rdfs:label>
-    <ns1:abstract xml:lang="en">Quercus frainetto (syn. Quercus conferta Kit., Quercus farnetto Ten.), commonly known as the Hungarian oak or Italian oak, is a species of oak, native to southeastern Europe (parts of Italy, the Balkans, parts of Hungary, Romania) and Turkey; it is classified in Quercus sect. Mesobalanus.</ns1:abstract>
-    <ns4:habitat>
+    <ns4:abstract xml:lang="en">Quercus frainetto (syn. Quercus conferta Kit., Quercus farnetto Ten.), commonly known as the Hungarian oak or Italian oak, is a species of oak, native to southeastern Europe (parts of Italy, the Balkans, parts of Hungary, Romania) and Turkey; it is classified in Quercus sect. Mesobalanus.</ns4:abstract>
+    <ns1:habitat>
 
 See also:
 Balkan mixed forests
@@ -36,11 +36,11 @@ vertisols
 Kingdom of Hungary
 Turkey oak
 Quercetum frainetto-cerris
-Quercetum frainetto-cerris</ns4:habitat>
+Quercetum frainetto-cerris</ns1:habitat>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3511</rdfs:subClassOf>
-    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
-    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_225354', 'https://dbpedia.org/page/Quercus frainetto']</ns3:owlsameAs>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_225354', 'https://dbpedia.org/page/Quercus frainetto']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

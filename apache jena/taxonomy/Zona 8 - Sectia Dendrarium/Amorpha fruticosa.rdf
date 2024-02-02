@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Amorpha%20fruticosa">
+    <rdfs:label>Amorpha fruticosa</rdfs:label>
+    <ns2:abstract xml:lang="en">Amorpha fruticosa is a species of flowering plant in the legume family Fabaceae, known by several common names, including desert false indigo, false indigo-bush, and bastard indigobush. It is native to North America.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat>The native range extends through much of the United States and south into Mexico.
+
+Its native habitats include stream and pond edges, open woods, roadsides and canyons.
+
+
+
+
+
+The species has escaped cultivation elsewhere and is present as an
+introduced species
+in
+Europe
+,
+
+Asia, and other continents. It is often cultivated as an
+ornamental plant
+, and some wild populations may be descended from garden escapes.
+introduced species
+Europe
+
+
+ornamental plant
+Flowers
+Flowers</ns3:habitat>
+    <rdf:habitat>The native range extends through much of the United States and south into Mexico.
+
+Its native habitats include stream and pond edges, open woods, roadsides and canyons.
+
+
+
+
+
+The species has escaped cultivation elsewhere and is present as an
+introduced species
+in
+Europe
+,
+
+Asia, and other continents. It is often cultivated as an
+ornamental plant
+, and some wild populations may be descended from garden escapes.
+introduced species
+Europe
+
+
+ornamental plant
+Flowers
+Flowers</rdf:habitat>
+    <ns3:ecology>It is a larval host to the
+clouded sulphur
+,
+gray hairstreak
+,
+hoary edge
+,
+Io moth
+,
+marine blue
+,
+silver-spotted skipper
+, and
+southern dogface
+.
+
+The plentiful seeds are a food source for
+bobwhite quail
+. Both bees and butterflies use the flowers as a nectar source.
+
+clouded sulphur
+gray hairstreak
+hoary edge
+Io moth
+marine blue
+silver-spotted skipper
+southern dogface
+
+
+bobwhite quail</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_48130"/>
+    <ns1:hasExactSynonym>bastard indigo</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_48131</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Amorpha fruticosa</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

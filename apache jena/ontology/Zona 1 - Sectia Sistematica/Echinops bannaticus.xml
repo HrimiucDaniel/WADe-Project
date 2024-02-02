@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns1="https://www.w3.org/2002/07/"
    xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Echinops%20bannaticus">
     <rdfs:label>Echinops bannaticus</rdfs:label>
-    <ns1:abstract xml:lang="en">Echinops bannaticus, known as the blue globe-thistle, is a species of flowering plant in the family Asteraceae, native to southeastern Europe. It is an herbaceous perennial thistle, growing to 120 cm (47 in), with prickly foliage and spherical blue flower heads in summer. The Latin specific epithet bannaticus refers to the Banat, a region in Central Europe (now split between Romania, Hungary, and Serbia) where the plant is found.</ns1:abstract>
+    <ns3:abstract xml:lang="en">Echinops bannaticus, known as the blue globe-thistle, is a species of flowering plant in the family Asteraceae, native to southeastern Europe. It is an herbaceous perennial thistle, growing to 120 cm (47 in), with prickly foliage and spherical blue flower heads in summer. The Latin specific epithet bannaticus refers to the Banat, a region in Central Europe (now split between Romania, Hungary, and Serbia) where the plant is found.</ns3:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_32194</rdfs:subClassOf>
     <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
-    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_170506', 'https://dbpedia.org/page/Echinops bannaticus']</ns3:owlsameAs>
+    <ns1:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_170506', 'https://dbpedia.org/page/Echinops bannaticus']</ns1:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

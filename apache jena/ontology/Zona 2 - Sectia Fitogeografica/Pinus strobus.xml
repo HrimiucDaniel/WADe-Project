@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Pinus%20strobus">
     <rdfs:label>Pinus strobus</rdfs:label>
-    <ns2:abstract xml:lang="en">Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and perhaps very rarely in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana. The Native American Haudenosaunee named it the "Tree of Peace". It is known as the "Weymouth pine" in the United Kingdom, after Captain George Weymouth of the British Royal Navy, who brought its seeds to England from Maine in 1605.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and perhaps very rarely in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana. The Native American Haudenosaunee named it the "Tree of Peace". It is known as the "Weymouth pine" in the United Kingdom, after Captain George Weymouth of the British Royal Navy, who brought its seeds to England from Maine in 1605.</ns5:abstract>
+    <ns3:ecology>
 
 Cottontail, snowshoe rabbits, porcupines, can eat the bark. Red squirrels can eat the cones by extracting the seeds. Seeds are eaten by crossbills, pine siskin, and white tailed deer.
 
 
-</ns4:ecology>
+</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_139272</rdfs:subClassOf>
     <ns1:hasExactSynonym>Eastern white pine</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3348', 'https://dbpedia.org/page/Pinus strobus']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3348', 'https://dbpedia.org/page/Pinus strobus']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

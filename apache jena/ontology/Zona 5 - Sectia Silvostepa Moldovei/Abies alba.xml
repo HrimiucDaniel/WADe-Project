@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Abies%20alba">
     <rdfs:label>Abies alba</rdfs:label>
-    <ns2:abstract xml:lang="en">Abies alba, the European silver fir or silver fir, is a fir native to the mountains of Europe, from the Pyrenees north to Normandy, east to the Alps and the Carpathians, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Serbia, and south to Italy, Bulgaria, Kosovo, Albania and northern Greece; it is also commonly grown on Christmas tree plantations in the North East region of North America spanning New England in the US to the Maritime provinces of Canada.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Abies alba, the European silver fir or silver fir, is a fir native to the mountains of Europe, from the Pyrenees north to Normandy, east to the Alps and the Carpathians, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Serbia, and south to Italy, Bulgaria, Kosovo, Albania and northern Greece; it is also commonly grown on Christmas tree plantations in the North East region of North America spanning New England in the US to the Maritime provinces of Canada.</ns5:abstract>
+    <ns3:ecology>
 
 Silver fir is an important component species in the
 dinaric calcareous block fir forest
@@ -50,12 +50,12 @@ canker
 
 citation needed
 citation needed
-citation needed</ns4:ecology>
+citation needed</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3319</rdfs:subClassOf>
     <ns1:hasExactSynonym>Christmas-tree</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_45372', 'https://dbpedia.org/page/Abies alba']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_45372', 'https://dbpedia.org/page/Abies alba']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

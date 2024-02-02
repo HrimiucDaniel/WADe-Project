@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Portulaca">
+    <rdfs:label>Portulaca</rdfs:label>
+    <ns2:abstract xml:lang="en">Portulaca (/ˌpɔːrtjuːˈleɪkə/, is the type genus of the flowering plant family Portulacaceae, with over 100 species, found in the tropics and warm temperate regions. They are known as the purslanes. Common purslane (Portulaca oleracea) is widely consumed as an edible plant, and in some areas it is invasive. Portulaca grandiflora is a well-known ornamental garden plant. Purslanes are relished by chickens. Some Portulaca species are used as food plants by the larvae of some Lepidoptera species including the nutmeg moth (Hadula trifolii).</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>see text</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3581"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3582</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Portulaca</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

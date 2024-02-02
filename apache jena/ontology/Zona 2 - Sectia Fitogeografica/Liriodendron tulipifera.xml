@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Liriodendron%20tulipifera">
     <rdfs:label>Liriodendron tulipifera</rdfs:label>
-    <ns1:abstract xml:lang="en">Liriodendron tulipifera—known as the tulip tree, American tulip tree, tulipwood, tuliptree, tulip poplar, whitewood, fiddletree, and yellow-poplar—is the North American representative of the two-species genus Liriodendron (the other member is Liriodendron chinense), and the tallest eastern hardwood. It is native to eastern North America from Southern Ontario and possibly southern Quebec to Illinois eastward to southwestern Massachusetts and Rhode Island, and south to central Florida and Louisiana. It can grow to more than 50 m (160 ft) in virgin cove forests of the Appalachian Mountains, often with no limbs until it reaches 25–30 m (80–100 ft) in height, making it a very valuable timber tree. The tallest individual at the present time (2021) is one called the Fork Ridge Tulip Tree at a secret location in the Great Smoky Mountains of North Carolina. Repeated measurements by laser and tape-drop have shown it to be 191 feet 10 inches (58.47 m) in height. This is the tallest known individual tree in eastern North America. It is fast-growing, without the common problems of weak wood strength and short lifespan often seen in fast-growing species. April marks the start of the flowering period in the Southern United States (except as noted below); trees at the northern limit of cultivation begin to flower in June. The flowers are pale green or yellow (rarely white), with an orange band on the tepals; they yield large quantities of nectar. The tulip tree is the state tree of Indiana, Kentucky, and Tennessee.</ns1:abstract>
-    <ns2:habitat>
+    <ns4:abstract xml:lang="en">Liriodendron tulipifera—known as the tulip tree, American tulip tree, tulipwood, tuliptree, tulip poplar, whitewood, fiddletree, and yellow-poplar—is the North American representative of the two-species genus Liriodendron (the other member is Liriodendron chinense), and the tallest eastern hardwood. It is native to eastern North America from Southern Ontario and possibly southern Quebec to Illinois eastward to southwestern Massachusetts and Rhode Island, and south to central Florida and Louisiana. It can grow to more than 50 m (160 ft) in virgin cove forests of the Appalachian Mountains, often with no limbs until it reaches 25–30 m (80–100 ft) in height, making it a very valuable timber tree. The tallest individual at the present time (2021) is one called the Fork Ridge Tulip Tree at a secret location in the Great Smoky Mountains of North Carolina. Repeated measurements by laser and tape-drop have shown it to be 191 feet 10 inches (58.47 m) in height. This is the tallest known individual tree in eastern North America. It is fast-growing, without the common problems of weak wood strength and short lifespan often seen in fast-growing species. April marks the start of the flowering period in the Southern United States (except as noted below); trees at the northern limit of cultivation begin to flower in June. The flowers are pale green or yellow (rarely white), with an orange band on the tepals; they yield large quantities of nectar. The tulip tree is the state tree of Indiana, Kentucky, and Tennessee.</ns4:abstract>
+    <ns1:habitat>
 
 In the
 Cretaceous
@@ -43,8 +43,8 @@ Fulham Palace
 
 
 
-</ns2:habitat>
-    <ns2:ecology>
+</ns1:habitat>
+    <ns1:ecology>
 
 Liriodendron tulipifera
 is generally considered to be a
@@ -97,8 +97,8 @@ wild grapevines
 
 wild grapevines
 
-</ns2:ecology>
-    <ns2:taxonomy>
+</ns1:ecology>
+    <ns1:taxonomy>
 
 Originally described by
 Carl Linnaeus
@@ -163,11 +163,11 @@ tulips
 
 
 
-</ns2:taxonomy>
+</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3413</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3415', 'https://dbpedia.org/page/Liriodendron tulipifera']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3415', 'https://dbpedia.org/page/Liriodendron tulipifera']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

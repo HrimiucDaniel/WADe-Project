@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Poaceae">
     <rdfs:label>Poaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Poaceae (/poʊˈeɪsiaɪ/) or Gramineae (/ɡrəˈmɪniaɪ/) is a large and nearly ubiquitous family of monocotyledonous flowering plants commonly known as grasses. It includes the cereal grasses, bamboos and the grasses of natural grassland and species cultivated in lawns and pasture. The latter are commonly referred to collectively as grass. With around 780 genera and around 12,000 species, the Poaceae is the fifth-largest plant family, following the Asteraceae, Orchidaceae, Fabaceae and Rubiaceae. The Poaceae are the most economically important plant family, providing staple foods from domesticated cereal crops such as maize, wheat, rice, barley, and millet as well as feed for meat-producing animals. They provide, through direct human consumption, just over one-half (51%) of all dietary energy; rice provides 20%, wheat supplies 20%, maize (corn) 5.5%, and other grains 6%. Some members of the Poaceae are used as building materials (bamboo, thatch, and straw); others can provide a source of biofuel, primarily via the conversion of maize to ethanol. Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation allowing it to cope with frequent grazing. Grasslands such as savannah and prairie where grasses are dominant are estimated to constitute 40.5% of the land area of the Earth, excluding Greenland and Antarctica. Grasses are also an important part of the vegetation in many other habitats, including wetlands, forests and tundra. Though they are commonly called "grasses", groups such as the seagrasses, rushes and sedges fall outside this family. The rushes and sedges are related to the Poaceae, being members of the order Poales, but the seagrasses are members of order Alismatales. However, all of them belong to the monocot group of plants.</ns2:abstract>
-    <ns3:subspecies>[' Anomochlooideae', ' Aristidoideae', ' Arundinoideae', ' Bambusoideae', ' Chloridoideae', ' Danthonioideae', ' Ehrhartoideae', ' Micrairoideae', ' Panicoideae', ' Pharoideae', ' Pooideae', ' Puelioideae']</ns3:subspecies>
-    <ns3:ecology>Wind-blown grass in the
+    <ns5:abstract xml:lang="en">Poaceae (/poʊˈeɪsiaɪ/) or Gramineae (/ɡrəˈmɪniaɪ/) is a large and nearly ubiquitous family of monocotyledonous flowering plants commonly known as grasses. It includes the cereal grasses, bamboos and the grasses of natural grassland and species cultivated in lawns and pasture. The latter are commonly referred to collectively as grass. With around 780 genera and around 12,000 species, the Poaceae is the fifth-largest plant family, following the Asteraceae, Orchidaceae, Fabaceae and Rubiaceae. The Poaceae are the most economically important plant family, providing staple foods from domesticated cereal crops such as maize, wheat, rice, barley, and millet as well as feed for meat-producing animals. They provide, through direct human consumption, just over one-half (51%) of all dietary energy; rice provides 20%, wheat supplies 20%, maize (corn) 5.5%, and other grains 6%. Some members of the Poaceae are used as building materials (bamboo, thatch, and straw); others can provide a source of biofuel, primarily via the conversion of maize to ethanol. Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation allowing it to cope with frequent grazing. Grasslands such as savannah and prairie where grasses are dominant are estimated to constitute 40.5% of the land area of the Earth, excluding Greenland and Antarctica. Grasses are also an important part of the vegetation in many other habitats, including wetlands, forests and tundra. Though they are commonly called "grasses", groups such as the seagrasses, rushes and sedges fall outside this family. The rushes and sedges are related to the Poaceae, being members of the order Poales, but the seagrasses are members of order Alismatales. However, all of them belong to the monocot group of plants.</ns5:abstract>
+    <ns2:subspecies>[' Anomochlooideae', ' Aristidoideae', ' Arundinoideae', ' Bambusoideae', ' Chloridoideae', ' Danthonioideae', ' Ehrhartoideae', ' Micrairoideae', ' Panicoideae', ' Pharoideae', ' Pooideae', ' Puelioideae']</ns2:subspecies>
+    <ns2:ecology>Wind-blown grass in the
 Valles Caldera
 in New Mexico, United States
 Wind-blown grass in the
@@ -145,8 +145,8 @@ Cenozoic
 
 
 : 137
-: 137</ns3:ecology>
-    <ns3:taxonomy>The name Poaceae was given by
+: 137</ns2:ecology>
+    <ns2:taxonomy>The name Poaceae was given by
 John Hendley Barnhart
 in 1895,
 
@@ -169,12 +169,12 @@ Robert Brown
 Poa
 Poa
 Carl Linnaeus
-πόα (póa, "fodder")</ns3:taxonomy>
+πόα (póa, "fodder")</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_38820</rdfs:subClassOf>
     <ns1:hasExactSynonym>grass family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4479', 'https://dbpedia.org/page/Poaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4479', 'https://dbpedia.org/page/Poaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

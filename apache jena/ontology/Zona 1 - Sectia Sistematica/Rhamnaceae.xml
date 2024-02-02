@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
+   xmlns:ns5="https://dbpedia.org/property/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rhamnaceae">
     <rdfs:label>Rhamnaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The Rhamnaceae are a large family of flowering plants, mostly trees, shrubs, and some vines, commonly called the buckthorn family. Rhamnaceae is included in the order Rosales. The family contains about 55 genera and 950 species. The Rhamnaceae have a worldwide distribution, but are more common in the subtropical and tropical regions. The earliest fossil evidence of Rhamnaceae is from the Late Cretaceous. Fossil flowers have been collected from the Upper Cretaceous of Mexico and the Paleocene of Argentina. Leaves of family Rhamnaceae members are simple, i.e., the leaf blades are not divided into smaller leaflets. Leaves can be either alternate or opposite. Stipules are present. These leaves are modified into spines in many genera, in some (e.g. Paliurus spina-christi and Colletia cruciata) spectacularly so. Colletia stands out by having two axillary buds instead of one, one developing into a thorn, the other one into a shoot. The flowers are radially symmetrical. There are 5 (sometimes 4) separate sepals and 5 (sometimes 4 or none) separate petals. The petals may be white, yellowish, greenish, pink or blue, and are small and inconspicuous in most genera, though in some (e.g. Ceanothus) the dense clusters of flowers are conspicuous. The 5 or 4 stamens are opposite the petals. The ovary is mostly superior, with 2 or 3 ovules (or one by abortion). The fruits are mostly berries, fleshy drupes, or nuts. Some are adapted to wind carriage, but most are dispersed by mammals and birds. Chinese jujube is the fruit of the jujube tree (Ziziphus zizyphus) and is a major fruit in China. The American genus Ceanothus, which has several showy ornamental species, has nitrogen-fixing root nodules. Economic uses of the Rhamnaceae are chiefly as ornamental plants and as the source of many brilliant green and yellow dyes. The wood of Rhamnus was also the most favoured species to make charcoal for use in gunpowder before the development of modern propellants. 
+    <ns4:abstract xml:lang="en">The Rhamnaceae are a large family of flowering plants, mostly trees, shrubs, and some vines, commonly called the buckthorn family. Rhamnaceae is included in the order Rosales. The family contains about 55 genera and 950 species. The Rhamnaceae have a worldwide distribution, but are more common in the subtropical and tropical regions. The earliest fossil evidence of Rhamnaceae is from the Late Cretaceous. Fossil flowers have been collected from the Upper Cretaceous of Mexico and the Paleocene of Argentina. Leaves of family Rhamnaceae members are simple, i.e., the leaf blades are not divided into smaller leaflets. Leaves can be either alternate or opposite. Stipules are present. These leaves are modified into spines in many genera, in some (e.g. Paliurus spina-christi and Colletia cruciata) spectacularly so. Colletia stands out by having two axillary buds instead of one, one developing into a thorn, the other one into a shoot. The flowers are radially symmetrical. There are 5 (sometimes 4) separate sepals and 5 (sometimes 4 or none) separate petals. The petals may be white, yellowish, greenish, pink or blue, and are small and inconspicuous in most genera, though in some (e.g. Ceanothus) the dense clusters of flowers are conspicuous. The 5 or 4 stamens are opposite the petals. The ovary is mostly superior, with 2 or 3 ovules (or one by abortion). The fruits are mostly berries, fleshy drupes, or nuts. Some are adapted to wind carriage, but most are dispersed by mammals and birds. Chinese jujube is the fruit of the jujube tree (Ziziphus zizyphus) and is a major fruit in China. The American genus Ceanothus, which has several showy ornamental species, has nitrogen-fixing root nodules. Economic uses of the Rhamnaceae are chiefly as ornamental plants and as the source of many brilliant green and yellow dyes. The wood of Rhamnus was also the most favoured species to make charcoal for use in gunpowder before the development of modern propellants. 
 * Alphitonia ponderosa 
 * Ceanothus 
-* Ceanothus papillosus var. roweanus at the Regional Parks Botanic Garden, Berkeley, California</ns2:abstract>
-    <ns4:subspecies>['See text']</ns4:subspecies>
+* Ceanothus papillosus var. roweanus at the Regional Parks Botanic Garden, Berkeley, California</ns4:abstract>
+    <ns5:subspecies>['See text']</ns5:subspecies>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3744</rdfs:subClassOf>
     <ns1:hasExactSynonym>buckthorn family</ns1:hasExactSynonym>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3608', 'https://dbpedia.org/page/Rhamnaceae']</ns5:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3608', 'https://dbpedia.org/page/Rhamnaceae']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fabaceae">
+    <rdfs:label>Fabaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Fabaceae or Leguminosae, commonly known as the legume, pea, or bean family, are a large and agriculturally important family of flowering plants. It includes trees, shrubs, and perennial or annual herbaceous plants, which are easily recognized by their fruit (legume) and their compound, stipulate leaves. The family is widely distributed, and is the third-largest land plant family in number of species, behind only the Orchidaceae and Asteraceae, with about 765 genera and nearly 20,000 known species. The five largest genera of the family are Astragalus (over 3,000 species), Acacia (over 1,000 species), Indigofera (around 700 species), Crotalaria (around 700 species), and Mimosa (around 400 species), which constitute about a quarter of all legume species. The ca. 19,000 known legume species amount to about 7% of flowering plant species. Fabaceae is the most common family found in tropical rainforests and dry forests of the Americas and Africa. Recent molecular and morphological evidence supports the fact that the Fabaceae is a single monophyletic family. This conclusion has been supported not only by the degree of interrelation shown by different groups within the family compared with that found among the Leguminosae and their closest relations, but also by all the recent phylogenetic studies based on DNA sequences. These studies confirm that the Fabaceae are a monophyletic group that is closely related to the families Polygalaceae, Surianaceae and Quillajaceae and that they belong to the order Fabales. Along with the cereals, some fruits and tropical roots, a number of Leguminosae have been a staple human food for millennia and their use is closely related to human evolution. The family Fabaceae includes a number of plants that are common in agriculture, including Glycine max (soybean), Phaseolus (beans), Pisum sativum (pea), Cicer arietinum (chickpeas), Vicia faba (broad bean), Medicago sativa (alfalfa), Arachis hypogaea (peanut), Ceratonia siliqua (carob), and Glycyrrhiza glabra (liquorice). A number of species are also weedy pests in different parts of the world, including: Cytisus scoparius (broom), Robinia pseudoacacia (black locust), Ulex europaeus (gorse), Pueraria montana (kudzu), and a number of Lupinus species.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem> Caesalpinioideae DC.</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Cercidoideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Detarioideae (Burmeist.)</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Dialioideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Duparquetioideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Faboideae (Rudd)</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat>The Fabaceae have an essentially worldwide distribution, being found everywhere except Antarctica and the high Arctic.
+
+The trees are often found in tropical regions, while the herbaceous plants and shrubs are predominant outside the tropics.</ns3:habitat>
+    <rdf:habitat>The Fabaceae have an essentially worldwide distribution, being found everywhere except Antarctica and the high Arctic.
+
+The trees are often found in tropical regions, while the herbaceous plants and shrubs are predominant outside the tropics.</rdf:habitat>
+    <ns3:ecology/>
+    <ns3:taxonomy>The Fabaceae are placed in the order
+Fabales
+according to most taxonomic systems, including the
+APG III system
+.
+
+The family now includes six subfamilies:
+
+Fabales
+APG III system
+
+
+
+
+Cercidoideae
+: 12 genera and ~335 species. Mainly tropical.
+Bauhinia
+,
+Cercis
+.
+Detarioideae
+: 84 genera and ~760 species. Mainly tropical.
+Amherstia
+,
+Detarium
+,
+Tamarindus
+.
+Duparquetioideae
+: 1 genus and 1 species. West and Central Africa.
+Duparquetia
+.
+Dialioideae
+: 17 genera and ~85 species. Widespread throughout the tropics.
+Dialium
+.
+Caesalpinioideae
+: 148 genera and ~4400 species.
+Pantropical
+.
+Caesalpinia
+,
+Senna
+,
+Mimosa
+,
+Acacia
+. Includes the former subfamily
+Mimosoideae
+(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).
+Faboideae
+(Papilionoideae
+
+): 503 genera and ~14,000 species.
+Cosmopolitan
+.
+Astragalus
+,
+Lupinus
+,
+Pisum
+.
+Cercidoideae
+: 12 genera and ~335 species. Mainly tropical.
+Bauhinia
+,
+Cercis
+.
+Cercidoideae
+Bauhinia
+Bauhinia
+Cercis
+Cercis
+Detarioideae
+: 84 genera and ~760 species. Mainly tropical.
+Amherstia
+,
+Detarium
+,
+Tamarindus
+.
+Detarioideae
+Amherstia
+Amherstia
+Detarium
+Detarium
+Tamarindus
+Tamarindus
+Duparquetioideae
+: 1 genus and 1 species. West and Central Africa.
+Duparquetia
+.
+Duparquetioideae
+Duparquetia
+Duparquetia
+Dialioideae
+: 17 genera and ~85 species. Widespread throughout the tropics.
+Dialium
+.
+Dialioideae
+Dialium
+Dialium
+Caesalpinioideae
+: 148 genera and ~4400 species.
+Pantropical
+.
+Caesalpinia
+,
+Senna
+,
+Mimosa
+,
+Acacia
+. Includes the former subfamily
+Mimosoideae
+(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).
+Caesalpinioideae
+Pantropical
+Caesalpinia
+Caesalpinia
+Senna
+Senna
+Mimosa
+Mimosa
+Acacia
+Acacia
+Mimosoideae
+Faboideae
+(Papilionoideae
+
+): 503 genera and ~14,000 species.
+Cosmopolitan
+.
+Astragalus
+,
+Lupinus
+,
+Pisum
+.
+Faboideae
+
+
+Cosmopolitan
+Astragalus
+Astragalus
+Lupinus
+Lupinus
+Pisum
+Pisum</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91835"/>
+    <ns1:hasExactSynonym>pea family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3803</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Fabaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Opuntia">
     <rdfs:label>Opuntia</rdfs:label>
-    <ns2:abstract xml:lang="en">Opuntia, commonly called prickly pear or pear cactus, is a genus of flowering plants in the cactus family Cactaceae. Prickly pears are also known as tuna (fruit), sabra, nopal (paddle, plural nopales) from the Nahuatl word nōpalli for the pads, or nostle, from the Nahuatl word nōchtli for the fruit; or paddle cactus. The genus is named for the Ancient Greek city of Opus, where, according to Theophrastus, an edible plant grew and could be propagated by rooting its leaves. The most common culinary species is the Indian fig opuntia (O. ficus-indica).</ns2:abstract>
-    <ns3:subspecies>['Many, [[#Species']</ns3:subspecies>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Opuntia, commonly called prickly pear or pear cactus, is a genus of flowering plants in the cactus family Cactaceae. Prickly pears are also known as tuna (fruit), sabra, nopal (paddle, plural nopales) from the Nahuatl word nōpalli for the pads, or nostle, from the Nahuatl word nōchtli for the fruit; or paddle cactus. The genus is named for the Ancient Greek city of Opus, where, according to Theophrastus, an edible plant grew and could be propagated by rooting its leaves. The most common culinary species is the Indian fig opuntia (O. ficus-indica).</ns5:abstract>
+    <ns2:subspecies>['Many, [[#Species']</ns2:subspecies>
+    <ns2:habitat>
 
 Like most true cactus species, prickly pears are native only to the
 Americas
@@ -341,8 +341,8 @@ elephants
 
 
 
-</ns3:habitat>
-    <ns3:ecology>
+</ns2:habitat>
+    <ns2:ecology>
 
 See also:
 Prickly pears in Australia
@@ -438,8 +438,8 @@ Opuntia
 Crematogaster opuntiae
 Crematogaster opuntiae
 Theridion opuntia
-Theridion opuntia</ns3:ecology>
-    <ns3:taxonomy>
+Theridion opuntia</ns2:ecology>
+    <ns2:taxonomy>
 
 O. lindheimeri
 ,
@@ -483,12 +483,12 @@ to define and isolate various species.
 Opuntia
 DNA sequencing
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_186267</rdfs:subClassOf>
     <ns1:hasExactSynonym>prickly-pears</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_106975', 'https://dbpedia.org/page/Opuntia']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_106975', 'https://dbpedia.org/page/Opuntia']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

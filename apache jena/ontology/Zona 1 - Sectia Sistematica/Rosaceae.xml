@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rosaceae">
     <rdfs:label>Rosaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosaceae (/roʊˈzeɪʃiː/), the rose family, is a medium-sized family of flowering plants that includes 4,828 known species in 91 genera. The name is derived from the type genus Rosa. Among the most species-rich genera are Alchemilla (270), Sorbus (260), Crataegus (260), Cotoneaster (260), Rubus (250), and Prunus (200), which contains the plums, cherries, peaches, apricots, and almonds. However, all of these numbers should be seen as estimates—much taxonomic work remains. The family Rosaceae includes herbs, shrubs, and trees. Most species are deciduous, but some are evergreen. They have a worldwide range but are most diverse in the Northern Hemisphere. Many economically important products come from the Rosaceae, including various edible fruits, such as apples, pears, quinces, apricots, plums, cherries, peaches, raspberries, blackberries, loquats, strawberries, rose hips, hawthorns, and almonds. The family also includes popular ornamental trees and shrubs, such as roses, meadowsweets, rowans, firethorns, and photinias.</ns2:abstract>
-    <ns3:subspecies>[' Amygdaloideae', ' Dryadoideae', ' Rosoideae']</ns3:subspecies>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Rosaceae (/roʊˈzeɪʃiː/), the rose family, is a medium-sized family of flowering plants that includes 4,828 known species in 91 genera. The name is derived from the type genus Rosa. Among the most species-rich genera are Alchemilla (270), Sorbus (260), Crataegus (260), Cotoneaster (260), Rubus (250), and Prunus (200), which contains the plums, cherries, peaches, apricots, and almonds. However, all of these numbers should be seen as estimates—much taxonomic work remains. The family Rosaceae includes herbs, shrubs, and trees. Most species are deciduous, but some are evergreen. They have a worldwide range but are most diverse in the Northern Hemisphere. Many economically important products come from the Rosaceae, including various edible fruits, such as apples, pears, quinces, apricots, plums, cherries, peaches, raspberries, blackberries, loquats, strawberries, rose hips, hawthorns, and almonds. The family also includes popular ornamental trees and shrubs, such as roses, meadowsweets, rowans, firethorns, and photinias.</ns5:abstract>
+    <ns2:subspecies>[' Amygdaloideae', ' Dryadoideae', ' Rosoideae']</ns2:subspecies>
+    <ns2:habitat>
 
 The Rosaceae have a cosmopolitan distribution, being found nearly everywhere except for Antarctica. They are primarily concentrated in the Northern Hemisphere in regions that are not desert or tropical rainforest.
 
 
-</ns3:habitat>
-    <ns3:taxonomy>
-</ns3:taxonomy>
+</ns2:habitat>
+    <ns2:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3744</rdfs:subClassOf>
     <ns1:hasExactSynonym>rose family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3745', 'https://dbpedia.org/page/Rosaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3745', 'https://dbpedia.org/page/Rosaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

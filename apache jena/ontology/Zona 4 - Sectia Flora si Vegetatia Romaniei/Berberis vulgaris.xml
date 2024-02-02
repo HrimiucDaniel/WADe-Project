@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Berberis%20vulgaris">
     <rdfs:label>Berberis vulgaris</rdfs:label>
-    <ns2:abstract xml:lang="en">Berberis vulgaris, also known as common barberry, European barberry or simply barberry, is a shrub in the genus Berberis native to the Old World. It produces edible but sharply acidic berries, which people in many countries eat as a tart and refreshing fruit.</ns2:abstract>
-    <ns4:habitat>
+    <ns5:abstract xml:lang="en">Berberis vulgaris, also known as common barberry, European barberry or simply barberry, is a shrub in the genus Berberis native to the Old World. It produces edible but sharply acidic berries, which people in many countries eat as a tart and refreshing fruit.</ns5:abstract>
+    <ns2:habitat>
 
 The shrub is native to central and southern
 Europe
@@ -70,8 +70,8 @@ Washington state
 Montana
 British Columbia
 
-</ns4:habitat>
-    <ns4:ecology>
+</ns2:habitat>
+    <ns2:ecology>
 
 The berries are an important food for many small birds, which disperse the seeds in their droppings.
 B. vulgaris
@@ -116,12 +116,12 @@ Massachusetts
 Michigan
 New Hampshire
 
-</ns4:ecology>
+</ns2:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_41768</rdfs:subClassOf>
     <ns1:hasExactSynonym>European barberry</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_258209', 'https://dbpedia.org/page/Berberis vulgaris']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_258209', 'https://dbpedia.org/page/Berberis vulgaris']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,190 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Poaceae">
+    <rdfs:label>Poaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">Poaceae (/poʊˈeɪsiaɪ/) or Gramineae (/ɡrəˈmɪniaɪ/) is a large and nearly ubiquitous family of monocotyledonous flowering plants commonly known as grasses. It includes the cereal grasses, bamboos and the grasses of natural grassland and species cultivated in lawns and pasture. The latter are commonly referred to collectively as grass. With around 780 genera and around 12,000 species, the Poaceae is the fifth-largest plant family, following the Asteraceae, Orchidaceae, Fabaceae and Rubiaceae. The Poaceae are the most economically important plant family, providing staple foods from domesticated cereal crops such as maize, wheat, rice, barley, and millet as well as feed for meat-producing animals. They provide, through direct human consumption, just over one-half (51%) of all dietary energy; rice provides 20%, wheat supplies 20%, maize (corn) 5.5%, and other grains 6%. Some members of the Poaceae are used as building materials (bamboo, thatch, and straw); others can provide a source of biofuel, primarily via the conversion of maize to ethanol. Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation allowing it to cope with frequent grazing. Grasslands such as savannah and prairie where grasses are dominant are estimated to constitute 40.5% of the land area of the Earth, excluding Greenland and Antarctica. Grasses are also an important part of the vegetation in many other habitats, including wetlands, forests and tundra. Though they are commonly called &quot;grasses&quot;, groups such as the seagrasses, rushes and sedges fall outside this family. The rushes and sedges are related to the Poaceae, being members of the order Poales, but the seagrasses are members of order Alismatales. However, all of them belong to the monocot group of plants.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem> Anomochlooideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Aristidoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Arundinoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Bambusoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Chloridoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Danthonioideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Ehrhartoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Micrairoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Panicoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Pharoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Pooideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Puelioideae</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>Wind-blown grass in the
+Valles Caldera
+in New Mexico, United States
+Wind-blown grass in the
+Valles Caldera
+in New Mexico, United States
+Valles Caldera
+Grasses are the
+dominant
+vegetation in many habitats, including
+grassland
+,
+salt-marsh
+,
+reedswamp
+and
+steppes
+. They also occur as a smaller part of the vegetation in almost every other terrestrial habitat.
+
+Grass-dominated
+biomes
+are called grasslands. If only large, contiguous areas of grasslands are counted, these biomes cover 31% of the planet's land.
+
+Grasslands include
+pampas
+,
+steppes
+, and
+prairies
+.
+
+Grasses provide food to many
+grazing
+mammals,
+
+as well as to many species of
+butterflies
+and
+moths
+.
+
+
+Many types of animals eat grass as their main source of food, and are called
+graminivores
+– these include
+cattle
+,
+sheep
+,
+horses
+,
+rabbits
+and many
+invertebrates
+, such as
+grasshoppers
+and the caterpillars of many
+brown butterflies
+. Grasses are also eaten by
+omnivorous
+or even occasionally by primarily
+carnivorous
+animals.
+dominant
+grassland
+salt-marsh
+reedswamp
+steppes
+
+citation needed
+citation needed
+citation needed
+biomes
+
+
+pampas
+steppes
+prairies
+
+
+grazing
+
+
+butterflies
+moths
+
+
+
+
+graminivores
+graminivores
+cattle
+sheep
+horses
+rabbits
+invertebrates
+grasshoppers
+brown butterflies
+omnivorous
+carnivorous
+A
+kangaroo
+eating grass
+A
+kangaroo
+eating grass
+kangaroo
+Grasses dominate certain
+biomes
+, especially
+temperate grasslands
+, because many species are adapted to grazing and fire.
+
+biomes
+temperate grasslands
+
+
+Grasses are unusual in that the
+meristem
+is near the bottom of the plant; hence, grasses can quickly recover from cropping at the top.
+
+The evolution of large grazing animals in the
+Cenozoic
+contributed to the spread of grasses. Without large grazers, fire-cleared areas are quickly colonized by grasses, and with enough rain, tree seedlings. Trees eventually outcompete most grasses. Trampling grazers kill seedling trees but not grasses.
+
+: 137
+meristem
+
+
+Cenozoic
+
+
+: 137
+: 137</ns3:ecology>
+    <ns3:taxonomy>The name Poaceae was given by
+John Hendley Barnhart
+in 1895,
+
+: 7
+based on the tribe Poeae described in 1814 by
+Robert Brown
+, and the type genus
+Poa
+described in 1753 by
+Carl Linnaeus
+. The term is derived from the Ancient Greek
+πόα (póa, &quot;fodder&quot;)
+.
+John Hendley Barnhart
+
+
+: 7
+: 7
+Robert Brown
+Poa
+Poa
+Carl Linnaeus
+πόα (póa, &quot;fodder&quot;)</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38820"/>
+    <ns1:hasExactSynonym>grass family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_4479</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Poaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

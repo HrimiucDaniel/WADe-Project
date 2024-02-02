@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica">
+    <rdfs:label>Zona 6 - Sectia Biologica</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Campanula%20carpatica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Campanula%20portenschlagiana"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Campanula%20punctata"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20knappii"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20monspessulanus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20spiculifolius"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Dianthus%20superbus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Epimedium%20alpinum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Paeonia%20daurica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20canina"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20gallica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20multiflora"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20persica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20rubiginosa"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Ruscus%20aculeatus"/>
+    </ex:list_of_plants>
+    <ex:description>La intrarea in sectie, strajuita de o parte si de alta de coloanele arborelui vietii (Thuja occidentalis Fastigiata), sunt amenajate doua grupuri de stancarii care prezinta unele aspecte ale evolutiei vietuitoarelor.Stancaria din partea nordica a sectorului, alcatuita din calcar de la Repedea - Iasi, prezinta vizitatorului unele dovezi paleontologice ale procesului de evolutie, printr-o bogata fauna fosila, mai ales moluste, sedimentate in gresiile calcaroase de varsta sarmatianului mijlociu. In aceasta stancarie sunt prezentate aspecte ale evolutiei florii de la cea actinomorfa spre cea zigomorfa si respectiv, de la floarea dialipetala (cu petale libere) spre gamopetala (cu petale concrescute).</ex:description>
+  </ex:Zone>
+</rdf:RDF>

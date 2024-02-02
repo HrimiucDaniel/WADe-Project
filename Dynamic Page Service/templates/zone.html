@@ -9,6 +9,9 @@
 </head>
 <body>
     <h1>{{ zone_name }} Zone</h1>
+
+    <p>{{ description }}</p>
+
     <ul>
         {% for plant in plants %}
             <li><a href="{{ generate_url(zone_name, 'plant', plant) }}">{{ plant }}</a></li>

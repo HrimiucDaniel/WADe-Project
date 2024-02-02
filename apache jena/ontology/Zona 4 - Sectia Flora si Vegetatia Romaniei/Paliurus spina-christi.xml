@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Paliurus%20spina-christi">
     <rdfs:label>Paliurus spina-christi</rdfs:label>
-    <ns2:abstract xml:lang="en">Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the Mediterranean region and southwest and central Asia, from Morocco and Spain east to Iran and Tajikistan.</ns2:abstract>
+    <ns4:abstract xml:lang="en">Paliurus spina-christi, commonly known as Jerusalem thorn, garland thorn, Christ's thorn, or crown of thorns, is a species of Paliurus native to the Mediterranean region and southwest and central Asia, from Morocco and Spain east to Iran and Tajikistan.</ns4:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_106692</rdfs:subClassOf>
     <ns1:hasExactSynonym>Paliurus sprina-christii</ns1:hasExactSynonym>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_106693', 'https://dbpedia.org/page/Paliurus spina-christi']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_106693', 'https://dbpedia.org/page/Paliurus spina-christi']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

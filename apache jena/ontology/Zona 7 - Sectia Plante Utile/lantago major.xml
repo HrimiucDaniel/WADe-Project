@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/lantago%20major">
     <rdfs:label>lantago major</rdfs:label>
-    <ns1:abstract xml:lang="en">Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten.</ns1:abstract>
-    <ns2:habitat>Failed to retrieve data. Status code: 404</ns2:habitat>
-    <ns2:ecology>Failed to retrieve data. Status code: 404</ns2:ecology>
-    <ns2:taxonomy>Failed to retrieve data. Status code: 404</ns2:taxonomy>
+    <ns3:abstract xml:lang="en">Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten.</ns3:abstract>
+    <ns1:habitat>Failed to retrieve data. Status code: 404</ns1:habitat>
+    <ns1:ecology>Failed to retrieve data. Status code: 404</ns1:ecology>
+    <ns1:taxonomy>Failed to retrieve data. Status code: 404</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
-    <ns3:owlsameAs>[None, 'https://dbpedia.org/page/lantago major']</ns3:owlsameAs>
+    <ns2:owlsameAs>[None, 'https://dbpedia.org/page/lantago major']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

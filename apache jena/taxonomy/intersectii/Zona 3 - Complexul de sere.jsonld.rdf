@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere">
+    <rdfs:label>Zona 3 - Complexul de Sere</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Adiantum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Agapanthus%20africanus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Asplenium"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Astrophytum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Begonia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Clivia%20miniata"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Coffea%20arabica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Colocasia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Davallia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Dieffenbachia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Echinocereus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Haemanthus%20albiflos"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Monstera"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Myrsine%20africana"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Nephrolepis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Opuntia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Peperomia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Pilea"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Rebutia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Theobroma%20cacao"/>
+    </ex:list_of_plants>
+    <ex:description>Complexul de sere adaposteste circa 2.600 taxoni, cu origine în tinuturile subtropicale, tropicale si ecuatoriale ale globului. Colectiile sunt grupate dupa provenienta geografica a plantelor, tinând cont de cerintele ecologice, în sere calde, temperate sau reci. Colectia plantelor xerofile reprezinta o asociatie eterogena de taxoni cu aspect arboricol, care provin din zone cu climat subtropical de tip mediteranean. Cei mai multi taxoni sunt binecunoscuti: maslinul (Olea europaea), rodiul (Punica granatum), roscovul (Ceratonia siliqua), oleandrul (Nerium oleander), rosmarinul (Rosmarinus officinalis), chiparosul (Cupressus sempervirens). Vegetatia din zonele analoage celor mediteraneene, localizata în sudul Africii de Sud este reprezentata in colectiile noastre prin speciile Myrsine africana, Agapanthus africanus (crin albastru), Haemanthus albiflos, Clivia miniata (crin rosu).</ex:description>
+  </ex:Zone>
+</rdf:RDF>

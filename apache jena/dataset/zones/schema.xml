@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ex="http://127.0.0.1:5000/"
+         xml:base="http://127.0.0.1:5000/">
+
+  <rdfs:Class rdf:about="hhttp://127.0.0.1:5000/plant" />
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone" />
+    <rdfs:range rdf:resource="List" />
+  </rdf:Description>
+
+    <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone" />
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string" />
+  </rdf:Description>
+
+  <!-- Define Individuals -->
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica">
+    <rdfs:label>Zona 1 - Sectia Sistematica</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Apiaceae"/>
+      <!-- Add other plants here -->
+    </ex:list_of_plants>
+    <ex:description>Terenul destinat sectiei este strabatut de o serie de alei radiale si circulare ce permit accesul vizitatorilor catre straturile de plante si care indeplinesc si un rol stiintific (filogenetic), prin separarea ordinelor si familiilor intre ele. O alee circulara lata de 3 m separa ordinele cu flori dialipetale (cu petale libere), dispuse spre centrul sectiei, de cele cu flori simpetale (cu petale unite) dispuse spre periferia sectiei.Chiar de la intrarea in sectie, pe partea stanga, se pot observa doua exemplare de Metasequoia gliptostroboides, specie din familia Taxodiaceae, cunoscuta doar ca planta fosila pana in anul 1941, cand studentii chinezi Cheng si Hu au descoperit-o in stare vie, in padurile din Centrul Chinei.</ex:description>
+  </ex:Zone>
+</rdf:RDF>

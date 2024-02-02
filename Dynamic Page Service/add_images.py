@@ -3,7 +3,7 @@ import requests
 
 def add_images_to_plant(plant_uri, image_urls):
     # Fuseki server details
-    fuseki_endpoint = "http://localhost:3030/Plants/update"
+    fuseki_endpoint = "http://localhost:3030/plants/update"
 
     # Define a namespace prefix for your property URI
     prefix = """

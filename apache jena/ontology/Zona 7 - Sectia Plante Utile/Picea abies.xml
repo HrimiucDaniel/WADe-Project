@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Picea%20abies">
     <rdfs:label>Picea abies</rdfs:label>
-    <ns2:abstract xml:lang="en">Picea abies, the Norway spruce or European spruce, is a species of spruce native to Northern, Central and Eastern Europe. It has branchlets that typically hang downwards, and the largest cones of any spruce, 9–17 cm long. It is very closely related to the Siberian spruce (Picea obovata), which replaces it east of the Ural Mountains, and with which it hybridizes freely. The Norway spruce has a wide distribution for it being planted for its wood, and is the species used as the main Christmas tree in several countries around the world. It was the first gymnosperm to have its genome sequenced. The Latin specific epithet abies means “like Abies, Fir tree”</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Picea abies, the Norway spruce or European spruce, is a species of spruce native to Northern, Central and Eastern Europe. It has branchlets that typically hang downwards, and the largest cones of any spruce, 9–17 cm long. It is very closely related to the Siberian spruce (Picea obovata), which replaces it east of the Ural Mountains, and with which it hybridizes freely. The Norway spruce has a wide distribution for it being planted for its wood, and is the species used as the main Christmas tree in several countries around the world. It was the first gymnosperm to have its genome sequenced. The Latin specific epithet abies means “like Abies, Fir tree”</ns5:abstract>
+    <ns2:taxonomy>
 
 Cones of
 P. obovata
@@ -138,12 +138,12 @@ Picea alpestris
 
 
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3328</rdfs:subClassOf>
     <ns1:hasExactSynonym>Norway spruce</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3329', 'https://dbpedia.org/page/Picea abies']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3329', 'https://dbpedia.org/page/Picea abies']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

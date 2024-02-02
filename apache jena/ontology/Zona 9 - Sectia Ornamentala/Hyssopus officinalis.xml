@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hyssopus%20officinalis">
     <rdfs:label>Hyssopus officinalis</rdfs:label>
-    <ns2:abstract xml:lang="en">Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its purported properties as an antiseptic, cough reliever, and expectorant, it has been used in traditional herbal medicine.</ns2:abstract>
+    <ns4:abstract xml:lang="en">Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its purported properties as an antiseptic, cough reliever, and expectorant, it has been used in traditional herbal medicine.</ns4:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_39168</rdfs:subClassOf>
     <ns1:hasExactSynonym>hyssop</ns1:hasExactSynonym>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_39324', 'https://dbpedia.org/page/Hyssopus officinalis']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_39324', 'https://dbpedia.org/page/Hyssopus officinalis']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

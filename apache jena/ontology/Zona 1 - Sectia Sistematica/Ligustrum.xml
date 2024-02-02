@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="https://dbpedia.org/property/"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
@@ -44,7 +44,7 @@ willow beauty</ns3:ecology>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_426106</rdfs:subClassOf>
     <ns1:hasExactSynonym>privets</ns1:hasExactSynonym>
-    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13596', 'https://dbpedia.org/page/Ligustrum']</ns4:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13596', 'https://dbpedia.org/page/Ligustrum']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Apiaceae">
+    <rdfs:label>Apiaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">Apiaceae or Umbelliferae is a family of mostly aromatic flowering plants named after the type genus Apium and commonly known as the celery, carrot or parsley family, or simply as umbellifers. It is the 16th-largest family of flowering plants, with more than 3,700 species in 434 genera including such well-known and economically important plants as ajwain, angelica, anise, asafoetida, caraway, carrot, celery, chervil, coriander, cumin, dill, fennel, lovage, cow parsley, parsley, parsnip and sea holly, as well as silphium, a plant whose identity is unclear and which may be extinct. The family Apiaceae includes a significant number of phototoxic species, such as giant hogweed, and a smaller number of highly poisonous species, such as poison hemlock, water hemlock, spotted cowbane, fool's parsley, and various species of water dropwort.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>Mackinlayoideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Azorelloideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Saniculoideae (Burnett)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Apioideae (Seem.)</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>The black swallowtail butterfly,
+Papilio polyxenes
+, uses the family Apiaceae for food and host plants for
+oviposition
+.
+
+The
+22-spot ladybird
+is also commonly found eating mildew on these plants.
+
+Papilio polyxenes
+Papilio polyxenes
+oviposition
+
+
+22-spot ladybird</ns3:ecology>
+    <ns3:taxonomy>Apiaceae was first described by
+John Lindley
+in 1836.
+
+The name is derived from the type genus
+Apium
+, which was originally used by
+Pliny the Elder
+circa 50 AD for a
+celery
+-like plant.
+
+The alternative name for the family, Umbelliferae, derives from the
+inflorescence
+being generally in the form of a compound
+umbel
+. The family was one of the first to be recognized as a distinct group in Jacques Daleschamps' 1586
+Historia generalis plantarum
+. With
+Robert Morison's
+1672
+Plantarum umbelliferarum distribution nova
+it became the first group of plants for which a systematic study was published.
+John Lindley
+
+
+Apium
+Apium
+Pliny the Elder
+celery
+
+
+inflorescence
+umbel
+Historia generalis plantarum
+Robert Morison's
+Plantarum umbelliferarum distribution nova
+The family is solidly placed within the
+Apiales
+order in the
+APG III system
+. It is closely related to
+Araliaceae
+and the boundaries between these families remain unclear. Traditionally groups within the family have been delimited largely based on fruit
+morphology
+, and the results from this have not been congruent with the more recent molecular
+phylogenetic
+analyses. The subfamilial and tribal classification for the family is currently in a state of flux, with many of the groups being found to be grossly
+paraphyletic
+or
+polyphyletic
+.
+
+Apiales
+APG III system
+Araliaceae
+morphology
+phylogenetic
+paraphyletic
+polyphyletic</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364270"/>
+    <ns1:hasExactSynonym>carrot family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_4037</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Apiaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

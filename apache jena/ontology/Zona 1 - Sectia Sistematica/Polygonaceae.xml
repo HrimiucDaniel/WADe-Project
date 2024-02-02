@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Polygonaceae">
     <rdfs:label>Polygonaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The Polygonaceae are a family of flowering plants known informally as the knotweed family or smartweed—buckwheat family in the United States. The name is based on the genus Polygonum, and was first used by Antoine Laurent de Jussieu in 1789 in his book, Genera Plantarum. The name may refer to the many swollen nodes the stems of some species have, being derived from Greek, poly meaning 'many' and gony meaning 'knee' or 'joint'. Alternatively, it may have a different derivation, meaning 'many seeds'. The Polygonaceae comprise about 1200 species distributed into about 48 genera. The largest genera are Eriogonum (240 species), Rumex (200 species), Coccoloba (120 species), Persicaria (100 species) and Calligonum (80 species). The family is present worldwide, but is most diverse in the North Temperate Zone. Several species are cultivated as ornamentals. A few species of Triplaris provide lumber. The fruit of the sea grape (Coccoloba uvifera) is eaten, and in Florida, jelly is made from it and sold commercially. The seeds of two species of Fagopyrum, known as buckwheat, are eaten in the form of groats or used to make a flour. The petioles of rhubarb (Rheum rhabarbarum and hybrids) are a food item. The leaves of the common sorrel (Rumex acetosa) are eaten in salads or as a leaf vegetable. Polygonaceae contain some of the most prolific weeds, including species of Persicaria, Rumex and Polygonum, such as Japanese knotweed.</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">The Polygonaceae are a family of flowering plants known informally as the knotweed family or smartweed—buckwheat family in the United States. The name is based on the genus Polygonum, and was first used by Antoine Laurent de Jussieu in 1789 in his book, Genera Plantarum. The name may refer to the many swollen nodes the stems of some species have, being derived from Greek, poly meaning 'many' and gony meaning 'knee' or 'joint'. Alternatively, it may have a different derivation, meaning 'many seeds'. The Polygonaceae comprise about 1200 species distributed into about 48 genera. The largest genera are Eriogonum (240 species), Rumex (200 species), Coccoloba (120 species), Persicaria (100 species) and Calligonum (80 species). The family is present worldwide, but is most diverse in the North Temperate Zone. Several species are cultivated as ornamentals. A few species of Triplaris provide lumber. The fruit of the sea grape (Coccoloba uvifera) is eaten, and in Florida, jelly is made from it and sold commercially. The seeds of two species of Fagopyrum, known as buckwheat, are eaten in the form of groats or used to make a flour. The petioles of rhubarb (Rheum rhabarbarum and hybrids) are a food item. The leaves of the common sorrel (Rumex acetosa) are eaten in salads or as a leaf vegetable. Polygonaceae contain some of the most prolific weeds, including species of Persicaria, Rumex and Polygonum, such as Japanese knotweed.</ns5:abstract>
+    <ns2:taxonomy>
 
 Polygonaceae are very well-defined and have long been universally recognized. In the
 APG III system
@@ -164,12 +164,12 @@ Persicaria
 Aconogonon
 Polygonum
 Fallopia
-Muehlenbeckia</ns3:taxonomy>
+Muehlenbeckia</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3524</rdfs:subClassOf>
     <ns1:hasExactSynonym>buckwheat family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3615', 'https://dbpedia.org/page/Polygonaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3615', 'https://dbpedia.org/page/Polygonaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

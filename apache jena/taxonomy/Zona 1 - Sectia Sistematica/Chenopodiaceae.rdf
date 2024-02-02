@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Chenopodiaceae">
+    <rdfs:label>Chenopodiaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Chenopodioideae are a subfamily of the flowering plant family Amaranthaceae in the APG III system, which is largely based on molecular phylogeny, but were included - together with other subfamilies - in family Chenopodiaceae in the Cronquist system. Food species comprise Spinach (Spinacia oleracea), Good King Henry (Blitum bonus-henricus), several Chenopodium species (Quinoa, Kañiwa, Fat Hen), Orache (Atriplex spp.), and Epazote (Dysphania ambrosioides). The name is Greek for goosefoot, the common name of a genus of plants having small greenish flowers.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>About 26 genera, see text</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3524"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_1804623</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Chenopodiaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

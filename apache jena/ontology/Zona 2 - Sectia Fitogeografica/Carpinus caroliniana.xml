@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Carpinus%20caroliniana">
     <rdfs:label>Carpinus caroliniana</rdfs:label>
-    <ns2:abstract xml:lang="en">Carpinus caroliniana, the American hornbeam, is a small hardwood tree in the genus Carpinus. American hornbeam is also known as blue-beech, ironwood, musclewood and muscle beech. It is native to eastern North America, from Minnesota and southern Ontario east to Maine, and south to eastern Texas and northern Florida. It also grows in Canada (southwest Quebec and southeast Ontario). It occurs naturally in shaded areas with moist soil, particularly near the banks of streams or rivers, and is often a natural constituent understory species of the riverine and maritime forests of eastern temperate North America.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Carpinus caroliniana, the American hornbeam, is a small hardwood tree in the genus Carpinus. American hornbeam is also known as blue-beech, ironwood, musclewood and muscle beech. It is native to eastern North America, from Minnesota and southern Ontario east to Maine, and south to eastern Texas and northern Florida. It also grows in Canada (southwest Quebec and southeast Ontario). It occurs naturally in shaded areas with moist soil, particularly near the banks of streams or rivers, and is often a natural constituent understory species of the riverine and maritime forests of eastern temperate North America.</ns5:abstract>
+    <ns3:ecology>
 
 Fruiting branch
 Fruiting branch
@@ -36,12 +36,12 @@ Varies from shrub to small tree, and ranges throughout the United States east of
 Deer browse the foliage and twigs, while game birds eat the nutlets.
 
 
-</ns4:ecology>
+</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_12989</rdfs:subClassOf>
     <ns1:hasExactSynonym>American hornbeam</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_12991', 'https://dbpedia.org/page/Carpinus caroliniana']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_12991', 'https://dbpedia.org/page/Carpinus caroliniana']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

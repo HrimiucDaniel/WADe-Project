@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Parrotia%20persica">
+    <rdfs:label>Parrotia persica</rdfs:label>
+    <ns2:abstract xml:lang="en">Parrotia persica, the Persian ironwood, is a deciduous tree in the family Hamamelidaceae, closely related to the witch-hazel genus Hamamelis. It is native to Iran's Caspian region (where it is called انجیلی anjili) and Iranian Azerbaijan (where it is called Dəmirağacı). It is endemic in the Alborz mountains, where it is found mainly in Golestan National Park. The species was named by Carl Anton von Meyer to honor his predecessor at the University of Dorpat, German naturalist Georg Friedrich Parrot., who botanized in the Alborz on a mountaineering expedition in the 1830s. Another species Parrotia subaequalis (commonly called Chinese ironwood) originates from eastern China. There are five disjunct populations of P. subaequalis in eastern China: two each in Jiangsu and Zhejiang provinces (Huang et al. 2005) and one in Anhui (Shao and Fang 2004). A full account of this sibling species can be found in an article &quot;The Chinese Parrotia: A Sibling Species of the Persian Parrotia&quot; by Jianhua Li and Peter Del Tredici. This species is listed as critically endangered by the IUCN (under its former name of Shaniodendron subaequale, which is no longer an accepted name for the species). P. subaequalis is also considered critically endangered (Grade I Key protected Wild Plant) in the China Red Data Book, with a very narrow distribution range. The five known relict populations of P. subaequalis comprise no more than 100 reproductive individuals. Therefore, this species has high conservation priority.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_64129"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_64130</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Parrotia persica</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

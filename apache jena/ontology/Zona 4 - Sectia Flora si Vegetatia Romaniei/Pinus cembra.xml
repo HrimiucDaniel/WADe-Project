@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Pinus%20cembra">
     <rdfs:label>Pinus cembra</rdfs:label>
-    <ns2:abstract xml:lang="en">Pinus cembra, also known as Swiss pine, Swiss stone pine or Arolla pine or Austrian stone pine or just stone pine, is a species of a pine tree in the subgenus Strobus.</ns2:abstract>
-    <ns4:habitat>
+    <ns5:abstract xml:lang="en">Pinus cembra, also known as Swiss pine, Swiss stone pine or Arolla pine or Austrian stone pine or just stone pine, is a species of a pine tree in the subgenus Strobus.</ns5:abstract>
+    <ns2:habitat>
 
 The Swiss pine grows in the
 Alps
@@ -145,8 +145,8 @@ Scuol
 ,
 Switzerland
 Scuol
-Switzerland</ns4:habitat>
-    <ns4:ecology>
+Switzerland</ns2:habitat>
+    <ns2:ecology>
 
 Swiss pine associates with numerous species of
 mycorrhizal fungi
@@ -162,12 +162,12 @@ Suillus
 Suillus
 
 
-symbiosis</ns4:ecology>
+symbiosis</ns2:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_139272</rdfs:subClassOf>
     <ns1:hasExactSynonym>Arve</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_58041', 'https://dbpedia.org/page/Pinus cembra']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_58041', 'https://dbpedia.org/page/Pinus cembra']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

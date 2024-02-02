@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Cercis%20siliquastrum">
     <rdfs:label>Cercis siliquastrum</rdfs:label>
-    <ns1:abstract xml:lang="en">Cercis siliquastrum, commonly known as the Judas tree or Judas-tree, is a small deciduous tree in the flowering plant family Fabaceae which is noted for its prolific display of deep pink flowers in spring. It is native to Southern Europe and Western Asia.</ns1:abstract>
-    <ns2:taxonomy>
+    <ns4:abstract xml:lang="en">Cercis siliquastrum, commonly known as the Judas tree or Judas-tree, is a small deciduous tree in the flowering plant family Fabaceae which is noted for its prolific display of deep pink flowers in spring. It is native to Southern Europe and Western Asia.</ns4:abstract>
+    <ns1:taxonomy>
 
 A botanical illustration from 1891
 A botanical illustration from 1891
@@ -77,11 +77,11 @@ siliquastrum
 var.
 alba
 Weston
-alba</ns2:taxonomy>
+alba</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_49800</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_49802', 'https://dbpedia.org/page/Cercis siliquastrum']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_49802', 'https://dbpedia.org/page/Cercis siliquastrum']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Pinus%20nigra">
     <rdfs:label>Pinus nigra</rdfs:label>
-    <ns2:abstract xml:lang="en">Pinus nigra, the Austrian pine or black pine, is a moderately variable species of pine, occurring across Southern Europe from the Iberian Peninsula to the eastern Mediterranean, on the Anatolian peninsula of Turkey, Corsica and Cyprus, as well as Crimea and in the high mountains of Northwest Africa.</ns2:abstract>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Pinus nigra, the Austrian pine or black pine, is a moderately variable species of pine, occurring across Southern Europe from the Iberian Peninsula to the eastern Mediterranean, on the Anatolian peninsula of Turkey, Corsica and Cyprus, as well as Crimea and in the high mountains of Northwest Africa.</ns5:abstract>
+    <ns2:habitat>
 
 Pinus nigra
 is a tree of the
@@ -66,8 +66,8 @@ clarification needed
 
 citation needed
 citation needed
-citation needed</ns3:habitat>
-    <ns3:ecology>
+citation needed</ns2:habitat>
+    <ns2:ecology>
 
 Bonsai
 Pinus nigra
@@ -131,8 +131,8 @@ broadleaf trees
 
 citation needed
 citation needed
-citation needed</ns3:ecology>
-    <ns3:taxonomy>
+citation needed</ns2:ecology>
+    <ns2:taxonomy>
 
 The species is divided into two subspecies, each further subdivided into three varieties.
 
@@ -498,12 +498,12 @@ Corsica
 .
 Pinus nigra
 corsicana
-Corsica</ns3:taxonomy>
+Corsica</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_139271</rdfs:subClassOf>
     <ns1:hasExactSynonym>Austrian pine</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_58042', 'https://dbpedia.org/page/Pinus nigra']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_58042', 'https://dbpedia.org/page/Pinus nigra']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

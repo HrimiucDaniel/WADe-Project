@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Salix%20babylonica">
     <rdfs:label>Salix babylonica</rdfs:label>
-    <ns2:abstract xml:lang="en">Salix babylonica (Babylon willow or weeping willow; Chinese: 垂柳; pinyin: chuí liǔ) is a species of willow native to dry areas of northern China, but cultivated for millennia elsewhere in Asia, being traded along the Silk Road to southwest Asia and Europe.</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Salix babylonica (Babylon willow or weeping willow; Chinese: 垂柳; pinyin: chuí liǔ) is a species of willow native to dry areas of northern China, but cultivated for millennia elsewhere in Asia, being traded along the Silk Road to southwest Asia and Europe.</ns5:abstract>
+    <ns2:taxonomy>
 
 Salix babylonica
 was described and named scientifically by
@@ -27,12 +27,12 @@ Carl Linnaeus
 Hartekamp
 The Netherlands
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_40685</rdfs:subClassOf>
     <ns1:hasExactSynonym>weeping willow</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_75706', 'https://dbpedia.org/page/Salix babylonica']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_75706', 'https://dbpedia.org/page/Salix babylonica']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

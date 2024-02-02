@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Davallia">
     <rdfs:label>Davallia</rdfs:label>
-    <ns1:abstract xml:lang="en">Davallia (deersfoot fern, hare's foot fern, shinobu fern, rabbit foot fern, ball fern) is a genus of about 40 species of fern. In the Pteridophyte Phylogeny Group classification of 2016 (PPG I), it is the only genus in the family Davalliaceae, which is placed in the suborder Polypodiineae, order Polypodiales. Alternatively, the family may be placed in a very broadly defined family Polypodiaceae sensu lato as the subfamily Davallioideae. The family is sister to the largest family of ferns, Polypodiaceae, and shares some morphological characters with it. Species are epiphytic ferns, with fronds arising from long aerial rhizomes which grow on and over thick bark on trees or on rock crevices.</ns1:abstract>
-    <ns2:subspecies>['See text']</ns2:subspecies>
-    <ns2:habitat>
+    <ns4:abstract xml:lang="en">Davallia (deersfoot fern, hare's foot fern, shinobu fern, rabbit foot fern, ball fern) is a genus of about 40 species of fern. In the Pteridophyte Phylogeny Group classification of 2016 (PPG I), it is the only genus in the family Davalliaceae, which is placed in the suborder Polypodiineae, order Polypodiales. Alternatively, the family may be placed in a very broadly defined family Polypodiaceae sensu lato as the subfamily Davallioideae. The family is sister to the largest family of ferns, Polypodiaceae, and shares some morphological characters with it. Species are epiphytic ferns, with fronds arising from long aerial rhizomes which grow on and over thick bark on trees or on rock crevices.</ns4:abstract>
+    <ns1:subspecies>['See text']</ns1:subspecies>
+    <ns1:habitat>
 
 Davalliaceae is
 native
@@ -47,8 +47,8 @@ Africa
 
 epiphytic
 lithophytic
-terrestrial</ns2:habitat>
-    <ns2:taxonomy>
+terrestrial</ns1:habitat>
+    <ns1:taxonomy>
 
 Gymnogrammitis
 and
@@ -154,11 +154,11 @@ Davallia
 
 circumscription
 
-</ns2:taxonomy>
+</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_29637</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_29638', 'https://dbpedia.org/page/Davallia']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_29638', 'https://dbpedia.org/page/Davallia']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

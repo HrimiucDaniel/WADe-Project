@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Iris%20brandzae">
     <rdfs:label>Iris brandzae</rdfs:label>
-    <ns1:abstract xml:lang="en">Iris brandzae is a species in the genus Iris, it is also in the subgenus Limniris and in series Spuriae. It is a rhizomatous perennial plant, originally from Romania with violet and white flowers. It was once thought to be a subspecies of Iris sintenisii, but now classified as a separate species. It is also called Iris Brandzy or Prodan Iris in Russia. It is cultivated as an ornamental plant in temperate regions.</ns1:abstract>
-    <ns2:habitat>
+    <ns3:abstract xml:lang="en">Iris brandzae is a species in the genus Iris, it is also in the subgenus Limniris and in series Spuriae. It is a rhizomatous perennial plant, originally from Romania with violet and white flowers. It was once thought to be a subspecies of Iris sintenisii, but now classified as a separate species. It is also called Iris Brandzy or Prodan Iris in Russia. It is cultivated as an ornamental plant in temperate regions.</ns3:abstract>
+    <ns1:habitat>
 
 Iris brandzea
 is
@@ -19,8 +19,8 @@ to Central Europe.
 Iris brandzea
 native
 
-</ns2:habitat>
-    <ns2:taxonomy>
+</ns1:habitat>
+    <ns1:taxonomy>
 
 The Latin
 specific epithet
@@ -126,8 +126,8 @@ Iris sintenisii
 brandzae
 RHS
 
-</ns2:taxonomy>
+</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
-    <ns3:owlsameAs>[None, 'https://dbpedia.org/page/Iris brandzae']</ns3:owlsameAs>
+    <ns2:owlsameAs>[None, 'https://dbpedia.org/page/Iris brandzae']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

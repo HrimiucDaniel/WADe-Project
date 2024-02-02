@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://dbpedia.org/property/"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Lonicera%20tatarica">
     <rdfs:label>Lonicera tatarica</rdfs:label>
-    <ns1:abstract xml:lang="en">Lonicera tatarica is a species of honeysuckle known by the common name Tatarian honeysuckle. Native to Eurasia, the plant is one of several exotic bush honeysuckles present in North America, being considered an invasive species there.</ns1:abstract>
-    <ns3:habitat>
+    <ns4:abstract xml:lang="en">Lonicera tatarica is a species of honeysuckle known by the common name Tatarian honeysuckle. Native to Eurasia, the plant is one of several exotic bush honeysuckles present in North America, being considered an invasive species there.</ns4:abstract>
+    <ns1:habitat>
 
 L. tatarica
 is native to
@@ -41,8 +41,8 @@ introduced species
 noxious weed
 Alaska
 California
-Its preferred environment is partial sun with moist, loamy soil. It is also able to grow in full shade or sun, and in dry or sandy soils.</ns3:habitat>
-    <ns3:ecology>
+Its preferred environment is partial sun with moist, loamy soil. It is also able to grow in full shade or sun, and in dry or sandy soils.</ns1:habitat>
+    <ns1:ecology>
 
 Rhagoletis
 fruit fly on berry
@@ -76,11 +76,11 @@ catnip
 
 catnip
 
-</ns3:ecology>
+</ns1:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_49606</rdfs:subClassOf>
-    <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_447676', 'https://dbpedia.org/page/Lonicera tatarica']</ns4:owlsameAs>
+    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_447676', 'https://dbpedia.org/page/Lonicera tatarica']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

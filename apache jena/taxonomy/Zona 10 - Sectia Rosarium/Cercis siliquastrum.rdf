@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Cercis%20siliquastrum">
+    <rdfs:label>Cercis siliquastrum</rdfs:label>
+    <ns2:abstract xml:lang="en">Cercis siliquastrum, commonly known as the Judas tree or Judas-tree, is a small deciduous tree in the flowering plant family Fabaceae which is noted for its prolific display of deep pink flowers in spring. It is native to Southern Europe and Western Asia.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>A botanical illustration from 1891
+A botanical illustration from 1891
+The species was first described by
+Linnaeus
+in 1753 and he gave it the specific epithet of
+siliquastrum
+which is derived from the
+Latin
+word
+siliqua
+, meaning &quot;pod&quot;.
+
+The
+generic name
+comes from the
+Greek
+kerkis
+, a &quot;
+shuttle
+&quot;, which refers to the resemblance shown to this weaver's tool by the flat, woody seedpods.
+
+Linnaeus
+siliquastrum
+Latin
+siliqua
+
+
+generic name
+Greek
+kerkis
+shuttle
+
+
+There are several
+varieties
+and
+subspecies
+including:-
+varieties
+subspecies
+var.
+hebecarpa
+Bornm.
+nothosubsp.
+yaltikirii
+(Ponert) Govaerts
+var.
+siliquastrum
+var.
+alba
+Weston
+var.
+hebecarpa
+Bornm.
+hebecarpa
+nothosubsp.
+yaltikirii
+(Ponert) Govaerts
+yaltikirii
+var.
+siliquastrum
+siliquastrum
+var.
+alba
+Weston
+alba</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_49800"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_49802</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Cercis siliquastrum</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

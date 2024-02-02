@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Liliaceae">
     <rdfs:label>Liliaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The lily family, Liliaceae, consists of about 15 genera and 610 species of flowering plants within the order Liliales. They are monocotyledonous, perennial, herbaceous, often bulbous geophytes. Plants in this family have evolved with a fair amount of morphological diversity despite genetic similarity. Common characteristics include large flowers with parts arranged in threes: with six colored or patterned petaloid tepals (undifferentiated petals and sepals) arranged in two whorls, six stamens and a superior ovary. The leaves are linear in shape, with their veins usually arranged parallel to the edges, single and arranged alternating on the stem, or in a rosette at the base. Most species are grown from bulbs, although some have rhizomes. First described in 1789, the lily family became a paraphyletic "catch-all" (wastebasket) group of lilioid monocots that did not fit into other families and included a great number of genera now included in other families and in some cases in other orders. Consequently, many sources and descriptions labelled "Liliaceae" deal with the broader sense of the family. The family evolved approximately 68 million years ago during the Late Cretaceous to Early Paleogene epochs. Liliaceae are widely distributed, mainly in temperate regions of the Northern Hemisphere and the flowers are insect pollinated. Many Liliaceae are important ornamental plants, widely grown for their attractive flowers and involved in a major floriculture of cut flowers and dry bulbs. Some species are poisonous if eaten and can have adverse health effects in humans and household pets. A number of Liliaceae genera are popular cultivated plants in private and public spaces. Lilies and tulips in particular have had considerable symbolic and decorative value, and appear frequently in paintings and the decorative arts. They are also an economically important product. Most of their genera, Lilium in particular, face considerable herbivory pressure from deer in some areas, both wild and domestic.</ns2:abstract>
-    <ns3:subspecies>[' subfamily: Streptopoideae', ' subfamily: Calochortoideae', ' subfamily: Medeoloideae', ' subfamily: Lilioideae', ' tribe: Lilieae', ' tribe: Tulipeae', 'sensu APWeb']</ns3:subspecies>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">The lily family, Liliaceae, consists of about 15 genera and 610 species of flowering plants within the order Liliales. They are monocotyledonous, perennial, herbaceous, often bulbous geophytes. Plants in this family have evolved with a fair amount of morphological diversity despite genetic similarity. Common characteristics include large flowers with parts arranged in threes: with six colored or patterned petaloid tepals (undifferentiated petals and sepals) arranged in two whorls, six stamens and a superior ovary. The leaves are linear in shape, with their veins usually arranged parallel to the edges, single and arranged alternating on the stem, or in a rosette at the base. Most species are grown from bulbs, although some have rhizomes. First described in 1789, the lily family became a paraphyletic "catch-all" (wastebasket) group of lilioid monocots that did not fit into other families and included a great number of genera now included in other families and in some cases in other orders. Consequently, many sources and descriptions labelled "Liliaceae" deal with the broader sense of the family. The family evolved approximately 68 million years ago during the Late Cretaceous to Early Paleogene epochs. Liliaceae are widely distributed, mainly in temperate regions of the Northern Hemisphere and the flowers are insect pollinated. Many Liliaceae are important ornamental plants, widely grown for their attractive flowers and involved in a major floriculture of cut flowers and dry bulbs. Some species are poisonous if eaten and can have adverse health effects in humans and household pets. A number of Liliaceae genera are popular cultivated plants in private and public spaces. Lilies and tulips in particular have had considerable symbolic and decorative value, and appear frequently in paintings and the decorative arts. They are also an economically important product. Most of their genera, Lilium in particular, face considerable herbivory pressure from deer in some areas, both wild and domestic.</ns5:abstract>
+    <ns2:subspecies>[' subfamily: Streptopoideae', ' subfamily: Calochortoideae', ' subfamily: Medeoloideae', ' subfamily: Lilioideae', ' tribe: Lilieae', ' tribe: Tulipeae', 'sensu APWeb']</ns2:subspecies>
+    <ns2:habitat>
 
 The Liliaceae are widely distributed, but mainly in the
 temperate regions
@@ -72,8 +72,8 @@ Irano-Turanian region
 
 
 Tricyrtis
-Cardiocrinum</ns3:habitat>
-    <ns3:ecology>
+Cardiocrinum</ns2:habitat>
+    <ns2:ecology>
 
 The Liliaceae are ecologically diverse.
 
@@ -148,8 +148,8 @@ are repellant.
 Lilium
 Lilium
 Fritillaria
-Fritillaria</ns3:ecology>
-    <ns3:taxonomy>
+Fritillaria</ns2:ecology>
+    <ns2:taxonomy>
 
 Main article:
 Taxonomy of Liliaceae
@@ -182,12 +182,12 @@ sensu lato
 sensu stricto
 s.l.
 s.s.
-s.s.</ns3:taxonomy>
+s.s.</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4667</rdfs:subClassOf>
     <ns1:hasExactSynonym>lily family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4677', 'https://dbpedia.org/page/Liliaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4677', 'https://dbpedia.org/page/Liliaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

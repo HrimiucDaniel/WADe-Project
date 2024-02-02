@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Sorbus%20torminalis">
     <rdfs:label>Sorbus torminalis</rdfs:label>
-    <ns1:abstract xml:lang="en">Sorbus torminalis, with common names wild service tree, chequers, and checker tree, is a species of tree in the mountain ash or rowan genus (Sorbus) of the rose family (Rosaceae), that is native to Europe, parts of northern Africa and western Asia.</ns1:abstract>
-    <ns2:habitat>
+    <ns3:abstract xml:lang="en">Sorbus torminalis, with common names wild service tree, chequers, and checker tree, is a species of tree in the mountain ash or rowan genus (Sorbus) of the rose family (Rosaceae), that is native to Europe, parts of northern Africa and western Asia.</ns3:abstract>
+    <ns1:habitat>
 
 It is found from Great Britain (
 England
@@ -67,14 +67,14 @@ lime
 propagation
 suckers
 
-</ns2:habitat>
-    <ns2:ecology>
+</ns1:habitat>
+    <ns1:ecology>
 
 The fruits are eaten by many birds and a few mammals, making the tree ecologically important.
 
 
-</ns2:ecology>
-    <ns2:taxonomy>
+</ns1:ecology>
+    <ns1:taxonomy>
 
 There are two
 varieties
@@ -171,8 +171,8 @@ S. bristoliensis
 
 
 Karpatiosorbus
-Karpatiosorbus</ns2:taxonomy>
+Karpatiosorbus</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
-    <ns3:owlsameAs>[None, 'https://dbpedia.org/page/Sorbus torminalis']</ns3:owlsameAs>
+    <ns2:owlsameAs>[None, 'https://dbpedia.org/page/Sorbus torminalis']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

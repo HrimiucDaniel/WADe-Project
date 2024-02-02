@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20negundo">
     <rdfs:label>Acer negundo</rdfs:label>
-    <ns2:abstract xml:lang="en">Acer negundo, the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America. It is a fast-growing, short-lived tree with opposite, compound leaves. It is sometimes considered a weedy or invasive species, and has been introduced to and naturalized throughout much of the world, including in South America, Australia, New Zealand, South Africa, much of Europe, and parts of Asia.</ns2:abstract>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Acer negundo, the box elder, boxelder maple, Manitoba maple or ash-leaved maple, is a species of maple native to North America. It is a fast-growing, short-lived tree with opposite, compound leaves. It is sometimes considered a weedy or invasive species, and has been introduced to and naturalized throughout much of the world, including in South America, Australia, New Zealand, South Africa, much of Europe, and parts of Asia.</ns5:abstract>
+    <ns2:habitat>
 
 Acer negundo
 often grows alongside waterbodies
@@ -130,8 +130,8 @@ habitats.
 Human influence has greatly favored this species; it grows around houses and in hedges, as well as on disturbed ground and vacant lots.
 riparian
 
-</ns3:habitat>
-    <ns3:ecology>
+</ns2:habitat>
+    <ns2:ecology>
 
 Boxelder bugs (
 Boisea trivittata
@@ -216,8 +216,8 @@ Acer negundo
 Septoria negundinis
 Septoria negundinis
 
-</ns3:ecology>
-    <ns3:taxonomy>
+</ns2:ecology>
+    <ns2:taxonomy>
 
 A few botanists treat boxelder maple in its own distinct genus (
 Negundo aceroides
@@ -227,12 +227,12 @@ Negundo aceroides
 
 citation needed
 citation needed
-citation needed</ns3:taxonomy>
+citation needed</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4022</rdfs:subClassOf>
     <ns1:hasExactSynonym>box elder</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4023', 'https://dbpedia.org/page/Acer negundo']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4023', 'https://dbpedia.org/page/Acer negundo']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

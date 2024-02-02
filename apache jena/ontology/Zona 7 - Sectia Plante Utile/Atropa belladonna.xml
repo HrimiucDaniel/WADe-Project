@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Atropa%20belladonna">
     <rdfs:label>Atropa belladonna</rdfs:label>
-    <ns2:abstract xml:lang="en">Atropa belladonna, commonly known as belladonna or deadly nightshade, is a toxic perennial herbaceous plant in the nightshade family Solanaceae, which also includes tomatoes, potatoes, and eggplant (aubergine). It is native to Europe, North Africa, and Western Asia. Its distribution extends from Great Britain in the west to western Ukraine and the Iranian province of Gilan in the east. It is also naturalised or introduced in some parts of Canada and the United States. The foliage and berries are extremely toxic when ingested, containing tropane alkaloids. These toxins include atropine, scopolamine, and hyoscyamine, which cause delirium and hallucinations, and are also used as pharmaceutical anticholinergics. Tropane alkaloids are of common occurrence not only in the Old World tribes Hyoscyameae (to which the genus Atropa belongs) and Mandragoreae, but also in the New World tribe Datureae - all of which belong to the subfamily Solanoideae of the plant family Solanaceae. Atropa belladonna has unpredictable effects. The antidote for belladonna poisoning is physostigmine or pilocarpine, the same as for atropine.</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Atropa belladonna, commonly known as belladonna or deadly nightshade, is a toxic perennial herbaceous plant in the nightshade family Solanaceae, which also includes tomatoes, potatoes, and eggplant (aubergine). It is native to Europe, North Africa, and Western Asia. Its distribution extends from Great Britain in the west to western Ukraine and the Iranian province of Gilan in the east. It is also naturalised or introduced in some parts of Canada and the United States. The foliage and berries are extremely toxic when ingested, containing tropane alkaloids. These toxins include atropine, scopolamine, and hyoscyamine, which cause delirium and hallucinations, and are also used as pharmaceutical anticholinergics. Tropane alkaloids are of common occurrence not only in the Old World tribes Hyoscyameae (to which the genus Atropa belongs) and Mandragoreae, but also in the New World tribe Datureae - all of which belong to the subfamily Solanoideae of the plant family Solanaceae. Atropa belladonna has unpredictable effects. The antidote for belladonna poisoning is physostigmine or pilocarpine, the same as for atropine.</ns5:abstract>
+    <ns2:taxonomy>
 
 Atropa belladonna
 is in the
@@ -50,12 +50,12 @@ chili peppers
 
 
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_24609</rdfs:subClassOf>
     <ns1:hasExactSynonym>belladonna</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_33113', 'https://dbpedia.org/page/Atropa belladonna']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_33113', 'https://dbpedia.org/page/Atropa belladonna']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

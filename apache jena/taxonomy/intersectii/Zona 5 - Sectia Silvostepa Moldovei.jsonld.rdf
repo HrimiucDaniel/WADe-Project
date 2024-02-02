@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei">
+    <rdfs:label>Zona 5 - Sectia Silvostepa Moldovei</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Abies%20alba"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Artemisia%20austriaca"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Astragalus%20onobrychis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Carpinus%20betulus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Corylus%20colurna"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Crocus%20reticulatus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Iris%20brandzae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Malus%20sylvestris"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Quercus%20robur"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Sorbus%20torminalis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Taxus%20baccata"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Tilia%20tomentosa"/>
+    </ex:list_of_plants>
+    <ex:description>Sectia Silvostepa Moldovei se gaseste in partea de nord a Gradinii Botanice, ocupand o suprafata de 13,92 hectare. Se invecineaza la sud cu sectiile Flora si Vegetatia Romaniei si Flora Globului, la nord si vest cu Ferma Agricola Copou, iar la est cu proprietati particulare.</ex:description>
+  </ex:Zone>
+</rdf:RDF>

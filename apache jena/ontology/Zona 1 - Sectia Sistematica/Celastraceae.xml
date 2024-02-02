@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
+   xmlns:ns5="https://dbpedia.org/property/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Celastraceae">
     <rdfs:label>Celastraceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The Celastraceae (staff-vine or bittersweet) are a family of 97 genera and 1,350 species of herbs, vines, shrubs and small trees, belonging to the order Celastrales. The great majority of the genera are tropical, with only Celastrus (the staff vines), Euonymus (the spindles) and Maytenus widespread in temperate climates, and Parnassia (bog-stars) found in alpine and arctic climates. Of the 97 currently recognized genera of the family Celastraceae, 19 are native to Madagascar and these include at least 57 currently recognized species. Six of these 19 genera (Brexiella, Evonymopsis, Hartogiopsis, Polycardia, Ptelidium, and Salvadoropsis) are endemic to Madagascar.</ns2:abstract>
-    <ns4:subspecies>['Celastroideae', 'Hippocrateoideae', 'Parnassioideae', 'Salacioideae', 'Stackhousioideae']</ns4:subspecies>
+    <ns4:abstract xml:lang="en">The Celastraceae (staff-vine or bittersweet) are a family of 97 genera and 1,350 species of herbs, vines, shrubs and small trees, belonging to the order Celastrales. The great majority of the genera are tropical, with only Celastrus (the staff vines), Euonymus (the spindles) and Maytenus widespread in temperate climates, and Parnassia (bog-stars) found in alpine and arctic climates. Of the 97 currently recognized genera of the family Celastraceae, 19 are native to Madagascar and these include at least 57 currently recognized species. Six of these 19 genera (Brexiella, Evonymopsis, Hartogiopsis, Polycardia, Ptelidium, and Salvadoropsis) are endemic to Madagascar.</ns4:abstract>
+    <ns5:subspecies>['Celastroideae', 'Hippocrateoideae', 'Parnassioideae', 'Salacioideae', 'Stackhousioideae']</ns5:subspecies>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_91835</rdfs:subClassOf>
     <ns1:hasExactSynonym>bittersweet family</ns1:hasExactSynonym>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4305', 'https://dbpedia.org/page/Celastraceae']</ns5:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4305', 'https://dbpedia.org/page/Celastraceae']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

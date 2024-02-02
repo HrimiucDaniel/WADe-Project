@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Nephrolepis">
+    <rdfs:label>Nephrolepis</rdfs:label>
+    <ns2:abstract xml:lang="en">Nephrolepis is a genus of about 30 species of ferns. It is the only genus in the family Nephrolepidaceae, placed in the suborder Aspleniineae (eupolypods I) of the order Polypodiales in the Pteridophyte Phylogeny Group classification of 2016 (PPG I). (It is placed in the Dryopteridaceae in some other classifications.) The genus is commonly referred to as macho ferns or Boston ferns. The fronds are long and narrow, and , in the case of one Bornean species reaching thirty feet (nine meters) in length.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>See text</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_32151"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_32152</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Nephrolepis</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

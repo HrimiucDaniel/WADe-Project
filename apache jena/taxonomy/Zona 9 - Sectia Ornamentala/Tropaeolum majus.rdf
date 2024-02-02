@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Tropaeolum%20majus">
+    <rdfs:label>Tropaeolum majus</rdfs:label>
+    <ns2:abstract xml:lang="en">Tropaeolum majus, the garden nasturtium, nasturtium, Indian cress or monks cress, is a species of flowering plant in the family Tropaeolaceae, originating in the Andes from Bolivia north to Colombia. An easily-grown annual or short-lived perennial with disc-shaped leaves and brilliant yellow, orange or red flowers, it is of cultivated, probably hybrid origin. It is not closely related to the genus Nasturtium (which includes watercress).</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>The garden nasturtium is used as a food plant by the
+larvae
+of some
+Lepidoptera
+species including the
+dot moth
+,
+
+the
+garden carpet moth
+
+and the
+large white or cabbage white butterfly
+.
+
+larvae
+Lepidoptera
+dot moth
+
+
+garden carpet moth
+
+
+large white or cabbage white butterfly</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3699"/>
+    <ns1:hasExactSynonym>nasturtium</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_4020</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Tropaeolum majus</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

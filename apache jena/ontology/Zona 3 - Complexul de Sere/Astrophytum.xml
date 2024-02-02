@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns1="https://www.w3.org/2002/07/"
    xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://dbpedia.org/property/"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
+   xmlns:ns4="https://dbpedia.org/property/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Astrophytum">
     <rdfs:label>Astrophytum</rdfs:label>
-    <ns1:abstract xml:lang="en">Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words άστρον (astron), meaning "star," and φυτόν (phyton), meaning "plant."</ns1:abstract>
-    <ns3:subspecies>['A. coahuilense']</ns3:subspecies>
+    <ns3:abstract xml:lang="en">Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words άστρον (astron), meaning "star," and φυτόν (phyton), meaning "plant."</ns3:abstract>
+    <ns4:subspecies>['A. ornatum']</ns4:subspecies>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_186270</rdfs:subClassOf>
     <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_130096', 'https://dbpedia.org/page/Astrophytum']</ns4:owlsameAs>
+    <ns1:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_130096', 'https://dbpedia.org/page/Astrophytum']</ns1:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

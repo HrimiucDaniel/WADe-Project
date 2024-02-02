@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Sorbus%20aucuparia">
     <rdfs:label>Sorbus aucuparia</rdfs:label>
-    <ns2:abstract xml:lang="en">Sorbus aucuparia, commonly called rowan (UK: /ˈrəʊən/, US: /ˈroʊən/) and mountain-ash, is a species of deciduous tree or shrub in the rose family. It is a highly variable species, and botanists have used different definitions of the species to include or exclude trees native to certain areas; a recent definition includes trees native to most of Europe and parts of Asia, as well as northern Africa. The range extends from Madeira, the British Isles and Iceland to Russia and northern China. Unlike many plants with similar distributions, it is not native to Japan. The tree has a slender trunk with smooth bark, a loose and roundish crown, and its leaves are pinnate in pairs of leaflets on a central vein with a terminal leaflet. It blossoms from May to June in dense corymbs of small yellowish white flowers and develops small red pomes as fruit that ripen from August to October and are eaten by many bird species. The plant is undemanding and frost hardy and colonizes disrupted and inaccessible places as a short-lived pioneer species. The fruit and foliage have been used in the creation of dishes and beverages, as a folk medicine, and as fodder for livestock. Its tough and flexible wood has traditionally been used for woodworking. It is planted to fortify soil in mountain regions or as an ornamental tree and has several cultivars.</ns2:abstract>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Sorbus aucuparia, commonly called rowan (UK: /ˈrəʊən/, US: /ˈroʊən/) and mountain-ash, is a species of deciduous tree or shrub in the rose family. It is a highly variable species, and botanists have used different definitions of the species to include or exclude trees native to certain areas; a recent definition includes trees native to most of Europe and parts of Asia, as well as northern Africa. The range extends from Madeira, the British Isles and Iceland to Russia and northern China. Unlike many plants with similar distributions, it is not native to Japan. The tree has a slender trunk with smooth bark, a loose and roundish crown, and its leaves are pinnate in pairs of leaflets on a central vein with a terminal leaflet. It blossoms from May to June in dense corymbs of small yellowish white flowers and develops small red pomes as fruit that ripen from August to October and are eaten by many bird species. The plant is undemanding and frost hardy and colonizes disrupted and inaccessible places as a short-lived pioneer species. The fruit and foliage have been used in the creation of dishes and beverages, as a folk medicine, and as fodder for livestock. Its tough and flexible wood has traditionally been used for woodworking. It is planted to fortify soil in mountain regions or as an ornamental tree and has several cultivars.</ns5:abstract>
+    <ns2:habitat>
 
 Growing with
 Mountain Pine
@@ -245,8 +245,8 @@ Mecklenburg-Vorpommern
 Glenstal Abbey
 County Limerick
 
-</ns3:habitat>
-    <ns3:ecology>
+</ns2:habitat>
+    <ns2:ecology>
 
 Damage caused by game animal
 Damage caused by game animal
@@ -430,14 +430,14 @@ Cornu aspersum
 
 fire blight
 
-</ns3:ecology>
-    <ns3:taxonomy>
-</ns3:taxonomy>
+</ns2:ecology>
+    <ns2:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_23222</rdfs:subClassOf>
     <ns1:hasExactSynonym>European mountain ash</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_36599', 'https://dbpedia.org/page/Sorbus aucuparia']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_36599', 'https://dbpedia.org/page/Sorbus aucuparia']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

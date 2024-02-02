@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Urtica%20dioica">
     <rdfs:label>Urtica dioica</rdfs:label>
-    <ns2:abstract xml:lang="en">Urtica dioica, often known as common nettle, burn nettle, stinging nettle (although not all plants of this species sting) or nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide, including New Zealand and North America. The species is divided into six subspecies, five of which have many hollow stinging hairs called trichomes on the leaves and stems, which act like hypodermic needles, injecting histamine and other chemicals that produce a stinging sensation upon contact ("contact urticaria", a form of contact dermatitis). The plant has a long history of use as a source for traditional medicine, food, tea, and textile raw material in ancient (such as Saxon) and modern societies.</ns2:abstract>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Urtica dioica, often known as common nettle, burn nettle, stinging nettle (although not all plants of this species sting) or nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide, including New Zealand and North America. The species is divided into six subspecies, five of which have many hollow stinging hairs called trichomes on the leaves and stems, which act like hypodermic needles, injecting histamine and other chemicals that produce a stinging sensation upon contact ("contact urticaria", a form of contact dermatitis). The plant has a long history of use as a source for traditional medicine, food, tea, and textile raw material in ancient (such as Saxon) and modern societies.</ns5:abstract>
+    <ns2:habitat>
 
 A stinging nettle growing in a field
 A stinging nettle growing in a field
@@ -77,8 +77,8 @@ soil fertility
 phosphate
 
 
-nitrogen</ns3:habitat>
-    <ns3:ecology>
+nitrogen</ns2:habitat>
+    <ns2:ecology>
 
 Aglais io
 caterpillars feeding on leaves
@@ -166,8 +166,8 @@ Phoma herbarum
 Stinging nettle is particularly found as an understory plant in wetter environments, but it is also found in meadows. Although nutritious, it is not widely eaten by either wildlife or livestock, presumably because of the sting. It spreads by abundant seeds and also by rhizomes, and is often able to survive and re-establish quickly after fire.
 
 
-</ns3:ecology>
-    <ns3:taxonomy>
+</ns2:ecology>
+    <ns2:taxonomy>
 
 Illustration by
 Otto Wilhelm Thomé
@@ -389,12 +389,12 @@ subsp.
 subinermis
 (R.Uechtr.) Weigend
 Urtica dioica
-subinermis</ns3:taxonomy>
+subinermis</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3500</rdfs:subClassOf>
     <ns1:hasExactSynonym>great nettle</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3501', 'https://dbpedia.org/page/Urtica dioica']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3501', 'https://dbpedia.org/page/Urtica dioica']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

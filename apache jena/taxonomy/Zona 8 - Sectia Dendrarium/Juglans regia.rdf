@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Juglans%20regia">
+    <rdfs:label>Juglans regia</rdfs:label>
+    <ns2:abstract xml:lang="en">Juglans regia, the Persian walnut, English walnut, Carpathian walnut, Madeira walnut, or especially in Great Britain, common walnut, is an Old World walnut tree species native to the region stretching from the Balkans eastward to the Himalayas and southwest China. It is widely cultivated across Europe. It is the origin of cultivated varieties which produce the edible walnut, consumed around the world. China is the major commercial producer of walnuts.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat>Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Juglans regia
+Khotan
+In August,
+Czech Republic
+In August,
+Czech Republic
+Czech Republic</ns3:habitat>
+    <rdf:habitat>Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Walnut tree -
+Juglans regia
+L. Claimed to be the oldest walnut tree in the world. Near
+Khotan
+, Xinjiang, China, in 2011
+Juglans regia
+Khotan
+In August,
+Czech Republic
+In August,
+Czech Republic
+Czech Republic</rdf:habitat>
+    <ns3:ecology>It tends to grow taller and narrower in dense forest competition. It is a light-demanding species, requiring full sun to grow well.
+Juglans regia
+is infested by
+Rhagoletis juglandis
+, commonly known as the walnut husk fly, which lays its eggs in the husks of walnut fruit.
+Juglans regia
+Rhagoletis juglandis
+Rhagoletis juglandis
+Other plants often will not grow under walnut trees because the fallen leaves and husks contain
+juglone
+, a chemical which acts as a natural
+herbicide
+. Horses that eat walnut leaves may develop
+laminitis
+, a hoof ailment.
+juglone
+herbicide
+laminitis</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411290"/>
+    <ns1:hasExactSynonym>English walnut</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_51240</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Juglans regia</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

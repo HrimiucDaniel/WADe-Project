@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hosta">
     <rdfs:label>Hosta</rdfs:label>
-    <ns2:abstract xml:lang="en">Hosta (/ˈhɒstə/, syn. Funkia) is a genus of plants commonly known as hostas, plantain lilies and occasionally by the Japanese name gibōshi. Hostas are widely cultivated as shade-tolerant foliage plants. The genus is currently placed in the family Asparagaceae, subfamily Agavoideae, and is native to northeast Asia (China, Japan, Korea, and the Russian Far East). Like many "lilioid monocots", the genus was once classified in the Liliaceae. The genus was named by Austrian botanist Leopold Trattinnick in 1812, in honor of the Austrian botanist Nicholas Thomas Host. In 1817, the generic name Funkia was used by German botanist Kurt Sprengel in honor of Heinrich Christian Funck, a collector of ferns and alpines; this was later used as a common name and can be found in some older literature.</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Hosta (/ˈhɒstə/, syn. Funkia) is a genus of plants commonly known as hostas, plantain lilies and occasionally by the Japanese name gibōshi. Hostas are widely cultivated as shade-tolerant foliage plants. The genus is currently placed in the family Asparagaceae, subfamily Agavoideae, and is native to northeast Asia (China, Japan, Korea, and the Russian Far East). Like many "lilioid monocots", the genus was once classified in the Liliaceae. The genus was named by Austrian botanist Leopold Trattinnick in 1812, in honor of the Austrian botanist Nicholas Thomas Host. In 1817, the generic name Funkia was used by German botanist Kurt Sprengel in honor of Heinrich Christian Funck, a collector of ferns and alpines; this was later used as a common name and can be found in some older literature.</ns5:abstract>
+    <ns2:taxonomy>
 
 Taxonomists
 differ on the number of
@@ -298,12 +298,12 @@ Korean Islands
 Hosta yingeri
 Hosta yingeri
 Hosta yingeri
-Korean Islands</ns3:taxonomy>
+Korean Islands</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_703530</rdfs:subClassOf>
     <ns1:hasExactSynonym>plantain lilies</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13090', 'https://dbpedia.org/page/Hosta']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13090', 'https://dbpedia.org/page/Hosta']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

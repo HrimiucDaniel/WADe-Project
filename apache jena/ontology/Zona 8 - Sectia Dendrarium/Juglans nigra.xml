@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Juglans%20nigra">
     <rdfs:label>Juglans nigra</rdfs:label>
-    <ns2:abstract xml:lang="en">Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to North America. It grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas. Wild trees in the upper Ottawa Valley may be an isolated native population or may have derived from planted trees. Black walnut is an important tree commercially, as the wood is a deep brown color and easily worked. Walnut seeds (nuts) are cultivated for their distinctive and desirable taste. Walnut trees are grown both for lumber and food, and many cultivars have been developed for improved quality wood or nuts. Black walnut is susceptible to thousand cankers disease, which provoked a decline of walnut trees in some regions. Black walnut is anecdotally known for being allelopathic, which means that it releases chemicals from its roots and other tissues that may harm other organisms and give the tree a competitive advantage. There is not, however, solid scientific consensus that allelopathic chemicals in black walnut are the primary source of its competitive growth in an area.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to North America. It grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas. Wild trees in the upper Ottawa Valley may be an isolated native population or may have derived from planted trees. Black walnut is an important tree commercially, as the wood is a deep brown color and easily worked. Walnut seeds (nuts) are cultivated for their distinctive and desirable taste. Walnut trees are grown both for lumber and food, and many cultivars have been developed for improved quality wood or nuts. Black walnut is susceptible to thousand cankers disease, which provoked a decline of walnut trees in some regions. Black walnut is anecdotally known for being allelopathic, which means that it releases chemicals from its roots and other tissues that may harm other organisms and give the tree a competitive advantage. There is not, however, solid scientific consensus that allelopathic chemicals in black walnut are the primary source of its competitive growth in an area.</ns5:abstract>
+    <ns3:ecology>
 
 Black walnut is primarily a
 pioneer species
@@ -166,12 +166,12 @@ Acer negundo
 red oak
 Quercus rubra
 
-</ns4:ecology>
+</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/FOODON_03411290</rdfs:subClassOf>
     <ns1:hasExactSynonym>black walnut</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_16719', 'https://dbpedia.org/page/Juglans nigra']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_16719', 'https://dbpedia.org/page/Juglans nigra']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

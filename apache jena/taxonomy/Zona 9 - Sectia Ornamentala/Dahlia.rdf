@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Dahlia">
+    <rdfs:label>Dahlia</rdfs:label>
+    <ns2:abstract xml:lang="en">Dahlia (UK: /ˈdeɪliə/, US: /ˈdæljə, ˈdɑːljə/) is a genus of bushy, tuberous, herbaceous perennial plants native to Mexico and Central America. A member of the Compositae (also called Asteraceae) family of dicotyledonous plants, its garden relatives thus include the sunflower, daisy, chrysanthemum, and zinnia. There are 49 species of this genus, with hybrids commonly grown as garden plants. Flower forms are variable, with one head per stem; these can be as small as 5 cm (2 in) diameter or up to 30 cm (1 ft) (&quot;dinner plate&quot;). This great variety results from dahlias being octoploids—that is, they have eight sets of homologous chromosomes, whereas most plants have only two. In addition, dahlias also contain many transposons—genetic pieces that move from place to place upon an allele—which contributes to their manifesting such great diversity. The stems are leafy, ranging in height from as low as 30 cm (12 in) to more than 1.8–2.4 m (6–8 ft). The majority of species do not produce scented flowers. Like most plants that do not attract pollinating insects through scent, they are brightly colored, displaying most hues, with the exception of blue. The dahlia was declared the national flower of Mexico in 1963. The tubers were grown as a food crop by the Aztecs, but this use largely died out after the Spanish Conquest. Attempts to introduce the tubers as a food crop in Europe were unsuccessful.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem> Dahlia</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Entemophyllon</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Epiphytum</ns3:subspeciesItem>
+      <ns3:subspeciesItem> Pseudodendron</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat>Dahlia
+is found predominantly in
+Mexico
+, but some species are found ranging as far south as northern
+South America
+.
+
+D. australis
+occurs at least as far south as southwestern
+Guatemala
+, while
+D. coccinea
+and
+D. imperialis
+also occur in parts of
+Central America
+and northern South America.
+Dahlia
+is a genus of the uplands and mountains, being found at elevations between 1,500 and 3,700 m (4,900 and 12,100 ft), in what has been described as a &quot;pine-oak woodland&quot;
+vegetative zone
+. Most species have limited ranges scattered throughout many mountain ranges in Mexico
+
+Dahlia
+Mexico
+South America
+
+
+D. australis
+D. australis
+Guatemala
+D. coccinea
+D. imperialis
+Central America
+Dahlia
+vegetative zone</ns3:habitat>
+    <rdf:habitat>Dahlia
+is found predominantly in
+Mexico
+, but some species are found ranging as far south as northern
+South America
+.
+
+D. australis
+occurs at least as far south as southwestern
+Guatemala
+, while
+D. coccinea
+and
+D. imperialis
+also occur in parts of
+Central America
+and northern South America.
+Dahlia
+is a genus of the uplands and mountains, being found at elevations between 1,500 and 3,700 m (4,900 and 12,100 ft), in what has been described as a &quot;pine-oak woodland&quot;
+vegetative zone
+. Most species have limited ranges scattered throughout many mountain ranges in Mexico
+
+Dahlia
+Mexico
+South America
+
+
+D. australis
+D. australis
+Guatemala
+D. coccinea
+D. imperialis
+Central America
+Dahlia
+vegetative zone</rdf:habitat>
+    <ns3:ecology>The most common pollinators are bees and small beetles.</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
+    <rdfs:subClassOf rdf:resource=""/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource=""/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem/>
+      <ns5:sameAsItem>https://dbpedia.org/page/Dahlia</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

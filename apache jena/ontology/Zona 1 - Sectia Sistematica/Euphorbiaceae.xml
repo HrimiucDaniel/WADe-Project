@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Euphorbiaceae">
     <rdfs:label>Euphorbiaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Euphorbiaceae, the spurge family, is a large family of flowering plants. In English, they are also commonly called euphorbias, which is also the name of a genus in the family. Most spurges, such as Euphorbia paralias, are herbs, but some, especially in the tropics, are shrubs or trees, such as Hevea brasiliensis. Some, such as Euphorbia canariensis, are succulent and resemble cacti because of convergent evolution. This family has a cosmopolitan global distribution. The greatest diversity of species is in the tropics, however, the Euphorbiaceae also have many species in nontropical areas of all continents except Antarctica.</ns2:abstract>
-    <ns3:subspecies>['Acalyphoideae', 'Crotonoideae', 'Euphorbioideae']</ns3:subspecies>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Euphorbiaceae, the spurge family, is a large family of flowering plants. In English, they are also commonly called euphorbias, which is also the name of a genus in the family. Most spurges, such as Euphorbia paralias, are herbs, but some, especially in the tropics, are shrubs or trees, such as Hevea brasiliensis. Some, such as Euphorbia canariensis, are succulent and resemble cacti because of convergent evolution. This family has a cosmopolitan global distribution. The greatest diversity of species is in the tropics, however, the Euphorbiaceae also have many species in nontropical areas of all continents except Antarctica.</ns5:abstract>
+    <ns2:subspecies>['Acalyphoideae', 'Crotonoideae', 'Euphorbioideae']</ns2:subspecies>
+    <ns2:taxonomy>
 
 Main article:
 List of Euphorbiaceae genera
@@ -64,12 +64,12 @@ Euphorbiotheca deccanensis
 Intertrappean Beds
 Maastrichtian
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3646</rdfs:subClassOf>
     <ns1:hasExactSynonym>spurge family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3977', 'https://dbpedia.org/page/Euphorbiaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3977', 'https://dbpedia.org/page/Euphorbiaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

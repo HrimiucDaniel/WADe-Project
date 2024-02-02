@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Fraxinus%20excelsior">
+    <rdfs:label>Fraxinus excelsior</rdfs:label>
+    <ns2:abstract xml:lang="en">Fraxinus excelsior, known as the ash, or European ash or common ash to distinguish it from other types of ash, is a flowering plant species in the olive family Oleaceae. It is native throughout mainland Europe east to the Caucasus and Alborz mountains, and Britain and Ireland, the latter determining its western boundary. The northernmost location is in the Trondheimsfjord region of Norway. The species is widely cultivated and reportedly naturalised in New Zealand and in scattered locales in the United States and Canada.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>Ash tree (~20m tall) in
+Wales
+at 185 m asl in July (l) and March (r), showing branch structure
+Ash tree (~20m tall) in
+Wales
+at 185 m asl in July (l) and March (r), showing branch structure
+Ash tree (~20m tall) in
+Wales
+at 185 m asl in July (l) and March (r), showing branch structure
+Ash tree (~20m tall) in
+Wales
+at 185 m asl in July (l) and March (r), showing branch structure
+Wales
+Ash occurs on a wide range of
+soil
+types, but is particularly associated with basic soils on calcareous substrates. The most northerly ashwood in Britain is on limestone at Rassal,
+Wester Ross
+, latitude 57.4278 N.
+
+Ash prefers moister soil types and is commonly limited by temperature and so not found at the higher colder altitudes in much of Europe, though in Iran, it may reach 2000 m asl. As a young seedling, it is shade tolerant, but older trees are light-demanding. It is an early-
+succession
+species and may well outcompete beech and oak, which are later-succession species.
+
+soil
+Wester Ross
+
+
+succession
+
+
+F. excelsior
+mycorrhizae are of the internal
+arbuscular mycorrhizal
+type, in which the fungus grows within the tissues of the root and forms branched, tree-like structures within the cells of the root cortex. Unlike other
+Fraxinus
+species,
+F. excelsior
+does not form
+ectomycorrhizae
+.
+
+F. excelsior
+arbuscular mycorrhizal
+Fraxinus
+F. excelsior
+ectomycorrhizae
+
+
+The
+Biological Records Centre
+of the UK records 111 species of insects and mites using ash as a food plant, of which 29 are specific to ash. A further six are specific to ash and its
+Oleaceae
+relative wild privet (
+Ligustrum vulgare
+).
+
+A number of
+Lepidoptera
+species use the species as a food source.
+
+One example of an ash-specific feeding moth is the centre-barred sallow (
+Atethmia centrago
+). The larvae burrow into the buds when newly hatched and later feed on the flowers and leaves.
+
+A common moth which causes the browning of ash leaves, as well as
+garden privet
+and
+lilac
+, is
+Gracillaria syringella
+. The usually gregarious larvae form an epidermal gallery (i.e. feed within the leaf) which leads to a
+brown blotch
+with black
+frass
+. Later, two successive cones are formed by folding the tip of a leaf downwards.
+
+Biological Records Centre
+Oleaceae
+Ligustrum vulgare
+Ligustrum vulgare
+
+
+Lepidoptera
+
+
+Atethmia centrago
+Atethmia centrago
+
+
+garden privet
+lilac
+Gracillaria syringella
+Gracillaria syringella
+brown blotch
+frass
+
+
+In Britain, 14
+galls
+have been recorded on ash. The
+British Plant Gall Society
+defines a gall as &quot;... an abnormal growth produced by a plant under the influence of another organism&quot;.
+
+galls
+British Plant Gall Society</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38871"/>
+    <ns1:hasExactSynonym>European ash</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_38873</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Fraxinus excelsior</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

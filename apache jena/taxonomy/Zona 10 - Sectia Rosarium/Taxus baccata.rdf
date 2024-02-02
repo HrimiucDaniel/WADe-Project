@@ -1,0 +1,327 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Taxus%20baccata">
+    <rdfs:label>Taxus baccata</rdfs:label>
+    <ns2:abstract xml:lang="en">Taxus baccata is a species of evergreen tree in the family Taxaceae, native to western, central and southern Europe (including Britain and Ireland), northwest Africa, northern Iran, and southwest Asia. It is the tree originally known as yew, though with other related trees becoming known, it may now be known as common yew, English yew, or European yew. It is primarily grown as an ornamental. Most parts of the plant are poisonous, with toxins that can be absorbed through inhalation and through the skin; consumption of even a small amount of the foliage can result in death.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat>T. baccata
+is native to all countries of Europe (except Iceland), the Caucasus, and beyond from Turkey eastwards to northern Iran. Its range extends south to Morocco and Algeria in North Africa.
+
+A few populations are also present in the archipelagos of the Azores
+
+and Madeira.
+
+The limit of its northern
+Scandinavian
+distribution is its sensitivity to frost, with
+global warming
+predicted to allow its spread inland.
+
+It has been introduced elsewhere, including the United States.
+
+Aside from its natural habitat, it is also common to find English Yew in gardens because it is very tolerate to pruning and cemeteries, as it symbolizes death.
+
+T. baccata
+
+
+
+
+
+
+Scandinavian
+global warming
+
+
+
+
+
+
+T. baccata
+'
+s richest central European populations are in
+Swiss
+yew-beech woodlands, on cool, steep
+marl
+slopes up to 1,400 metres (4,600 ft) in elevation in the
+Jura Mountains
+and
+Alpine foothills
+. In
+England
+it grows best in steep slopes of the
+chalk downs
+, forming extensive stands invading the grassland outside the beech woods. In more
+continental climates
+of Europe it fares better in
+mixed forests
+, of both
+coniferous
+and mixed broadleaf-conifer composition. Under its evergreen shade, no other plants can grow.
+
+T. baccata
+'
+Swiss
+marl
+Jura Mountains
+Alpine foothills
+England
+chalk downs
+continental climates
+mixed forests
+coniferous
+
+
+T. baccata
+prefers steep rocky
+calcareous
+slopes. It rarely develops beyond saplings on acid soil when under a forest canopy, but is tolerant of soil pH when planted by humans, such as their traditional placement in
+churchyards
+and
+cemeteries
+, where some of the largest and oldest trees in northwestern Europe are found.
+
+It grows well in well-drained soils,
+
+tolerating nearly any soil type, typically
+humus
+and
+base-rich
+soils, but also on
+rendzina
+and
+sand
+soils given adequate moisture. They can survive temporary flooding and moderate droughts. Roots can penetrate extremely compressed soils, such as on rocky terrain and vertical cliff faces.
+
+T. baccata
+calcareous
+churchyards
+cemeteries
+
+
+
+
+humus
+base-rich
+rendzina
+sand
+
+
+T. baccata
+normally appears individually or in small groups within the
+understory
+, but also forms stands throughout its range,
+
+such as in sheltered calcareous sites.
+
+T. baccata
+is extremely shade-tolerant, with the widest temperature range for
+photosynthesis
+among European trees, able to photosynthesize in winter after deciduous trees have shed their leaves.
+
+It can grow under partial canopies of
+beech
+and other
+deciduous
+broad-leafed trees, though it only grows into large trees without such shade.
+
+T. baccata
+understory
+
+
+
+
+T. baccata
+photosynthesis
+
+
+beech
+deciduous
+
+
+In centuries past
+T. baccata
+was exterminated from many woodlands as a poisonous hazard to the cattle and horses that often grazed in the woods
+
+. Rabbits and deer however have a level of immunity to the poisonous alkaloids, and the seeds are dispersed by birds,
+
+with
+thrushes
+greatly enjoying the fruit.
+
+It also regenerates readily from stumps and roots, even when ancient and hollow.
+
+T. baccata
+
+citation needed
+citation needed
+citation needed
+
+
+thrushes</ns3:habitat>
+    <rdf:habitat>T. baccata
+is native to all countries of Europe (except Iceland), the Caucasus, and beyond from Turkey eastwards to northern Iran. Its range extends south to Morocco and Algeria in North Africa.
+
+A few populations are also present in the archipelagos of the Azores
+
+and Madeira.
+
+The limit of its northern
+Scandinavian
+distribution is its sensitivity to frost, with
+global warming
+predicted to allow its spread inland.
+
+It has been introduced elsewhere, including the United States.
+
+Aside from its natural habitat, it is also common to find English Yew in gardens because it is very tolerate to pruning and cemeteries, as it symbolizes death.
+
+T. baccata
+
+
+
+
+
+
+Scandinavian
+global warming
+
+
+
+
+
+
+T. baccata
+'
+s richest central European populations are in
+Swiss
+yew-beech woodlands, on cool, steep
+marl
+slopes up to 1,400 metres (4,600 ft) in elevation in the
+Jura Mountains
+and
+Alpine foothills
+. In
+England
+it grows best in steep slopes of the
+chalk downs
+, forming extensive stands invading the grassland outside the beech woods. In more
+continental climates
+of Europe it fares better in
+mixed forests
+, of both
+coniferous
+and mixed broadleaf-conifer composition. Under its evergreen shade, no other plants can grow.
+
+T. baccata
+'
+Swiss
+marl
+Jura Mountains
+Alpine foothills
+England
+chalk downs
+continental climates
+mixed forests
+coniferous
+
+
+T. baccata
+prefers steep rocky
+calcareous
+slopes. It rarely develops beyond saplings on acid soil when under a forest canopy, but is tolerant of soil pH when planted by humans, such as their traditional placement in
+churchyards
+and
+cemeteries
+, where some of the largest and oldest trees in northwestern Europe are found.
+
+It grows well in well-drained soils,
+
+tolerating nearly any soil type, typically
+humus
+and
+base-rich
+soils, but also on
+rendzina
+and
+sand
+soils given adequate moisture. They can survive temporary flooding and moderate droughts. Roots can penetrate extremely compressed soils, such as on rocky terrain and vertical cliff faces.
+
+T. baccata
+calcareous
+churchyards
+cemeteries
+
+
+
+
+humus
+base-rich
+rendzina
+sand
+
+
+T. baccata
+normally appears individually or in small groups within the
+understory
+, but also forms stands throughout its range,
+
+such as in sheltered calcareous sites.
+
+T. baccata
+is extremely shade-tolerant, with the widest temperature range for
+photosynthesis
+among European trees, able to photosynthesize in winter after deciduous trees have shed their leaves.
+
+It can grow under partial canopies of
+beech
+and other
+deciduous
+broad-leafed trees, though it only grows into large trees without such shade.
+
+T. baccata
+understory
+
+
+
+
+T. baccata
+photosynthesis
+
+
+beech
+deciduous
+
+
+In centuries past
+T. baccata
+was exterminated from many woodlands as a poisonous hazard to the cattle and horses that often grazed in the woods
+
+. Rabbits and deer however have a level of immunity to the poisonous alkaloids, and the seeds are dispersed by birds,
+
+with
+thrushes
+greatly enjoying the fruit.
+
+It also regenerates readily from stumps and roots, even when ancient and hollow.
+
+T. baccata
+
+citation needed
+citation needed
+citation needed
+
+
+thrushes</rdf:habitat>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_25628"/>
+    <ns1:hasExactSynonym>English yew</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_25629</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Taxus baccata</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Paeonia%20daurica">
+    <rdfs:label>Paeonia daurica</rdfs:label>
+    <ns2:abstract xml:lang="en">Paeonia daurica is a perennial herbaceous plant belonging to the peony family. It has slender carrot-shaped roots, leaves mostly consisting of nine leaflets, with one flower per stem. The flower is subtended by none to two leafy bracts, and has two or three sepals, five to eight petals, and many stamens. The subspecies vary in the colour of the petals (white, light yellow, pink, red), the size and shape of the leaflets, and the hairiness of the leaflets and the carpels. Paeonia daurica can be found from the Balkans to Iran, and the Crimea to Lebanon, with the centre of its distribution in the Caucasus. It is also cultivated as an ornamental.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>[[#Modern classification, subdivision and synonymy</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>With its hairless leaves,
+P. daurica
+, does not seem to be adapted to a typical Mediterranean climate, but to rather more humid circumstances in summer. The population on
+Mount Orjen
+grows in forest consisting of
+silver fir
+,
+European beech
+,
+Turkish hazel
+, the maple species
+Acer pseudoplatanus
+and
+A. intermedium
+, and
+ash
+, and is further accompanied by widespread species such as
+European spindle
+,
+mountain cherry
+,
+drooping bittercress
+,
+Turk's cap lily
+, but also with endemics such as the
+Orjen iris
+.
+
+P. daurica
+Mount Orjen
+silver fir
+European beech
+Turkish hazel
+Acer pseudoplatanus
+Acer pseudoplatanus
+A. intermedium
+A. intermedium
+ash
+European spindle
+mountain cherry
+drooping bittercress
+Turk's cap lily
+Orjen iris</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13625"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_1123981</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Paeonia daurica</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

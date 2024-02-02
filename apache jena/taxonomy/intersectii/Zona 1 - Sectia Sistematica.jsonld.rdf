@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica">
+    <rdfs:label>Zona 1 - Sectia Sistematica</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Apiaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Celastraceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Chenopodiaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Corylaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Doronicum%20orientale"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Echinops%20bannaticus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Euphorbiaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fabaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fagaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Geraniaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Juglandaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Lamiaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ligustrum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Liliaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Moraceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Orchidaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Platanaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Poaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Polygonaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rhamnaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Rosaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Scrophulariaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Solanaceae"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Syringa"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ulmaceae"/>
+    </ex:list_of_plants>
+    <ex:description>Terenul destinat sectiei este strabatut de o serie de alei radiale si circulare ce permit accesul vizitatorilor catre straturile de plante si care indeplinesc si un rol stiintific (filogenetic), prin separarea ordinelor si familiilor intre ele. O alee circulara lata de 3 m separa ordinele cu flori dialipetale (cu petale libere), dispuse spre centrul sectiei, de cele cu flori simpetale (cu petale unite) dispuse spre periferia sectiei.Chiar de la intrarea in sectie, pe partea stanga, se pot observa doua exemplare de Metasequoia gliptostroboides, specie din familia Taxodiaceae, cunoscuta doar ca planta fosila pana in anul 1941, cand studentii chinezi Cheng si Hu au descoperit-o in stare vie, in padurile din Centrul Chinei.</ex:description>
+  </ex:Zone>
+</rdf:RDF>

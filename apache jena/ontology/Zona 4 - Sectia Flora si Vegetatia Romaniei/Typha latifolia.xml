@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
-   xmlns:ns5="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Typha%20latifolia">
     <rdfs:label>Typha latifolia</rdfs:label>
-    <ns2:abstract xml:lang="en">Typha latifolia (broadleaf cattail, bulrush, common bulrush, common cattail, cat-o'-nine-tails, great reedmace, cooper's reed, cumbungi) is a perennial herbaceous plant in the genus Typha. It is found as a native plant species in North and South America, Eurasia, and Africa.</ns2:abstract>
-    <ns5:habitat>
+    <ns5:abstract xml:lang="en">Typha latifolia (broadleaf cattail, bulrush, common bulrush, common cattail, cat-o'-nine-tails, great reedmace, cooper's reed, cumbungi) is a perennial herbaceous plant in the genus Typha. It is found as a native plant species in North and South America, Eurasia, and Africa.</ns5:abstract>
+    <ns2:habitat>
 
 British Columbia
 ,
@@ -150,12 +150,12 @@ T. angustifolia × T. latifolia
 
 citation needed
 citation needed
-citation needed</ns5:habitat>
+citation needed</ns2:habitat>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4732</rdfs:subClassOf>
     <ns1:hasExactSynonym>common cattail</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4733', 'https://dbpedia.org/page/Typha latifolia']</ns4:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4733', 'https://dbpedia.org/page/Typha latifolia']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

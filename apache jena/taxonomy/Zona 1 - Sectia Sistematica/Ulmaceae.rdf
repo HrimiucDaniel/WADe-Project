@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ulmaceae">
+    <rdfs:label>Ulmaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Ulmaceae (/ʌlˈmeɪsi/) are a family of flowering plants that includes the elms (genus Ulmus), and the zelkovas (genus Zelkova). Members of the family are widely distributed throughout the north temperate zone, and have a scattered distribution elsewhere except for Australasia. The family was formerly sometimes treated to include the hackberries, (Celtis and allies), but an analysis by the Angiosperm Phylogeny Group suggests that these genera are better placed in the related family Cannabaceae. It generally is considered to include ca 7 genera and about 45 species. Some classifications also include the genus Ampelocera.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem> Ampelocera (Klotzsch 1847) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Hemiptelea (Planch. 1872) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Holoptelea (Planch. 1848) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Phyllostylon (Benth. 1880) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Planera (J.F.Gmel. 1791) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Ulmus (L. 1753) </ns3:subspeciesItem>
+      <ns3:subspeciesItem> Zelkova (Spach 1841)</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3744"/>
+    <ns1:hasExactSynonym>elm family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3474</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Ulmaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

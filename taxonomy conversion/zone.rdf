@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone1">
+    <rdfs:label>Zone 1</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="http://127.0.0.1:5000/plant1"/>
+      <ex:plant rdf:resource="http://127.0.0.1:5000/plant2"/>
+    </ex:list_of_plants>
+    <ex:description>This is a description of Zone 1</ex:description>
+  </ex:Zone>
+</rdf:RDF>

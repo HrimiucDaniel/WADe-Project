@@ -2,7 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 
 def get_plant_info(zone, name):
-    endpoint_url = "http://localhost:3030/Plants/sparql"
+    endpoint_url = "http://localhost:3030/plants/sparql"
     # Create a SPARQLWrapper object and set the endpoint URL
     sparql = SPARQLWrapper(endpoint_url)
     uri = f'http://127.0.0.1:5000/zone/{zone}/plant/{name}'

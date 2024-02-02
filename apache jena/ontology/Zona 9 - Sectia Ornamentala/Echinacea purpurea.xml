@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Echinacea%20purpurea">
     <rdfs:label>Echinacea purpurea</rdfs:label>
-    <ns1:abstract xml:lang="en">Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States as well as in the Canadian Province of Ontario. It is most common in the Ozarks and in the Mississippi/Ohio Valley. Its habitats include dry open woods, prairies and barrens.</ns1:abstract>
-    <ns2:ecology>
+    <ns4:abstract xml:lang="en">Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States as well as in the Canadian Province of Ontario. It is most common in the Ozarks and in the Mississippi/Ohio Valley. Its habitats include dry open woods, prairies and barrens.</ns4:abstract>
+    <ns1:ecology>
 
 Many pollinators are attracted to
 E. purpea
@@ -68,8 +68,8 @@ rabbits
 
 gophers
 
-</ns2:ecology>
-    <ns2:taxonomy>
+</ns1:ecology>
+    <ns1:taxonomy>
 
 Echinacea
 is derived from
@@ -116,11 +116,11 @@ Echinacea purpurea
 Echinacea serotina
 (Nutt.) DC.
 
-</ns2:taxonomy>
+</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_53747</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_53751', 'https://dbpedia.org/page/Echinacea purpurea']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_53751', 'https://dbpedia.org/page/Echinacea purpurea']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

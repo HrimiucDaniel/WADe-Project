@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Laburnum%20anagyroides">
     <rdfs:label>Laburnum anagyroides</rdfs:label>
-    <ns2:abstract xml:lang="en">Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe.</ns2:abstract>
+    <ns4:abstract xml:lang="en">Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe.</ns4:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3851</rdfs:subClassOf>
     <ns1:hasExactSynonym>common laburnum</ns1:hasExactSynonym>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_49828', 'https://dbpedia.org/page/Laburnum anagyroides']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_49828', 'https://dbpedia.org/page/Laburnum anagyroides']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Carpinus%20betulus">
+    <rdfs:label>Carpinus betulus</rdfs:label>
+    <ns2:abstract xml:lang="en">Carpinus betulus, the European or common hornbeam, is a species of tree in the birch family Betulaceae, native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 1,000 metres (3,281 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests. Hornbeam was also known as 'Yoke Elm'.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>Old hornbeam coppice stools left uncut for at least 100 years.
+Coldfall Wood
+, London
+Old hornbeam coppice stools left uncut for at least 100 years.
+Coldfall Wood
+, London
+Coldfall Wood
+In England, trees appear to prefer soils with a pH from 3.6 to 4.6 but tolerate up to 7.6. They are found on soils with moderate clay content and avoid soils with particularly high or low clay content.
+
+Carpinus betulus
+likes full sun or partial shade,
+
+moderate
+soil fertility
+and moisture. It has a shallow, wide-spreading root system and is marked by the production of stump sprouts when cut back.
+
+
+
+Carpinus betulus
+
+
+soil fertility
+
+citation needed
+citation needed
+citation needed
+The
+seeds
+often do not germinate until the spring of the second year after sowing. The hornbeam is a prolific seeder and is marked by vigorous natural regeneration.
+
+seeds
+
+citation needed
+citation needed
+citation needed</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12989"/>
+    <ns1:hasExactSynonym>European hornbeam</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_12990</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Carpinus betulus</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

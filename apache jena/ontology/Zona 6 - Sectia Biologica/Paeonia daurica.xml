@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
-   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns1="https://dbpedia.org/property/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
    xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns4="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Paeonia%20daurica">
     <rdfs:label>Paeonia daurica</rdfs:label>
-    <ns1:abstract xml:lang="en">Paeonia daurica is a perennial herbaceous plant belonging to the peony family. It has slender carrot-shaped roots, leaves mostly consisting of nine leaflets, with one flower per stem. The flower is subtended by none to two leafy bracts, and has two or three sepals, five to eight petals, and many stamens. The subspecies vary in the colour of the petals (white, light yellow, pink, red), the size and shape of the leaflets, and the hairiness of the leaflets and the carpels. Paeonia daurica can be found from the Balkans to Iran, and the Crimea to Lebanon, with the centre of its distribution in the Caucasus. It is also cultivated as an ornamental.</ns1:abstract>
-    <ns2:subspecies>['[[#Modern classification, subdivision and synonymy']</ns2:subspecies>
-    <ns2:ecology>
+    <ns4:abstract xml:lang="en">Paeonia daurica is a perennial herbaceous plant belonging to the peony family. It has slender carrot-shaped roots, leaves mostly consisting of nine leaflets, with one flower per stem. The flower is subtended by none to two leafy bracts, and has two or three sepals, five to eight petals, and many stamens. The subspecies vary in the colour of the petals (white, light yellow, pink, red), the size and shape of the leaflets, and the hairiness of the leaflets and the carpels. Paeonia daurica can be found from the Balkans to Iran, and the Crimea to Lebanon, with the centre of its distribution in the Caucasus. It is also cultivated as an ornamental.</ns4:abstract>
+    <ns1:subspecies>['[[#Modern classification, subdivision and synonymy']</ns1:subspecies>
+    <ns1:ecology>
 
 With its hairless leaves,
 P. daurica
@@ -57,13 +57,13 @@ drooping bittercress
 Turk's cap lily
 Orjen iris
 
-</ns2:ecology>
-    <ns2:taxonomy>
-</ns2:taxonomy>
+</ns1:ecology>
+    <ns1:taxonomy>
+</ns1:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_13625</rdfs:subClassOf>
     <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_1123981', 'https://dbpedia.org/page/Paeonia daurica']</ns4:owlsameAs>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_1123981', 'https://dbpedia.org/page/Paeonia daurica']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

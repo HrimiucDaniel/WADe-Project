@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Betula%20pendula">
     <rdfs:label>Betula pendula</rdfs:label>
-    <ns2:abstract xml:lang="en">Betula pendula, commonly known as silver birch, warty birch, European white birch, or East Asian white birch, is a species of tree in the family Betulaceae, native to Europe and parts of Asia, though in southern Europe, it is only found at higher altitudes. Its range extends into Siberia, China, and southwest Asia in the mountains of northern Turkey, the Caucasus, and northern Iran. It has been introduced into North America, where it is known as the European white birch or weeping birch and is considered invasive in some states in the United States and parts of Canada. The tree can also be found in more temperate regions of Australia. The silver birch is a medium-sized deciduous tree that owes its common name to the white peeling bark on the trunk. The twigs are slender and often pendulous and the leaves are roughly triangular with doubly serrate margins and turn yellow and brown in autumn before they fall. The flowers are catkins and the light, winged seeds get widely scattered by the wind. The silver birch is a hardy tree, a pioneer species, and one of the first trees to appear on bare or fire-swept land. Many species of birds and animals are found in birch woodland, the tree supports a wide range of insects and the light shade it casts allows shrubby and other plants to grow beneath its canopy. It is planted decoratively in parks and gardens and is used for forest products such as joinery timber, firewood, tanning, racecourse jumps, and brooms. Various parts of the tree are used in traditional medicine and the bark contains triterpenes, which have been shown to have medicinal properties.</ns2:abstract>
-    <ns3:subspecies>['See text']</ns3:subspecies>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Betula pendula, commonly known as silver birch, warty birch, European white birch, or East Asian white birch, is a species of tree in the family Betulaceae, native to Europe and parts of Asia, though in southern Europe, it is only found at higher altitudes. Its range extends into Siberia, China, and southwest Asia in the mountains of northern Turkey, the Caucasus, and northern Iran. It has been introduced into North America, where it is known as the European white birch or weeping birch and is considered invasive in some states in the United States and parts of Canada. The tree can also be found in more temperate regions of Australia. The silver birch is a medium-sized deciduous tree that owes its common name to the white peeling bark on the trunk. The twigs are slender and often pendulous and the leaves are roughly triangular with doubly serrate margins and turn yellow and brown in autumn before they fall. The flowers are catkins and the light, winged seeds get widely scattered by the wind. The silver birch is a hardy tree, a pioneer species, and one of the first trees to appear on bare or fire-swept land. Many species of birds and animals are found in birch woodland, the tree supports a wide range of insects and the light shade it casts allows shrubby and other plants to grow beneath its canopy. It is planted decoratively in parks and gardens and is used for forest products such as joinery timber, firewood, tanning, racecourse jumps, and brooms. Various parts of the tree are used in traditional medicine and the bark contains triterpenes, which have been shown to have medicinal properties.</ns5:abstract>
+    <ns2:subspecies>['See text']</ns2:subspecies>
+    <ns2:habitat>
 
 The silver birch grows naturally from western Europe eastwards to
 Kazakhstan
@@ -66,8 +66,8 @@ Wisconsin
 naturalised
 Canada
 
-</ns3:habitat>
-    <ns3:ecology>
+</ns2:habitat>
+    <ns2:ecology>
 
 The silver birch has an open canopy which allows plenty of light to reach the ground. This allows a variety of mosses, grasses, and flowering plants to grow beneath, which in turn attract insects. Flowering plants often found in birch woods include
 primrose
@@ -226,8 +226,8 @@ B. pubescens
 Agrilus anxius
 Agrilus anxius
 
-</ns3:ecology>
-    <ns3:taxonomy>
+</ns2:ecology>
+    <ns2:taxonomy>
 
 See also:
 List of Betula species
@@ -719,12 +719,12 @@ Fr. ex Regel
 Betula vladimirii
 V.N.Vassil.
 Betula vladimirii
-V.N.Vassil.</ns3:taxonomy>
+V.N.Vassil.</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_33090</rdfs:subClassOf>
     <ns1:hasExactSynonym>European white birch</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3505', 'https://dbpedia.org/page/Betula pendula']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3505', 'https://dbpedia.org/page/Betula pendula']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

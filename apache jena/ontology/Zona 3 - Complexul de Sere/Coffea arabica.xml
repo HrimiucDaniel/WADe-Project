@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Coffea%20arabica">
     <rdfs:label>Coffea arabica</rdfs:label>
-    <ns2:abstract xml:lang="en">Coffea arabica (/əˈræbɪkə/), also known as the Arabic coffee, is a species of flowering plant in the coffee and madder family Rubiaceae. It is believed to be the first species of coffee to have been cultivated and is currently the dominant cultivar, representing about 60% of global production. Coffee produced from the less acidic, more bitter, and more highly caffeinated robusta bean (C. canephora) makes up most of the remaining coffee production. Arabica coffee originates from and was first cultivated in Yemen, and documented by the 12th century. Coffea arabica is called ‏بُنّ‎ (būnn) in Arabic, borrowed from the Amharic "Buna".</ns2:abstract>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Coffea arabica (/əˈræbɪkə/), also known as the Arabic coffee, is a species of flowering plant in the coffee and madder family Rubiaceae. It is believed to be the first species of coffee to have been cultivated and is currently the dominant cultivar, representing about 60% of global production. Coffee produced from the less acidic, more bitter, and more highly caffeinated robusta bean (C. canephora) makes up most of the remaining coffee production. Arabica coffee originates from and was first cultivated in Yemen, and documented by the 12th century. Coffea arabica is called ‏بُنّ‎ (būnn) in Arabic, borrowed from the Amharic "Buna".</ns5:abstract>
+    <ns2:habitat>
 
 Endemic to the southwestern
 highlands
@@ -123,8 +123,8 @@ Coffea arabica
 
 
 
-</ns3:habitat>
-    <ns3:taxonomy>
+</ns2:habitat>
+    <ns2:taxonomy>
 
 Coffea arabica
 was first
@@ -187,12 +187,12 @@ allotetraploid
 two
 Coffea arabica
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_33090</rdfs:subClassOf>
     <ns1:hasExactSynonym>coffee</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13443', 'https://dbpedia.org/page/Coffea arabica']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_13443', 'https://dbpedia.org/page/Coffea arabica']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Echinocereus">
+    <rdfs:label>Echinocereus</rdfs:label>
+    <ns2:abstract xml:lang="en">Echinocereus is a genus of ribbed, usually small to medium-sized, cylindrical shaped cacti, comprising about 70 species native to the southern United States and Mexico in very sunny, rocky places. Usually the flowers are large and the fruit edible. The name comes from the Ancient Greek ἐχῖνος (echinos), meaning &quot;hedgehog&quot;, and the Latin cereus meaning &quot;candle&quot;. They are sometimes known as hedgehog cacti, a term also used for the Pediocactus and Echinopsis.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>See text</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>Echinocereus
+is a genus in the tribe Echinocereeae within the subfamily Cactoideae of the Cactaceae family.
+
+The Cactoideae can be further divided into two sister clades, Cactoideae I and II.
+
+Echinocereus is situated within the Cactoideae I clade within the Pachycereeae tribe, a tribe that represents a diversification that yielded columnar and arborescent forms.
+Echinocereus
+emerged 4.6 ± 1.7 million years ago.
+
+Echinocereus
+is a strongly supported monophyletic genus that is sister to
+Stenocereus,
+although there has historically been substantial debate about infrageneric classification because of the genus's high rates of morphological variation and convergent evolution.
+Echinocereus
+
+
+
+
+Echinocereus
+
+
+Echinocereus
+Stenocereus,</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186275"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_genus"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_153853</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Echinocereus</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Polygonaceae">
+    <rdfs:label>Polygonaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Polygonaceae are a family of flowering plants known informally as the knotweed family or smartweed—buckwheat family in the United States. The name is based on the genus Polygonum, and was first used by Antoine Laurent de Jussieu in 1789 in his book, Genera Plantarum. The name may refer to the many swollen nodes the stems of some species have, being derived from Greek, poly meaning 'many' and gony meaning 'knee' or 'joint'. Alternatively, it may have a different derivation, meaning 'many seeds'. The Polygonaceae comprise about 1200 species distributed into about 48 genera. The largest genera are Eriogonum (240 species), Rumex (200 species), Coccoloba (120 species), Persicaria (100 species) and Calligonum (80 species). The family is present worldwide, but is most diverse in the North Temperate Zone. Several species are cultivated as ornamentals. A few species of Triplaris provide lumber. The fruit of the sea grape (Coccoloba uvifera) is eaten, and in Florida, jelly is made from it and sold commercially. The seeds of two species of Fagopyrum, known as buckwheat, are eaten in the form of groats or used to make a flour. The petioles of rhubarb (Rheum rhabarbarum and hybrids) are a food item. The leaves of the common sorrel (Rumex acetosa) are eaten in salads or as a leaf vegetable. Polygonaceae contain some of the most prolific weeds, including species of Persicaria, Rumex and Polygonum, such as Japanese knotweed.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>Polygonaceae are very well-defined and have long been universally recognized. In the
+APG III system
+, the family is placed in the
+order
+Caryophyllales
+.
+
+Within the order, it lies outside of the large
+clade
+known as the core Caryophyllales.
+
+It is a
+sister
+to the family
+Plumbaginaceae
+, which it does not resemble
+morphologically
+.
+
+APG III system
+order
+Caryophyllales
+
+
+clade
+
+
+sister
+Plumbaginaceae
+morphologically
+
+
+Polygonum plebeium
+or small knotweed
+Polygonum plebeium
+or small knotweed
+Polygonum plebeium
+Polygonum plebeium
+The last comprehensive revision of the family was published in 1993 by John Brandbyge as part of
+The Families and Genera of Vascular Plants
+.
+
+Brandbyge followed
+earlier systems
+of
+plant classification
+in dividing Polygonaceae into two
+subfamilies
+,
+Eriogonoideae
+and
+Polygonoideae
+. Since 1993, the
+circumscriptions
+of these two subfamilies have been changed in light of
+phylogenetic
+studies
+of
+DNA sequences
+.
+
+Genera related to
+Coccoloba
+and
+Triplaris
+were moved from Polygonoideae to Eriogonoideae. The genus
+Symmeria
+does not belong to either of these subfamilies because it is a sister to the rest of the family.
+
+Afrobrunnichia
+might constitute a new subfamily as well.
+
+The Families and Genera of Vascular Plants
+The Families and Genera of Vascular Plants
+
+
+earlier systems
+plant classification
+subfamilies
+Eriogonoideae
+Polygonoideae
+circumscriptions
+phylogenetic
+studies
+DNA sequences
+
+
+Coccoloba
+Triplaris
+Symmeria
+
+
+Afrobrunnichia
+
+
+Brandbyge wrote descriptions for 43 genera of Polygonaceae in 1993.
+
+Since then, a few more genera have been erected, and some
+segregates
+of
+Brunnichia
+,
+Eriogonum
+, and
+Persicaria
+have been given generic
+status
+in major works.
+
+
+
+Some of the genera were found not to be
+monophyletic
+and their limits have been revised. These include
+Ruprechtia
+,
+Eriogonum
+,
+Chorizanthe
+,
+Persicaria
+,
+Aconogonon
+,
+Polygonum
+,
+Fallopia
+, and
+Muehlenbeckia
+.
+
+
+segregates
+Brunnichia
+Eriogonum
+Persicaria
+status
+
+
+
+
+
+
+monophyletic
+Ruprechtia
+Eriogonum
+Chorizanthe
+Persicaria
+Aconogonon
+Polygonum
+Fallopia
+Muehlenbeckia</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3524"/>
+    <ns1:hasExactSynonym>buckwheat family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3615</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Polygonaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

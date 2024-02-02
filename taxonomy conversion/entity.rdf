@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://example.com/about">
+    <rdfs:label>Label</rdfs:label>
+    <ns2:abstract xml:lang="en">Abstract of the entity</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>Subspecies 1</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Subspecies 2</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat>Habitat of the entity</ns3:habitat>
+    <ns3:ecology>Ecology of the entity</ns3:ecology>
+    <ns3:taxonomy>Taxonomy of the entity</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://example.com/subClassOf"/>
+    <ns1:hasExactSynonym>Exact Synonym of the entity</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://example.com/rank"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>Same 1</ns5:sameAsItem>
+      <ns5:sameAsItem>Same 2</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

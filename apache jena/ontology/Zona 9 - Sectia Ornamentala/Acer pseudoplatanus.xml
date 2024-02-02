@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Acer%20pseudoplatanus">
     <rdfs:label>Acer pseudoplatanus</rdfs:label>
-    <ns2:abstract xml:lang="en">Acer pseudoplatanus, known as the sycamore in the British Isles and as the sycamore maple in the United States, is a species of flowering plant in the soapberry and lychee family Sapindaceae. It is a large deciduous, broad-leaved tree, tolerant of wind and coastal exposure. It is native to Central Europe and Western Asia, from France eastward to Ukraine, northern Turkey and the Caucasus and southward in the mountains of Italy and northern Iberia. The sycamore establishes itself easily from seed and was introduced to the British Isles by 1500. It is now naturalised there and in other parts of Europe, North America, Australia and New Zealand, where it may become an invasive species. The sycamore can grow to a height of about 35 m (115 ft) and the branches form a broad, rounded crown. The bark is grey, smooth when young and later flaking in irregular patches. The leaves grow on long leafstalks and are large and palmate, with five large radiating lobes. The flowers are greenish-yellow and hang in dangling flowerheads called panicles. They produce copious amounts of pollen and nectar that are attractive to insects. The winged seeds or samaras are borne in pairs and twirl to the ground when ripe. They germinate freely in the following spring. In its native range, the sycamore is associated with a biodiverse range of invertebrates and fungi, but these are not always present in areas to which it has been introduced. It is sometimes planted in urban areas for its value as an amenity tree. It produces a hard-wearing, creamy-white close-grained timber that is used for making musical instruments, furniture, joinery, wood flooring and kitchen utensils. It also makes good firewood. The rising sap in spring has been used to extract sugar and make alcoholic and non-alcoholic drinks. Bees collecting the nectar make honey.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Acer pseudoplatanus, known as the sycamore in the British Isles and as the sycamore maple in the United States, is a species of flowering plant in the soapberry and lychee family Sapindaceae. It is a large deciduous, broad-leaved tree, tolerant of wind and coastal exposure. It is native to Central Europe and Western Asia, from France eastward to Ukraine, northern Turkey and the Caucasus and southward in the mountains of Italy and northern Iberia. The sycamore establishes itself easily from seed and was introduced to the British Isles by 1500. It is now naturalised there and in other parts of Europe, North America, Australia and New Zealand, where it may become an invasive species. The sycamore can grow to a height of about 35 m (115 ft) and the branches form a broad, rounded crown. The bark is grey, smooth when young and later flaking in irregular patches. The leaves grow on long leafstalks and are large and palmate, with five large radiating lobes. The flowers are greenish-yellow and hang in dangling flowerheads called panicles. They produce copious amounts of pollen and nectar that are attractive to insects. The winged seeds or samaras are borne in pairs and twirl to the ground when ripe. They germinate freely in the following spring. In its native range, the sycamore is associated with a biodiverse range of invertebrates and fungi, but these are not always present in areas to which it has been introduced. It is sometimes planted in urban areas for its value as an amenity tree. It produces a hard-wearing, creamy-white close-grained timber that is used for making musical instruments, furniture, joinery, wood flooring and kitchen utensils. It also makes good firewood. The rising sap in spring has been used to extract sugar and make alcoholic and non-alcoholic drinks. Bees collecting the nectar make honey.</ns5:abstract>
+    <ns3:ecology>
 
 Further information:
 List of Lepidoptera that feed on maples
@@ -246,12 +246,12 @@ Coniothyrium ferrarisianum
 Coniothyrium ferrarisianum
 Acer pseudoplatanus
 
-</ns4:ecology>
+</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_4022</rdfs:subClassOf>
     <ns1:hasExactSynonym>sycamore maple</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4026', 'https://dbpedia.org/page/Acer pseudoplatanus']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4026', 'https://dbpedia.org/page/Acer pseudoplatanus']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

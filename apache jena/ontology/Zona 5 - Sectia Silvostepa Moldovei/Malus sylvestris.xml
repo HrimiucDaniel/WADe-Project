@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
-   xmlns:ns5="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Malus%20sylvestris">
     <rdfs:label>Malus sylvestris</rdfs:label>
-    <ns2:abstract xml:lang="en">Malus sylvestris, the European crab apple, is a species of the genus Malus, native to Europe. Its scientific name means "forest apple" and the truly wild tree has thorns.</ns2:abstract>
-    <ns5:habitat>
+    <ns5:abstract xml:lang="en">Malus sylvestris, the European crab apple, is a species of the genus Malus, native to Europe. Its scientific name means "forest apple" and the truly wild tree has thorns.</ns5:abstract>
+    <ns2:habitat>
 
 The tree is widespread throughout Europe, with the exception of the extreme north and south. Additionally, it is also distributed in Anatolia and further into the
 south Caucasus
@@ -41,12 +41,12 @@ Ireland
 
 
 
-</ns5:habitat>
+</ns2:habitat>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3749</rdfs:subClassOf>
     <ns1:hasExactSynonym>European crab apple</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3752', 'https://dbpedia.org/page/Malus sylvestris']</ns4:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3752', 'https://dbpedia.org/page/Malus sylvestris']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

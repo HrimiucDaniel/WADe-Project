@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
-   xmlns:ns5="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Taxus%20baccata">
     <rdfs:label>Taxus baccata</rdfs:label>
-    <ns2:abstract xml:lang="en">Taxus baccata is a species of evergreen tree in the family Taxaceae, native to western, central and southern Europe (including Britain and Ireland), northwest Africa, northern Iran, and southwest Asia. It is the tree originally known as yew, though with other related trees becoming known, it may now be known as common yew, English yew, or European yew. It is primarily grown as an ornamental. Most parts of the plant are poisonous, with toxins that can be absorbed through inhalation and through the skin; consumption of even a small amount of the foliage can result in death.</ns2:abstract>
-    <ns5:habitat>
+    <ns5:abstract xml:lang="en">Taxus baccata is a species of evergreen tree in the family Taxaceae, native to western, central and southern Europe (including Britain and Ireland), northwest Africa, northern Iran, and southwest Asia. It is the tree originally known as yew, though with other related trees becoming known, it may now be known as common yew, English yew, or European yew. It is primarily grown as an ornamental. Most parts of the plant are poisonous, with toxins that can be absorbed through inhalation and through the skin; consumption of even a small amount of the foliage can result in death.</ns5:abstract>
+    <ns2:habitat>
 
 T. baccata
 is native to all countries of Europe (except Iceland), the Caucasus, and beyond from Turkey eastwards to northern Iran. Its range extends south to Morocco and Algeria in North Africa.
@@ -170,12 +170,12 @@ thrushes
 
 
 
-</ns5:habitat>
+</ns2:habitat>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_25628</rdfs:subClassOf>
     <ns1:hasExactSynonym>English yew</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_25629', 'https://dbpedia.org/page/Taxus baccata']</ns4:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_25629', 'https://dbpedia.org/page/Taxus baccata']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

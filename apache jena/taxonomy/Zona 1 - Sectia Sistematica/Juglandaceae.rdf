@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Juglandaceae">
+    <rdfs:label>Juglandaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">The Juglandaceae are a plant family known as the walnut family. They are trees, or sometimes shrubs, in the order Fagales. Members of this family are native to the Americas, Eurasia, and Southeast Asia. The nine or ten genera in the family have a total of around 50 species, and include the commercially important nut-producing trees walnut (Juglans), pecan (Carya illinoinensis), and hickory (Carya). The Persian walnut, Juglans regia, is one of the major nut crops of the world. Walnut, hickory, and gaulin are also valuable timber trees while pecan wood is also valued as cooking fuel.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>See text</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>The known living genera are grouped into subfamilies, tribes, and subtribes as follows:
+
+
+
+Subfamily
+Rhoipteleoideae
+Reveal
+Rhoiptelea
+Diels &amp; Hand.-Mazz. 1932
+
+Subfamily
+Engelhardioideae
+Iljinskaya 1990
+Alfaroa
+Standl. 1927
+—gaulin
+Engelhardia
+Lesch. ex Blume 1825–1826
+—cheo
+Oreomunnea
+Oerst. 1856
+Subfamily
+Juglandoideae
+Eaton 1836
+Tribe
+Platycaryeae
+Nakai 1933
+Platycarya
+Siebold &amp; Zucc. 1843
+Tribe
+Juglandeae
+Rchb. 1832
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Subfamily
+Rhoipteleoideae
+Reveal
+Rhoiptelea
+Diels &amp; Hand.-Mazz. 1932
+
+Subfamily
+Rhoipteleoideae
+Reveal
+Rhoipteleoideae
+Reveal
+Rhoiptelea
+Diels &amp; Hand.-Mazz. 1932
+
+Rhoiptelea
+Diels &amp; Hand.-Mazz. 1932
+
+Rhoiptelea
+Rhoiptelea
+Diels &amp; Hand.-Mazz. 1932
+
+
+Subfamily
+Engelhardioideae
+Iljinskaya 1990
+Alfaroa
+Standl. 1927
+—gaulin
+Engelhardia
+Lesch. ex Blume 1825–1826
+—cheo
+Oreomunnea
+Oerst. 1856
+Subfamily
+Engelhardioideae
+Iljinskaya 1990
+Engelhardioideae
+Iljinskaya 1990
+Alfaroa
+Standl. 1927
+—gaulin
+Engelhardia
+Lesch. ex Blume 1825–1826
+—cheo
+Oreomunnea
+Oerst. 1856
+Alfaroa
+Standl. 1927
+—gaulin
+Alfaroa
+Alfaroa
+Standl. 1927
+Engelhardia
+Lesch. ex Blume 1825–1826
+—cheo
+Engelhardia
+Engelhardia
+Lesch. ex Blume 1825–1826
+Oreomunnea
+Oerst. 1856
+Oreomunnea
+Oreomunnea
+Oerst. 1856
+Subfamily
+Juglandoideae
+Eaton 1836
+Tribe
+Platycaryeae
+Nakai 1933
+Platycarya
+Siebold &amp; Zucc. 1843
+Tribe
+Juglandeae
+Rchb. 1832
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Subfamily
+Juglandoideae
+Eaton 1836
+Juglandoideae
+Eaton 1836
+Tribe
+Platycaryeae
+Nakai 1933
+Platycarya
+Siebold &amp; Zucc. 1843
+Tribe
+Juglandeae
+Rchb. 1832
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Tribe
+Platycaryeae
+Nakai 1933
+Platycarya
+Siebold &amp; Zucc. 1843
+Tribe
+Platycaryeae
+Nakai 1933
+Platycaryeae
+Nakai 1933
+Platycarya
+Siebold &amp; Zucc. 1843
+Platycarya
+Siebold &amp; Zucc. 1843
+Platycarya
+Platycarya
+Siebold &amp; Zucc. 1843
+Tribe
+Juglandeae
+Rchb. 1832
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Tribe
+Juglandeae
+Rchb. 1832
+Juglandeae
+Rchb. 1832
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Subtribe
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Caryinae
+D.E. Stone &amp; P. S. Manos 2001
+Carya
+Nutt. 1818
+—hickory and pecan
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Carya
+Nutt. 1818
+—hickory and pecan
+Carya
+Carya
+Nutt. 1818
+Annamocarya
+A.Chev. 1941
+(sometimes included in
+Carya
+)
+Annamocarya
+Annamocarya
+A.Chev. 1941
+Carya
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Subtribe
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Juglandinae
+D.E. Stone &amp; P. S. Manos 2001
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Juglans
+L. 1753
+—walnut
+Pterocarya
+Kunth 1824
+—wingnut
+Cyclocarya
+Iljinsk 1953
+—wheel wingnut
+Cyclocarya
+Cyclocarya
+Iljinsk 1953
+Juglans
+L. 1753
+—walnut
+Juglans
+Juglans
+L. 1753
+Pterocarya
+Kunth 1824
+—wingnut
+Pterocarya
+Pterocarya
+Kunth 1824</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3502"/>
+    <ns1:hasExactSynonym>walnut family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_16714</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Juglandaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

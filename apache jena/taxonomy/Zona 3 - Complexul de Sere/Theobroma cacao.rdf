@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Theobroma%20cacao">
+    <rdfs:label>Theobroma cacao</rdfs:label>
+    <ns2:abstract xml:lang="en">Theobroma cacao, also called the cacao tree and the cocoa tree, is a small (6–12 m (20–39 ft) tall) evergreen tree in the family Malvaceae. Its seeds, cocoa beans, are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. The largest producer of cocoa beans in 2018 was Ivory Coast, 2.2 million tons. The genus name, Theobroma, is derived from the Greek words θεός (theos), meaning 'god', and βρῶμα (broma), meaning 'food'. The literal meaning is &quot;food of the gods&quot;.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>Cacao (
+Theobroma cacao
+) is one of 26 species belonging to the
+genus
+Theobroma
+classified under the subfamily
+Byttnerioideae
+of the mallow
+family
+Malvaceae
+.
+
+Theobroma cacao
+genus
+Theobroma
+Theobroma
+Byttnerioideae
+family
+Malvaceae
+
+
+In 2008, researchers proposed a new classification based upon
+morphological
+, geographic, and
+genomic
+criteria: 10 groups have been named according to their geographic origin or the traditional
+cultivar
+name. These groups are: Amelonado, Criollo, Nacional, Contamana, Curaray, Cacao guiana, Iquitos, Marañon, Nanay, and Purús.
+
+morphological
+genomic
+cultivar</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3640"/>
+    <ns1:hasExactSynonym>cacao</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3641</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Theobroma cacao</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

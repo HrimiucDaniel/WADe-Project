@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Euphorbiaceae">
+    <rdfs:label>Euphorbiaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">Euphorbiaceae, the spurge family, is a large family of flowering plants. In English, they are also commonly called euphorbias, which is also the name of a genus in the family. Most spurges, such as Euphorbia paralias, are herbs, but some, especially in the tropics, are shrubs or trees, such as Hevea brasiliensis. Some, such as Euphorbia canariensis, are succulent and resemble cacti because of convergent evolution. This family has a cosmopolitan global distribution. The greatest diversity of species is in the tropics, however, the Euphorbiaceae also have many species in nontropical areas of all continents except Antarctica.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>Acalyphoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Crotonoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>Euphorbioideae</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology/>
+    <ns3:taxonomy>Main article:
+List of Euphorbiaceae genera
+List of Euphorbiaceae genera
+The family Euphorbiaceae is the fifth-largest flowering plant family
+
+and has about 7,500 species
+
+organised into 300 genera,
+
+37 tribes, and three subfamilies:
+Acalyphoideae
+,
+
+Crotonoideae
+and
+Euphorbioideae
+.
+
+Amongst the oldest fossils of the group include the
+permineralised
+fruit
+Euphorbiotheca deccanensis
+from the
+Intertrappean Beds
+of India, dating to the late
+Maastrichtian
+at the end of the Cretaceous, around 66 million years ago.
+
+
+
+
+
+
+
+Acalyphoideae
+Acalyphoideae
+
+
+Crotonoideae
+Crotonoideae
+Euphorbioideae
+Euphorbioideae
+
+
+permineralised
+Euphorbiotheca deccanensis
+Euphorbiotheca deccanensis
+Intertrappean Beds
+Maastrichtian</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3646"/>
+    <ns1:hasExactSynonym>spurge family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3977</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Euphorbiaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

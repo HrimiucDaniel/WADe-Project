@@ -1,0 +1,452 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Urtica%20dioica">
+    <rdfs:label>Urtica dioica</rdfs:label>
+    <ns2:abstract xml:lang="en">Urtica dioica, often known as common nettle, burn nettle, stinging nettle (although not all plants of this species sting) or nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide, including New Zealand and North America. The species is divided into six subspecies, five of which have many hollow stinging hairs called trichomes on the leaves and stems, which act like hypodermic needles, injecting histamine and other chemicals that produce a stinging sensation upon contact (&quot;contact urticaria&quot;, a form of contact dermatitis). The plant has a long history of use as a source for traditional medicine, food, tea, and textile raw material in ancient (such as Saxon) and modern societies.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat>A stinging nettle growing in a field
+A stinging nettle growing in a field
+U. dioica
+is considered to be native to Europe, much of temperate
+Asia
+and western
+North Africa
+.
+
+It is abundant in
+northern Europe
+and much of Asia, usually found in the countryside.
+
+It is less widespread in southern Europe and north Africa, where it is restricted by its need for moist soil, but is still common. It has been introduced to many other parts of the world. In North America, it is widely distributed in
+Canada
+and the
+United States
+, where it is found in every province and state except for
+Hawaii
+, and also can be found in northernmost
+Mexico
+. It grows in abundance in the
+Pacific Northwest
+, especially in places where annual rainfall is high. The European subspecies has been introduced into Australia, North America and
+South America
+.
+
+
+U. dioica
+Asia
+North Africa
+
+
+northern Europe
+
+citation needed
+citation needed
+citation needed
+Canada
+United States
+Hawaii
+Mexico
+Pacific Northwest
+South America
+
+
+
+
+In Europe, nettles have a strong association with human habitation and buildings. The presence of nettles may indicate the site of a long-abandoned building, and can also indicate
+soil fertility
+.
+
+Human and animal waste may be responsible for elevated levels of
+phosphate
+
+and
+nitrogen
+in the soil, providing an ideal environment for nettles.
+soil fertility
+
+
+phosphate
+
+
+nitrogen</ns3:habitat>
+    <rdf:habitat>A stinging nettle growing in a field
+A stinging nettle growing in a field
+U. dioica
+is considered to be native to Europe, much of temperate
+Asia
+and western
+North Africa
+.
+
+It is abundant in
+northern Europe
+and much of Asia, usually found in the countryside.
+
+It is less widespread in southern Europe and north Africa, where it is restricted by its need for moist soil, but is still common. It has been introduced to many other parts of the world. In North America, it is widely distributed in
+Canada
+and the
+United States
+, where it is found in every province and state except for
+Hawaii
+, and also can be found in northernmost
+Mexico
+. It grows in abundance in the
+Pacific Northwest
+, especially in places where annual rainfall is high. The European subspecies has been introduced into Australia, North America and
+South America
+.
+
+
+U. dioica
+Asia
+North Africa
+
+
+northern Europe
+
+citation needed
+citation needed
+citation needed
+Canada
+United States
+Hawaii
+Mexico
+Pacific Northwest
+South America
+
+
+
+
+In Europe, nettles have a strong association with human habitation and buildings. The presence of nettles may indicate the site of a long-abandoned building, and can also indicate
+soil fertility
+.
+
+Human and animal waste may be responsible for elevated levels of
+phosphate
+
+and
+nitrogen
+in the soil, providing an ideal environment for nettles.
+soil fertility
+
+
+phosphate
+
+
+nitrogen</rdf:habitat>
+    <ns3:ecology>Aglais io
+caterpillars feeding on leaves
+Aglais io
+caterpillars feeding on leaves
+Aglais io
+Aglais io
+Nettles are the
+larval
+food plant for several species of
+butterflies
+, such as the
+peacock butterfly
+,
+
+comma (
+Polygonia c-album
+), and the
+small tortoiseshell
+. It is also eaten by the larvae of some
+moths
+including
+angle shades
+,
+buff ermine
+,
+dot moth
+,
+the flame
+,
+the gothic
+,
+grey chi
+,
+grey pug
+,
+lesser broad-bordered yellow underwing
+,
+mouse moth
+,
+setaceous Hebrew character
+, and
+small angle shades
+. The
+roots
+are sometimes eaten by the larva of the
+ghost moth
+(
+Hepialus humuli
+).
+larval
+butterflies
+peacock butterfly
+
+
+Polygonia c-album
+Polygonia c-album
+small tortoiseshell
+moths
+angle shades
+buff ermine
+dot moth
+the flame
+the gothic
+grey chi
+grey pug
+lesser broad-bordered yellow underwing
+mouse moth
+setaceous Hebrew character
+small angle shades
+roots
+ghost moth
+Hepialus humuli
+It is a known host to the
+pathogenic
+fungus
+Phoma herbarum
+.
+
+pathogenic
+Phoma herbarum
+Phoma herbarum
+
+
+Stinging nettle is particularly found as an understory plant in wetter environments, but it is also found in meadows. Although nutritious, it is not widely eaten by either wildlife or livestock, presumably because of the sting. It spreads by abundant seeds and also by rhizomes, and is often able to survive and re-establish quickly after fire.</ns3:ecology>
+    <ns3:taxonomy>Illustration by
+Otto Wilhelm Thomé
+(1885)
+Illustration by
+Otto Wilhelm Thomé
+(1885)
+Otto Wilhelm Thomé
+Credit for the scientific naming of
+Urtica dioica
+is given to
+Carl Linnaeus
+who published it in
+Species Plantarum
+in 1753.
+
+The
+taxonomy
+of
+Urtica
+species is confused, and sources are likely to use a variety of systematic names for these plants. Until 2014 there was broad consensus that the nettles native to the Americas, now classified as
+Urtica gracilis
+, were
+subspecies
+of
+Urtica dioica
+. However, in that year the paper &quot;Weeding the Nettles II&quot; was published in the journal
+Phytotaxa
+demonstrating the genetic distinctness of new world nettles.
+
+As of 2023
+Plants of the World Online
+(POWO) recognizes
+U. gracilis
+as a distinct species while the USDA
+Natural Resources Conservation Service
+PLANTS database (PLANTS) continues to list it as
+U. dioica
+subsp.
+gracilis
+, as does the Flora of North America (FNA).
+
+
+
+Urtica dioica
+Carl Linnaeus
+Species Plantarum
+
+
+taxonomy
+Urtica
+Urtica gracilis
+Urtica gracilis
+subspecies
+Urtica dioica
+Phytotaxa
+
+
+Plants of the World Online
+U. gracilis
+Natural Resources Conservation Service
+U. dioica
+gracilis
+
+
+
+
+
+
+As of 2023 POWO recognizes 11 subspecies or varieties of
+U. dioica
+:
+
+U. dioica
+
+
+Urtica dioica
+subsp.
+afghanica
+Chrtek, from southwestern and central Asia, sometimes has stinging hairs or is sometimes hairless.
+
+Urtica dioica
+subsp.
+dioica
+(European stinging nettle), from Europe, Asia, and northern Africa, has stinging hairs.
+
+Urtica dioica
+subsp.
+gansuensis
+C.J.Chen, from eastern Asia (China), has stinging hairs.
+
+Urtica dioica
+var.
+glabrata
+(Clem.) Asch. &amp; Graebn.
+Urtica dioica
+var.
+hispida
+(Lam. ex DC.)
+Tausch
+ex Ott
+Urtica dioica
+var.
+holosericea
+Fr.
+Urtica dioica
+subsp.
+kurdistanica
+Chrtek
+Urtica dioica
+subsp.
+pubescens
+(Ledeb.) Domin, in many sources as
+U. dioica
+subsp.
+galeopsifolia
+(fen nettle or stingless nettle), from Europe, does not have stinging hairs.
+
+Urtica dioica
+var.
+sarmatica
+Zapał.
+Urtica dioica
+subsp.
+sondenii
+(Simmons) Hyl.
+Urtica dioica
+subsp.
+subinermis
+(R.Uechtr.) Weigend
+Urtica dioica
+subsp.
+afghanica
+Chrtek, from southwestern and central Asia, sometimes has stinging hairs or is sometimes hairless.
+
+Urtica dioica
+afghanica
+
+
+Urtica dioica
+subsp.
+dioica
+(European stinging nettle), from Europe, Asia, and northern Africa, has stinging hairs.
+
+Urtica dioica
+dioica
+
+
+Urtica dioica
+subsp.
+gansuensis
+C.J.Chen, from eastern Asia (China), has stinging hairs.
+
+Urtica dioica
+gansuensis
+
+
+Urtica dioica
+var.
+glabrata
+(Clem.) Asch. &amp; Graebn.
+Urtica dioica
+glabrata
+Urtica dioica
+var.
+hispida
+(Lam. ex DC.)
+Tausch
+ex Ott
+Urtica dioica
+hispida
+Tausch
+Urtica dioica
+var.
+holosericea
+Fr.
+Urtica dioica
+holosericea
+Fr.
+Urtica dioica
+subsp.
+kurdistanica
+Chrtek
+Urtica dioica
+kurdistanica
+Urtica dioica
+subsp.
+pubescens
+(Ledeb.) Domin, in many sources as
+U. dioica
+subsp.
+galeopsifolia
+(fen nettle or stingless nettle), from Europe, does not have stinging hairs.
+
+Urtica dioica
+pubescens
+U. dioica
+subsp.
+galeopsifolia
+U. dioica
+galeopsifolia
+
+
+Urtica dioica
+var.
+sarmatica
+Zapał.
+Urtica dioica
+sarmatica
+Zapał.
+Urtica dioica
+subsp.
+sondenii
+(Simmons) Hyl.
+Urtica dioica
+sondenii
+Urtica dioica
+subsp.
+subinermis
+(R.Uechtr.) Weigend
+Urtica dioica
+subinermis</ns3:taxonomy>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3500"/>
+    <ns1:hasExactSynonym>great nettle</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_3501</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Urtica dioica</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

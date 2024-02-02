@@ -37,6 +37,7 @@ def generate_url(*args):
 def zones():
     labels = zone_labels.get_labels_from_sparql()
     # labels.remove("Zona 8 - Sectia Dentrarium")
+    # print(labels)
     return render_template('zones.html', labels=labels, generate_url=generate_url)
 
 
@@ -44,9 +45,11 @@ def zones():
 def zone(zone_name):
     zone_url = f'http://127.0.0.1:5000/zone/{zone_name}'.replace(" ", "%20")
     plants = plant_labels.get_all_plants(zone_url)
+    description = plant_labels.get_description(zone_name.replace("%20", " "))
     print(plants)
 
-    return render_template('zone.html', zone_name=zone_name, plants=plants, generate_url=generate_url)
+    return render_template('zone.html', zone_name=zone_name, plants=plants, generate_url=generate_url,
+                           description=description[2])
 
 
 @app.route('/uploads/<filename>')
@@ -94,7 +97,6 @@ def plant(zone_name, plant_name):
     else:
         habitat = None
 
-
     comment_key = "https://dbpedia.org/property/comments"
     if comment_key in plant_info:
         comments = plant_info[comment_key]
@@ -106,7 +108,7 @@ def plant(zone_name, plant_name):
         image = plant_info[image_key]
     else:
         image = None
-        
+
     other_key = "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
     if other_key in plant_info:
         other = plant_info[other_key]

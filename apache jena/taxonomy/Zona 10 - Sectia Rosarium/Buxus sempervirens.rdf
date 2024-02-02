@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Buxus%20sempervirens">
+    <rdfs:label>Buxus sempervirens</rdfs:label>
+    <ns2:abstract xml:lang="en">Buxus sempervirens, the common box, European box, or boxwood, is a species of flowering plant in the genus Buxus, native to western and southern Europe, northwest Africa, and southwest Asia, from southern England south to northern Morocco, and east through the northern Mediterranean region to Turkey. Buxus colchica of western Caucasus and B. hyrcana of northern Iran and eastern Caucasus are commonly treated as synonyms of B. sempervirens.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat>The species typically grows on soils derived from
+chalk
+,
+limestone
+, usually as an understorey in forests of larger trees, most commonly associated with European beech (
+Fagus sylvatica
+) forests, but also sometimes in open dry montane scrub, particularly in the Mediterranean region.
+Box Hill, Surrey
+is named after its notable box population, which comprises the largest area of native box woodland in England.
+
+
+chalk
+limestone
+Fagus sylvatica
+Fagus sylvatica
+Box Hill, Surrey
+
+
+
+
+The species is locally
+naturalised
+in parts of North America.
+
+naturalised</ns3:habitat>
+    <rdf:habitat>The species typically grows on soils derived from
+chalk
+,
+limestone
+, usually as an understorey in forests of larger trees, most commonly associated with European beech (
+Fagus sylvatica
+) forests, but also sometimes in open dry montane scrub, particularly in the Mediterranean region.
+Box Hill, Surrey
+is named after its notable box population, which comprises the largest area of native box woodland in England.
+
+
+chalk
+limestone
+Fagus sylvatica
+Fagus sylvatica
+Box Hill, Surrey
+
+
+
+
+The species is locally
+naturalised
+in parts of North America.
+
+naturalised</rdf:habitat>
+    <ns3:ecology/>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4001"/>
+    <ns1:hasExactSynonym/>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_4002</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Buxus sempervirens</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

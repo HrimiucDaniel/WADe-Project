@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Geraniaceae">
     <rdfs:label>Geraniaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Geraniaceae is a family of flowering plants placed in the order Geraniales. The family name is derived from the genus Geranium. The family includes both the genus Geranium (the cranesbills, or true geraniums) and the garden plants called geraniums, which modern botany classifies as genus Pelargonium, along with other related genera. The family comprises 830 species in five to seven genera. The largest genera are Geranium (430 species), Pelargonium (280 species) and Erodium (80 species).</ns2:abstract>
-    <ns3:subspecies>[' California (Aldasoro et al.) ', 'Erodium (Aiton)', 'Geranium (L.)', 'Hypseocharis (J. Remy)', 'Monsonia (L.)', 'Pelargonium (Aiton)']</ns3:subspecies>
-    <ns3:habitat>
+    <ns5:abstract xml:lang="en">Geraniaceae is a family of flowering plants placed in the order Geraniales. The family name is derived from the genus Geranium. The family includes both the genus Geranium (the cranesbills, or true geraniums) and the garden plants called geraniums, which modern botany classifies as genus Pelargonium, along with other related genera. The family comprises 830 species in five to seven genera. The largest genera are Geranium (430 species), Pelargonium (280 species) and Erodium (80 species).</ns5:abstract>
+    <ns2:subspecies>[' California (Aldasoro et al.) ', 'Erodium (Aiton)', 'Geranium (L.)', 'Hypseocharis (J. Remy)', 'Monsonia (L.)', 'Pelargonium (Aiton)']</ns2:subspecies>
+    <ns2:habitat>
 
 Most species are found in temperate or warm temperate regions, though some are tropical.
 Pelargonium
@@ -24,8 +24,8 @@ South Africa
 Pelargonium
 Pelargonium
 Cape
-South Africa</ns3:habitat>
-    <ns3:taxonomy>
+South Africa</ns2:habitat>
+    <ns2:taxonomy>
 
 Geraniaceae and
 Francoaceae
@@ -119,12 +119,12 @@ genomes
 gene
 inverted repeat
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_41943</rdfs:subClassOf>
     <ns1:hasExactSynonym>geranium family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4027', 'https://dbpedia.org/page/Geraniaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4027', 'https://dbpedia.org/page/Geraniaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Platanaceae">
+    <rdfs:label>Platanaceae</rdfs:label>
+    <ns2:abstract xml:lang="en">Platanaceae, the &quot;plane-tree family&quot;, is a family of flowering plants in the order Proteales. The family consists of only a single extant genus Platanus, with eight known species. The plants are tall trees, native to temperate and subtropical regions of the Northern Hemisphere. The hybrid London plane is widely planted in cities worldwide.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource">
+      <ns3:subspeciesItem>†Ambiplatanus </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Credneria </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Ettingshausenia </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Langeranthus </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Langeria </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Macginicarpa </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Macginitiea </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Plataninium </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Platananthus </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Platimeliphyllum </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Pseudoprotophyllum </ns3:subspeciesItem>
+      <ns3:subspeciesItem>†Sapindopsis</ns3:subspeciesItem>
+    </ns3:subspecies>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>Pollination
+is
+anemophilous
+; flowering begins at the start of spring when the new leaves are sprouting. The heads that sustain the fruit normally shed the year after they have matured, during the autumn.
+Dispersion
+of the individual fruiting bodies, with their thistledown, is anemochorous (they are sometimes dispersed by water as a secondary mechanism).
+Pollination
+anemophilous
+Dispersion
+The plants grow in cool situations in temperate climates and are frequently found on the banks of rivers and streams. They are totally absent from dry or excessively cold areas.</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_232378"/>
+    <ns1:hasExactSynonym>plane-tree family</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_4401</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Platanaceae</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

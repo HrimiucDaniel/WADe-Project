@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium">
+    <rdfs:label>Zona 10 - Sectia Rosarium</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Albizia%20julibrissin"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Buxus%20sempervirens"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Cercis%20siliquastrum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Magnolia%20kobus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Pinus%20nigra"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Pinus%20sylvestris"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20canina"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20gallica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pendulina"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Rosa%20pimpinellifolia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Tamarix%20ramosissima"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Taxus%20baccata"/>
+    </ex:list_of_plants>
+    <ex:description>Pentru a evidentia prezenta colectiei de roze pe fondul verde al peluzei inierbate, in ansamblul compozitional al Rosarium-ului, la periferie, s-au plantat conifere de talie inalta: Pinus nigra, Pinus sylvestris, Thuja orientalis, Taxus baccata, precum si specii de talie mica spre centru: Buxus sempervirens si Juniperus horizontalis. Ca elemente de contrast, sunt plantate intercalat sau in grupuri speciile: Betula pendula, Larix decidua, Picea pungens 'Argentea', Albizia julibrissin, Cercis siliquastrum, Magnolia kobus, Spiraea × vanhouttei si Tamarix ramosissima.</ex:description>
+  </ex:Zone>
+</rdf:RDF>

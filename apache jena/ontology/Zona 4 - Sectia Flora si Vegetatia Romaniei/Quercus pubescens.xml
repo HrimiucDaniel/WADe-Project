@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns1="https://www.w3.org/2002/07/"
    xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20pubescens">
     <rdfs:label>Quercus pubescens</rdfs:label>
-    <ns1:abstract xml:lang="en">Quercus pubescens, the downy oak or pubescent oak, is a species of white oak (genus Quercus sect. Quercus) native to southern Europe and southwest Asia, from northern Spain (Pyrenees) east to the Crimea and the Caucasus. It is also found in France and parts of central Europe.</ns1:abstract>
+    <ns3:abstract xml:lang="en">Quercus pubescens, the downy oak or pubescent oak, is a species of white oak (genus Quercus sect. Quercus) native to southern Europe and southwest Asia, from northern Spain (Pyrenees) east to the Crimea and the Caucasus. It is also found in France and parts of central Europe.</ns3:abstract>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3511</rdfs:subClassOf>
     <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns2:has_rank>
-    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_39471', 'https://dbpedia.org/page/Quercus pubescens']</ns3:owlsameAs>
+    <ns1:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_39471', 'https://dbpedia.org/page/Quercus pubescens']</ns1:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

@@ -2,8 +2,8 @@
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
    xmlns:ns2="https://dbpedia.org/property/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
@@ -508,7 +508,7 @@ Orchidoideae</ns2:taxonomy>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_73496</rdfs:subClassOf>
     <ns1:hasExactSynonym>orchid family</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns3:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4747', 'https://dbpedia.org/page/Orchidaceae']</ns4:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_4747', 'https://dbpedia.org/page/Orchidaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

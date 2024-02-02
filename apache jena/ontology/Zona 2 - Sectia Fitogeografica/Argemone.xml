@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-   xmlns:ns1="https://dbpedia.org/ontology/"
+   xmlns:ns1="https://www.w3.org/2002/07/"
    xmlns:ns2="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns3="https://dbpedia.org/property/"
-   xmlns:ns4="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/ontology/"
+   xmlns:ns4="https://dbpedia.org/property/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Argemone">
     <rdfs:label>Argemone</rdfs:label>
-    <ns1:abstract xml:lang="en">Argemone is a genus of flowering plants in the family Papaveraceae commonly known as prickly poppies. There are about 32 species native to the Americas and Hawaii. The generic name originated as ἀργεμώνη in Greek and was applied by Dioscorides to a poppy-like plant used to treat cataracts.</ns1:abstract>
-    <ns3:subspecies>['See text']</ns3:subspecies>
+    <ns3:abstract xml:lang="en">Argemone is a genus of flowering plants in the family Papaveraceae commonly known as prickly poppies. There are about 32 species native to the Americas and Hawaii. The generic name originated as ἀργεμώνη in Greek and was applied by Dioscorides to a poppy-like plant used to treat cataracts.</ns3:abstract>
+    <ns4:subspecies>['See text']</ns4:subspecies>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_1462614</rdfs:subClassOf>
     <ns2:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns2:has_rank>
-    <ns4:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_54795', 'https://dbpedia.org/page/Argemone']</ns4:owlsameAs>
+    <ns1:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_54795', 'https://dbpedia.org/page/Argemone']</ns1:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

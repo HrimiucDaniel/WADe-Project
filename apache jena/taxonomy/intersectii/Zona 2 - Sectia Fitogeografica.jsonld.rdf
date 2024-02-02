@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica">
+    <rdfs:label>Zona 2 - Sectia Fitogeografica</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Acanthus%20balcanicus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Acer%20saccharinum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Achillea%20ptarmica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Adonis%20vernalis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Agastache"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Ageratum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Amorpha%20fruticosa"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Argemone"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Carpinus%20caroliniana"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Corylus%20colurna"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Cotinus%20coggygria"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Cuphea"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Dianthus%20barbatus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Festuca%20valesiaca"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Forsythia%20europaea"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Gazania"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Gomphrena"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Hypericum%20olympicum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Juglans%20nigra"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Laburnum%20anagyroides"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Liriodendron%20tulipifera"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Periploca%20graeca"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Pinus%20strobus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Portulaca"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Prunus%20fruticosa"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Pulsatilla%20pratensis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Ribes%20alpinum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Rosa%20gallica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Scutellaria%20alpina"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Spiraea%20chamaedryfolia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Tagetes"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Zinnia"/>
+    </ex:list_of_plants>
+    <ex:description>In fata stancariei un 'ceas solar' are marcate orele prin 12 trovanti (sfere de gresie) adusi de pe Dealul Feleacului. In mijlocul 'ceasului' un trovant mai mare, simbolizand globul pamantesc, isi trimite umbra la fiecare ora din zi pe trovantul corespunzator orei respective. In vecinatatea stancariei se etaleaza culorile vii, diverse, ale plantelor din America Centrala si de Sud si din Africa, cultivate in clima noastra ca plante anuale: Ageratum (pufuleti), Cosmos, Eschscholtzia (mac de California), Portulaca, Mirabilis, Agastache, Zinnia, Tagetes, Argemone, Cuphea, Gomphrena, Gazania, Dimorphoteca etc.</ex:description>
+  </ex:Zone>
+</rdf:RDF>

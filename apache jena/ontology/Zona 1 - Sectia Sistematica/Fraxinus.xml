@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns4="https://dbpedia.org/property/"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns2="https://www.w3.org/2002/07/"
+   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus">
     <rdfs:label>Fraxinus</rdfs:label>
-    <ns2:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), commonly called ash, is a genus of flowering plants in the olive and lilac family, Oleaceae. It contains 45–65 species of usually medium to large trees, mostly deciduous, though a number of subtropical species are evergreen. The genus is widespread across much of Europe, Asia, and North America. The leaves are opposite (rarely in whorls of three), and mostly pinnately compound, though simple in a few species. The seeds, popularly known as "keys" or "helicopter seeds", are a type of fruit known as a samara. Some Fraxinus species are dioecious, having male and female flowers on separate plants but sex in ash is expressed as a continuum between male and female individuals, dominated by unisexual trees. With age, ash may change their sexual function from predominantly male and hermaphrodite towards femaleness; if grown as an ornamental and both sexes are present, ashes can cause a considerable litter problem with their seeds. Rowans or mountain ashes have leaves and buds superficially similar to those of true ashes, but belong to the unrelated genus Sorbus in the rose family.</ns2:abstract>
-    <ns4:ecology>
+    <ns5:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), commonly called ash, is a genus of flowering plants in the olive and lilac family, Oleaceae. It contains 45–65 species of usually medium to large trees, mostly deciduous, though a number of subtropical species are evergreen. The genus is widespread across much of Europe, Asia, and North America. The leaves are opposite (rarely in whorls of three), and mostly pinnately compound, though simple in a few species. The seeds, popularly known as "keys" or "helicopter seeds", are a type of fruit known as a samara. Some Fraxinus species are dioecious, having male and female flowers on separate plants but sex in ash is expressed as a continuum between male and female individuals, dominated by unisexual trees. With age, ash may change their sexual function from predominantly male and hermaphrodite towards femaleness; if grown as an ornamental and both sexes are present, ashes can cause a considerable litter problem with their seeds. Rowans or mountain ashes have leaves and buds superficially similar to those of true ashes, but belong to the unrelated genus Sorbus in the rose family.</ns5:abstract>
+    <ns3:ecology>
 
 North American native ash tree species are a critical food source for North American frogs, as their fallen leaves are particularly suitable for tadpoles to feed upon in ponds (both temporary and permanent), large puddles, and other water bodies.
 
@@ -95,12 +95,12 @@ moths
 larvae
 Lepidoptera
 butterflies
-moths</ns4:ecology>
+moths</ns3:ecology>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_426106</rdfs:subClassOf>
     <ns1:hasExactSynonym>ash trees</ns1:hasExactSynonym>
-    <ns3:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns3:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_38871', 'https://dbpedia.org/page/Fraxinus']</ns5:owlsameAs>
+    <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_genus</ns4:has_rank>
+    <ns2:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_38871', 'https://dbpedia.org/page/Fraxinus']</ns2:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

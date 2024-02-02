@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Morus%20alba">
     <rdfs:label>Morus alba</rdfs:label>
-    <ns2:abstract xml:lang="en">Morus alba, known as white mulberry, common mulberry and silkworm mulberry, is a fast-growing, small to medium-sized mulberry tree which grows to 10–20 m (33–66 ft) tall. It is generally a short-lived tree with a lifespan comparable to that of humans, although there are some specimens known to be more than 250 years old. The species is native to India and is widely cultivated and naturalized elsewhere (including United States, Mexico, Australia, Kyrgyzstan, Argentina, Turkey, Iran, and many others). The white mulberry is widely cultivated to feed the silkworms employed in the commercial production of silk. It is also notable for the rapid release of its pollen, which is launched at greater than half the speed of sound. Its berries are edible when ripe.</ns2:abstract>
-    <ns3:subspecies>[' Morus alba var. alba', ' Morus alba var. multicaulis']</ns3:subspecies>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Morus alba, known as white mulberry, common mulberry and silkworm mulberry, is a fast-growing, small to medium-sized mulberry tree which grows to 10–20 m (33–66 ft) tall. It is generally a short-lived tree with a lifespan comparable to that of humans, although there are some specimens known to be more than 250 years old. The species is native to India and is widely cultivated and naturalized elsewhere (including United States, Mexico, Australia, Kyrgyzstan, Argentina, Turkey, Iran, and many others). The white mulberry is widely cultivated to feed the silkworms employed in the commercial production of silk. It is also notable for the rapid release of its pollen, which is launched at greater than half the speed of sound. Its berries are edible when ripe.</ns5:abstract>
+    <ns2:subspecies>[' Morus alba var. alba', ' Morus alba var. multicaulis']</ns2:subspecies>
+    <ns2:taxonomy>
 
 Two varieties of
 Morus alba
@@ -36,12 +36,12 @@ Morus alba
 var.
 multicaulis
 Morus alba
-multicaulis</ns3:taxonomy>
+multicaulis</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3744</rdfs:subClassOf>
     <ns1:hasExactSynonym>white mulberry</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3498', 'https://dbpedia.org/page/Morus alba']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3498', 'https://dbpedia.org/page/Morus alba']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

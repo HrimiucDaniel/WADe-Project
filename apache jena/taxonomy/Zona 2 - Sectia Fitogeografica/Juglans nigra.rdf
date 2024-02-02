@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Juglans%20nigra">
+    <rdfs:label>Juglans nigra</rdfs:label>
+    <ns2:abstract xml:lang="en">Juglans nigra, the eastern American black walnut, is a species of deciduous tree in the walnut family, Juglandaceae, native to North America. It grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas. Wild trees in the upper Ottawa Valley may be an isolated native population or may have derived from planted trees. Black walnut is an important tree commercially, as the wood is a deep brown color and easily worked. Walnut seeds (nuts) are cultivated for their distinctive and desirable taste. Walnut trees are grown both for lumber and food, and many cultivars have been developed for improved quality wood or nuts. Black walnut is susceptible to thousand cankers disease, which provoked a decline of walnut trees in some regions. Black walnut is anecdotally known for being allelopathic, which means that it releases chemicals from its roots and other tissues that may harm other organisms and give the tree a competitive advantage. There is not, however, solid scientific consensus that allelopathic chemicals in black walnut are the primary source of its competitive growth in an area.</ns2:abstract>
+    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns3:habitat/>
+    <rdf:habitat/>
+    <ns3:ecology>Black walnut is primarily a
+pioneer species
+similar to
+red
+and
+silver maple
+and
+black cherry
+. Because of this, black walnut is a common weed tree found along roadsides, fields, and forest edges in the eastern US. It will grow in closed forests, but is classified as shade intolerant; this means it requires full sun for optimal growth and nut production.
+pioneer species
+red
+silver maple
+black cherry
+Black walnut's native range extends across much of the eastern US. It is absent from the coastal plain south of
+North Carolina
+as well as the Mississippi Valley, and does not occur in the northern tier of the eastern US, where the frost-free season is too short for the nuts to develop. Its western range extends all the way to the eastern Great Plains, after which climate conditions become too dry for it.
+North Carolina
+Black walnut is one of the most abundant trees in the eastern US, particularly the Northeast, and its numbers are increasing due to epidemics that have affected other tree species, including emerald ash borer, chestnut blight, butternut canker, wooly hemlock adelgid, dogwood anthracnose, Dutch elm disease, and spongy moth infestations. Widespread clear-cutting of oaks due to spongy moth damage in the 1970s–1980s particularly aided in the tree's spread. The aggressive competitive strategy of black walnut such as its fast growth, alleopathic chemicals, and rodent-dispersed seeds, have also contributed.
+Fruits after falling from tree
+Fruits after falling from tree
+The nuts are food for many rodents and make up to 10% of the diet of
+eastern fox squirrels
+.
+
+
+The nuts are also eaten by species of birds. The leaves are browsed by
+white tailed deer
+,
+
+although they are not a preferred food.
+eastern fox squirrels
+
+
+
+
+white tailed deer
+
+
+Where the range of the eastern black walnut overlaps that of the Texas black walnut (
+J. microcarpa
+), the two species sometimes interbreed, producing populations with characteristics intermediate between the two species.
+
+J. nigra
+and
+J. cinerea
+often grow in the same range as well but they do not hybridize naturally.
+
+
+J. microcarpa
+J. microcarpa
+
+
+J. nigra
+J. cinerea
+
+
+
+
+The tree's roots often form
+endomycorrhizal
+relationships with fungi in the genus
+Glomus
+. Some endomycorrhizal relations improve the plant's growth.
+
+endomycorrhizal
+Glomus
+Glomus
+
+
+Species often associated with
+J. nigra
+include
+yellow-poplar
+(
+Liriodendron tulipifera
+),
+white ash
+(
+Fraxinus americana
+),
+black cherry
+(
+Prunus serotina
+),
+basswood
+(
+Tilia americana
+),
+American beech
+(
+Fagus grandifolia
+),
+sugar maple
+(
+Acer saccharum
+),
+oaks
+(
+Quercus
+spp.), and
+hickories
+(
+Carya
+spp.). Near the western edge of its range, black walnut may be confined to floodplains, where it grows either with
+American elm
+(
+Ulmus americana
+),
+common hackberry
+(
+Celtis occidentalis
+),
+green ash
+(
+Fraxinus pennsylvanica
+), and
+boxelder
+(
+Acer negundo
+), or with basswood and
+red oak
+(
+Quercus rubra
+) on lower slopes and other favorable sites.
+
+J. nigra
+yellow-poplar
+Liriodendron tulipifera
+white ash
+Fraxinus americana
+black cherry
+Prunus serotina
+basswood
+Tilia americana
+American beech
+Fagus grandifolia
+sugar maple
+Acer saccharum
+oaks
+Quercus
+hickories
+Carya
+American elm
+Ulmus americana
+common hackberry
+Celtis occidentalis
+green ash
+Fraxinus pennsylvanica
+boxelder
+Acer negundo
+red oak
+Quercus rubra</ns3:ecology>
+    <ns3:taxonomy/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
+    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411290"/>
+    <ns1:hasExactSynonym>black walnut</ns1:hasExactSynonym>
+    <ns4:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
+    <ns5:owlsameAs rdf:parseType="Resource">
+      <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_16719</ns5:sameAsItem>
+      <ns5:sameAsItem>https://dbpedia.org/page/Juglans nigra</ns5:sameAsItem>
+    </ns5:owlsameAs>
+  </rdf:Description>
+</rdf:RDF>

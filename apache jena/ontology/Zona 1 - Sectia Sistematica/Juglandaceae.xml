@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Juglandaceae">
     <rdfs:label>Juglandaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The Juglandaceae are a plant family known as the walnut family. They are trees, or sometimes shrubs, in the order Fagales. Members of this family are native to the Americas, Eurasia, and Southeast Asia. The nine or ten genera in the family have a total of around 50 species, and include the commercially important nut-producing trees walnut (Juglans), pecan (Carya illinoinensis), and hickory (Carya). The Persian walnut, Juglans regia, is one of the major nut crops of the world. Walnut, hickory, and gaulin are also valuable timber trees while pecan wood is also valued as cooking fuel.</ns2:abstract>
-    <ns3:subspecies>['See text']</ns3:subspecies>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">The Juglandaceae are a plant family known as the walnut family. They are trees, or sometimes shrubs, in the order Fagales. Members of this family are native to the Americas, Eurasia, and Southeast Asia. The nine or ten genera in the family have a total of around 50 species, and include the commercially important nut-producing trees walnut (Juglans), pecan (Carya illinoinensis), and hickory (Carya). The Persian walnut, Juglans regia, is one of the major nut crops of the world. Walnut, hickory, and gaulin are also valuable timber trees while pecan wood is also valued as cooking fuel.</ns5:abstract>
+    <ns2:subspecies>['See text']</ns2:subspecies>
+    <ns2:taxonomy>
 
 The known living genera are grouped into subfamilies, tribes, and subtribes as follows:
 
@@ -355,12 +355,12 @@ Kunth 1824
 —wingnut
 Pterocarya
 Pterocarya
-Kunth 1824</ns3:taxonomy>
+Kunth 1824</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3502</rdfs:subClassOf>
     <ns1:hasExactSynonym>walnut family</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_family</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_16714', 'https://dbpedia.org/page/Juglandaceae']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_16714', 'https://dbpedia.org/page/Juglandaceae']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

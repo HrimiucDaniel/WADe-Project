@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#"
-   xmlns:ns2="https://dbpedia.org/ontology/"
-   xmlns:ns3="https://dbpedia.org/property/"
+   xmlns:ns2="https://dbpedia.org/property/"
+   xmlns:ns3="https://www.w3.org/2002/07/"
    xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#"
-   xmlns:ns5="https://www.w3.org/2002/07/"
+   xmlns:ns5="https://dbpedia.org/ontology/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Theobroma%20cacao">
     <rdfs:label>Theobroma cacao</rdfs:label>
-    <ns2:abstract xml:lang="en">Theobroma cacao, also called the cacao tree and the cocoa tree, is a small (6–12 m (20–39 ft) tall) evergreen tree in the family Malvaceae. Its seeds, cocoa beans, are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. The largest producer of cocoa beans in 2018 was Ivory Coast, 2.2 million tons. The genus name, Theobroma, is derived from the Greek words θεός (theos), meaning 'god', and βρῶμα (broma), meaning 'food'. The literal meaning is "food of the gods".</ns2:abstract>
-    <ns3:taxonomy>
+    <ns5:abstract xml:lang="en">Theobroma cacao, also called the cacao tree and the cocoa tree, is a small (6–12 m (20–39 ft) tall) evergreen tree in the family Malvaceae. Its seeds, cocoa beans, are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. The largest producer of cocoa beans in 2018 was Ivory Coast, 2.2 million tons. The genus name, Theobroma, is derived from the Greek words θεός (theos), meaning 'god', and βρῶμα (broma), meaning 'food'. The literal meaning is "food of the gods".</ns5:abstract>
+    <ns2:taxonomy>
 
 Cacao (
 Theobroma cacao
@@ -46,12 +46,12 @@ morphological
 genomic
 cultivar
 
-</ns3:taxonomy>
+</ns2:taxonomy>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdf:type>http://www.w3.org/2002/07/owl#Class</rdf:type>
     <rdfs:subClassOf>http://purl.obolibrary.org/obo/NCBITaxon_3640</rdfs:subClassOf>
     <ns1:hasExactSynonym>cacao</ns1:hasExactSynonym>
     <ns4:has_rank>http://purl.obolibrary.org/obo/NCBITaxon_species</ns4:has_rank>
-    <ns5:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3641', 'https://dbpedia.org/page/Theobroma cacao']</ns5:owlsameAs>
+    <ns3:owlsameAs>['http://purl.obolibrary.org/obo/NCBITaxon_3641', 'https://dbpedia.org/page/Theobroma cacao']</ns3:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

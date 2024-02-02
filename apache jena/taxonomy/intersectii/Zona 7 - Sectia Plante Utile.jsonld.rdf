@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://127.0.0.1:5000/" xml:base="http://127.0.0.1:5000/">
+  <rdfs:Class rdf:about="http://127.0.0.1:5000/plant"/>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/zone">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/list_of_plants">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>List</rdfs:range>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:5000/description">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://127.0.0.1:5000/zone"/>
+    <rdfs:range>http://www.w3.org/2001/XMLSchema#string</rdfs:range>
+  </rdf:Description>
+  <ex:Zone rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile">
+    <rdfs:label>Zona 7 - Sectia Plante Utile</rdfs:label>
+    <ex:list_of_plants rdf:parseType="Resource">
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Atropa%20belladonna"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Capsicum%20annuum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Hypericum%20perforatum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/lantago%20major"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Lavandula%20angustifolia"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Matricaria%20chamomilla"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Mentha"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Morus%20alba"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Papaver%20somniferum"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Picea%20abies"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Pinus%20sylvestris"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Ruscus%20aculeatus"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Salvia%20officinalis"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Scopolia%20carniolica"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Thymus%20vulgaris"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Tilia%20tomentosa"/>
+      <ex:plant rdf:resource="https://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Urtica%20dioica"/>
+    </ex:list_of_plants>
+    <ex:description>Prin tematica sectiei si transpunerea acesteia în teren se urmareste reprezentarea a peste 450 de taxoni vegetali pe principale grupe de utilitati, fiind expuse catre public colectii de plante utilizate în industria alimentara, specii de plante medicinale, aromatice si condimentare, melifere si furajere, tanante si tinctoriale, dar si specii de plante toxice.</ex:description>
+  </ex:Zone>
+</rdf:RDF>
