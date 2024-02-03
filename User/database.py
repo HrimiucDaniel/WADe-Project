@@ -25,10 +25,13 @@ db = SQLAlchemy(app)
 class Exhibition(db.Model):
     __tablename__ = 'Exibitions'
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(50), nullable=False)
+    name = db.Column(db.String(100), nullable=False)
     description = db.Column(db.String(500), nullable=False)
     start_date = db.Column(db.Date, nullable=False)
     end_date = db.Column(db.Date, nullable=False)
+    total_seats = db.Column(db.Integer, nullable=False)
+    current_seats = db.Column(db.Integer, nullable=False)
+    plant_name = db.Column(db.String(100), nullable=False)
 
 
 class User(db.Model):
@@ -47,22 +50,26 @@ def create_tables():
 class DatabaseHandler:
     @staticmethod
     def add_user(username, password, email):
-        # Hash the password before storing it
-        hashed_password = generate_password_hash(password, method='sha256')
-        print("Parola inregistrare")
-        print(password)
-        print(hashed_password)
-        new_user = User(username=username, password=hashed_password, email=email)
+        existing_user = User.query.filter((User.username == username) | (User.email == email)).first()
 
-        db.session.add(new_user)
-        db.session.commit()
+        if existing_user:
+            return 0
+        else:
+            hashed_password = generate_password_hash(password, method='sha256')
+            print("Parola înregistrare")
+            print(password)
+            print(hashed_password)
+            new_user = User(username=username, password=hashed_password, email=email)
+            db.session.add(new_user)
+            db.session.commit()
+            return 1
 
     @staticmethod
     def get_all_users():
         try:
             return User.query.all()
         except Exception as e:
-            print(f"An error occurred while retrieving barcodes: {str(e)}")
+            print(f"An error occurred while retrieving users: {str(e)}")
             return None
 
     @staticmethod
@@ -70,22 +77,52 @@ class DatabaseHandler:
         try:
             return User.query.filter_by(username=name).first()
         except Exception as e:
-            print(f"An error occurred while retrieving barcode by text: {str(e)}")
+            print(f"An error occurred while retrieving user by name: {str(e)}")
             return None
 
     @staticmethod
-    def add_exhibition(name, description, start_date, end_date):
-        new_exhibition = Exhibition(name=name, description=description, start_date=start_date, end_date=end_date)
+    def add_exhibition(name, description, start_date, end_date, total_seats, plant_name):
+        new_exhibition = Exhibition(name=name, description=description, start_date=start_date, end_date=end_date,
+                                    total_seats=total_seats, plant_name=plant_name)
+        new_exhibition.current_seats = 0
         db.session.add(new_exhibition)
         db.session.commit()
 
     @staticmethod
-    def get_exhibition_by_date(start_date):
+    def get_all_exhibitions():
         try:
-            return Exhibition.query.filter_by(start_date=start_date).first()
+            return Exhibition.query.all()
+        except Exception as e:
+            print(f"An error occurred while retrieving exhibitions: {str(e)}")
+            return None
+
+    @staticmethod
+    def get_exhibition_by_name(name):
+        try:
+            return Exhibition.query.filter_by(name=name).first()
         except Exception as e:
             print(f"An error occurred while retrieving barcode by text: {str(e)}")
             return None
+
+    @staticmethod
+    def book_exhibition(username, exhibition_name):
+        try:
+            user = User.query.filter_by(username=username).first()
+            if user:
+                exhibition = Exhibition.query.filter_by(name=exhibition_name).first()
+                if exhibition and exhibition.current_seats < exhibition.total_seats:
+                    exhibition.current_seats += 1
+                    db.session.commit()
+                    return True
+                else:
+                    print("Exhibition not found or no available seats.")
+                    return False
+            else:
+                print("User not found.")
+                return False
+        except Exception as e:
+            print(f"An error occurred while booking exhibition: {str(e)}")
+            return False
 
     @staticmethod
     def check_user_credentials(username, password):

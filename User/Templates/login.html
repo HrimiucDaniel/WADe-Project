@@ -77,10 +77,6 @@
 
         <h2>Login</h2>
 
-        {% if error %}
-            <p style="color: red;">{{ error }}</p>
-        {% endif %}
-
         <form action="/login" method="post">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required><br>
@@ -90,7 +86,11 @@
 
             <input type="submit" value="Login">
         </form>
-
+       
+        {% if error_message %}
+            <p style="color: red;">{{ error_message }}</p>
+        {% endif %}
+       
         <p>Don't have an account? <a href="/register">Register here</a></p>
 
     </div>

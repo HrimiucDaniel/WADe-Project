@@ -44,18 +44,14 @@
 <body>
     <header>
         <div>
-            <span>{{ username }}</span>
-            <span> | </span>
-            <span>{{ email }}</span>
-            <!-- Adăugați butonul de logout aici -->
-            <button onclick="redirectToLogout()">Logout</button>
+            <button onclick="redirectToLogin()">Login</button>
+            <button onclick="redirectToRegister()">Register</button>
         </div>
     </header>
 
     <div class="button-container">
         <button onclick="viewZones()">View Zones</button>
         <button onclick="guideTour()">Guide Tour</button>
-        <button onclick="redirectToExpositions()">Exhibition</button>
     </div>
 
     <script>
@@ -74,9 +70,14 @@
             window.location.href = "/exhibitions";
         }
 
-        function redirectToLogout() {
-            // Redirect to /logout
-            window.location.href = "/logout";
+        function redirectToLogin() {
+            // Redirect to /login
+            window.location.href = "/login";
+        }
+
+        function redirectToRegister() {
+            // Redirect to /register
+            window.location.href = "/register";
         }
     </script>
 </body>

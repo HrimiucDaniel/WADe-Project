@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ exhibition.name }} Exhibition</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: right;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .exhibition-details {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        .reservation-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .reservation-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <div>
+            <span>{{ user.username }}</span>
+            <span> | </span>
+            <span>{{ user.email }}</span>
+            <button onclick="redirectToExhibitions()">Exhibitions</button>
+            <button onclick="redirectToLogout()">Log out</button>
+        </div>
+    </header>
+    <div class="exhibition-details">
+        <h1>{{ exhibition.name }} Exhibition</h1>
+        <p><strong>Plant:</strong> {{ exhibition.plant_name }}</p>
+        <p><strong>Description:</strong> {{ exhibition.description }}</p>
+        <p><strong>Start Date:</strong> {{ exhibition.start_date }}</p>
+        <p><strong>End Date:</strong> {{ exhibition.end_date }}</p>
+        <p><strong>Total Seats:</strong> {{ exhibition.total_seats }}</p>
+        <p><strong>Current Seats:</strong> {{ exhibition.current_seats }}</p>
+
+        <a href="/reserve/{{ exhibition.name }}">
+            <button class="reservation-button">Reserve Exhibition</button>
+        </a>
+    </div>
+<script>
+        function redirectToExhibitions() {
+            window.location.href = "/exhibitions";
+        }
+        function redirectToLogout() {
+            window.location.href = "/logout";
+        }
+    </script>
+</body>
+</html>

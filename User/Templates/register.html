@@ -59,9 +59,10 @@
         p {
             text-align: center;
             margin-top: 10px;
+            color: red; /* Stilizare culoare text eroare */
         }
     </style>
-     <script>
+    <script>
         function validatePassword() {
             var password = document.getElementById("password").value;
             var confirm_password = document.getElementById("confirm_password").value;
@@ -86,10 +87,6 @@
 
         <h2>Register</h2>
 
-        {% if error %}
-            <p style="color: red;">{{ error }}</p>
-        {% endif %}
-
         <form action="/register" method="post" onsubmit="return validateForm()">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required><br>
@@ -106,6 +103,10 @@
 
             <input type="submit" value="Register">
         </form>
+
+        {% if error_message %}
+            <p>{{ error_message }}</p>
+        {% endif %}
 
         <p>Already have an account? <a href="/login">Login here</a></p>
 
