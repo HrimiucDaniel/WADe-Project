@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Lavandula%20angustifolia">
     <rdfs:label>Lavandula angustifolia</rdfs:label>
-    <ns2:abstract xml:lang="en">Lavandula angustifolia, formerly L. officinalis, is a flowering plant in the family Lamiaceae, native to the Mediterranean (Spain, France, Italy, Croatia etc.). Its common names include lavender, true lavender and English lavender (though not native to England); also garden lavender, common lavender and narrow-leaved lavender.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Lavandula Angustifolia, fostă L. officinalis, este o plantă cu flori din familia Lamiaceae, originară din Mediterana (Spania, Franța, Italia, Croația etc.).Numele sale comune includ lavandă, lavandă adevărată și lavandă engleză (deși nu este originar din Anglia);De asemenea, lavandă de grădină, lavandă comună și lavandă cu frunze înguste.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39169"/>

@@ -1,57 +1,14 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Paeonia%20daurica">
     <rdfs:label>Paeonia daurica</rdfs:label>
-    <ns2:abstract xml:lang="en">Paeonia daurica is a perennial herbaceous plant belonging to the peony family. It has slender carrot-shaped roots, leaves mostly consisting of nine leaflets, with one flower per stem. The flower is subtended by none to two leafy bracts, and has two or three sepals, five to eight petals, and many stamens. The subspecies vary in the colour of the petals (white, light yellow, pink, red), the size and shape of the leaflets, and the hairiness of the leaflets and the carpels. Paeonia daurica can be found from the Balkans to Iran, and the Crimea to Lebanon, with the centre of its distribution in the Caucasus. It is also cultivated as an ornamental.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Paeonia daurica este o plantă erbacee perenă aparținând familiei de bujor.Are rădăcini subțiri în formă de morcovi, frunze constând în cea mai mare parte din nouă pliante, cu o floare pe tulpină.Floarea nu este subliniată de la nimic la două bracte cu frunze și are două sau trei sepale, cinci până la opt petale și multe stamine.Subspecii variază în culoarea petalelor (alb, galben deschis, roz, roșu), dimensiunea și forma pliantelor și părul pliantelor și carpelelor.Paeonia daurica poate fi găsită din Balcani în Iran, iar Crimeea în Liban, cu centrul distribuției sale în Caucaz.De asemenea, este cultivat ca ornamental.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>[[#Modern classification, subdivision and synonymy</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/[[#Modern classification, subdivision and synonymy</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>With its hairless leaves,
-P. daurica
-, does not seem to be adapted to a typical Mediterranean climate, but to rather more humid circumstances in summer. The population on
-Mount Orjen
-grows in forest consisting of
-silver fir
-,
-European beech
-,
-Turkish hazel
-, the maple species
-Acer pseudoplatanus
-and
-A. intermedium
-, and
-ash
-, and is further accompanied by widespread species such as
-European spindle
-,
-mountain cherry
-,
-drooping bittercress
-,
-Turk's cap lily
-, but also with endemics such as the
-Orjen iris
-.
-
-P. daurica
-Mount Orjen
-silver fir
-European beech
-Turkish hazel
-Acer pseudoplatanus
-Acer pseudoplatanus
-A. intermedium
-A. intermedium
-ash
-European spindle
-mountain cherry
-drooping bittercress
-Turk's cap lily
-Orjen iris</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Cu frunzele sale fără păr, p.Daurica, nu pare să fie adaptat unui climat tipic mediteranean, ci în circumstanțe destul de umede vara.Populația Onmount Orjengrows în pădure constând din FIR SILVER, FAECH EUROPEAN, ALUSC TURKISH, PSEUDOPLAtanusanda specii de arțar.Intermedium, andash, și este însoțit în continuare de specii răspândite, cum ar fi un fus aseuropean, cireș de munte, cireșul care se înnebunește, crinul lui Turk, dar și cu endemici precum Theorjen Iris.P.Dauricamount Orjensilver Fireuropean Beechturkish Hazelacer pseudoplatanusacer pseudoplatanusa.intermedia.intermediasheuropean spindlemountain cherrydrooping bittercressturk's cap lilyorjen iris</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13625"/>
@@ -60,6 +17,20 @@ Orjen iris</ns3:ecology>
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_1123981</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Paeonia daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.0b77mth</ns5:sameAsItem>
+      <ns5:sameAsItem>http://yago-knowledge.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q1307422</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/بايونيا_دوريكا</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Krim-Pfingstrose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ka.dbpedia.org/resource/მლოკოსევიჩის_იორდასალამი</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Пион_крымский</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Півонія_кримська</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/L7fs</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

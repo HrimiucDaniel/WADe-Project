@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Dianthus%20barbatus">
     <rdfs:label>Dianthus barbatus</rdfs:label>
-    <ns2:abstract xml:lang="en">Dianthus barbatus, the sweet William, is a species of flowering plant in the family Caryophyllaceae, native to southern Europe and parts of Asia. It has become a popular ornamental garden plant. It is a herbaceous biennial or short-lived perennial plant growing to 13–92 cm tall, with flowers in a dense cluster of up to 30 at the top of the stems. Each flower is 2–3 cm diameter with five petals displaying serrated edges. Wild plants produce red flowers with a white base, but colours in cultivars range from white, pink, red, and purple to variegated patterns. The exact origin of its English common name is unknown but first appears in 1596 in botanist John Gerard's garden catalogue. The flowers are edible and may have medicinal properties. Sweet William attracts bees, birds, and butterflies.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Dianthus Barbatus, dulce William, este o specie de plante cu flori din familia Caryophyllaceae, originară din sudul Europei și părți din Asia.A devenit o plantă populară de grădină ornamentală.Este o plantă perenă bienală sau de scurtă durată, care crește până la 13-92 cm înălțime, cu flori într-un grup dens de până la 30 în vârful tulpinilor.Fiecare floare are 2-3 cm diametru cu cinci petale care prezintă margini serrate.Plantele sălbatice produc flori roșii cu o bază albă, dar culorile din cultivare variază de la modele albe, roz, roșu și violet până la variate.Originea exactă a numelui său comun englez nu este cunoscută, dar apare pentru prima dată în 1596 în catalogul de grădină al botanistului John Gerard.Florile sunt comestibile și pot avea proprietăți medicinale.Sweet William atrage albine, păsări și fluturi.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3569"/>

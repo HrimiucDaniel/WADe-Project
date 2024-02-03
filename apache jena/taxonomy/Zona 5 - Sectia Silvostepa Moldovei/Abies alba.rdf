@@ -1,50 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Abies%20alba">
     <rdfs:label>Abies alba</rdfs:label>
-    <ns2:abstract xml:lang="en">Abies alba, the European silver fir or silver fir, is a fir native to the mountains of Europe, from the Pyrenees north to Normandy, east to the Alps and the Carpathians, Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, Serbia, and south to Italy, Bulgaria, Kosovo, Albania and northern Greece; it is also commonly grown on Christmas tree plantations in the North East region of North America spanning New England in the US to the Maritime provinces of Canada.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Abies Alba, bradul european de argint sau bradul de argint, este un brad originar din munții Europei, de la Pirinei de nord până la Normandia, la est până la Alpi și Carpați, Slovenia, Croația, Bosnia și Herțegovina, Muntenegru, Serbia și Sudîn Italia, Bulgaria, Kosovo, Albania și Grecia de Nord;De asemenea, este cultivat în mod obișnuit pe plantațiile de brad de Crăciun din regiunea de nord -est a Americii de Nord, care se întinde pe New England în SUA până la provinciile maritime din Canada.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Silver fir is an important component species in the
-dinaric calcareous block fir forest
-in the western
-Balkan Peninsula
-.
-
-dinaric calcareous block fir forest
-Balkan Peninsula
-
-citation needed
-citation needed
-citation needed
-In
-Italy
-, the silver fir is an important component of the mixed broadleaved-coniferous forest of the Apennine Mountains, especially in northern Apennine. The fir prefer a cold and humid climate, in northern exposition, with a high rainfall (over 1500 mm per year). In the oriental Alps of Italy, silver firs grow in mixed forests with Norway spruce, beech, and other trees.
-Italy
-Its cone scales are eaten by the
-caterpillars
-of the
-tortrix moth
-Cydia illutana
-, while
-C. duplicana
-feeds on the bark around injuries or
-canker
-.
-
-caterpillars
-tortrix moth
-Cydia illutana
-Cydia illutana
-C. duplicana
-C. duplicana
-canker
-
-citation needed
-citation needed
-citation needed</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Firul de argint este o specie de componentă importantă în pădure de brad bloc calcaros, peninsula occidentală..FIR preferă un climat rece și umed, în expunerea nordică, cu o precipitații mari (peste 1500 mm pe an).În Alpii orientali ai Italiei, brații de argint cresc în păduri mixte cu molid norvegian, fag și alți copaci.Ilyits Scale de con de conuri sunt consumate de către TheCaterpillarsof Thetotortrix Mothcydia Illutana, whilec.Duplicanafeeds pe scoarță în jurul rănilor orcanker.caterpillarstortrix Mothcydia Illutanacydia Illutanac.Duplicanac.Duplicanacankercitation necesare Citare necesare Citați necesare</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3319"/>

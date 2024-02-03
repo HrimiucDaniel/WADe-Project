@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Zinnia">
     <rdfs:label>Zinnia</rdfs:label>
-    <ns2:abstract xml:lang="en">Zinnia is a genus of plants of the tribe Heliantheae within the family Asteraceae. They are native to scrub and dry grassland in an area stretching from the Southwestern United States to South America, with a centre of diversity in Mexico. Members of the genus are notable for their solitary long-stemmed 12 petal flowers that come in a variety of bright colors. The genus name honors German master botanist Johann Gottfried Zinn (1727–59).</ns2:abstract>
+    <ns2:abstract xml:lang="en">Zinnia este un gen de plante ale tribului Heliantheae în cadrul familiei Asteraceae.Aceștia sunt originari pentru a freca și usca pajiști într -o zonă care se întinde din sud -vestul Statelor Unite până la America de Sud, cu un centru de diversitate în Mexic.Membrii genului sunt notabili pentru solitarii lor cu un tulpină lungă de 12 flori de petale care vin într-o varietate de culori strălucitoare.Numele de gen îl onorează pe maestrul german botanist Johann Gottfried Zinn (1727–59).</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_102814"/>

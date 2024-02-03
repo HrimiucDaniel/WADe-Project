@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20gallica">
     <rdfs:label>Rosa gallica</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosa gallica, the Gallic rose, French rose, or rose of Provins, is a species of flowering plant in the rose family, native to southern and central Europe eastwards to Turkey and the Caucasus. Rosa gallica was one of the first species of rose to be cultivated in central Europe. It is a parent of several important .</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rosa Gallica, trandafirul galic, trandafirul francez sau trandafirul de Provins, este o specie de plante cu flori din familia trandafirilor, originară din sudul și centrul Europei spre est spre Turcia și Caucaz.Rosa Gallica a fost una dintre primele specii de trandafir cultivate în Europa Centrală.Este un părinte al mai multor important.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411225"/>
@@ -16,6 +15,47 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_74632</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Rosa gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.06d1dh</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lod.geospecies.org/ses/7Q2WF</ns5:sameAsItem>
+      <ns5:sameAsItem>http://yago-knowledge.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/180842</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q157668</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/ورد_فرنسي</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/ورد_جاليكا</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ast.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://az.dbpedia.org/resource/Fransa_qızılgülü</ns5:sameAsItem>
+      <ns5:sameAsItem>http://bg.dbpedia.org/resource/Галска_роза</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ca.dbpedia.org/resource/Rosa_gàl·lica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Růže_keltská</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cy.dbpedia.org/resource/Rhosyn_coch_Caerhirfryn</ns5:sameAsItem>
+      <ns5:sameAsItem>http://da.dbpedia.org/resource/Fransk_rose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Essig-Rose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eo.dbpedia.org/resource/Gaŭla_rozo</ns5:sameAsItem>
+      <ns5:sameAsItem>http://es.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://et.dbpedia.org/resource/Äädika-kibuvits</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fa.dbpedia.org/resource/رز_گالیکا</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Gallianruusu</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Galska_ruža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Kisałowa_róža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Parlagi_rózsa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://it.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lt.dbpedia.org/resource/Prancūzinis_erškėtis</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ml.dbpedia.org/resource/റോസ_ഗാലിക</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Róża_francuska</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pnb.dbpedia.org/resource/جلیقی_گلاب</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pt.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Шиповник_французский</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Gallicarosor</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Шипшина_французька</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uz.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Rosa_gallica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://zh.dbpedia.org/resource/法国蔷薇</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/ZgiX</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

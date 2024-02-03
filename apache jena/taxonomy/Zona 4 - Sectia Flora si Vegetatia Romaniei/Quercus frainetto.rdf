@@ -1,61 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Quercus%20frainetto">
     <rdfs:label>Quercus frainetto</rdfs:label>
-    <ns2:abstract xml:lang="en">Quercus frainetto (syn. Quercus conferta Kit., Quercus farnetto Ten.), commonly known as the Hungarian oak or Italian oak, is a species of oak, native to southeastern Europe (parts of Italy, the Balkans, parts of Hungary, Romania) and Turkey; it is classified in Quercus sect. Mesobalanus.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Quercus Frainetto (Syn. Quercus Conferta Kit., Quercus Farnetto Ten.), Cunoscut în mod obișnuit ca stejar maghiar sau stejar italian, este o specie de stejar, originară din sud -estul Europei (părți din Italia, Balcani, părți din Ungaria, România)și curcan;Este clasificat în Sect Quercus.Mesobalanus.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>See also:
-Balkan mixed forests
-Balkan mixed forests
-Hungarian oak forest
-Hungarian oak forest
-The centre of the tree's native range is in the
-Balkans
-. It is adapted to the subcontinental climate of southeastern Europe, but the main factor of its occurrence at a particular site is the soil. It is specially adapted to heavy acidic soils (
-cambisols
-and
-vertisols
-), typical of Kosovo, Serbia, Bulgaria and Romania. These soils are usually leached out, very dry in the summer and sometimes waterlogged in the spring. However, the Hungarian oak does not tolerate flooding or high water tables. It is also extremely sensitive to the presence of lime in the soil. Hence, in contradiction to its English vernacular name, which was assigned when the
-Kingdom of Hungary
-controlled large parts of the Balkans, the Hungarian oak is a very rare tree in modern Hungary, where the soils are generally very rich in lime. The Hungarian oak-
-Turkey oak
-forest (
-Quercetum frainetto-cerris
-Rud.) is the most widespread association of this oak in the Balkans, which is also the most common forest type in Serbia and Kosovo.
-Balkans
-cambisols
-vertisols
-Kingdom of Hungary
-Turkey oak
-Quercetum frainetto-cerris
-Quercetum frainetto-cerris</ns3:habitat>
-    <rdf:habitat>See also:
-Balkan mixed forests
-Balkan mixed forests
-Hungarian oak forest
-Hungarian oak forest
-The centre of the tree's native range is in the
-Balkans
-. It is adapted to the subcontinental climate of southeastern Europe, but the main factor of its occurrence at a particular site is the soil. It is specially adapted to heavy acidic soils (
-cambisols
-and
-vertisols
-), typical of Kosovo, Serbia, Bulgaria and Romania. These soils are usually leached out, very dry in the summer and sometimes waterlogged in the spring. However, the Hungarian oak does not tolerate flooding or high water tables. It is also extremely sensitive to the presence of lime in the soil. Hence, in contradiction to its English vernacular name, which was assigned when the
-Kingdom of Hungary
-controlled large parts of the Balkans, the Hungarian oak is a very rare tree in modern Hungary, where the soils are generally very rich in lime. The Hungarian oak-
-Turkey oak
-forest (
-Quercetum frainetto-cerris
-Rud.) is the most widespread association of this oak in the Balkans, which is also the most common forest type in Serbia and Kosovo.
-Balkans
-cambisols
-vertisols
-Kingdom of Hungary
-Turkey oak
-Quercetum frainetto-cerris
-Quercetum frainetto-cerris</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns3:habitat>Vezi și: Pădurile mixte din Balcani mixte mixte de pădure mixtă de pădure de stejar forestier forestier de stejar forestier de stejar, centrul natal al copacului este în Thebalkans.Este adaptat climatului subcontinental din sud -estul Europei, dar principalul factor al apariției sale la un anumit loc este solul.Este special adaptat la solurile acide grele (Cambisolsandvertisols), tipic Kosovo, Serbia, Bulgaria și România.Aceste soluri sunt de obicei scurse, foarte uscate vara și uneori agilate cu apă în primăvară.Cu toate acestea, stejarul maghiar nu tolerează inundațiile sau mesele cu apă mare.De asemenea, este extrem de sensibil la prezența varului în sol.Prin urmare, în contradicție cu numele său vernacular englez, care a fost atribuit atunci când înțepăturile ungariei au fost controlate mari din Balcani, stejarul maghiar este un copac foarte rar în Ungaria modernă, unde solurile sunt în general foarte bogate în var.Oakforest-ul de stejar maghiar (Quercetum Frainetto-cerrisrud.)</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3511"/>

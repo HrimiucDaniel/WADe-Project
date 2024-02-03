@@ -1,15 +1,14 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Portulaca">
     <rdfs:label>Portulaca</rdfs:label>
-    <ns2:abstract xml:lang="en">Portulaca (/ˌpɔːrtjuːˈleɪkə/, is the type genus of the flowering plant family Portulacaceae, with over 100 species, found in the tropics and warm temperate regions. They are known as the purslanes. Common purslane (Portulaca oleracea) is widely consumed as an edible plant, and in some areas it is invasive. Portulaca grandiflora is a well-known ornamental garden plant. Purslanes are relished by chickens. Some Portulaca species are used as food plants by the larvae of some Lepidoptera species including the nutmeg moth (Hadula trifolii).</ns2:abstract>
+    <ns2:abstract xml:lang="en">Portulaca (/ˌpɔːrtjuːˈleɪkə/, este genul de tip al familiei de plante cu flori Portulacaceae, cu peste 100 de specii, găsite în tropice și regiuni temperate calde. Sunt cunoscute sub numele de căutări.plantă, și în unele zone este invazivă. Portulaca grandiflora este o binecunoscută plantă de grădină ornamentală. Purslanele sunt savutate de pui. Unele specii de porulaca sunt folosite ca plante alimentare de larvele unor specii de lepidoptera, inclusiv molia de nucșoară (Hadula trifolii).</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>see text</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/see text</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3581"/>

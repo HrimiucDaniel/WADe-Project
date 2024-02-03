@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/lantago%20major">
     <rdfs:label>lantago major</rdfs:label>
-    <ns2:abstract xml:lang="en">Plantago major, the broadleaf plantain, white man's footprint, waybread, or greater plantain, is a species of flowering plant in the plantain family Plantaginaceae. The plant is native to Eurasia. The young, tender leaves can be eaten raw, and the older, stringier leaves can be boiled in stews and eaten.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Plantago Major, plantanul larg, amprenta omului alb, pumnul sau plantanul mai mare, este o specie de plante cu flori din familia Plantain Plantaginaceae.Planta este originară din Eurasia.Frunzele tinere, fragede, pot fi consumate crude, iar frunzele mai vechi, mai curoase, pot fi fierte în tocanite și mâncate.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>Failed to retrieve data. Status code: 404</ns3:habitat>
-    <rdf:habitat>Failed to retrieve data. Status code: 404</rdf:habitat>
-    <ns3:ecology>Failed to retrieve data. Status code: 404</ns3:ecology>
-    <ns3:taxonomy>Failed to retrieve data. Status code: 404</ns3:taxonomy>
+    <ns3:habitat>Nu a reușit să recupereze date.Cod de stare: 404</ns3:habitat>
+    <ns6:ecology>Nu a reușit să recupereze date.Cod de stare: 404</ns6:ecology>
+    <ns6:taxonomy>Nu a reușit să recupereze date.Cod de stare: 404</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource=""/>

@@ -1,32 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Agapanthus%20africanus">
     <rdfs:label>Agapanthus africanus</rdfs:label>
-    <ns2:abstract xml:lang="en">Agapanthus africanus, or the African lily, is a flowering plant from the genus Agapanthus found only on rocky sandstone slopes of the winter rainfall fynbos from the Cape Peninsula to Swellendam. It is also known as the lily-of-the-Nile in spite of only occurring in South Africa.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Agapanthus africanus, sau crinul african, este o plantă cu flori din genul Agapanthus găsit doar pe pantele de gresie stâncoasă din fynbos de precipitații de iarnă din Peninsula Cape până la Swellendam.Este, de asemenea, cunoscut sub numele de Lily-of-the-nile, în ciuda faptului că a apărut doar în Africa de Sud.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Pollination is by wind,
-bees
-and
-sunbirds
-and seed dispersal by the wind.
-Chacma baboons
-and buck
-
-sometimes eat the flower heads just as the first flowers begin to open. These plants are adapted to survive fire in the fynbos and
-resprout
-from thick, fleshy roots after fire has passed through the area.
-
-bees
-sunbirds
-Chacma baboons
-
-further explanation needed
-further explanation needed
-further explanation needed
-resprout</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Polenizarea este prin vânt, Beesandsunbirdsand și dispersia semințelor de către vânt.Chacma Babuonsand Bucksometimes mănâncă capetele de flori la fel cum primele flori încep să se deschidă.Aceste plante sunt adaptate pentru a supraviețui focului în fynbos andresproutfrom rădăcini groase și cărnoase după ce a trecut focul prin zonă.</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_51426"/>

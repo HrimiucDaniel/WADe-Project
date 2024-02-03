@@ -1,69 +1,14 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Gladiolus">
     <rdfs:label>Gladiolus</rdfs:label>
-    <ns2:abstract xml:lang="en">Gladiolus (from Latin, the diminutive of gladius, a sword) is a genus of perennial cormous flowering plants in the iris family (Iridaceae). It is sometimes called the 'sword lily', but is usually called by its generic name (plural gladioli). The genus occurs in Asia, Mediterranean Europe, South Africa, and tropical Africa. The center of diversity is in the Cape Floristic Region. The genera Acidanthera, Anomalesia, Homoglossum, and Oenostachys, formerly considered distinct, are now included in Gladiolus.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Gladiolus (din latină, diminutivul lui Gladius, o sabie) este un gen de plante perene cu flori cormoase din familia Iris (Iridaceae).Uneori este numit „Lily Sword”, dar este de obicei numit prin numele său generic (Gladioli plural).Genul apare în Asia, Europa Mediterană, Africa de Sud și Africa tropicală.Centrul de diversitate se află în regiunea Floristică Cape.Genera Acidanthera, anomalesia, omoglossul și oenostachys, considerate anterior distincte, sunt acum incluse în Gladiolus.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>About 260, see text</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/About 260, see text</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>The South African species were originally pollinated by long-tongued
-anthophorini
-bees,
-
-but some changes in the pollination system have occurred, allowing pollination by
-sunbirds
-,
-noctuid
-and
-Hawk-moths
-, long-tongued flies and several others.
-
-In the temperate zones of Europe many of the hybrid large flowering sorts of gladiolus can be pollinated by small well-known wasps. Actually, they are not very good pollinators because of the large flowers of the plants and the small size of the wasps. Another insect in this zone which can try some of the nectar of the gladioli is the best-known European Hawk-moth
-Macroglossum stellatarum
-which usually pollinates many popular garden flowers like
-Petunia
-,
-Zinnia
-,
-Dianthus
-and others.
-
-anthophorini
-
-
-sunbirds
-noctuid
-Hawk-moths
-
-
-Macroglossum stellatarum
-Macroglossum stellatarum
-Petunia
-Zinnia
-Dianthus
-
-
-Gladioli are used as food plants by the
-larvae
-of some
-Lepidoptera
-species including the
-Large Yellow Underwing
-,
-
-and gladiolus
-thrips
-.
-
-larvae
-Lepidoptera
-Large Yellow Underwing
-
-
-thrips</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Speciile sud-africane au fost inițial polenizate de de mult timp de lungă durată, dar s-au produs unele schimbări în sistemul de polenizare, permițând polenizarea bysunbirds, noctuidandhawk-moths, muște cu tonuri lungi și altele.Un fel de Gladiolus pot fi polenizate de viespe mici cunoscute.De fapt, nu sunt polenizatori foarte buni din cauza florilor mari ale plantelor și a dimensiunilor mici ale viespilor.O altă insectă din această zonă care poate încerca o parte din nectarul Gladioli este cel mai cunoscut șoim european de șoim-motmacroglossum stellatarum care, de obicei, polenizează multe flori populare de grădină precumpetunia, zinnia, altele Dianthusand. usgladioli sunt folosite ca plante alimentare de către thelarvaeofSomelepidopteraspecies, inclusiv thelarge galben, și gladiosthrips.larvaelepidopteralarge galben -ul galben</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2508084"/>

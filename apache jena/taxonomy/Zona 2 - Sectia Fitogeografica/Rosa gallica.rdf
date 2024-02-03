@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Rosa%20gallica">
     <rdfs:label>Rosa gallica</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosa gallica, the Gallic rose, French rose, or rose of Provins, is a species of flowering plant in the rose family, native to southern and central Europe eastwards to Turkey and the Caucasus. Rosa gallica was one of the first species of rose to be cultivated in central Europe. It is a parent of several important .</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rosa Gallica, trandafirul galic, trandafirul francez sau trandafirul de Provins, este o specie de plante cu flori din familia trandafirilor, originară din sudul și centrul Europei spre est spre Turcia și Caucaz.Rosa Gallica a fost una dintre primele specii de trandafir cultivate în Europa Centrală.Este un părinte al mai multor important.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411225"/>

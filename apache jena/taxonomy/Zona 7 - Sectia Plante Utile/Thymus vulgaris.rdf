@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Thymus%20vulgaris">
     <rdfs:label>Thymus vulgaris</rdfs:label>
-    <ns2:abstract xml:lang="en">Thymus vulgaris (common thyme, German thyme, garden thyme or just thyme) is a species of flowering plant in the mint family Lamiaceae, native to southern Europe from the western Mediterranean to southern Italy. Growing to 15–30 cm (6–12 in) tall by 40 cm (16 in) wide, it is a bushy, woody-based evergreen subshrub with small, highly aromatic, grey-green leaves and clusters of purple or pink flowers in early summer. It is useful in the garden as groundcover, where it can be short-lived, but is easily propagated from cuttings. It is also the main source of thyme as an ingredient in cooking and as an herbal medicine. It is slightly spicier than oregano and sweeter than sage. The Latin specific epithet vulgaris means “common” in the sense of “widespread”.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Thymus vulgaris (cimbru comun, cimbru german, cimbru de grădină sau doar cimbru) este o specie de plante cu flori din familia de mentă Lamiaceae, originară din sudul Europei din vestul Mediteranei până în sudul Italiei.Creșterea până la 15-30 cm (6–12 in) înălțime cu 40 cm (16 in) lățime, este un subshru de încorporare stufoasă, pe bază de lemn, cu frunze mici, extrem de aromatice, gri-verzi și ciorchini de flori violet sau roz învara devreme.Este util în grădină ca acoperire de sol, unde poate fi de scurtă durată, dar este ușor propagat din butași.De asemenea, este principala sursă de cimbru ca ingredient în gătit și ca medicament pe bază de plante.Este ușor mai picant decât oregano și mai dulce decât Sage.Epitetul specific latin vulgaris înseamnă „comun” în sensul „răspândit”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411199"/>

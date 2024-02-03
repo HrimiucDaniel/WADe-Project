@@ -1,62 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Salix%20alba">
     <rdfs:label>Salix alba</rdfs:label>
-    <ns2:abstract xml:lang="en">Salix alba, the white willow, is a species of willow native to Europe and western and central Asia. The name derives from the white tone to the undersides of the leaves. It is a medium-sized to large deciduous tree growing up to 10–30 m tall, with a trunk up to 1 m diameter and an irregular, often-leaning crown. The bark is grey-brown, and deeply fissured in older trees. The shoots in the typical species are grey-brown to green-brown. The leaves are paler than most other willows, due to a covering of very fine, silky white hairs, in particular on the underside; they are 5–10 cm long and 0.5–1.5 cm wide. The flowers are produced in catkins in early spring, and pollinated by insects. It is dioecious, with male and female catkins on separate trees; the male catkins are 4–5 cm long, the female catkins 3–4 cm long at pollination, lengthening as the fruit matures. When mature in midsummer, the female catkins comprise numerous small (4 mm) capsules, each containing numerous minute seeds embedded in white down, which aids wind dispersal.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Salix Alba, salcie albă, este o specie de salcie originară din Europa și Asia de Vest și Centrală.Numele derivă de la tonul alb până la partea inferioară a frunzelor.Este un copac de foioase de dimensiuni medii până la mari, care crește până la 10-30 m înălțime, cu un portbagaj de până la 1 m diametru și o coroană neregulată, adesea înălțată.Coaja este maro-gri și profund fisurată în copacii mai în vârstă.Lăstarii din speciile tipice sunt maro-maro-maro-maro.Frunzele sunt mai palide decât majoritatea celorlalte salcii, din cauza unei acoperiri a firelor albe foarte fine, mătăsoase, în special pe partea inferioară;Au 5-10 cm lungime și 0,5–1,5 cm lățime.Florile sunt produse în pisici la începutul primăverii și polenizate de insecte.Este dioecios, cu pisici masculine și feminine pe copaci separați;Catkins -urile masculine au o lungime de 4-5 cm, catkins -urile de sex feminin 3–4 cm lungime la polenizare, prelungindu -se pe măsură ce fructele se maturizează.Când se maturizează în vară, pisicile feminine cuprind numeroase capsule mici (4 mm), fiecare conținând numeroase semințe de minute încorporate în alb în jos, ceea ce ajută la dispersia vântului.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Tree showing whitish foliage compared to surrounding trees
-Tree showing whitish foliage compared to surrounding trees
-Like all willows,
-Salix alba
-is usually to be found in wet or poorly-drained soil at the edge of pools, lakes or rivers. Its wide-spreading roots take up moisture from a large surrounding area.
-
-Salix alba
-
-
-White willows are fast-growing but relatively short-lived, being susceptible to several
-diseases
-, including
-watermark disease
-caused by the
-bacterium
-Brenneria salicis
-(named because of the characteristic 'watermark' staining in the
-wood
-; syn.
-Erwinia salicis
-) and willow
-anthracnose
-, caused by the fungus
-Marssonina salicicola
-. These diseases can be a serious problem on trees grown for timber or ornament.
-diseases
-watermark disease
-bacterium
-Brenneria salicis
-Brenneria salicis
-wood
-Erwinia salicis
-anthracnose
-Marssonina salicicola
-Marssonina salicicola
-It readily forms natural
-hybrids
-with crack willow
-Salix fragilis
-, the hybrid being named
-Salix
-×
-rubens
-Schrank.
-
-hybrids
-Salix fragilis
-Salix fragilis
-Salix
-rubens</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Arborele care prezintă frunziș albicios în comparație cu treestree-ul înconjurător care prezintă frunziș albicios în comparație cu arborii din jur, toate salcii, Salix albais, de obicei, se găsește în sol umed sau slab drenat, la marginea bazinelor, lacurilor sau râurilor.Rădăcinile sale de răspândire largă preiau umiditatea dintr-o mare zonă înconjurătoare. Salix Albawhite Willows sunt în creștere rapidă, dar relativ de scurtă durată, fiind susceptibile la mai multe date de date, incluzând un stratharkarkark de la TheBacteriumBrenneria salicis (numit din cauza „colorației de filial caracteristice” din lemn;Syn.erwinia salicis) și Willowantracnoză, cauzate de Fungusmarssonina salicicola.Aceste boli pot fi o problemă serioasă asupra copacilor cultivate pentru cherestea sau ornament.DISEASESWATERMARK BOLILBATERIUMBRENNERIA salicisbrenneria saliciswooderwinia salicisanthracnosemarssonina salicicolamarssonina salicicolait formează ușor naturalixul × rubensschran. fragilissalixrubens</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40685"/>

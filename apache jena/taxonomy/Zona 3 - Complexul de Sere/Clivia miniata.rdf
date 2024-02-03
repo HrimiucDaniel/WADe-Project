@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Clivia%20miniata">
     <rdfs:label>Clivia miniata</rdfs:label>
-    <ns2:abstract xml:lang="en">Clivia miniata, the Natal lily or bush lily, is a species of flowering plant in the genus Clivia of the family Amaryllidaceae, native to woodland habitats in South Africa (Eastern Cape, Mpumalanga and KwaZulu-Natal provinces) as well as in Eswatini. Given suitable conditions it grows into large clumps and is surprisingly water wise. It is also reportedly naturalized in Mexico. It is a popular plant for shady areas and is commonly seen growing in older established suburbs in most Australian states. It is also popular in New Zealand, Japan, China and the US, particularly California.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Clivia Miniata, crinul natal sau crinul de tufiș, este o specie de plante cu flori din genul Clivia din familia Amaryllidaceae, originară din habitatele pădure din Africa de Sud (estul Capului, Mpumalanga și Provinciile Kwazulu-Natal), precum și în eswatini.Având în vedere condiții adecvate, crește în aglomerații mari și este surprinzător de înțelept în apă.Se pare că este naturalizat în Mexic.Este o plantă populară pentru zone umbroase și este observată în mod obișnuit în creștere în suburbiile consacrate mai vechi în majoritatea statelor australiene.De asemenea, este popular în Noua Zeelandă, Japonia, China și SUA, în special California.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_16048"/>

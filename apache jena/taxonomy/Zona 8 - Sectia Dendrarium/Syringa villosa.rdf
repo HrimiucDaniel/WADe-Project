@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Syringa%20villosa">
     <rdfs:label>Syringa villosa</rdfs:label>
-    <ns2:abstract xml:lang="en">Syringa villosa, the villous lilac, is a shrub native to Korea, the southern part of the Russian Far East (Primorye) and northern China. There are two subspecies currently recognized (April 2014); these are regarded as separate species in Flora of China. Combining the ranges for the two taxa yields a range within China of Hebei, Shanxi, Heilongjiang, Jilin, and Liaoning. Syringa villosa is a shrub up to 4 m tall, with red, white, pink or purple flowers.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Syringa Villosa, vilotul Lilac, este un arbust originar din Coreea, partea de sud a extremă Orientată Rusă (Primorye) și China de Nord.Există două subspecii recunoscute în prezent (aprilie 2014);Acestea sunt considerate specii separate în flora Chinei.Combinarea intervalelor pentru cei doi taxoni produce o gamă în China din Hebei, Shanxi, Heilongjiang, Jilin și Liaoning.Syringa Villosa este un arbust de până la 4 m înălțime, cu flori roșii, albe, roz sau violet.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_24208"/>

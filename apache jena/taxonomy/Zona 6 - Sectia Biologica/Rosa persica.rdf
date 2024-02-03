@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20persica">
     <rdfs:label>Rosa persica</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosa persica is an anomalous species of rose that at one time was placed in a separate genus Hulthemia. It is native to deserts and steppes from Iran and Afghanistan in the south, through Central Asia, to western Siberia in the north. Its distinctive characteristics include a simple leaf without stipules (most rose leaves are pinnate with 3 to 7 leaflets, and have stipules), and a distinctive flower with a darker coloured central zone. In its natural habitat it is a deep-rooted weed that suckers – growing in Iranian fields for example, where it is collected for fuel once the grain crop has been harvested – but it is difficult to grow in gardens and rarely cultivated. is sometimes considered to be variety of this species, as R. persica var. berberifolia.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rosa Persica este o specie anomală de trandafir care a fost plasată la un moment dat într -un gen separat Hulthemia.Este originar din deșerturi și stepe din Iran și Afganistan în sud, prin Asia Centrală, spre vestul Siberiei în nord.Caracteristicile sale distinctive includ o frunză simplă fără stipule (majoritatea frunzelor de trandafir sunt pinnate cu 3 până la 7 pliante și au stipule) și o floare distinctivă cu o zonă centrală colorată mai închisă.În habitatul său natural, este o buruieni adâncă înrădăcinată, care fraieri-care crește în câmpurile iraniene, de exemplu, unde este colectat pentru combustibil odată ce cultura de cereale a fost recoltată-dar este dificil să crești în grădini și rar cultivat.este uneori considerat a fi varietate a acestei specii, ca R. persica var.Berberifolia.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3764"/>
@@ -16,6 +15,26 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_74628</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Rosa persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.0czbcrw</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q2087013</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/ورد_فارسي</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/ورد_فارسى</ns5:sameAsItem>
+      <ns5:sameAsItem>http://az.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://azb.dbpedia.org/resource/وَرَک</ns5:sameAsItem>
+      <ns5:sameAsItem>http://be.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ca.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Růže_perská</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fa.dbpedia.org/resource/رز_ایرانی</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ml.dbpedia.org/resource/റോസ_പെർസിക</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Róża_perska</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Гультемия_персидская</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Rosa_persica</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/yhue</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

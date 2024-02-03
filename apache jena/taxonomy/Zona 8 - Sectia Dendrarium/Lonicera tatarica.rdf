@@ -1,101 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Lonicera%20tatarica">
     <rdfs:label>Lonicera tatarica</rdfs:label>
-    <ns2:abstract xml:lang="en">Lonicera tatarica is a species of honeysuckle known by the common name Tatarian honeysuckle. Native to Eurasia, the plant is one of several exotic bush honeysuckles present in North America, being considered an invasive species there.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Lonicera tatarica este o specie de hohoysuckle cunoscută de numele comun Tatarian Honeysuckle.Nativă din Eurasia, planta este una dintre mai multe horse de tufișuri exotice prezente în America de Nord, fiind considerată o specie invazivă acolo.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>L. tatarica
-is native to
-Siberia
-and other parts of eastern Asia, especially China.
-
-It is also known to grow in the Himalayas. After being introduced to North America as an
-ornamental plant
-in 1752,
-
-became a widespread
-introduced species
-and
-noxious weed
-. It is known across the continent west to
-Alaska
-and
-California
-, where it easily grows in disturbed habitat.
-L. tatarica
-Siberia
-
-
-ornamental plant
-
-
-introduced species
-noxious weed
-Alaska
-California
-Its preferred environment is partial sun with moist, loamy soil. It is also able to grow in full shade or sun, and in dry or sandy soils.</ns3:habitat>
-    <rdf:habitat>L. tatarica
-is native to
-Siberia
-and other parts of eastern Asia, especially China.
-
-It is also known to grow in the Himalayas. After being introduced to North America as an
-ornamental plant
-in 1752,
-
-became a widespread
-introduced species
-and
-noxious weed
-. It is known across the continent west to
-Alaska
-and
-California
-, where it easily grows in disturbed habitat.
-L. tatarica
-Siberia
-
-
-ornamental plant
-
-
-introduced species
-noxious weed
-Alaska
-California
-Its preferred environment is partial sun with moist, loamy soil. It is also able to grow in full shade or sun, and in dry or sandy soils.</rdf:habitat>
-    <ns3:ecology>Rhagoletis
-fruit fly on berry
-Rhagoletis
-fruit fly on berry
-Rhagoletis
-Rhagoletis
-The species threatens native habitats because the plants grow quickly and form thick, impenetrable mats that smother their competitors.
-
-It most commonly invades thickets, open woodlands, roadsides and fence rows. Animals such as birds and mammals disperse the seeds, causing a rapid spread which often leads to a dense understory thicket that not only restricts native plant growth but also inhibits biodiversity. Once
-L. tatarica
-is introduced into an environment, it is hard to control the growth of the plant in nature because honeysuckles grow at high density. In addition to high densities,
-L. tatarica
-has the ability to suppress the growth of other native plants in the area, thus creating
-monocultures
-. Problems reported with the invasion of
-L. tatarica
-include depletion of soil moisture and nutrients, allelopathic chemicals functioning to chemically alter the growth of native plants, and reductions in the density of tree seedlings in the area.
-
-
-
-L. tatarica
-L. tatarica
-monocultures
-L. tatarica
-
-
-The wood invokes a behavioural response in about half of domestic cats. Of cats that do not respond to
-catnip
-, one third respond to Tatarian honeysuckle.
-
-catnip</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns3:habitat>L. tataricais Tosiberia și alte părți din estul Asiei, în special China. Se știe că, de asemenea, crește în Himalaya.După ce a fost introdus în America de Nord ca plantă anornamentală 1752, a devenit o specie pe scară largă a buruienilor și a buruienilor.Este cunoscut pe continentul vest toalaskaandcalifornia, unde crește cu ușurință în habitatul tulburat.L.Tataricasiberiaornamental planintrodus speciinoxioase Weedalaskacaliforniaits mediul preferat este soarele parțial cu sol umed și plin de viață.De asemenea, este capabil să crească în umbră completă sau la soare și în soluri uscate sau nisipoase.</ns3:habitat>
+    <ns6:ecology>Fly Rhagoletisfruit pe Berryrhagoletisisfruit Fly pe Berryrhagoletisrhagoletis Speciile amenință habitatele autohtone, deoarece plantele cresc rapid și formează covorașe groase, impenetrabile, care își smulg concurenții.Animale precum păsările și mamiferele dispersează semințele, provocând o răspândire rapidă care duce adesea la o pădure densă, care nu numai că restricționează creșterea plantelor autohtone, dar inhibă și biodiversitatea.Oncel.Tataricais a fost introdus într -un mediu, este greu de controlat creșterea plantei în natură, deoarece honeysuckles cresc cu o densitate ridicată.Pe lângă densități mari, l.Tataricahas Capacitatea de a suprima creșterea altor plante autohtone din zonă, creând astfelmonoculturi.Probleme raportate cu invazia lui.Epuizarea tataricainclusiei umidității și nutrienților solului, substanțe chimice alelopatice care funcționează pentru a modifica chimic creșterea plantelor autohtone și reduceri ale densității răsadurilor de arbori din zonă.L.Tatatic.tataricamonoculturel.Tatarathe Wood invocă un răspuns comportamental la aproximativ jumătate din pisicile domestice.De pisici care nu răspund la Catnip, o treime răspund la tatarul honeysuckle.catnip</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_49606"/>

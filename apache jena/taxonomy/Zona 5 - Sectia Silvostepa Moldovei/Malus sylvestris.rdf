@@ -1,61 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Malus%20sylvestris">
     <rdfs:label>Malus sylvestris</rdfs:label>
-    <ns2:abstract xml:lang="en">Malus sylvestris, the European crab apple, is a species of the genus Malus, native to Europe. Its scientific name means &quot;forest apple&quot; and the truly wild tree has thorns.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Malus Sylvestris, Apple Crab European, este o specie din genul Malus, originară din Europa.Numele său științific înseamnă „Apple Forest”, iar copacul cu adevărat sălbatic are spini.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>The tree is widespread throughout Europe, with the exception of the extreme north and south. Additionally, it is also distributed in Anatolia and further into the
-south Caucasus
-.
-
-However, it occurs in a scattered distribution pattern as single individuals or in small groups.
-
-Due to its weak competitiveness and high light requirement, the wild apple is found mostly at sites where competition is reduced, such as the wet edge of forests, in
-wood pasture
-, farmland hedges or on very extreme, marginal sites.
-
-In the British Isles it occurs throughout
-Ireland
-, England and Wales and with reduced frequency in Scotland.
-
-In Scotland, it is most commonly found in woodlands and wood pastures.
-
-south Caucasus
-
-
-
-
-wood pasture
-
-
-Ireland</ns3:habitat>
-    <rdf:habitat>The tree is widespread throughout Europe, with the exception of the extreme north and south. Additionally, it is also distributed in Anatolia and further into the
-south Caucasus
-.
-
-However, it occurs in a scattered distribution pattern as single individuals or in small groups.
-
-Due to its weak competitiveness and high light requirement, the wild apple is found mostly at sites where competition is reduced, such as the wet edge of forests, in
-wood pasture
-, farmland hedges or on very extreme, marginal sites.
-
-In the British Isles it occurs throughout
-Ireland
-, England and Wales and with reduced frequency in Scotland.
-
-In Scotland, it is most commonly found in woodlands and wood pastures.
-
-south Caucasus
-
-
-
-
-wood pasture
-
-
-Ireland</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns3:habitat>Arborele este răspândit în toată Europa, cu excepția extremei nord și sud.În plus, este distribuit și în Anatolia și mai departe în caucazul de la South. Cu toate acestea, apare într -un model de distribuție împrăștiat ca indivizi singuri sau în grupuri mici. Du -te la competitivitatea sa slabă și cerințele ridicate de lumină, Apple sălbatică se găsește mai ales pe site -urile undeConcurența este redusă, cum ar fi marginea umedă a pădurilor, pășunile din lemn, gardurile de terenuri agricole sau pe site -uri foarte extreme, marginale. În Insulele britanice, apare în întregime, Anglia și Țara Galilor și cu o frecvență redusă în Scoția. În Scoția, este cel mai frecventGăsit în păduri și pășuni din lemn.</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3749"/>

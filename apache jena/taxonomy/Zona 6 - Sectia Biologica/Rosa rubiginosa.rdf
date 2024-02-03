@@ -1,69 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20rubiginosa">
     <rdfs:label>Rosa rubiginosa</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosa rubiginosa (sweet briar, sweetbriar rose, sweet brier or eglantine; syn. R. eglanteria) is a species of rose native to Europe and western Asia.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rosa rubiginosa (dulce briar, trandafir dulce, brier dulce sau eglantină; syn. R. eglanteria) este o specie de trandafir originar din Europa și Asia de Vest.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>Rosa rubiginosa
-is native to most of Europe with the exception of the extreme north (above
-61°N
-), where it inhabits pastures and thorny bushes from the
-montane
-to the
-subalpine
-floor, with a sunny, continental climate. It is somewhat rare, with isolated specimens near roads and pastures frequented by cattle. Its presence is doubtful in western Asia. In
-Southern Europe
-it lives in higher altitudes, usually 1,000 to 1,700 m (3,300 to 5,600 ft).
-
-In
-Portugal
-it is classified as
-Critically Endangered
-and is restricted to the
-Serra da Estrela
-range.
-
-Rosa rubiginosa
-61°N
-montane
-subalpine
-Southern Europe
-
-
-Portugal
-Critically Endangered
-Serra da Estrela</ns3:habitat>
-    <rdf:habitat>Rosa rubiginosa
-is native to most of Europe with the exception of the extreme north (above
-61°N
-), where it inhabits pastures and thorny bushes from the
-montane
-to the
-subalpine
-floor, with a sunny, continental climate. It is somewhat rare, with isolated specimens near roads and pastures frequented by cattle. Its presence is doubtful in western Asia. In
-Southern Europe
-it lives in higher altitudes, usually 1,000 to 1,700 m (3,300 to 5,600 ft).
-
-In
-Portugal
-it is classified as
-Critically Endangered
-and is restricted to the
-Serra da Estrela
-range.
-
-Rosa rubiginosa
-61°N
-montane
-subalpine
-Southern Europe
-
-
-Portugal
-Critically Endangered
-Serra da Estrela</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns3:habitat>Rosa rubiginosais, originar din cea mai mare parte a Europei, cu excepția nordului extrem (peste 61 ° N), unde locuiește pășuni și tufișuri spinoase din Thesubalpinefloor, cu un climat însorit, continental.Este oarecum rar, cu exemplare izolate în apropierea drumurilor și pășunilor frecventate de bovine.Prezența sa este îndoielnică în Asia de Vest.Europa de la Europa, trăiește în altitudini mai mari, de obicei de la 1.000 până la 1.700 m (3.300 până la 5.600 ft) .Inportugalit este clasificat ascritic pe cale de dispariție și este limitat la theserra da estrelange.Rosa rubiginosa61 ° NMontanesubalpinesouthern Europeportugalcriticald EndangeredSerra Da Estreela Europeportugalcriticald Endangedserra Da Estrelai, Europeportugalcritic, de la NMontanesubalpinesouthern Europeportugalcritical Europes</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3764"/>
@@ -72,6 +15,47 @@ Serra da Estrela</rdf:habitat>
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_74636</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Rosa rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.04069l</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lod.geospecies.org/ses/HOaYm</ns5:sameAsItem>
+      <ns5:sameAsItem>http://yago-knowledge.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/179291</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q15546415</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q161146</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q87585478</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/ورد_ياقوتي</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/ورد_روبيجينوزا</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ast.dbpedia.org/resource/Rosa_eglanteria</ns5:sameAsItem>
+      <ns5:sameAsItem>http://az.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ca.dbpedia.org/resource/Englantina_roja</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Růže_vinná</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cy.dbpedia.org/resource/Drysïen_bêr</ns5:sameAsItem>
+      <ns5:sameAsItem>http://da.dbpedia.org/resource/Æble-rose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Wein-Rose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eo.dbpedia.org/resource/Eglanterio</ns5:sameAsItem>
+      <ns5:sameAsItem>http://es.dbpedia.org/resource/Rosa_eglanteria</ns5:sameAsItem>
+      <ns5:sameAsItem>http://et.dbpedia.org/resource/Näärmekas_kibuvits</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eu.dbpedia.org/resource/Otso-lahar</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fa.dbpedia.org/resource/رز_اگلندتریا</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Omenaruusu</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Rđasta_ruža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Winowa_róža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Rozsdás_rózsa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://it.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ml.dbpedia.org/resource/റോസ_റൂബിജിനോസ</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Egelantier_(soort)</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Róża_rdzawa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pnb.dbpedia.org/resource/شراب_گلاب</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pt.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Шиповник_красно-бурый</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sco.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Äppelros</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Шипшина_іржаста</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Rosa_rubiginosa</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/Y4DW</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

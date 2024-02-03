@@ -1,182 +1,25 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Poaceae">
     <rdfs:label>Poaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Poaceae (/poʊˈeɪsiaɪ/) or Gramineae (/ɡrəˈmɪniaɪ/) is a large and nearly ubiquitous family of monocotyledonous flowering plants commonly known as grasses. It includes the cereal grasses, bamboos and the grasses of natural grassland and species cultivated in lawns and pasture. The latter are commonly referred to collectively as grass. With around 780 genera and around 12,000 species, the Poaceae is the fifth-largest plant family, following the Asteraceae, Orchidaceae, Fabaceae and Rubiaceae. The Poaceae are the most economically important plant family, providing staple foods from domesticated cereal crops such as maize, wheat, rice, barley, and millet as well as feed for meat-producing animals. They provide, through direct human consumption, just over one-half (51%) of all dietary energy; rice provides 20%, wheat supplies 20%, maize (corn) 5.5%, and other grains 6%. Some members of the Poaceae are used as building materials (bamboo, thatch, and straw); others can provide a source of biofuel, primarily via the conversion of maize to ethanol. Grasses have stems that are hollow except at the nodes and narrow alternate leaves borne in two ranks. The lower part of each leaf encloses the stem, forming a leaf-sheath. The leaf grows from the base of the blade, an adaptation allowing it to cope with frequent grazing. Grasslands such as savannah and prairie where grasses are dominant are estimated to constitute 40.5% of the land area of the Earth, excluding Greenland and Antarctica. Grasses are also an important part of the vegetation in many other habitats, including wetlands, forests and tundra. Though they are commonly called &quot;grasses&quot;, groups such as the seagrasses, rushes and sedges fall outside this family. The rushes and sedges are related to the Poaceae, being members of the order Poales, but the seagrasses are members of order Alismatales. However, all of them belong to the monocot group of plants.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Poaceae (/Poʊˈeɪsiaɪ/) sau Gramineae (/ɡrəˈmɪniaɪ/) este o familie mare și aproape omniprezentă de plante cu flori monocotiledonate cunoscute în mod obișnuit ca ierburi.Include ierburile de cereale, bambusul și ierburile pajiștilor naturale și speciilor cultivate în peluze și pășune.Acestea din urmă sunt denumite în mod obișnuit colectiv ca iarbă.Cu aproximativ 780 de genuri și aproximativ 12.000 de specii, Poaceae este a cincea cea mai mare familie de plante, în urma Asteraceae, Orchidaceae, Fabaceae și Rubiaceae.Poaceae sunt cea mai importantă familie de plante din punct de vedere economic, oferind alimente de bază din culturi de cereale domesticite, cum ar fi porumb, grâu, orez, orz și mei, precum și hrană pentru animale producătoare de carne.Ele oferă, prin consumul uman direct, puțin peste o jumătate (51%) din toată energia dietetică;Orez oferă 20%, livrări de grâu 20%, porumb (porumb) 5,5%și alte boabe 6%.Unii membri ai Poaceae sunt folosiți ca materiale de construcție (bambus, paie și paie);Alții pot oferi o sursă de biocombustibil, în principal prin conversia porumbului în etanol.Iarbele au tulpini care sunt goale, cu excepția nodurilor și frunze alternative înguste purtate în două rânduri.Partea inferioară a fiecărei frunze cuprinde tulpina, formând o tesă de frunze.Frunza crește de la baza lamei, o adaptare care îi permite să facă față pășunatului frecvent.Piciile, cum ar fi Savannah și Prairie, unde se estimează că ierburile sunt dominante care constituie 40,5% din suprafața terestră a Pământului, cu excepția Groenlandei și Antarctica.Iarbele sunt, de asemenea, o parte importantă a vegetației în multe alte habitate, inclusiv zone umede, păduri și tundră.Deși sunt numite în mod obișnuit „ierburi”, grupuri precum pescărușii, graba și sedges -urile cad în afara acestei familii.Gradurile și sedge -urile sunt legate de Poaceae, fiind membri ai ordinii Poales, dar pescărușii sunt membri ai alismatales -ului de ordin.Cu toate acestea, toate aparțin grupului de plante Monocot.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem> Anomochlooideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Aristidoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Arundinoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Bambusoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Chloridoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Danthonioideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Ehrhartoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Micrairoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Panicoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Pharoideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Pooideae</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Puelioideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Anomochlooideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Aristidoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Arundinoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Bambusoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Chloridoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Danthonioideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Ehrhartoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Micrairoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Panicoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Pharoideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Pooideae</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Puelioideae</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Wind-blown grass in the
-Valles Caldera
-in New Mexico, United States
-Wind-blown grass in the
-Valles Caldera
-in New Mexico, United States
-Valles Caldera
-Grasses are the
-dominant
-vegetation in many habitats, including
-grassland
-,
-salt-marsh
-,
-reedswamp
-and
-steppes
-. They also occur as a smaller part of the vegetation in almost every other terrestrial habitat.
-
-Grass-dominated
-biomes
-are called grasslands. If only large, contiguous areas of grasslands are counted, these biomes cover 31% of the planet's land.
-
-Grasslands include
-pampas
-,
-steppes
-, and
-prairies
-.
-
-Grasses provide food to many
-grazing
-mammals,
-
-as well as to many species of
-butterflies
-and
-moths
-.
-
-
-Many types of animals eat grass as their main source of food, and are called
-graminivores
-– these include
-cattle
-,
-sheep
-,
-horses
-,
-rabbits
-and many
-invertebrates
-, such as
-grasshoppers
-and the caterpillars of many
-brown butterflies
-. Grasses are also eaten by
-omnivorous
-or even occasionally by primarily
-carnivorous
-animals.
-dominant
-grassland
-salt-marsh
-reedswamp
-steppes
-
-citation needed
-citation needed
-citation needed
-biomes
-
-
-pampas
-steppes
-prairies
-
-
-grazing
-
-
-butterflies
-moths
-
-
-
-
-graminivores
-graminivores
-cattle
-sheep
-horses
-rabbits
-invertebrates
-grasshoppers
-brown butterflies
-omnivorous
-carnivorous
-A
-kangaroo
-eating grass
-A
-kangaroo
-eating grass
-kangaroo
-Grasses dominate certain
-biomes
-, especially
-temperate grasslands
-, because many species are adapted to grazing and fire.
-
-biomes
-temperate grasslands
-
-
-Grasses are unusual in that the
-meristem
-is near the bottom of the plant; hence, grasses can quickly recover from cropping at the top.
-
-The evolution of large grazing animals in the
-Cenozoic
-contributed to the spread of grasses. Without large grazers, fire-cleared areas are quickly colonized by grasses, and with enough rain, tree seedlings. Trees eventually outcompete most grasses. Trampling grazers kill seedling trees but not grasses.
-
-: 137
-meristem
-
-
-Cenozoic
-
-
-: 137
-: 137</ns3:ecology>
-    <ns3:taxonomy>The name Poaceae was given by
-John Hendley Barnhart
-in 1895,
-
-: 7
-based on the tribe Poeae described in 1814 by
-Robert Brown
-, and the type genus
-Poa
-described in 1753 by
-Carl Linnaeus
-. The term is derived from the Ancient Greek
-πόα (póa, &quot;fodder&quot;)
-.
-John Hendley Barnhart
-
-
-: 7
-: 7
-Robert Brown
-Poa
-Poa
-Carl Linnaeus
-πόα (póa, &quot;fodder&quot;)</ns3:taxonomy>
+    <ns6:ecology>Iarba suflată de vânt în Thevalles Calderain New Mexico, iarba din Statele Unite ale Americii, în Thevalles Calderain New Mexico, Calderagrasurile din Statele Unite ale Americii, sunt în multe habitate, inclusiv Grassland, Salt-Marsh, Reedswampandsteppes.De asemenea, apar ca o parte mai mică a vegetației în aproape orice alt habitat terestru.Dacă se numără doar zone mari, contigue, de pajiști, acești biomi acoperă 31% din terenul planetei. Grasslands IncludePampas, Stepes și Prairies.Grasses oferă mâncare pentru multe tipuri de animale, precum și pentru multe specii de butterfliesandmoths. Muzești de animale mănâncă iarbă ca lor ca lor ca lor, ca lor, ca și lorPrincipala sursă de hrană și sunt numite Graminivore - acestea includ Pechectle, Sheep, Cai, Rabbitsand Many -Invertebrate, cum ar fi ASGRASSHOPPERS și omizile fluturilor multor fluturi.Grasses are also eaten byomnivorousor even occasionally by primarilycarnivorousanimals.dominantgrasslandsalt-marshreedswampsteppescitation neededcitation neededcitation neededbiomespampassteppesprairiesgrazingbutterfliesmothsgraminivoresgraminivorescattlesheephorsesrabbitsinvertebratesgrasshoppersbrown butterfliesomnivorouscarnivorousAkangarooeating grassAkangarooeating grasskangarooGrasses dominate certainbiomes, especiallytemperate grasslands, because many species are adapted to grazing and fire.biomestemperate grasslandsGrasses are unusual in that themeristemis near the bottom of the plant;Prin urmare, ierburile se pot recupera rapid de la decuparea în partea de sus. Evoluția animalelor mari de pășunat în tenozoiccontribuit la răspândirea ierburilor.Fără pășuni mari, zonele care se curăță de foc sunt colonizate rapid de ierburi și cu suficientă ploaie, răsaduri de copac.În cele din urmă, copacii, în cele din urmă, completează majoritatea ierburilor.Trașterul pășunilor omoară copaci de răsaduri, dar nu și ierburi: 137Meristemcenozoic: 137: 137</ns6:ecology>
+    <ns6:taxonomy>Numele Poaceae i s -a dat byjohn Hendley Barnhartin 1895 ,: 7Based pe tribul Poeae descris în 1814 Byrobert Brown, și tipul de tip Genuspoadescris în 1753 de ByCarl Linnaeus.Termenul este derivat din grecoalul antic (Póa, &quot;nutreț&quot;). Ioan Hendley Barnhart: 7: 7Robert Brownpoaaacarl Linnaeusπόα (Póa, &quot;furaj&quot;)</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_38820"/>

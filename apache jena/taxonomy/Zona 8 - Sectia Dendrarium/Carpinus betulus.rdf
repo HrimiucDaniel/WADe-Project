@@ -1,47 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Carpinus%20betulus">
     <rdfs:label>Carpinus betulus</rdfs:label>
-    <ns2:abstract xml:lang="en">Carpinus betulus, the European or common hornbeam, is a species of tree in the birch family Betulaceae, native to Western Asia and central, eastern, and southern Europe, including southern England. It requires a warm climate for good growth, and occurs only at elevations up to 1,000 metres (3,281 ft). It grows in mixed stands with oak, and in some areas beech, and is also a common tree in scree forests. Hornbeam was also known as 'Yoke Elm'.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Carpinus betulus, Hornbeam european sau comun, este o specie de copac din familia Birch Betulaceae, originară din Asia de Vest și din Europa Centrală, de Est și de Sud, inclusiv din sudul Angliei.Necesită un climat cald pentru o creștere bună și apare doar la cote de până la 1.000 de metri (3.281 ft).Crește în standuri mixte cu stejar și în unele zone fag și este, de asemenea, un copac obișnuit în pădurile scârțâite.Hornbeam a fost, de asemenea, cunoscut sub numele de „Elm de jug”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Old hornbeam coppice stools left uncut for at least 100 years.
-Coldfall Wood
-, London
-Old hornbeam coppice stools left uncut for at least 100 years.
-Coldfall Wood
-, London
-Coldfall Wood
-In England, trees appear to prefer soils with a pH from 3.6 to 4.6 but tolerate up to 7.6. They are found on soils with moderate clay content and avoid soils with particularly high or low clay content.
-
-Carpinus betulus
-likes full sun or partial shade,
-
-moderate
-soil fertility
-and moisture. It has a shallow, wide-spreading root system and is marked by the production of stump sprouts when cut back.
-
-
-
-Carpinus betulus
-
-
-soil fertility
-
-citation needed
-citation needed
-citation needed
-The
-seeds
-often do not germinate until the spring of the second year after sowing. The hornbeam is a prolific seeder and is marked by vigorous natural regeneration.
-
-seeds
-
-citation needed
-citation needed
-citation needed</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Scaunele vechi de coppice Hornbeam au lăsat netăiat timp de cel puțin 100 de ani. Cuplfall Wood, Londonold Hornbeam Coppice Scaune lăsate netăiat timp de cel puțin 100 de ani.7.6.Se găsesc pe soluri cu conținut moderat de argilă și evită solurile cu conținut de argilă deosebit de mare sau scăzut.Are un sistem de rădăcini superficial, răspândit larg și este marcat de producerea de varză de ciot atunci când este tăiată înapoi. CARPINUSE BETULUSSOIL FERTILITATEA CITITATEA NECEPĂTĂTĂȚII CETĂTOR CITIVAȚIE CITIVE NECESATE.Hornbeam este un semănător prolific și este marcat de o regenerare naturală viguroasă. SEEDSIPITATE NECEPTĂ CITITATE NECESĂ CETĂ</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12989"/>

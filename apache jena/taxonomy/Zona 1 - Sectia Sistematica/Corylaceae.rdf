@@ -1,23 +1,22 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Corylaceae">
     <rdfs:label>Corylaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Coryloideae is a subfamily in the woody angiosperm family Betulaceae, commonly known as the birch family, and consists of four extant genera - Corylus L., Ostryopsis Decne., Carpinus L., and Ostrya Scop. These deciduous trees and shrubs are primarily distributed in the boreal and cool temperate zones of the Northern Hemisphere, with the majority occurring in Asia, many occurring in North America and a few species occurring as far south as South America. Synapomorphies such reduced staminate flowers, advanced wood anatomy features, and the presence of spermidines in pollen define the Coryloideae. While the division of the extant members of the Betulaceae into six genera is uncontroversial, the placement of these genera into higher taxonomic ranks and the level of these ranks are debated. Extensive studies on the basis of ribulose- 1,5-biphosphate carboxylase (rbcL) sequences, internal transcribed spacer (ITS) sequences, morphology, and various combined data sets support the dichotomy of the Betulaceae into two major clades. A few authors have divided the genera into two families, the Betulaceae (Alnus, Betula) and Corylaceae (Carpinus, Ostrya, Corylus, Ostryopsis). Many modern authors recognize two separate clades within the family, either as tribes Betuleae and Coryleae or subfamilies Betuloideae and Coryloideae. There has also been debate on the further division of the Coryloideae into two tribes: Coryleae (Corylus) and Carpineae (Ostryopsis, Carpinus, Ostrya).</ns2:abstract>
+    <ns2:abstract xml:lang="en">Coryloideae este o subfamilie în familia Woody Angiosperm Betulaceae, cunoscută în mod obișnuit ca familia Birch și este formată din patru genuri existente - Corylus L., Ostryopsis Decne., Carpinus L. și Ostrya Scop.Acești arbori și arbuști de foioase sunt distribuite în principal în zonele temperate boreale și reci din emisfera nordică, majoritatea apărând în Asia, multe care au avut loc în America de Nord și câteva specii care au apărut la sud ca America de Sud.Sinapomorfii atât de reduse flori staminate, caracteristici avansate de anatomie a lemnului și prezența spermidinelor în polen definesc Coryloideae.În timp ce diviziunea membrilor existenți ai Betulaceae în șase genuri este necontroversată, plasarea acestor genuri în ranguri taxonomice mai mari și nivelul acestor rânduri este dezbătut.Studii ample pe baza secvențelor de ribuloză-1,5-bifosfat carboxilază (RBCL), secvențe de distanță transcrisă internă (ITS), morfologie și diverse seturi de date combinate susțin dicotomia Betulaceae în două clade majore.Câțiva autori au împărțit genurile în două familii, Betulaceae (Alnus, Betula) și Corylaceae (Carpinus, Ostrya, Corylus, Ostryopsis).Mulți autori moderni recunosc două clade separate în cadrul familiei, fie ca triburi Betuleae și Coryleae, fie subfamilii Betuloideae și Coryloideae.De asemenea, a existat dezbateri cu privire la diviziunea ulterioară a Coryloideae în două triburi: Coryleae (Corylus) și Carpineae (Ostryopsis, Carpinus, Ostrya).</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem> †Asterocarpinus</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Carpinus</ns3:subspeciesItem>
-      <ns3:subspeciesItem> †Coryloides</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Corylus</ns3:subspeciesItem>
-      <ns3:subspeciesItem> †Cranea</ns3:subspeciesItem>
-      <ns3:subspeciesItem> †Kardiasperma</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Ostrya</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Ostryopsis</ns3:subspeciesItem>
-      <ns3:subspeciesItem> †Palaeocarpinus</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/†Asterocarpinus</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Carpinus</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/†Coryloides</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Corylus</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/†Cranea</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/†Kardiasperma</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Ostrya</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Ostryopsis</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/†Palaeocarpinus</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource=""/>

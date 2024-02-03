@@ -1,92 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Mentha">
     <rdfs:label>Mentha</rdfs:label>
-    <ns2:abstract xml:lang="en">Mentha (also known as mint, from Greek μίνθα míntha, Linear B mi-ta) is a genus of plants in the family Lamiaceae (mint family). The exact distinction between species is unclear; it is estimated that 13 to 24 species exist. Hybridization occurs naturally where some species' ranges overlap. Many hybrids and cultivars are known. The genus has a subcosmopolitan distribution across Europe, Africa - (Southern Africa), Asia, Australia - Oceania, North America and South America. Its species can be found in many environments, but most grow best in wet environments and moist soils.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Mentha (cunoscută și sub numele de Mint, din grecesc μίνθα Míntha, liniar B mi-ta) este un gen de plante din familia Lamiaceae (familia de mentă).Distincția exactă între specii este neclară;Se estimează că există 13 până la 24 de specii.Hibridizarea are loc în mod natural, unde se suprapun intervalele unor specii.Sunt cunoscuți mulți hibrizi și cultivare.Genul are o distribuție subcosmopolitană în Europa, Africa - (Africa de Sud), Asia, Australia - Oceania, America de Nord și America de Sud.Speciile sale pot fi găsite în multe medii, dar cele mai multe cresc cel mai bine în mediile umede și în solurile umede.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy>Mentha
-is a member of the
-tribe
-Mentheae in the
-subfamily
-Nepetoideae
-. The tribe contains about 65 genera, and relationships within it remain obscure.
-
-Authors have disagreed on the
-circumscription
-of
-Mentha
-. For example,
-M. cervina
-has been placed in
-Pulegium
-and
-Preslia
-, and
-M. cunninghamii
-has been placed in
-Micromeria
-.
-
-In 2004, a
-molecular phylogenetic
-study indicated that both
-M. cervina
-and
-M. cunninghamii
-should be included in
-Mentha
-.
-
-However,
-M. cunninghamii
-was excluded in a 2007 treatment of the genus.
-
-Mentha
-tribe
-subfamily
-Nepetoideae
-
-
-circumscription
-Mentha
-M. cervina
-Pulegium
-Preslia
-M. cunninghamii
-Micromeria
-Micromeria
-
-
-molecular phylogenetic
-M. cervina
-M. cunninghamii
-Mentha
-
-
-M. cunninghamii
-
-
-More than 3,000 names have been published in the genus
-Mentha
-, at ranks from species to forms, the majority of which are regarded as
-synonyms
-or
-illegitimate names
-. The taxonomy of the genus is made difficult because many species hybridize readily, or are themselves derived from possibly ancient hybridization events. Seeds from hybrids give rise to variable offspring, which may spread through vegetative propagation. The variability has led to what has been described as &quot;paroxysms of species and subspecific taxa&quot;; for example, one taxonomist published 434 new mint taxa for central Europe alone between 1911 and 1916.
-
-Recent sources recognize between 18
-
-and 24
-
-species.
-
-Mentha
-synonyms
-illegitimate names</ns3:taxonomy>
+    <ns6:ecology/>
+    <ns6:taxonomy>Menthais un membru al ThetribementHeae în TheSubfamilynepetoideae.Tribul conține aproximativ 65 de genuri, iar relațiile din interiorul său rămân obscure. Autori nu au fost de acord cu privire la circumcumpmentofmentha.De exemplu, m.Cervinahas a fost plasat InPulegiumandPreslia, andm.Cunninghamiihas a fost plasat inmicromeria.in 2004, filogeneticul amolecular a indicat că ambele.Cervinaandm.Cunninghamiishish ar fi inclus Inmentha.Dever, m.Cunninghamiiwas exclus într -un tratament din 2007 al genului.Cervinapulegiumpresliam.Cunninghamiimicromeriamicromermolecular Filogeneticm.Cervinam.Cunninghamiimentham.Cunninghamiimore mai mult de 3.000 de nume au fost publicate în Genusmentha, la rânduri de la specii la forme, majoritatea fiind considerate nume de assinonysorillegitim.Taxonomia genului este îngreunată, deoarece multe specii se hibridizează ușor sau sunt ele însele derivate din evenimente de hibridizare posibil.Semințele din hibrizi dau naștere la urmași variabili, care se pot răspândi prin propagarea vegetativă.Variabilitatea a dus la ceea ce a fost descris ca „paroxisme de specii și taxoni subspecifici”;De exemplu, un taxonomist a publicat 434 de noi taxoni de mentă pentru Europa Centrală doar între 1911 și 1916. Surse de represiune recunosc între 18 ani și 24specie.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_216718"/>

@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Prunus%20fruticosa">
     <rdfs:label>Prunus fruticosa</rdfs:label>
-    <ns2:abstract xml:lang="en">Prunus fruticosa, the European dwarf cherry, dwarf cherry, Mongolian cherry or steppe cherry is a deciduous, xerophytic, winter-hardy, cherry-bearing shrub. It is also called ground cherry and European ground cherry, but is not to be confused with plants in the distinct &quot;Groundcherry&quot; genus of Physalis. Prunus fruticosa is native to Ciscaucasia, western Siberia, Kazakhstan, Xinjiang China, western Russia, Ukraine, Poland, Czech Republic, Germany, Belarus, Moldova, Bulgaria, Romania, Hungary, Serbia, Austria, and Italy.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Prunus fruticosa, cireșul pitic european, cireșul pitic, cireșul mongol sau vișinul de stepă este un arbust de foioase, xerofitice, cu căldură de iarnă, purtătoare de cireș.De asemenea, se numește cireș măcinat și cireș european, dar nu trebuie confundat cu plantele din genul „GroundCherry” distinct al Physalis.Prunus fruticosa este originar din Ciscaucasia, Siberia de Vest, Kazahstan, Xinjiang China, Rusia de Vest, Ucraina, Polonia, Republica Cehă, Germania, Belarus, Moldova, Bulgaria, România, Ungaria, Serbia, Austria și Italia.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3754"/>

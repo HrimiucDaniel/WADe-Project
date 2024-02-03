@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Crocus%20reticulatus">
     <rdfs:label>Crocus reticulatus</rdfs:label>
-    <ns2:abstract xml:lang="en">Crocus reticulatus is a species of flowering plant in the genus Crocus of the family Iridaceae. It is a cormous perennial native to central and southern European Russia, the northern Caucasus, the Transcaucasus, and Ukraine. Crocus reticulatus is found growing in woods and meadows at elevations up to 2000 meters, and flowering occurs February though April.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Crocus reticulatus este o specie de plante cu flori din genul Crocus din familia Iridaceae.Este o perenă cormă originară din Rusia Centrală și de Sud, Caucazul de Nord, Transcaucaz și Ucraina.Crocus reticulatus se găsește în creștere în pădure și pajiști la altitudini până la 2000 de metri, iar înflorirea are loc în februarie, deși aprilie.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_58949"/>

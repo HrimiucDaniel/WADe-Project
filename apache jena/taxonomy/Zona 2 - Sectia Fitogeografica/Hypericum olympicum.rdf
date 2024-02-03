@@ -1,119 +1,17 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Hypericum%20olympicum">
     <rdfs:label>Hypericum olympicum</rdfs:label>
-    <ns2:abstract xml:lang="en">Hypericum olympicum, commonly known as the Mount Olympus St. John's wort, is a species of flowering plant in the family Hypericaceae found in the Balkans and Turkey and introduced to western Europe. It has been widely cultivated for centuries because of its large, showy flowers, which are far larger than those of most other species in Hypericum.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Hypericum Olympicum, cunoscut în mod obișnuit sub numele de Muntele Olympus St.Acesta a fost cultivat pe scară largă de secole din cauza florilor sale mari, spectaculoase, care sunt mult mai mari decât cele ale majorității altor specii din Hypericum.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem> H. olympicum f. minus (Hausskn.)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> H. olympicum f. olympicum</ns3:subspeciesItem>
-      <ns3:subspeciesItem> H. olympicum f. tenuifolium ( N. Robson)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> H. olympicum f. uniflorum (Boiss. &amp; Balansa)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/H. olympicum f. minus (Hausskn.)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/H. olympicum f. olympicum</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/H. olympicum f. tenuifolium ( N. Robson)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/H. olympicum f. uniflorum (Boiss. &amp; Balansa)</ns3:subspeciesItem>
     </ns3:subspecies>
-    <ns3:habitat>The species is native to Southeastern
-Serbia
-,
-Macedonia
-,
-Albania
-,
-Bulgaria
-,
-Greece
-(excluding Crete and western Aegean islands), and northwestern
-Turkey
-.
-
-
-The species was first introduced to England in 1676 by
-Sir George Wheeler
-from seeds found in Turkey, and it was cultivated at the
-Oxford Botanical Garden
-.
-
-The species has also been recorded as establishing itself in Belgium and France, where it is considered an invasive species.
-
-
-Serbia
-Macedonia
-Albania
-Bulgaria
-Greece
-Turkey
-
-
-
-
-Sir George Wheeler
-Oxford Botanical Garden
-
-
-
-
-
-
-It can be found in sandy, stony, and sometimes grassy places or among rocks in open ground,  or in
-pine
-woodland at elevations of 0–2000 m.
-
-pine</ns3:habitat>
-    <rdf:habitat>The species is native to Southeastern
-Serbia
-,
-Macedonia
-,
-Albania
-,
-Bulgaria
-,
-Greece
-(excluding Crete and western Aegean islands), and northwestern
-Turkey
-.
-
-
-The species was first introduced to England in 1676 by
-Sir George Wheeler
-from seeds found in Turkey, and it was cultivated at the
-Oxford Botanical Garden
-.
-
-The species has also been recorded as establishing itself in Belgium and France, where it is considered an invasive species.
-
-
-Serbia
-Macedonia
-Albania
-Bulgaria
-Greece
-Turkey
-
-
-
-
-Sir George Wheeler
-Oxford Botanical Garden
-
-
-
-
-
-
-It can be found in sandy, stony, and sometimes grassy places or among rocks in open ground,  or in
-pine
-woodland at elevations of 0–2000 m.
-
-pine</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy>H. olympicum
-was first described in
-Carolus Linnaeus's
-Species Plantarum
-in 1753.
-
-H. olympicum
-Carolus Linnaeus's
-Species Plantarum
-Species Plantarum</ns3:taxonomy>
+    <ns3:habitat>The species is native to SoutheasternSerbia,Macedonia,Albania,Bulgaria,Greece(excluding Crete and western Aegean islands), and northwesternTurkey.The species was first introduced to England in 1676 bySir George Wheelerfrom seeds found in Turkey, and it was cultivated at theOxford BotanicalGrădină. Speciile au fost, de asemenea, înregistrate ca fiind stabilindu -se în Belgia și Franța, unde este considerată o specie invazivă.Serbiamacedoniaalbaniabulgariagreeceturkeysir George Wheeleroxford Gardenical poate fi găsit în locuri nisipoase, sonice și uneori ierbate sau printre roci în pământ deschis sau în interpinewoodlandland, în nisip, în sudură și în locurile de iarbă sau printre roci în pământ deschis, sau în interpinewoodlandlandland, sau în interpinela creșteri de 0–2000 m.pine</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy>H. Olympicumwas a descris pentru prima dată Plantaruminul Icarolus Linnaeus'sspecies, 1753.H.Olympicumcarolus Linnaeus'sspecie Planttarumspecie Plantarum</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55962"/>

@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Prunus%20cerasifera">
     <rdfs:label>Prunus cerasifera</rdfs:label>
-    <ns2:abstract xml:lang="en">Prunus cerasifera is a species of plum known by the common names cherry plum and myrobalan plum. It is native to Southeast Europe and Western Asia, and is naturalised in the British Isles and scattered locations in North America. Also naturalized in parts of SE Australia where it is considered to be a mildly invasive weed of bushland near urban centers.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Prunus cerasifera este o specie de prune cunoscută de numele comune de cireșă prun și prunul mirobalan.Este originar din Europa de Sud -Est și Asia de Vest și este naturalizat în Insulele Britanice și în locațiile împrăștiate din America de Nord.De asemenea, naturalizate în anumite părți din SE Australia, unde este considerată a fi o buruiană ușor invazivă a pădurilor din apropierea centrelor urbane.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3754"/>

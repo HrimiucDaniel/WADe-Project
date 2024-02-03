@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Acer%20saccharinum">
     <rdfs:label>Acer saccharinum</rdfs:label>
-    <ns2:abstract xml:lang="en">Acer saccharinum, commonly known as silver maple, creek maple, silverleaf maple, soft maple, large maple, water maple, swamp maple, or white maple, is a species of maple native to the eastern and central United States and southeastern Canada. It is one of the most common trees in the United States. Although the silver maple's Latin name is similar, it should not be confused with Acer saccharum, the sugar maple. Some of the common names are also applied to other maples, especially Acer rubrum.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Acer Saccharinum, cunoscut în mod obișnuit ca arțar de argint, arțar Creek, arțar argintiu, arțar moale, arțar mare, arțar de apă, arțar mlaștin sau arțar alb, este o specie de arțar originar din estul și centrul Statelor Unite și sud -estul Canadei.Este unul dintre cei mai obișnuiți copaci din Statele Unite.Deși numele latin al arțului de argint este similar, nu trebuie confundat cu Acer Saccharum, Arțarul zahărului.Unele dintre numele comune sunt aplicate și altor arțari, în special Acer Rubrum.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4022"/>

@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Forsythia%20europaea">
     <rdfs:label>Forsythia europaea</rdfs:label>
-    <ns2:abstract xml:lang="en">Forsythia europaea, commonly known as Albanian forsythia or European forsythia, is a species of flowering plant in the olive family, with a native range from Montenegro to northern Albania. It is the only species of Forsythia native to Europe; prior to its discovery in Albania in 1897, it was thought that all Forsythia were native to East Asia.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Forsythia europaea, cunoscută în mod obișnuit ca Forsythia Albaniană sau Forsythia europeană, este o specie de plante cu flori din familia de măsline, cu o gamă autohtonă de la Muntenegru până la nordul Albaniei.Este singura specie de Forsythia originară din Europa;Înainte de descoperirea sa în Albania, în 1897, s -a crezut că toată Forsythia erau originari din Asia de Est.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_55182"/>

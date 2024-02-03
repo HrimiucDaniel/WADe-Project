@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Hyssopus%20officinalis">
     <rdfs:label>Hyssopus officinalis</rdfs:label>
-    <ns2:abstract xml:lang="en">Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its purported properties as an antiseptic, cough reliever, and expectorant, it has been used in traditional herbal medicine.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Hyssopus officinalis sau Hyssop este un arbust în familia Lamiaceae sau de mentă, originară din sudul Europei, Orientul Mijlociu și regiunea care înconjoară Marea Caspică.Datorită proprietăților sale presupuse ca antiseptic, reliever de tuse și expectorant, a fost utilizat în medicina tradițională pe bază de plante.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_39168"/>

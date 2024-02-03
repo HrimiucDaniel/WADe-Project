@@ -1,44 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Theobroma%20cacao">
     <rdfs:label>Theobroma cacao</rdfs:label>
-    <ns2:abstract xml:lang="en">Theobroma cacao, also called the cacao tree and the cocoa tree, is a small (6–12 m (20–39 ft) tall) evergreen tree in the family Malvaceae. Its seeds, cocoa beans, are used to make chocolate liquor, cocoa solids, cocoa butter and chocolate. The largest producer of cocoa beans in 2018 was Ivory Coast, 2.2 million tons. The genus name, Theobroma, is derived from the Greek words θεός (theos), meaning 'god', and βρῶμα (broma), meaning 'food'. The literal meaning is &quot;food of the gods&quot;.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Theobroma Cacao, numit și copacul de cacao și arborele de cacao, este un arbore mic (6–12 m (20–39 ft) înălțime) în familia Malvaceae.Semințele sale, fasolea de cacao, sunt folosite pentru a face lichior de ciocolată, solide de cacao, unt de cacao și ciocolată.Cel mai mare producător de fasole de cacao în 2018 a fost Coasta de Fildeș, 2,2 milioane de tone.Numele genului, Theobroma, este derivat din cuvintele grecești θεός (Theos), însemnând „Dumnezeu” și βρῶμα (broma), însemnând „hrană”.Sensul literal este „hrana zeilor”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy>Cacao (
-Theobroma cacao
-) is one of 26 species belonging to the
-genus
-Theobroma
-classified under the subfamily
-Byttnerioideae
-of the mallow
-family
-Malvaceae
-.
-
-Theobroma cacao
-genus
-Theobroma
-Theobroma
-Byttnerioideae
-family
-Malvaceae
-
-
-In 2008, researchers proposed a new classification based upon
-morphological
-, geographic, and
-genomic
-criteria: 10 groups have been named according to their geographic origin or the traditional
-cultivar
-name. These groups are: Amelonado, Criollo, Nacional, Contamana, Curaray, Cacao guiana, Iquitos, Marañon, Nanay, and Purús.
-
-morphological
-genomic
-cultivar</ns3:taxonomy>
+    <ns6:ecology/>
+    <ns6:taxonomy>Cacao (Theobroma cacao) is one of 26 species belonging to thegenusTheobromaclassified under the subfamilyByttnerioideaeof the mallowfamilyMalvaceae.Theobroma cacaogenusTheobromaTheobromaByttnerioideaefamilyMalvaceaeIn 2008, researchers proposed a new classification based uponmorphological, geographic, andgenomiccriteria: 10 groups have been named according to their geographic origin or the traditionalcultivarname.Aceste grupuri sunt: Amelonado, Criollo, Nacional, Contamana, Curay, Cacao guiana, Iquitos, Marañon, Nanay și Purús.Morfologologicenomiccultivar</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3640"/>

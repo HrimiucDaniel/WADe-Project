@@ -3,7 +3,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 def retrieve_all_triples():
     # Set the endpoint URL
-    endpoint = "http://localhost:3030/Intersectii/sparql"
+    endpoint = "http://localhost:3030/intersectii/sparql"
 
     # Create a SPARQLWrapper object
     sparql = SPARQLWrapper(endpoint)
@@ -35,7 +35,7 @@ def retrieve_all_triples():
 
 def retrieve_object_for_label(label):
     # Set the endpoint URL
-    endpoint = "http://localhost:3030/Intersectii/sparql"
+    endpoint = "http://localhost:3030/intersectii/sparql"
 
     # Create a SPARQLWrapper object
     sparql = SPARQLWrapper(endpoint)
@@ -44,8 +44,8 @@ def retrieve_object_for_label(label):
     query = f"""
         SELECT ?object
         WHERE {{
-          ?subject <http://127.0.0.1:5000/property/label> "{label}" .
-          ?subject <http://127.0.0.1:5000/property/inainte> ?object .
+          ?subject <http://www.w3.org/2000/01/rdf-schema#label> "{label}" .
+          ?subject <http://127.0.0.1:5000/intersectii/inainte> ?object .
         }}
     """
 
@@ -66,7 +66,7 @@ def retrieve_object_for_label(label):
 
 def retrieve_triples_for_subject(subject_param):
     # Set the endpoint URL
-    endpoint = "http://localhost:3030/Intersectii/sparql"
+    endpoint = "http://localhost:3030/intersectii/sparql"
 
     # Create a SPARQLWrapper object
     sparql = SPARQLWrapper(endpoint)

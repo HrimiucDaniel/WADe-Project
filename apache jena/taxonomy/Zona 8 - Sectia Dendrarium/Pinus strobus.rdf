@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Pinus%20strobus">
     <rdfs:label>Pinus strobus</rdfs:label>
-    <ns2:abstract xml:lang="en">Pinus strobus, commonly called the eastern white pine, northern white pine, white pine, Weymouth pine (British), and soft pine is a large pine native to eastern North America. It occurs from Newfoundland, Canada west through the Great Lakes region to southeastern Manitoba and Minnesota, United States, and south along the Appalachian Mountains and upper Piedmont to northernmost Georgia and perhaps very rarely in some of the higher elevations in northeastern Alabama. It is considered rare in Indiana. The Native American Haudenosaunee named it the &quot;Tree of Peace&quot;. It is known as the &quot;Weymouth pine&quot; in the United Kingdom, after Captain George Weymouth of the British Royal Navy, who brought its seeds to England from Maine in 1605.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Pinus strobus, numit în mod obișnuit pinul alb de est, pinul alb de nord, pinul alb, pinul Weymouth (britanic), iar pinul moale este un pin mare originar din America de Nord de Nord.Se produce din Newfoundland, Canada la vest, prin regiunea Marilor Lacuri, până în sud -estul Manitoba și Minnesota, Statele Unite și Sud de -a lungul Munților Appalachieni și Piedmontului Superior până în nordul Georgiei și poate foarte rar în unele dintre elementele superioare din nord -estul Alabama.Este considerat rar în Indiana.Haudenosaunee autohtonă nativă a numit -o „Arborele păcii”.Este cunoscut sub numele de „pinul Weymouth” din Regatul Unit, după căpitanul George Weymouth al Marinei Regale Britanice, care și -a adus semințele în Anglia din Maine în 1605.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Cottontail, snowshoe rabbits, porcupines, can eat the bark. Red squirrels can eat the cones by extracting the seeds. Seeds are eaten by crossbills, pine siskin, and white tailed deer.</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Cottontail, iepuri de rachetă de zăpadă, porcupine, pot mânca scoarța.Veverițele roșii pot mânca conurile prin extragerea semințelor.Semințele sunt consumate de încrucișări, pin siskin și cerb cu coada albă.</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_139272"/>

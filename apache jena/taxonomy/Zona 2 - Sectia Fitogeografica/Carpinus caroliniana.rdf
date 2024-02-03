@@ -1,33 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Carpinus%20caroliniana">
     <rdfs:label>Carpinus caroliniana</rdfs:label>
-    <ns2:abstract xml:lang="en">Carpinus caroliniana, the American hornbeam, is a small hardwood tree in the genus Carpinus. American hornbeam is also known as blue-beech, ironwood, musclewood and muscle beech. It is native to eastern North America, from Minnesota and southern Ontario east to Maine, and south to eastern Texas and northern Florida. It also grows in Canada (southwest Quebec and southeast Ontario). It occurs naturally in shaded areas with moist soil, particularly near the banks of streams or rivers, and is often a natural constituent understory species of the riverine and maritime forests of eastern temperate North America.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Carpinus caroliniana, American Hornbeam, este un mic copac din lemn tare din genul Carpinus.American Hornbeam este, de asemenea, cunoscut sub numele de Blue-Beach, Ironwood, Musclewood și Muscle Beech.Este originar din estul Americii de Nord, din Minnesota și sudul Ontario Est până la Maine, iar la sud până la estul Texasului și nordul Floridei.De asemenea, crește în Canada (sud -vestul Quebecului și sud -estul Ontario).Se produce în mod natural în zonele umbrite cu sol umed, în special în apropierea malurilor fluxurilor sau râurilor și este adesea o specie subterană constitutivă naturală a pădurilor de râu și maritimă din America de Nord Temperat de Est.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Fruiting branch
-Fruiting branch
-They are shade-loving trees, preferring moderate
-soil fertility
-and moisture. It has a shallow, wide-spreading root system. The leaves are eaten by the caterpillars of some
-Lepidoptera
-, for example the
-Io moth
-(
-Automeris io
-).
-soil fertility
-Lepidoptera
-Io moth
-Automeris io
-Common along the borders of streams and swamps, loves a deep moist soil.
-
-Varies from shrub to small tree, and ranges throughout the United States east of the Rocky Mountains.
-
-
-Deer browse the foliage and twigs, while game birds eat the nutlets.</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Fructul ramurilor de ramură sunt copaci iubitori de nuanță, preferând moderatul de fertilitate și umiditate.Are un sistem rădăcină superficială, cu răspândire largă.Frunzele sunt consumate de omizile din Somelepidoptera, de exemplu theio Moth (AutoMeris IO). Fertilitate de soillepidopteraio mothautomeris iocommon de -a lungul granițelor fluxurilor și mlaștilor, iubește un sol profund umed.la est de Munții Stâncoși.Deer răsfoiți frunzișul și crenguțele, în timp ce păsările de joc mănâncă nucile.</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12989"/>

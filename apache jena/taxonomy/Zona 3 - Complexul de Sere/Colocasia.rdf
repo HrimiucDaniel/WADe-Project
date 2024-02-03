@@ -1,29 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Colocasia">
     <rdfs:label>Colocasia</rdfs:label>
-    <ns2:abstract xml:lang="en">Colocasia is a genus of flowering plants in the family Araceae, native to southeastern Asia and the Indian subcontinent. Some species are widely cultivated and naturalized in other tropical and subtropical regions. The names elephant-ear and cocoyam are also used for some other large-leaved genera in the Araceae, notably Xanthosoma and Caladium. The generic name is derived from the ancient Greek word kolokasion, which in Greek, botanist Dioscorides (1st century AD) may have inferred the edible roots of both Colocasia esculenta and Nelumbo nucifera. The species Colocasia esculenta is invasive in wetlands along the American Gulf coast, where it threatens to displace native wetland plants.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Colocasia este un gen de plante cu flori din familia Araceae, originar din sud -estul Asiei și subcontinentului indian.Unele specii sunt cultivate pe scară largă și naturalizate în alte regiuni tropicale și subtropicale.Numele Elephant-Ear și Cocoyam sunt, de asemenea, utilizate pentru alte genuri cu frunze mari din Araceae, în special Xanthosoma și Caladium.Numele generic este derivat din vechea cuvânt grecesc kolokasion, care în greacă, Dioscoridele botaniste (secolul I) ar fi putut deduce rădăcinile comestibile atât ale Colocasia esculenta, cât și ale Nelumbo Nucifera.Specia Colocasia esculenta este invazivă în zonele umede de -a lungul coastei Golfului American, unde amenință să deplaseze plantele native din zonele umede.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Colocasia
-species are used as food plants by the
-larvae
-of some
-Lepidoptera
-species including
-Palpifer murinus
-and
-Palpifer sexnotatus
-.
-Colocasia
-larvae
-Lepidoptera
-Palpifer murinus
-Palpifer murinus
-Palpifer sexnotatus
-Palpifer sexnotatus</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Colocasiaspecie sunt utilizate ca plante alimentare de către thelarvaeof somelepidopteaspecies, inclusiv palpifer Murinusandpalpifer sexnotatus.COLOCASILARVELEPIDOPTERAPALPIFER MURINUSPALPIFER MURINUSPALPIFER SEXNOTATUSPALPIFE sexnotatus</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource=""/>

@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Rosa%20canina">
     <rdfs:label>Rosa canina</rdfs:label>
-    <ns2:abstract xml:lang="en">Rosa canina, commonly known as the dog rose, is a variable climbing, wild rose species native to Europe, northwest Africa, and western Asia.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rosa Canina, cunoscută în mod obișnuit ca The Dog Rose, este o alpinism variabilă, specii de trandafiri sălbatici, originară din Europa, Africa de Nord -Vest și Asia de Vest.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411225"/>
@@ -16,6 +15,81 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_74635</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Rosa canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.03hqhp</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lod.geospecies.org/ses/xcb8B</ns5:sameAsItem>
+      <ns5:sameAsItem>http://yago-knowledge.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/179295</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q146066</ns5:sameAsItem>
+      <ns5:sameAsItem>http://an.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/نسرين</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/نسرين_(نوع_من_النباتات)</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ast.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://az.dbpedia.org/resource/Həmərsin</ns5:sameAsItem>
+      <ns5:sameAsItem>http://azb.dbpedia.org/resource/همرسین</ns5:sameAsItem>
+      <ns5:sameAsItem>http://be.dbpedia.org/resource/Ружа_сабачая</ns5:sameAsItem>
+      <ns5:sameAsItem>http://bg.dbpedia.org/resource/Обикновена_шипка</ns5:sameAsItem>
+      <ns5:sameAsItem>http://br.dbpedia.org/resource/Roz-ki</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ca.dbpedia.org/resource/Roser_silvestre</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ckb.dbpedia.org/resource/شیلان</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Růže_šípková</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cy.dbpedia.org/resource/Rhosyn_gwyllt</ns5:sameAsItem>
+      <ns5:sameAsItem>http://da.dbpedia.org/resource/Hunderose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Hundsrose</ns5:sameAsItem>
+      <ns5:sameAsItem>http://el.dbpedia.org/resource/Αγριοτριανταφυλλιά</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eo.dbpedia.org/resource/Hundorozo</ns5:sameAsItem>
+      <ns5:sameAsItem>http://es.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://et.dbpedia.org/resource/Koer-kibuvits</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eu.dbpedia.org/resource/Basa_arrosa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fa.dbpedia.org/resource/نسترن</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Koiranruusu</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fy.dbpedia.org/resource/Kantroas</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ga.dbpedia.org/resource/Feirdhris</ns5:sameAsItem>
+      <ns5:sameAsItem>http://gl.dbpedia.org/resource/Roseira_brava</ns5:sameAsItem>
+      <ns5:sameAsItem>http://he.dbpedia.org/resource/ורד_הכלב</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Pasja_ruža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Dźiwja_róža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Vadrózsa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hy.dbpedia.org/resource/Մասրենի_սովորական</ns5:sameAsItem>
+      <ns5:sameAsItem>http://is.dbpedia.org/resource/Hundarós</ns5:sameAsItem>
+      <ns5:sameAsItem>http://it.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ja.dbpedia.org/resource/イヌバラ</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ka.dbpedia.org/resource/ასკილი</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ko.dbpedia.org/resource/개장미</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ku.dbpedia.org/resource/Şîlan</ns5:sameAsItem>
+      <ns5:sameAsItem>http://la.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lmo.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lt.dbpedia.org/resource/Paprastasis_erškėtis</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lv.dbpedia.org/resource/Suņu_roze</ns5:sameAsItem>
+      <ns5:sameAsItem>http://mk.dbpedia.org/resource/Шипка</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ml.dbpedia.org/resource/റോസ_കാനിന</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Hondsroos</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nn.dbpedia.org/resource/Steinnype</ns5:sameAsItem>
+      <ns5:sameAsItem>http://no.dbpedia.org/resource/Steinnype</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Róża_dzika</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pms.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pnb.dbpedia.org/resource/کتا_گلاب</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pt.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ro.dbpedia.org/resource/Măceș</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Шиповник_собачий</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sh.dbpedia.org/resource/Pasja_ruža</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sk.dbpedia.org/resource/Ruža_šípová</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sl.dbpedia.org/resource/Navadni_šipek</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sq.dbpedia.org/resource/Trëndafili_i_egër</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sr.dbpedia.org/resource/Шипак</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Stenros</ns5:sameAsItem>
+      <ns5:sameAsItem>http://tr.dbpedia.org/resource/Kuşburnu</ns5:sameAsItem>
+      <ns5:sameAsItem>http://tt.dbpedia.org/resource/Эт_борыны</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Шипшина_звичайна</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uz.dbpedia.org/resource/Itburun</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vec.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Tầm_xuân</ns5:sameAsItem>
+      <ns5:sameAsItem>http://wa.dbpedia.org/resource/Såvadje_rôzî</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Rosa_canina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://zh.dbpedia.org/resource/犬薔薇</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/Tid5</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

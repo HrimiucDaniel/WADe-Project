@@ -1,27 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Rebutia">
     <rdfs:label>Rebutia</rdfs:label>
-    <ns2:abstract xml:lang="en">Rebutia is a genus of flowering plants in the family Cactaceae, native to Bolivia and Argentina. They are generally small, colorful cacti, globular in form, which freely produce flowers that are relatively large in relation to the body. They have no distinctive ribs, but do have regularly arranged small tubercles. They are considered fairly easy to grow and they may produce large quantities of seeds that germinate freely around the parent plant. The limits of the genus are currently uncertain – in particular whether or not it includes species formerly or currently placed in the genera Aylostera, Cintia, Sulcorebutia and Weingartia. The number of species included varies widely from source to source. A very large number of plants that have been treated in cultivation as species of Rebutia are now generally regarded as varieties, forms or synonyms of a much smaller number of species.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Rebutia este un gen de plante cu flori din familia Cactaceae, originar din Bolivia și Argentina.În general, sunt cactusuri mici, colorate, globulare, care produc în mod liber flori care sunt relativ mari în raport cu corp.Nu au coaste distinctive, dar au aranjat în mod regulat tuberculi mici.Sunt considerate destul de ușor de cultivat și pot produce cantități mari de semințe care germinează liber în jurul plantei părinte.Limitele genului sunt în prezent incerte - în special dacă include sau nu specii sau în prezent plasate în genurile Aylostera, Cintia, Sulcorebutia și Weingartia.Numărul de specii incluse variază mult de la sursă la sursă.Un număr foarte mare de plante care au fost tratate în cultivare ca specii de respingere sunt acum considerate în general ca soiuri, forme sau sinonime ale unui număr mult mai mic de specii.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy>The genus was designated in 1895 by
-Karl Moritz Schumann
-
-and named after
-Pierre Rebut
-(1828–1902), a French cactus nurseryman. The type species is
-R. minuscula
-, which has been in cultivation since 1887.
-
-
-Karl Moritz Schumann
-
-
-Pierre Rebut
-R. minuscula</ns3:taxonomy>
+    <ns6:ecology/>
+    <ns6:taxonomy>Genul a fost desemnat în 1895, Bykarl Moritz Schumannand, numit Afterpierre Rebut (1828–1902), un crez din Cactus francez.Specia de tip ISR.Minuscula, care a fost în cultivare din 1887. Karl Moritz Schumannpierre Rebutr.minuscula</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186277"/>

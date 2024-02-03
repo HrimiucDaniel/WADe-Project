@@ -1,18 +1,17 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Capsicum%20annuum">
     <rdfs:label>Capsicum annuum</rdfs:label>
-    <ns2:abstract xml:lang="en">Capsicum annuum is a species of the plant genus Capsicum native to southern North America, the Caribbean, and northern South America. This species is the most common and extensively cultivated of the five domesticated capsicums. The species encompasses a wide variety of shapes and sizes of peppers, including sweet bell peppers and some chili pepper varieties such as jalapeños, New Mexico chile, and cayenne peppers. Cultivars descended from the wild American bird pepper are still found in warmer regions of the Americas. In the past, some woody forms of this species have been called C. frutescens, but the features that were used to distinguish those forms appear in many populations of C. annuum and are not consistently recognizable features in C. frutescens species.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Capsicum annuum este o specie din genul plantelor Capsicum originar din sudul Americii de Nord, Caraibe și nordului Americii de Sud.Această specie este cea mai frecventă și pe larg cultivată dintre cele cinci capsicume domesticite.Specia cuprinde o mare varietate de forme și dimensiuni de ardei, inclusiv ardei iute cu clopot dulce și unele soiuri de ardei iute, cum ar fi Jalapeños, New Mexico Chile și ardei iute.Cultivele descendente din ardeiul sălbatic de păsări american se găsesc încă în regiunile mai calde ale Americii.În trecut, unele forme lemnoase ale acestei specii au fost numite C. frutescens, dar trăsăturile care au fost folosite pentru a distinge aceste forme apar în multe populații de C. annuum și nu sunt caracteristici recunoscute în mod constant la speciile C. frutescens.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>C. annuum var. annuum</ns3:subspeciesItem>
-      <ns3:subspeciesItem>C. annuum var. glabriusculum</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Capsicum annuum var. bola  </ns3:subspeciesItem>
-      <ns3:subspeciesItem> Capsicum annuum New Mexico Group</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/C. annuum var. annuum</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/C. annuum var. glabriusculum</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Capsicum annuum var. bola  </ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Capsicum annuum New Mexico Group</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33090"/>

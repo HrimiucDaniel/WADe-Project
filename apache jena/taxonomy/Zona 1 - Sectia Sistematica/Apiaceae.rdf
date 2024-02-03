@@ -1,92 +1,17 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Apiaceae">
     <rdfs:label>Apiaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">Apiaceae or Umbelliferae is a family of mostly aromatic flowering plants named after the type genus Apium and commonly known as the celery, carrot or parsley family, or simply as umbellifers. It is the 16th-largest family of flowering plants, with more than 3,700 species in 434 genera including such well-known and economically important plants as ajwain, angelica, anise, asafoetida, caraway, carrot, celery, chervil, coriander, cumin, dill, fennel, lovage, cow parsley, parsley, parsnip and sea holly, as well as silphium, a plant whose identity is unclear and which may be extinct. The family Apiaceae includes a significant number of phototoxic species, such as giant hogweed, and a smaller number of highly poisonous species, such as poison hemlock, water hemlock, spotted cowbane, fool's parsley, and various species of water dropwort.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Apiaceae sau Umbelliferae este o familie de plante cu flori aromatice în mare parte, numite după genul de tip Apium și cunoscut în mod obișnuit sub numele de Familia de țelină, morcovi sau pătrunjel, sau pur și simplu ca ombellifers.Este cea de-a 16-a cea mai mare familie de plante cu flori, cu peste 3.700 de specii în 434 de genuri, inclusiv plante atât de cunoscute și importante din punct de vedere economic, precum Ajwain, Angelica, Anise, Asafoetida, Caraway, Morrot, țelină, Chervil, Coriande, Cumin, Dill, fenicul, lovage, pătrunjel de vacă, pătrunjel, pătrat și sea holly, precum și silphium, o plantă a cărei identitate este neclară și care poate fi dispărută.Familia APIACEAE include un număr semnificativ de specii fototoxice, cum ar fi Hogweed uriaș și un număr mai mic de specii extrem de otrăvitoare, cum ar fi hemlock otrăvitor, hemlock de apă, cowbane repetate, pătrunjelul prostului și diverse specii de picături de apă.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>Mackinlayoideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
-      <ns3:subspeciesItem>Azorelloideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
-      <ns3:subspeciesItem>Saniculoideae (Burnett)</ns3:subspeciesItem>
-      <ns3:subspeciesItem>Apioideae (Seem.)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Mackinlayoideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Azorelloideae (Plunkett &amp; Lowry)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Saniculoideae (Burnett)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Apioideae (Seem.)</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>The black swallowtail butterfly,
-Papilio polyxenes
-, uses the family Apiaceae for food and host plants for
-oviposition
-.
-
-The
-22-spot ladybird
-is also commonly found eating mildew on these plants.
-
-Papilio polyxenes
-Papilio polyxenes
-oviposition
-
-
-22-spot ladybird</ns3:ecology>
-    <ns3:taxonomy>Apiaceae was first described by
-John Lindley
-in 1836.
-
-The name is derived from the type genus
-Apium
-, which was originally used by
-Pliny the Elder
-circa 50 AD for a
-celery
--like plant.
-
-The alternative name for the family, Umbelliferae, derives from the
-inflorescence
-being generally in the form of a compound
-umbel
-. The family was one of the first to be recognized as a distinct group in Jacques Daleschamps' 1586
-Historia generalis plantarum
-. With
-Robert Morison's
-1672
-Plantarum umbelliferarum distribution nova
-it became the first group of plants for which a systematic study was published.
-John Lindley
-
-
-Apium
-Apium
-Pliny the Elder
-celery
-
-
-inflorescence
-umbel
-Historia generalis plantarum
-Robert Morison's
-Plantarum umbelliferarum distribution nova
-The family is solidly placed within the
-Apiales
-order in the
-APG III system
-. It is closely related to
-Araliaceae
-and the boundaries between these families remain unclear. Traditionally groups within the family have been delimited largely based on fruit
-morphology
-, and the results from this have not been congruent with the more recent molecular
-phylogenetic
-analyses. The subfamilial and tribal classification for the family is currently in a state of flux, with many of the groups being found to be grossly
-paraphyletic
-or
-polyphyletic
-.
-
-Apiales
-APG III system
-Araliaceae
-morphology
-phylogenetic
-paraphyletic
-polyphyletic</ns3:taxonomy>
+    <ns6:ecology>Fluturele de înghițire neagră, Papilio Polyxenes, folosește familia APIACEAE pentru alimente și plante gazdă forovipozitie.</ns6:ecology>
+    <ns6:taxonomy>Apiaceae a fost descris pentru prima dată de byjohn Lindleyin 1836. Numele este derivat din tipul de tip Genusapium, care a fost folosit inițial de Pliny the Eldercirca 50 d.compusumbel.Familia a fost una dintre primele care a fost recunoscută ca un grup distinct în 1586historia generalis plantară a lui Jacques Daleschamps.Withrobert Morison's1672plantarum umbelliferarum Distribuție Novait a devenit primul grup de plante pentru care a fost publicat un studiu sistematic.Este strâns legată de Toraliaia și limitele dintre aceste familii rămân neclare.În mod tradițional, grupurile din cadrul familiei au fost delimitate în mare parte bazate pe fructemorfologie, iar rezultatele acestui lucru nu au fost congruente cu cele mai recente molecularefilogeneticanalize.Clasificarea subfamilială și tribală a familiei se află în prezent într -o stare de flux, multe dintre grupuri fiind considerate a fi bruteparaphyleticorpolyphyletic.ApialesAPG III SystemaraliaceaemorfologyPhilogeneticparaphyleticpolyphyletic</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_364270"/>

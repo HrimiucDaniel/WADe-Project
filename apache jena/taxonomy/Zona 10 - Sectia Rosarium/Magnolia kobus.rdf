@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Magnolia%20kobus">
     <rdfs:label>Magnolia kobus</rdfs:label>
-    <ns2:abstract xml:lang="en">Magnolia kobus, known as mokryeon, kobus magnolia, or kobushi magnolia, is a species of Magnolia native to Japan (Kyushu, Honshu, and Hokkaido) and Korea and occasionally cultivated in temperate areas. It is a deciduous, small to tall tree which has a slow rate of growth but can reach 8–15 m (25–50 ft) in height and up to 10 m (35 ft) in spread.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Magnolia Kobus, cunoscută sub numele de Mokryeon, Kobus magnolia sau Kobushi magnolia, este o specie de Magnolia originară din Japonia (Kyushu, Honshu și Hokkaido) și Coreea și cultivată ocazional în zone temperate.Este un copac de foioase, mic până la înalt, care are o rată lentă de creștere, dar poate atinge înălțimea de 8-15 m (25–50 ft) și până la 10 m (35 ft) în răspândire.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3402"/>

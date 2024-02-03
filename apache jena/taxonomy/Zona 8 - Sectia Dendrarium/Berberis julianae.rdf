@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium/plant/Berberis%20julianae">
     <rdfs:label>Berberis julianae</rdfs:label>
-    <ns2:abstract xml:lang="en">Berberis julianae, the wintergreen barberry or Chinese barberry, is a flowering evergreen shrub native to Central China (Guangxi, Guizhou, Hubei, Hunan, and Sichuan). It is widely grown as an ornamental in other temperate regions. It is reportedly naturalized in scattered parts of the United States (Mississippi, Alabama, North Carolina and New York State). Berberis julianae grows to a height of 3 metres, as a dense bush with spiny obovate leaves, suitable for hedging. Flowers are yellow flowers tinged with red, borne in clusters of up to 25 flowers. Berries are elliptical, dark purple, almost black, with a white bloom, up to 6 mm long. This plant has gained the Royal Horticultural Society's Award of Garden Merit.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Berberis Julianae, Barberry Garberry sau Chinese Wintergreen, este un arbust cu perenă înfloritor, originar din China Centrală (Guangxi, Guizhou, Hubei, Hunan și Sichuan).Este cultivat pe scară largă ca ornamental în alte regiuni temperate.Se pare că este naturalizat în părți împrăștiate din Statele Unite (Mississippi, Alabama, Carolina de Nord și statul New York).Berberis Julianae crește la o înălțime de 3 metri, ca un tufiș dens, cu frunze de obovate spinoase, potrivit pentru acoperire.Florile sunt flori galbene nuanțate de roșu, purtate în ciorchini de până la 25 de flori.Boabele sunt eliptice, violet închis, aproape negru, cu o floare albă, lungime de până la 6 mm.Această plantă a câștigat premiul Regal Horticultural Society of Garden Merit.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%208%20-%20Sectia%20Dendrarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_22774"/>

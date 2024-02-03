@@ -10,8 +10,15 @@ import add_relations
 import get_relations
 import add_intersectii
 import get_classification
+from googletrans import Translator
 
 app = Flask(__name__)
+
+
+def translate_to_romanian(text):
+    translator = Translator()
+    translated = translator.translate(text, src='en', dest='ro')
+    return translated.text
 
 
 def split_and_filter(text):
@@ -69,6 +76,8 @@ def plant(zone_name, plant_name):
     abstract_key = "https://dbpedia.org/ontology/abstract"
     if abstract_key in plant_info:
         abstract = plant_info[abstract_key]
+       # if abstract != "":
+        #    abstract = translate_to_romanian(str(abstract))
     else:
         abstract = None
 
@@ -82,18 +91,24 @@ def plant(zone_name, plant_name):
     ecology_key = "https://dbpedia.org/property/ecology"
     if ecology_key in plant_info:
         ecology = plant_info[ecology_key]
+       # if ecology != "":
+        #    ecology = translate_to_romanian(str(ecology))
     else:
         ecology = None
 
     taxonomy_key = "https://dbpedia.org/property/taxonomy"
     if taxonomy_key in plant_info:
         taxonomy = plant_info[taxonomy_key]
+       # if taxonomy != "":
+        #    taxonomy = translate_to_romanian(str(taxonomy))
     else:
         taxonomy = None
 
     habitat_key = "https://dbpedia.org/property/habitat"
     if habitat_key in plant_info:
         habitat = plant_info[habitat_key]
+        #if habitat != "":
+       #     habitat = translate_to_romanian(str(habitat))
     else:
         habitat = None
 
@@ -119,7 +134,15 @@ def plant(zone_name, plant_name):
     if subClass_key in plant_info:
         class_url = plant_info[subClass_key]
         class_label = get_classification.get_label_for_subject(class_url)
-        classification = [class_url, class_label, get_classification.get_wikipedia_description(class_label)]
+
+        if class_label == "Label not found for the subject.":
+            classification = ""
+        else:
+            classification = [class_url, class_label, get_classification.get_wikipedia_description(class_label)]
+            if "CPU" in classification[2]:
+                classification[2] = ""
+            if classification[2] != "" and classification is not None:
+                classification[2] = translate_to_romanian(str(classification[2]))
     else:
         classification = None
 

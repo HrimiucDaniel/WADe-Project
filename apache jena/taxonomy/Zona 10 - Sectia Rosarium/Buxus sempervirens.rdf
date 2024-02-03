@@ -1,61 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium/plant/Buxus%20sempervirens">
     <rdfs:label>Buxus sempervirens</rdfs:label>
-    <ns2:abstract xml:lang="en">Buxus sempervirens, the common box, European box, or boxwood, is a species of flowering plant in the genus Buxus, native to western and southern Europe, northwest Africa, and southwest Asia, from southern England south to northern Morocco, and east through the northern Mediterranean region to Turkey. Buxus colchica of western Caucasus and B. hyrcana of northern Iran and eastern Caucasus are commonly treated as synonyms of B. sempervirens.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Buxus sempervirens, cutia comună, cutia europeană sau lemnul de box, este o specie de plante cu flori din genul Buxus, originar din vestul și sudul Europei, Africa de Nord -Vest și Asia de Sud -Vest, din sudul Angliei la sud până la nordul Marocului și la est prin intermediul prin intermediul estului, prin est, prin estulRegiunea Mediteranei de Nord spre Turcia.Buxus colchica din Caucazul de Vest și B. hyrcana din nordul Iranului și estul Caucazului sunt tratate în mod obișnuit ca sinonime ale B. sempervirens.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>The species typically grows on soils derived from
-chalk
-,
-limestone
-, usually as an understorey in forests of larger trees, most commonly associated with European beech (
-Fagus sylvatica
-) forests, but also sometimes in open dry montane scrub, particularly in the Mediterranean region.
-Box Hill, Surrey
-is named after its notable box population, which comprises the largest area of native box woodland in England.
-
-
-chalk
-limestone
-Fagus sylvatica
-Fagus sylvatica
-Box Hill, Surrey
-
-
-
-
-The species is locally
-naturalised
-in parts of North America.
-
-naturalised</ns3:habitat>
-    <rdf:habitat>The species typically grows on soils derived from
-chalk
-,
-limestone
-, usually as an understorey in forests of larger trees, most commonly associated with European beech (
-Fagus sylvatica
-) forests, but also sometimes in open dry montane scrub, particularly in the Mediterranean region.
-Box Hill, Surrey
-is named after its notable box population, which comprises the largest area of native box woodland in England.
-
-
-chalk
-limestone
-Fagus sylvatica
-Fagus sylvatica
-Box Hill, Surrey
-
-
-
-
-The species is locally
-naturalised
-in parts of North America.
-
-naturalised</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns3:habitat>Specia crește de obicei pe soluri derivate dinchalk, calcar, de obicei ca un subsol în pădurile de copaci mai mari, cel mai frecvent asociați cu pădurile europene de fag (Fagus sylvatica), dar și uneori în scrubul de montane uscat deschis, în special în regiunea mediteraneană.box Hill Hill Hill,, Surreyis numit după populația sa notabilă de cutii, care cuprinde cea mai mare suprafață de pădure autohtonă din Anglia.Chalklimestonefagus sylvaticafagus Sylvaticabox Hill, Surreythe Species este localnaturalizată din America de Nord.</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4001"/>

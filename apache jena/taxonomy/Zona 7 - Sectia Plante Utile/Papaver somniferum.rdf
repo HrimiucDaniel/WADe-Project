@@ -1,36 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Papaver%20somniferum">
     <rdfs:label>Papaver somniferum</rdfs:label>
-    <ns2:abstract xml:lang="en">Papaver somniferum, commonly known as the opium poppy or breadseed poppy, is a species of flowering plant in the family Papaveraceae. It is the species of plant from which both opium and poppy seeds are derived and is also a valuable ornamental plant, grown in gardens. Its native range is probably the eastern Mediterranean, but is now obscured by ancient introductions and cultivation, being naturalized across much of Europe and Asia. This poppy is grown as an agricultural crop on a large scale, for one of three primary purposes. The first is to produce seeds that are eaten by humans, commonly known as poppy seed. The second is to produce opium for use mainly by the pharmaceutical industry. The third is to produce other alkaloids, mainly thebaine and oripavine, that are processed by the pharmaceutical industry into drugs such as hydrocodone and oxycodone. Each of these goals has special breeds that are targeted at one of these businesses, and breeding efforts (including biotechnological ones) are continually underway. A comparatively small amount of P. somniferum is also produced commercially for ornamental purposes. The common name &quot;opium poppy&quot; is increasingly a misnomer as many varieties have been bred that do not produce a significant quantity of opium. The cultivar 'Sujata' produces no latex at all. Breadseed poppy is more accurate as a common name today because all varieties of P. somniferum produce edible seeds. This differentiation has strong implications for legal policy surrounding the growing of this plant.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Papaver somniferum, cunoscut în mod obișnuit sub numele de mac de opiu sau mac de pâine, este o specie de plante cu flori din familia Papaveraceae.Este speciile de plante din care sunt derivate atât semințele de opiu, cât și macul de mac și este, de asemenea, o plantă ornamentală valoroasă, cultivată în grădini.Gama sa autohtonă este probabil estul Mediteranei, dar acum este obscurat de introduceri și cultivare antice, fiind naturalizate în mare parte din Europa și Asia.Acest mac este cultivat ca o cultură agricolă la scară largă, pentru unul din cele trei scopuri primare.Primul este de a produce semințe care sunt mâncate de oameni, cunoscuți în mod obișnuit ca semințe de mac.Al doilea este să producă opiu pentru utilizare în principal de industria farmaceutică.Al treilea este producerea altor alcaloizi, în principal TheBaine și Oripavine, care sunt prelucrate de industria farmaceutică în medicamente precum hidrocodonă și oxicodonă.Fiecare dintre aceste obiective are rase speciale care sunt vizate la una dintre aceste afaceri, iar eforturile de reproducere (inclusiv cele biotehnologice) sunt continuu în curs.O cantitate relativ mică de P. somniferum este, de asemenea, produsă comercial în scopuri ornamentale.Numele comun „mac de opiu” este din ce în ce mai mult un număr greșit, deoarece au fost crescute multe soiuri care nu produc o cantitate semnificativă de opiu.Cultivarul „Sujata” nu produce deloc latex.Macul de pauză este mai precis ca nume obișnuit astăzi, deoarece toate soiurile de P. somniferum produc semințe comestibile.Această diferențiere are implicații puternice pentru politica legală în jurul creșterii acestei plante.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>The native range of opium poppy is probably the Eastern Mediterranean, but extensive cultivation and introduction of the species throughout Europe since ancient times have obscured its origin. It has
-escaped from cultivation
-, or has been introduced and become naturalized extensively in all regions of the British Isles, particularly in the south and east
-
-and in almost all other countries of the world with suitable, temperate climates.
-
-escaped from cultivation</ns3:habitat>
-    <rdf:habitat>The native range of opium poppy is probably the Eastern Mediterranean, but extensive cultivation and introduction of the species throughout Europe since ancient times have obscured its origin. It has
-escaped from cultivation
-, or has been introduced and become naturalized extensively in all regions of the British Isles, particularly in the south and east
-
-and in almost all other countries of the world with suitable, temperate climates.
-
-escaped from cultivation</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy>Papaver somniferum
-was formally described by the Swedish botanist
-Carl Linnaeus
-in his seminal publication
-Species Plantarum
-in 1753 on page 508.
-
-
-Papaver somniferum
-Carl Linnaeus
-Species Plantarum
-Species Plantarum</ns3:taxonomy>
+    <ns3:habitat>Gama autohtonă de mac de opiu este probabil estul Mediteranei, dar cultivarea și introducerea extinsă a speciilor din întreaga Europă, deoarece timpurile străvechi și -au întunecat originea.Acesta a fost scos din cultivare sau a fost introdus și a devenit naturalizat pe scară largă în toate regiunile din Insulele Britanice, în special în Sud și Estand în aproape toate celelalte țări ale lumii, cu climate temperate adecvate.</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy>Papaver Somniferumwas descris oficial de botanistul suedez Linnaeusin Publicațiile sale seminal Plantarumin 1753 la pagina 508.Papaver SomniferumCarl Linnaeusspecies Planttarumsspecie Planttarum</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03411515"/>

@@ -1,95 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fraxinus">
     <rdfs:label>Fraxinus</rdfs:label>
-    <ns2:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), commonly called ash, is a genus of flowering plants in the olive and lilac family, Oleaceae. It contains 45–65 species of usually medium to large trees, mostly deciduous, though a number of subtropical species are evergreen. The genus is widespread across much of Europe, Asia, and North America. The leaves are opposite (rarely in whorls of three), and mostly pinnately compound, though simple in a few species. The seeds, popularly known as &quot;keys&quot; or &quot;helicopter seeds&quot;, are a type of fruit known as a samara. Some Fraxinus species are dioecious, having male and female flowers on separate plants but sex in ash is expressed as a continuum between male and female individuals, dominated by unisexual trees. With age, ash may change their sexual function from predominantly male and hermaphrodite towards femaleness; if grown as an ornamental and both sexes are present, ashes can cause a considerable litter problem with their seeds. Rowans or mountain ashes have leaves and buds superficially similar to those of true ashes, but belong to the unrelated genus Sorbus in the rose family.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Fraxinus (/ˈfræksɪnəs/), în mod obișnuit numită cenușă, este un gen de plante cu flori din familia de măsline și liliac, Oleaceae.Conține 45-65 de specii de copaci de obicei până la mari, în mare parte foioase, deși o serie de specii subtropicale sunt verzi.Genul este răspândit în mare parte din Europa, Asia și America de Nord.Frunzele sunt opuse (rareori în whorls de trei) și, în mare parte, compuse, deși simple în câteva specii.Semințele, cunoscute popular sub numele de „taste” sau „semințe de elicopter”, sunt un tip de fruct cunoscut sub numele de Samara.Unele specii Fraxinus sunt dioești, având flori de sex masculin și feminin pe plante separate, dar sexul în cenușă este exprimat ca un continuum între indivizii bărbați și femei, dominat de copaci unisexuali.Odată cu vârsta, cenușa își poate schimba funcția sexuală de la predominant bărbați și hermafrodite față de feminitate;Dacă sunt cultivate ca ornamental și ambele sexe sunt prezente, cenușa poate provoca o problemă considerabilă de gunoi cu semințele lor.Rowans sau cenușă de munte au frunze și muguri superficial similare cu cele ale cenușii adevărate, dar aparțin genului fără legătură Sorbus din familia Rose.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>North American native ash tree species are a critical food source for North American frogs, as their fallen leaves are particularly suitable for tadpoles to feed upon in ponds (both temporary and permanent), large puddles, and other water bodies.
-
-Lack of tannins in the American ash makes their leaves a good food source for the frogs, but also reduces its resistance to the
-ash borer
-. Species with higher leaf
-tannin
-levels (including maples and non-native ash species) are taking the place of native ash, thanks to their greater resistance to the ash borer. They produce much less suitable food for the tadpoles, resulting in poor survival rates and small frog sizes.
-
-
-
-ash borer
-tannin
-
-
-Ash species native to North America also provide important habitat and food for various other creatures native to North America. This includes the larvae of multiple
-long-horn beetles
-, as well as other insects including those in the genus
-Tropidosteptes
-,
-lace bugs
-,
-aphids
-, larvae of
-gall flies
-, and caterpillars. Birds are also interested in black, green, and white ash trees. The black ash alone supports
-wood ducks
-,
-wild turkey
-,
-cardinals
-,
-pine grosbeaks
-,
-cedar waxwings
-, and
-yellow-bellied sapsuckers
-, with habitat and food (such as the sap being of interest to the sapsucker) among others. Many mammalian species from
-meadow voles
-eating the seeds to
-white-tailed deer
-eating the foliage to
-silver-haired bats
-nesting will also make use of ash trees.
-
-
-
-
-long-horn beetles
-Tropidosteptes
-Tropidosteptes
-lace bugs
-aphids
-gall flies
-wood ducks
-wild turkey
-cardinals
-pine grosbeaks
-cedar waxwings
-yellow-bellied sapsuckers
-meadow voles
-white-tailed deer
-silver-haired bats
-
-
-
-
-
-
-
-
-Ash is used as a food plant by the
-larvae
-of some
-Lepidoptera
-species (
-butterflies
-and
-moths
-).
-larvae
-Lepidoptera
-butterflies
-moths</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>Speciile de arbori de cenușă nativă din America de Nord sunt o sursă de hrană critică pentru broaștele din America de Nord, deoarece frunzele căzute sunt deosebit de potrivite pentru ca Tadpoles să se hrănească în iazuri (atât temporare, cât și permanente), bălți mari și alte corpuri de apă.American Ash își face frunzele o sursă de hrană bună pentru broaște, dar își reduce și rezistența la teash.Speciile cu niveluri de frunze superioare (inclusiv arțari și specii de cenușă non-nativă) iau locul cenușii autohtone, datorită rezistenței lor mai mari la cenușa.Acestea produc hrană mult mai puțin potrivită pentru tadpole, ceea ce duce la rate slabe de supraviețuire și dimensiuni mici de broască.Aceasta include larvele gândacilor multiplelong-horn, precum și alte insecte, inclusiv cele din genustropidosteptes, bug-uri din dantelă, afide, larve de muște și omizi.Păsările sunt, de asemenea, interesate de cenușă neagră, verde și albă.Singurul cenușă neagră susține rațe, curcan sălbatic, cardinali, pin Grosbeaks, ceară de cedru, sapuckers cu burtă și belșug, cu habitat și mâncare (cum ar fi seva de interes pentru Sapucker), printre altele.Multe specii de mamifere de la semințele care se ocupă de semințe de tăiere cu coada de tracțiune Batsnesting cu părul cu părul cu frunze. Beetlestropidostepidostrestropidostispidostrepidie de cenușă. Batsash cu părul Ilver este folosit ca alimentPlantă de Thelarvaeof Somelepidopteraspecies (Butterfliesandmoths) .Larvaelepidopterabutterfliesmoths</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426106"/>

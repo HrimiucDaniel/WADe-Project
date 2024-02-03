@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Ruscus%20aculeatus">
     <rdfs:label>Ruscus aculeatus</rdfs:label>
-    <ns2:abstract xml:lang="en">Ruscus aculeatus, known as butcher's-broom, is a low evergreen dioecious Eurasian shrub, with flat shoots known as cladodes that give the appearance of stiff, spine-tipped leaves. Small greenish flowers appear in spring, and are borne singly in the centre of the cladodes. The female flowers are followed by a red berry, and the seeds are bird-distributed, but the plant also spreads vegetatively by means of rhizomes. It is native to Eurasia and some northern parts of Africa. Ruscus aculeatus occurs in woodlands and hedgerows, where it is tolerant of deep shade, and also on coastal cliffs. Likely due to its attractive winter/spring color, Ruscus aculeatus has become a fairly common landscape plant. It is also widely planted in gardens, and has spread as a garden escapee in many areas outside its native range. The plant grows well in zones 7 to 9 on the USDA hardiness zone map. The Latin specific epithet aculeatus means “prickly”.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Ruscus aculeatus, cunoscut sub numele de Butcher's-Broom, este un arbust eurasiatic dioecios cu perenă, cu lăstari plane, cunoscuți sub numele de cladode care dau aspectul frunzelor rigide, cu vârf de coloană vertebrală.Flori mici verzui apar primăvara și sunt purtate singure în centrul Cladodelor.Florile feminine sunt urmate de o boabă roșie, iar semințele sunt distribuite de păsări, dar planta se răspândește și vegetativ cu ajutorul rizomilor.Este originar din Eurasia și unele părți din nordul Africii.Ruscus aculeatus apare în păduri și garduri, unde este tolerant la umbră profundă și, de asemenea, pe stânci de coastă.Probabil datorită culorii sale atractive de iarnă/primăvară, Ruscus aculeatus a devenit o plantă de peisaj destul de comună.De asemenea, este plantat pe scară largă în grădini și s -a răspândit ca o evadare a grădinii în multe zone din afara gamei sale natale.Planta crește bine în zonele de la 7 la 9 pe harta zonei de duritate USDA.Epitetul latin specific aculeatus înseamnă „înțepător”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59066"/>
@@ -16,6 +15,60 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_59067</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Ruscus aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.08h61p</ns5:sameAsItem>
+      <ns5:sameAsItem>http://yago-knowledge.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/188080</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q161425</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/سفندر_مدبب</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/سفندر_مدبب</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ast.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://az.dbpedia.org/resource/Ponti_bigəvəri</ns5:sameAsItem>
+      <ns5:sameAsItem>http://bar.dbpedia.org/resource/Kosmanstaud</ns5:sameAsItem>
+      <ns5:sameAsItem>http://bg.dbpedia.org/resource/Бодлив_залист</ns5:sameAsItem>
+      <ns5:sameAsItem>http://br.dbpedia.org/resource/Bug</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ca.dbpedia.org/resource/Galzeran</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Listnatec_pichlavý</ns5:sameAsItem>
+      <ns5:sameAsItem>http://da.dbpedia.org/resource/Musetorn</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Stechender_Mäusedorn</ns5:sameAsItem>
+      <ns5:sameAsItem>http://el.dbpedia.org/resource/Λαγομηλιά</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eo.dbpedia.org/resource/Pika_rusko</ns5:sameAsItem>
+      <ns5:sameAsItem>http://es.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://et.dbpedia.org/resource/Torkav_ruskus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://eu.dbpedia.org/resource/Erratz_(landarea)</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fa.dbpedia.org/resource/کوله‌خاس</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Pikkuruskus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ga.dbpedia.org/resource/Giolcach_nimhe</ns5:sameAsItem>
+      <ns5:sameAsItem>http://gl.dbpedia.org/resource/Xibarda</ns5:sameAsItem>
+      <ns5:sameAsItem>http://he.dbpedia.org/resource/עצבונית_החורש</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Bodljikava_veprina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Wšědna_myšaca_wěcha</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Szúrós_csodabogyó</ns5:sameAsItem>
+      <ns5:sameAsItem>http://io.dbpedia.org/resource/Rusko</ns5:sameAsItem>
+      <ns5:sameAsItem>http://it.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ja.dbpedia.org/resource/ナギイカダ</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ka.dbpedia.org/resource/თაგვისარა</ns5:sameAsItem>
+      <ns5:sameAsItem>http://lmo.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://mk.dbpedia.org/resource/Дива_шимширка</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nap.dbpedia.org/resource/Avrusca</ns5:sameAsItem>
+      <ns5:sameAsItem>http://no.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://oc.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Myszopłoch_kolczasty</ns5:sameAsItem>
+      <ns5:sameAsItem>http://pt.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Иглица_колючая</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sh.dbpedia.org/resource/Bodljikava_veprina</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sl.dbpedia.org/resource/Bodeča_lobodika</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ta.dbpedia.org/resource/இலையடி_பழச்செடி</ns5:sameAsItem>
+      <ns5:sameAsItem>http://tr.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Рускус_колючий</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vec.dbpedia.org/resource/Bruschi</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://war.dbpedia.org/resource/Ruscus_aculeatus</ns5:sameAsItem>
+      <ns5:sameAsItem>http://zh.dbpedia.org/resource/假葉樹</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/cBKQ</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

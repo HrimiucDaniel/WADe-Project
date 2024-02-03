@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Artemisia%20absinthium">
     <rdfs:label>Artemisia absinthium</rdfs:label>
-    <ns2:abstract xml:lang="en">Artemisia absinthium (wormwood, grand wormwood, absinthe, absinthium, absinthe wormwood, mugwort, wermout, wermud, wormit, wormod) is a species of Artemisia, native to temperate regions of Eurasia and North Africa, and widely naturalized in Canada and the northern United States. It is grown as an ornamental plant and is used as an ingredient in the spirit absinthe and some other alcoholic beverages.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Artemisia Absinthium (Wormwood, Grand Wormwood, Absinthe, Absinthium, Absinthe Wormwood, Mugwort, Wermout, Wermud, Wormit, Wormod) este o specie de Artemisia, originară din regiuni temperate din Eurasia și Africa de Nord și naturalizată pe scară largă în Canada și din nordul United UniteState.Este cultivat ca plantă ornamentală și este folosit ca ingredient în absintul spiritului și alte băuturi alcoolice.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4219"/>

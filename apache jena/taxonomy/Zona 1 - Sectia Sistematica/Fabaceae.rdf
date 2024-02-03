@@ -1,172 +1,19 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Fabaceae">
     <rdfs:label>Fabaceae</rdfs:label>
-    <ns2:abstract xml:lang="en">The Fabaceae or Leguminosae, commonly known as the legume, pea, or bean family, are a large and agriculturally important family of flowering plants. It includes trees, shrubs, and perennial or annual herbaceous plants, which are easily recognized by their fruit (legume) and their compound, stipulate leaves. The family is widely distributed, and is the third-largest land plant family in number of species, behind only the Orchidaceae and Asteraceae, with about 765 genera and nearly 20,000 known species. The five largest genera of the family are Astragalus (over 3,000 species), Acacia (over 1,000 species), Indigofera (around 700 species), Crotalaria (around 700 species), and Mimosa (around 400 species), which constitute about a quarter of all legume species. The ca. 19,000 known legume species amount to about 7% of flowering plant species. Fabaceae is the most common family found in tropical rainforests and dry forests of the Americas and Africa. Recent molecular and morphological evidence supports the fact that the Fabaceae is a single monophyletic family. This conclusion has been supported not only by the degree of interrelation shown by different groups within the family compared with that found among the Leguminosae and their closest relations, but also by all the recent phylogenetic studies based on DNA sequences. These studies confirm that the Fabaceae are a monophyletic group that is closely related to the families Polygalaceae, Surianaceae and Quillajaceae and that they belong to the order Fabales. Along with the cereals, some fruits and tropical roots, a number of Leguminosae have been a staple human food for millennia and their use is closely related to human evolution. The family Fabaceae includes a number of plants that are common in agriculture, including Glycine max (soybean), Phaseolus (beans), Pisum sativum (pea), Cicer arietinum (chickpeas), Vicia faba (broad bean), Medicago sativa (alfalfa), Arachis hypogaea (peanut), Ceratonia siliqua (carob), and Glycyrrhiza glabra (liquorice). A number of species are also weedy pests in different parts of the world, including: Cytisus scoparius (broom), Robinia pseudoacacia (black locust), Ulex europaeus (gorse), Pueraria montana (kudzu), and a number of Lupinus species.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Fabaceae sau Leguminosae, cunoscute în mod obișnuit ca leguminoase, mazăre sau familia de fasole, sunt o familie mare și importantă din punct de vedere agricol de plante cu flori.Acesta include copaci, arbuști și plante erbacee perene sau anuale, care sunt ușor recunoscute prin fructele lor (leguminoase) și compusul lor, stipulează frunzele.Familia este distribuită pe scară largă și este a treia cea mai mare familie de plante terestre din număr de specii, în spatele numai Orchidaceae și Asteraceae, cu aproximativ 765 de genuri și aproape 20.000 de specii cunoscute.Cele mai mari cinci genuri ale familiei sunt Astragalus (peste 3.000 de specii), Acacia (peste 1.000 de specii), Indigofera (aproximativ 700 de specii), Crotalaria (aproximativ 700 de specii) și Mimosa (aproximativ 400 de specii), care constituie aproximativ un sfert dinToate speciile de leguminoase.CA.19.000 de specii de leguminoase cunoscute se ridică la aproximativ 7% din speciile de plante cu flori.Fabaceae este cea mai comună familie găsită în pădurile tropicale tropicale și pădurile uscate din America și Africa.Dovezi moleculare și morfologice recente susțin faptul că Fabaceae este o singură familie monofiletică.Această concluzie a fost susținută nu numai de gradul de interrelație arătat de diferite grupuri din cadrul familiei, comparativ cu cel găsit între leguminos și relațiile cele mai apropiate, dar și de toate studiile filogenetice recente bazate pe secvențe de ADN.Aceste studii confirmă faptul că Fabaceae sunt un grup monofiletic care este strâns legat de familiile Polygalaceae, Surianaceae și Quillajaceae și că aparțin Ordinului Fabales.Alături de cereale, unele fructe și rădăcini tropicale, o serie de leguminoase au fost un hrană umană de bază de milenii, iar utilizarea lor este strâns legată de evoluția umană.Familia Fabaceae include o serie de plante care sunt obișnuite în agricultură, inclusiv Glycine Max (soia), Phaseolus (fasole), Pisum sativum (PEA), Cicer Arietinum (Nickpeas), Vicia Faba (Bean Broad), Medicago sativa (Alfalfa), Arachis hipogaea (Peanut), Ceratonia siliqua (Carob) și Glycyrrhiza glabra (lichior).O serie de specii sunt, de asemenea, dăunători înfiorători în diferite părți ale lumii, inclusiv: Cytisus scoparius (mătură), Robinia pseudoacacia (Locust negru), Ulex Europaeus (Gorse), Pueraria Montana (Kudzu) și o serie de specii Lupinus.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem> Caesalpinioideae DC.</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Cercidoideae (LPWG)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Detarioideae (Burmeist.)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Dialioideae (LPWG)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Duparquetioideae (LPWG)</ns3:subspeciesItem>
-      <ns3:subspeciesItem> Faboideae (Rudd)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Caesalpinioideae DC.</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Cercidoideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Detarioideae (Burmeist.)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Dialioideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Duparquetioideae (LPWG)</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/Faboideae (Rudd)</ns3:subspeciesItem>
     </ns3:subspecies>
-    <ns3:habitat>The Fabaceae have an essentially worldwide distribution, being found everywhere except Antarctica and the high Arctic.
-
-The trees are often found in tropical regions, while the herbaceous plants and shrubs are predominant outside the tropics.</ns3:habitat>
-    <rdf:habitat>The Fabaceae have an essentially worldwide distribution, being found everywhere except Antarctica and the high Arctic.
-
-The trees are often found in tropical regions, while the herbaceous plants and shrubs are predominant outside the tropics.</rdf:habitat>
-    <ns3:ecology/>
-    <ns3:taxonomy>The Fabaceae are placed in the order
-Fabales
-according to most taxonomic systems, including the
-APG III system
-.
-
-The family now includes six subfamilies:
-
-Fabales
-APG III system
-
-
-
-
-Cercidoideae
-: 12 genera and ~335 species. Mainly tropical.
-Bauhinia
-,
-Cercis
-.
-Detarioideae
-: 84 genera and ~760 species. Mainly tropical.
-Amherstia
-,
-Detarium
-,
-Tamarindus
-.
-Duparquetioideae
-: 1 genus and 1 species. West and Central Africa.
-Duparquetia
-.
-Dialioideae
-: 17 genera and ~85 species. Widespread throughout the tropics.
-Dialium
-.
-Caesalpinioideae
-: 148 genera and ~4400 species.
-Pantropical
-.
-Caesalpinia
-,
-Senna
-,
-Mimosa
-,
-Acacia
-. Includes the former subfamily
-Mimosoideae
-(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).
-Faboideae
-(Papilionoideae
-
-): 503 genera and ~14,000 species.
-Cosmopolitan
-.
-Astragalus
-,
-Lupinus
-,
-Pisum
-.
-Cercidoideae
-: 12 genera and ~335 species. Mainly tropical.
-Bauhinia
-,
-Cercis
-.
-Cercidoideae
-Bauhinia
-Bauhinia
-Cercis
-Cercis
-Detarioideae
-: 84 genera and ~760 species. Mainly tropical.
-Amherstia
-,
-Detarium
-,
-Tamarindus
-.
-Detarioideae
-Amherstia
-Amherstia
-Detarium
-Detarium
-Tamarindus
-Tamarindus
-Duparquetioideae
-: 1 genus and 1 species. West and Central Africa.
-Duparquetia
-.
-Duparquetioideae
-Duparquetia
-Duparquetia
-Dialioideae
-: 17 genera and ~85 species. Widespread throughout the tropics.
-Dialium
-.
-Dialioideae
-Dialium
-Dialium
-Caesalpinioideae
-: 148 genera and ~4400 species.
-Pantropical
-.
-Caesalpinia
-,
-Senna
-,
-Mimosa
-,
-Acacia
-. Includes the former subfamily
-Mimosoideae
-(80 genera and ~3200 species; mostly tropical and warm temperate Asia and America).
-Caesalpinioideae
-Pantropical
-Caesalpinia
-Caesalpinia
-Senna
-Senna
-Mimosa
-Mimosa
-Acacia
-Acacia
-Mimosoideae
-Faboideae
-(Papilionoideae
-
-): 503 genera and ~14,000 species.
-Cosmopolitan
-.
-Astragalus
-,
-Lupinus
-,
-Pisum
-.
-Faboideae
-
-
-Cosmopolitan
-Astragalus
-Astragalus
-Lupinus
-Lupinus
-Pisum
-Pisum</ns3:taxonomy>
+    <ns3:habitat>Fabaceae au o distribuție esențială la nivel mondial, fiind găsită peste tot, cu excepția Antarcticii și a arcticii înalte. Copacii se găsesc adesea în regiunile tropicale, în timp ce plantele și arbuști erbacee sunt predominante în afara tropicelor.</ns3:habitat>
+    <ns6:ecology/>
+    <ns6:taxonomy>Fabaceae sunt plasate în ordonanța care a subliniat majoritatea sistemelor taxonomice, inclusiv sistemul Theapg III. Familia include acum șase subfamilii: Fabalesapg III SystemCercidoideae: 12 genuri și ~ 335 specii.În principal tropical.bauhinia, cercis.detarioideae: 84 genuri și ~ 760 specii.În principal tropical.amherstia, detarium, tamarindus.duparquetioideae: 1 gen și 1 specie.Africa de Vest și Centrală.Duparquetia.Dialioideae: 17 genuri și ~ 85 specii.Larg răspândit pe parcursul tropics.dialium.caesalpinioideae: 148 genuri și ~ 4400 specii.pantropical.caesalpinia, Senna, mimosa, Acacia.Include fosta subfamilimosoideae (80 de genuri și ~ 3200 specii; în mare parte Asia și America temperată tropicală și caldă) .Faboideae (Papilionoideae): 503 genuri și ~ 14.000 specii.Cosmopolitan.Astragalus, Lupinus, Pisum.Cercidoideae: 12 Genera și ~ 335 specii de specii.În principal tropical.Bauhinia, Cercis.Cercidoideeaebauhiniabauhiniacerciscercisdetarioideae: 84 genuri și ~ 760 specii.În principal tropical.amherstia, detarium, tamarindus.detarioideaamherstiaamherstiadetariumdetariumtamarindustamarindusduparquetioideae: 1 gen și 1 specie.Africa de Vest și Centrală.Duparquetia.Duparquetioideaeduparquetiaduparquetiadialioideae: 17 genuri și ~ 85 specii.Răspândit pe tot parcursul tropice.dialium.DialioideaedialiumdialiumCaesalpinioideae: 148 genuri și ~ 4400 specii.pantropical.caesalpinia, Senna, Mimosa, Acacia.Include fostul subfamilimimosoideae (80 de genuri și 3200 specii; în mare parte asia și America temperată tropicală și caldă) .Caesalpinioideaepantropicalcaesalpiniacaesalpiniasennasennamimosamosaaciaaciacamimosoidaefaboideae (Papilionoida. inus, pisum.faboideeaecosmopolitanastragalusastragaluslupinuslupinuspisumpisum</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_91835"/>

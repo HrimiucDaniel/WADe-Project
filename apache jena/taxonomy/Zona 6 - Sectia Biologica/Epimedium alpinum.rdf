@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica/plant/Epimedium%20alpinum">
     <rdfs:label>Epimedium alpinum</rdfs:label>
-    <ns2:abstract xml:lang="en">Epimedium alpinum, the alpine barrenwort, is a species of flowering plant in the genus Epimedium, native to the mountains of Italy, Austria, the former Yugoslavia, and Albania, and introduced into central Europe. A dwarf perennial suitable for rock gardens, it was jocularly said by John Lindley to be &quot;known only in the gardens of botanists&quot;. Its hybrid with E. grandiflorum, Epimedium × rubrum, has gained the Royal Horticultural Society's Award of Garden Merit.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Epimedium alpinum, Barrenwort alpin, este o specie de plante cu flori din genul Epimedium, originară din munții Italiei, Austria, fosta Iugoslavia și Albania și introdusă în Europa Centrală.O perenă pitică potrivită pentru grădinile de stâncă, a fost spus în mod jocular de John Lindley să fie „cunoscut doar în grădinile botaniștilor”.Hibridul său cu E. grandiflorum, Epimedium × Rubrum, a câștigat premiul Royal Horticultural Society of Garden Merit.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_63350"/>
@@ -16,6 +15,23 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_168835</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Epimedium alpinum</ns5:sameAsItem>
+      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
+      <ns5:sameAsItem>http://www.wikidata.org/entity/Q164064</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ar.dbpedia.org/resource/أبيمديون_ألبي</ns5:sameAsItem>
+      <ns5:sameAsItem>http://arz.dbpedia.org/resource/ابيمديون_البى</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
+      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Škornice_alpská</ns5:sameAsItem>
+      <ns5:sameAsItem>http://de.dbpedia.org/resource/Alpen-Sockenblume</ns5:sameAsItem>
+      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Alppivarjohiippa</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Planinska_biskupska_kapica</ns5:sameAsItem>
+      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Alpska_horjanka</ns5:sameAsItem>
+      <ns5:sameAsItem>http://is.dbpedia.org/resource/Alpamítur</ns5:sameAsItem>
+      <ns5:sameAsItem>http://it.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
+      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Elfenbloempje</ns5:sameAsItem>
+      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Эпимедиум_альпийский</ns5:sameAsItem>
+      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Alpsockblomma</ns5:sameAsItem>
+      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
+      <ns5:sameAsItem>https://global.dbpedia.org/id/caCj</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

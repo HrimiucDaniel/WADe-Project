@@ -1,5 +1,7 @@
 from xml.etree.ElementTree import Element, SubElement, tostring, ElementTree
 from xml.dom import minidom
+from SPARQLWrapper import SPARQLWrapper, JSON
+import urllib.parse
 
 
 def prettify(elem):
@@ -17,6 +19,7 @@ def create_rdf_xml_file(about, label, abstract, subspecies, habitat, ecology, ta
         'xmlns:ns3': 'https://dbpedia.org/property/',
         'xmlns:ns4': 'http://purl.obolibrary.org/obo/ncbitaxon#',
         'xmlns:ns5': 'https://www.w3.org/2002/07/',
+        'xmlns:ns6': 'https://dbpedia.org/page/',
         'xmlns:rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
         'xmlns:rdfs': 'http://www.w3.org/2000/01/rdf-schema#'
     })
@@ -30,9 +33,8 @@ def create_rdf_xml_file(about, label, abstract, subspecies, habitat, ecology, ta
         SubElement(subspecies_elem, 'ns3:subspeciesItem').text = item
 
     SubElement(description, 'ns3:habitat').text = habitat
-    SubElement(description, 'rdf:habitat').text = habitat
-    SubElement(description, 'ns3:ecology').text = ecology
-    SubElement(description, 'ns3:taxonomy').text = taxonomy
+    SubElement(description, 'ns6:ecology').text = ecology
+    SubElement(description, 'ns6:taxonomy').text = taxonomy
     SubElement(description, 'rdf:type', {'rdf:resource': 'http://www.w3.org/2000/01/rdf-schema#Class'})
     SubElement(description, 'rdf:zone').text = zone
     SubElement(description, 'rdfs:subClassOf', {'rdf:resource': subClassOf})
@@ -46,6 +48,58 @@ def create_rdf_xml_file(about, label, abstract, subspecies, habitat, ecology, ta
     # Write the XML to file
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(prettify(rdf))
+
+
+def query_dbpedia_same_as(label):
+    # Define the DBpedia SPARQL endpoint
+    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+
+    # Define the SPARQL query with the input label as a parameter
+    query = """
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+    SELECT ?sameAs
+    WHERE {
+      ?resource rdfs:label ?label .
+      FILTER (langMatches(lang(?label), "en")) .
+      ?resource owl:sameAs ?sameAs .
+      FILTER (isIRI(?sameAs))
+      FILTER (?label = "%s"@en)
+    }
+    """ % label
+
+    # Set the SPARQL query and request JSON results
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+
+    # Execute the query and process the results
+    try:
+        results = sparql.query().convert()
+        same_as_values = [result['sameAs']['value'] for result in results['results']['bindings']]
+        return same_as_values
+    except Exception as e:
+        print("Error executing SPARQL query:", e)
+        return []
+
+
+# if __name__ == "__main__":
+#     label = "Hosta"
+#     same_as_values = query_dbpedia_same_as(label)
+#     if same_as_values:
+#         print("Values from owl:sameAs for label '{}':".format(label))
+#         for value in same_as_values:
+#             print(value)
+#     else:
+#         print("No owl:sameAs values found for label '{}'".format(label))
+#
+#
+
+
+
+
+
+
 
 # Example usage:
 # about = 'http://example.com/about'

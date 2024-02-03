@@ -1,41 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Ligustrum">
     <rdfs:label>Ligustrum</rdfs:label>
     <ns2:abstract xml:lang="en"/>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>A plant may produce thousands of fruits, most of which are eaten by birds.
-Privet is used as a food plant by the larvae of some
-Lepidoptera
-species including the
-common emerald
-,
-common marbled carpet
-, copper underwing,
-engrailed
-,
-mottled beauty
-,
-scalloped hazel
-, small angle shades,
-v-pug
-,
-privet hawk moth
-and
-willow beauty
-.
-Lepidoptera
-common emerald
-common marbled carpet
-engrailed
-mottled beauty
-scalloped hazel
-v-pug
-privet hawk moth
-willow beauty</ns3:ecology>
-    <ns3:taxonomy/>
+    <ns6:ecology>O plantă poate produce mii de fructe, cele mai multe dintre ele fiind mâncate de păsări.Privet este folosită ca plantă alimentară de larvele de somelepidopterapecie, inclusiv de smarald, covor comun de marmură, de cupru, degresat, frumusețe mototerată, alun scalloped, nuanțe cu unghiuri mici, nuanțe de unghiuri mici, V-PUG, Privet Hawk Mothandwillow Beauty.Lepidopteracmon Emeraldcommon MaropetenGrailedMottled BeautyScalloped Hazelv-Pugprivet Hawk Mothwillow Beauty</ns6:ecology>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_426106"/>

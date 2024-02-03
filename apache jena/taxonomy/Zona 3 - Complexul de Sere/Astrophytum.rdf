@@ -1,15 +1,14 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Astrophytum">
     <rdfs:label>Astrophytum</rdfs:label>
-    <ns2:abstract xml:lang="en">Astrophytum is a genus of six species of cacti, native to North America. These species are sometimes referred to as living rocks, though the term is also used for other genera, particularly Lithops (Aizoaceae). The generic name is derived from the Greek words άστρον (astron), meaning &quot;star,&quot; and φυτόν (phyton), meaning &quot;plant.&quot;</ns2:abstract>
+    <ns2:abstract xml:lang="en">Astrophytum este un gen de șase specii de cacti, originar din America de Nord.Aceste specii sunt uneori denumite roci vii, deși termenul este folosit și pentru alte genuri, în special lituri (Aizoaceae).Numele generic este derivat din cuvintele grecești άστρον (astron), însemnând „stea” și φυτόν (Phyton), însemnând „plantă”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource">
-      <ns3:subspeciesItem>A. ornatum</ns3:subspeciesItem>
+      <ns3:subspeciesItem>https://dbpedia.org/page/A. ornatum</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186270"/>

@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Tagetes">
     <rdfs:label>Tagetes</rdfs:label>
-    <ns2:abstract xml:lang="en">Tagetes (/tæˈdʒiːtiːz/) is a genus of annual or perennial, mostly herbaceous plants in the family Asteraceae. They are among several groups of plants known in English as marigolds. The genus Tagetes was described by Carl Linnaeus in 1753. These plants are native to Mexico, growing naturally since Mexico's valley down to the south and even reaching several other Latinamerican countries, but some species have become naturalized around the world. One species, T. minuta, is considered a noxious invasive plant in some areas.</ns2:abstract>
+    <ns2:abstract xml:lang="en">TAGETES (/Tæˈdʒiːtiːz/) este un gen de plante anuale sau perene, în mare parte erbacee din familia Asteraceae.Sunt printre mai multe grupuri de plante cunoscute în engleză sub numele de gălbenele.Genul Tagetes a fost descris de Carl Linnaeus în 1753. Aceste plante sunt originale din Mexic, crescând în mod natural de la Valea Mexicului până la sud și chiar ajungând în alte câteva țări latinamericane, dar unele specii au devenit naturalizate în întreaga lume.O specie, T. minuta, este considerată o plantă invazivă nocivă în unele zone.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_219126"/>

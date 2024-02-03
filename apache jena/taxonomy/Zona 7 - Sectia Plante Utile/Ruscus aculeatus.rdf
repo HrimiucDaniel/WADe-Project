@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile/plant/Ruscus%20aculeatus">
     <rdfs:label>Ruscus aculeatus</rdfs:label>
-    <ns2:abstract xml:lang="en">Ruscus aculeatus, known as butcher's-broom, is a low evergreen dioecious Eurasian shrub, with flat shoots known as cladodes that give the appearance of stiff, spine-tipped leaves. Small greenish flowers appear in spring, and are borne singly in the centre of the cladodes. The female flowers are followed by a red berry, and the seeds are bird-distributed, but the plant also spreads vegetatively by means of rhizomes. It is native to Eurasia and some northern parts of Africa. Ruscus aculeatus occurs in woodlands and hedgerows, where it is tolerant of deep shade, and also on coastal cliffs. Likely due to its attractive winter/spring color, Ruscus aculeatus has become a fairly common landscape plant. It is also widely planted in gardens, and has spread as a garden escapee in many areas outside its native range. The plant grows well in zones 7 to 9 on the USDA hardiness zone map. The Latin specific epithet aculeatus means “prickly”.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Ruscus aculeatus, cunoscut sub numele de Butcher's-Broom, este un arbust eurasiatic dioecios cu perenă, cu lăstari plane, cunoscuți sub numele de cladode care dau aspectul frunzelor rigide, cu vârf de coloană vertebrală.Flori mici verzui apar primăvara și sunt purtate singure în centrul Cladodelor.Florile feminine sunt urmate de o boabă roșie, iar semințele sunt distribuite de păsări, dar planta se răspândește și vegetativ cu ajutorul rizomilor.Este originar din Eurasia și unele părți din nordul Africii.Ruscus aculeatus apare în păduri și garduri, unde este tolerant la umbră profundă și, de asemenea, pe stânci de coastă.Probabil datorită culorii sale atractive de iarnă/primăvară, Ruscus aculeatus a devenit o plantă de peisaj destul de comună.De asemenea, este plantat pe scară largă în grădini și s -a răspândit ca o evadare a grădinii în multe zone din afara gamei sale natale.Planta crește bine în zonele de la 7 la 9 pe harta zonei de duritate USDA.Epitetul latin specific aculeatus înseamnă „înțepător”.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_59066"/>

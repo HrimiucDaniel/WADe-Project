@@ -1,110 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala/plant/Echinacea%20purpurea">
     <rdfs:label>Echinacea purpurea</rdfs:label>
-    <ns2:abstract xml:lang="en">Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States as well as in the Canadian Province of Ontario. It is most common in the Ozarks and in the Mississippi/Ohio Valley. Its habitats include dry open woods, prairies and barrens.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Echinacea purpurea, Coneflowerul purpuriu de est, Coneflower Purple, Hedgehog Coneflower sau Echinacea, este o specie din America de Nord de plante cu flori din familia Asteraceae.Este originar din anumite părți din estul Americii de Nord și este prezentat într -o oarecare măsură în sălbăticie în mare parte din Statele Unite ale Americii de Est, de Sud -Est și Midwestern, precum și în provincia canadiană Ontario.Este cel mai frecvent în Ozarks și în Valea Mississippi/Ohio.Habitatele sale includ păduri deschise uscate, pradă și barre.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology>Many pollinators are attracted to
-E. purpea
-. Bees that are attracted to the flowers include
-bumblebees
-,
-sweat bees
-,
-honey bees
-, the
-sunflower leafcutter bee
-, and the mining bee
-Andrena helianthiformis
-. Butterflies that visit include
-monarchs
-,
-swallowtail butterflies
-, and
-sulphur butterflies
-.
-
-Birds, particularly
-finches
-, eat the seeds and disperse them through their droppings.
-
-E. purpea
-bumblebees
-sweat bees
-honey bees
-sunflower leafcutter bee
-Andrena helianthiformis
-monarchs
-swallowtail butterflies
-sulphur butterflies
-
-
-finches
-
-
-Slugs
-
-and
-rabbits
-will also eat the foliage when young, or shortly after emerging in the spring.
-
-Additionally, roots can be damaged and eaten by
-gophers
-.
-
-Slugs
-
-
-rabbits
-
-
-gophers</ns3:ecology>
-    <ns3:taxonomy>Echinacea
-is derived from
-Greek
-, meaning 'spiny one', in reference to the spiny sea urchins 'εχίνοι' which the ripe flower heads of species of this genus resemble. The epithet
-purpurea
-means 'reddish-purple'.
-
-Originally named
-Rudbeckia purpurea
-by Linnaeus in 1753 in Species plantarum 6, it was reclassified in 1794 by Conrad Moench, in a new genus named
-Echinacea purpurea
-(L.) Moench. In 1818,
-Thomas Nuttall
-describes a new variety that he named
-Rudbeckia purpurea
-var. serotina. Just two decades later, De Candolle raised him to the rank of species of the other genus
-Echinacea serotina
-(Nutt.) DC. (1836).
-
-In 2002, Binns et al. discovered a misapplication of the name
-Echinacea purpurea
-(L.) Moench
-for the taxon correctly named
-Echinacea serotina
-(Nutt.) DC.
-in 1836. The authors proposed to retain the names not to cause confusion among gardeners and herbalists.
-
-Other names include: Broad-leaved purple coneflower, Eastern Purple Coneflower, Hedgehog Coneflower, Echinacea.
-Echinacea
-Greek
-purpurea
-
-
-Rudbeckia purpurea
-Echinacea purpurea
-Thomas Nuttall
-Rudbeckia purpurea
-Echinacea serotina
-
-
-Echinacea purpurea
-(L.) Moench
-Echinacea serotina
-(Nutt.) DC.</ns3:taxonomy>
+    <ns6:ecology>Mulți polenizatori sunt atrași de la picioare.Purpea.Albinele care sunt atrase de flori includ bumblebees, albine de transpirație, albine de miere, albina cu frunze de flori și beeandrena heliantiformis minieră.Fluturi care vizitează includ EnhoMarchs, Swallowtail Fluturi și fluturi Sulfur. Păsări, în special, mănâncă semințele și le dispersează prin excremente.PurpeabumblebeessWeat Beeshoney Beessunflower Leafcutter Beeandrena helianthiformismonarchsswallowtail Butterfliessulphur Butterfliesfinchesslugsandrabbitswill, de asemenea, mănâncă frunzișul atunci când tineri sau la scurt timp după ce au ieșit în primăvară.</ns6:ecology>
+    <ns6:taxonomy>Echinaceais a derivat din grad, însemnând „spinoase”, cu referire la arici de mare spinoși „εχίνοι”, pe care seamănă cu capetele de flori coapte ale speciilor acestui gen.Epitetpurpureeameans „Reddish-Purple”, numită, numită de originală, purpureaby Linnaeus, în 1753, la speciile Plantarum 6, a fost reclasificată în 1794 de Conrad Moench, într-un nou gen NEMECHINACEA PURPUREA (l.) Moench.În 1818, Thomas NuttallDescribică o nouă varietate pe care a numit -o Purpureavar.Serotina.La doar două decenii mai târziu, de Candolle l -a ridicat la gradul de specii din ceilalți genuchinacea serotina (Nutt.) DC.(1836) .in 2002, Binns și colab.a descoperit o aplicare greșită a numeluichinacea purpurea (l.) Moench for the taxon corect NEMECHINACEA serotina (Nutt.) Dc.in 1836. Autorii au propus să păstreze numele de a nu provoca confuzie în rândConeflower, Coneflower purpuriu de est, Coneflower de arici, echinacea.echinaceagreakpurpurerudbeckia purpureaechinacea purpureathomas nutallrudbeckia purpureaechinacea serotinaechinacea purpuraa (l.) Moenchechinacea serotina (Nutt.) Dc.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_53747"/>

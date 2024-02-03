@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei/plant/Corylus%20colurna">
     <rdfs:label>Corylus colurna</rdfs:label>
-    <ns2:abstract xml:lang="en">Corylus colurna, the Turkish hazel or Turkish filbert, is a deciduous tree native to southeast Europe and southwest Asia, from the Balkans through northern Turkey to northern Iran. It is also found growing wild in the forests of Western Himalayan range in the north Indian state of Himachal Pradesh particularly in the temperate regions of districts of Kullu, Shimla, Kinnaur district and Chamba district.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Corylus Colurna, alunul turc sau Turkish Filbert, este un copac de foioase originar din sud -estul Europei și sud -vestul Asiei, din Balcani, prin nordul Turciei până la nordul Iranului.De asemenea, se găsește în creștere sălbatică în pădurile din vestul Himalayanului din statul nord -indian Himachal Pradesh, în special în regiunile temperate din districtele din Kullu, Shimla, districtul Kinnaur și districtul Chamba.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%204%20-%20Sectia%20Flora%20si%20Vegetatia%20Romaniei</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13450"/>

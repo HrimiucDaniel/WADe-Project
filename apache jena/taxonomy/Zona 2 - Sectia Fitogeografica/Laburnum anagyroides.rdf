@@ -1,13 +1,12 @@
 <?xml version="1.0" ?>
-<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Laburnum%20anagyroides">
     <rdfs:label>Laburnum anagyroides</rdfs:label>
-    <ns2:abstract xml:lang="en">Laburnum anagyroides (syn. Cytisus laburnum), the common laburnum, golden chain or golden rain, is a species of flowering plant in the subfamily Faboideae, and genus Laburnum. Laburnum alpinum is closely related. It is native to Central and Southern Europe. The plant grows and flowers in damp and mild habitats, especially in the calcareous soils of Southern Europe.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Laburnum anagyroides (Syn. Cytisus laburnum), laburnum comun, lanț de aur sau ploaie de aur, este o specie de plante cu flori din subfamilie Faboideae și genul Laburnum.Laburnum alpinum este strâns legat.Este originar din Europa Centrală și de Sud.Planta crește și flori în habitate umede și ușoare, în special în solurile calcaroase din sudul Europei.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <rdf:habitat/>
-    <ns3:ecology/>
-    <ns3:taxonomy/>
+    <ns6:ecology/>
+    <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3851"/>
