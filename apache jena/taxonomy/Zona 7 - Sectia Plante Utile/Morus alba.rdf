@@ -9,7 +9,7 @@
     </ns3:subspecies>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Două soiuri ale Morus Albaare recunoscute: Morus albamorus albavar.albamorus albavar.Multicisorus albavar.Albamorus Albaalbamorus Albavar.Multicaulismorus albamulticaulis</ns6:taxonomy>
+    <ns6:taxonomy>Sunt recunoscute două soiuri de Morus alba: Morus alba morus, Var.Multicaulis Morus Alba</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3744"/>

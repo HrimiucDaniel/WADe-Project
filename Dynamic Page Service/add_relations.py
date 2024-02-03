@@ -1,10 +1,10 @@
 import requests
 
 
-def add_relation_to_plant(plant_uri, predicate, value, zone_name):
+def add_relation_to_plant(plant_uri, predicate, value, zone_name, Username):
     # Fuseki server details
-    fuseki_endpoint = "http://localhost:3030/Plants/update"
-    predicate = f'http://127.0.0.1:5000/relations/{predicate}'
+    fuseki_endpoint = "http://localhost:3030/plants/update"
+    predicate = f'http://127.0.0.1:5000/relations/{Username}:{predicate}'
     if "Zona" in value:
         value = f'http://127.0.0.1:5000/zone/{value}'
     else:

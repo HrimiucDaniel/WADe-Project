@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Intersectii Details</title>
+    <title>Detalii pentru intersectii</title>
 </head>
 <body>
-    <h1>Details for {{ name }}</h1>
+    {% if username %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogout()">Logout</button>
+        </div>
+    </header>
+    {% else %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogin()">Login</button>
+        </div>
+    </header>
+    {% endif %}
+    </header>
+    <h1>Detalii pentru {{ name }}</h1>
     <ul>
         {% for predicate, object in results %}
         <li>{{ predicate }}: {{ object }}</li>

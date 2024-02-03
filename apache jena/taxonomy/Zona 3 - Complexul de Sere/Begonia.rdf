@@ -2,11 +2,11 @@
 <rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere/plant/Begonia">
     <rdfs:label>Begonia</rdfs:label>
-    <ns2:abstract xml:lang="en">Begonia este un gen de plante cu flori perene din familia Begoniaceae.Genul conține mai mult de 2.000 de specii de plante diferite.Begoniile sunt originale din climatul subtropical și tropical umed.Unele specii sunt cultivate în mod obișnuit în interior ca plante de casă ornamentale în climele mai reci.În climele mai cool, unele specii sunt cultivate afară, vara, pentru florile lor colorate strălucitoare, care au sepale, dar nu au petale.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Begonia este un gen de plante cu flori perene din familia Begoniaceae.Genul conține mai mult de 2 000 de specii de plante diferite.Begoniile sunt originale din climatul subtropical și tropical umed.Unele specii sunt cultivate în mod obișnuit în interior ca plante de casă ornamentale în climele mai reci.În climele mai cool, unele specii sunt cultivate afară, vara, pentru florile lor colorate strălucitoare, care au sepale, dar nu au petale.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Genul Numebegonii a inventat Bycharles Plumier, un patron francez albotaniei, și a adoptat Bylinnaeusin 1753, lui Honormichel Bégon, fost guvernator al coloniei franceze a lui Saint-Domingue (Nowhaiti).</ns6:taxonomy>
+    <ns6:taxonomy>Numele genului Begonia a fost inventat de Charles Plumier, un patron francez al botanicii, și adoptat de Linnaeus în 1753, pentru a-l onora pe Michel Bégon, fost guvernator al coloniei franceze din Saint-Domingue (acum Haiti).</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3680"/>

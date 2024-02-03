@@ -5,7 +5,7 @@
     <ns2:abstract xml:lang="en">Colocasia este un gen de plante cu flori din familia Araceae, originar din sud -estul Asiei și subcontinentului indian.Unele specii sunt cultivate pe scară largă și naturalizate în alte regiuni tropicale și subtropicale.Numele Elephant-Ear și Cocoyam sunt, de asemenea, utilizate pentru alte genuri cu frunze mari din Araceae, în special Xanthosoma și Caladium.Numele generic este derivat din vechea cuvânt grecesc kolokasion, care în greacă, Dioscoridele botaniste (secolul I) ar fi putut deduce rădăcinile comestibile atât ale Colocasia esculenta, cât și ale Nelumbo Nucifera.Specia Colocasia esculenta este invazivă în zonele umede de -a lungul coastei Golfului American, unde amenință să deplaseze plantele native din zonele umede.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <ns6:ecology>Colocasiaspecie sunt utilizate ca plante alimentare de către thelarvaeof somelepidopteaspecies, inclusiv palpifer Murinusandpalpifer sexnotatus.COLOCASILARVELEPIDOPTERAPALPIFER MURINUSPALPIFER MURINUSPALPIFER SEXNOTATUSPALPIFE sexnotatus</ns6:ecology>
+    <ns6:ecology>Speciile Colocasia sunt utilizate ca plante alimentare de larvele unor specii de Lepidoptera, inclusiv Palpifer Murinus și Palpifer sexnotatus.</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>

@@ -15,23 +15,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_168835</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Epimedium alpinum</ns5:sameAsItem>
-      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q164064</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ar.dbpedia.org/resource/أبيمديون_ألبي</ns5:sameAsItem>
-      <ns5:sameAsItem>http://arz.dbpedia.org/resource/ابيمديون_البى</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
-      <ns5:sameAsItem>http://cs.dbpedia.org/resource/Škornice_alpská</ns5:sameAsItem>
-      <ns5:sameAsItem>http://de.dbpedia.org/resource/Alpen-Sockenblume</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Alppivarjohiippa</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Planinska_biskupska_kapica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Alpska_horjanka</ns5:sameAsItem>
-      <ns5:sameAsItem>http://is.dbpedia.org/resource/Alpamítur</ns5:sameAsItem>
-      <ns5:sameAsItem>http://it.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
-      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Elfenbloempje</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Эпимедиум_альпийский</ns5:sameAsItem>
-      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Alpsockblomma</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Epimedium_alpinum</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/caCj</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

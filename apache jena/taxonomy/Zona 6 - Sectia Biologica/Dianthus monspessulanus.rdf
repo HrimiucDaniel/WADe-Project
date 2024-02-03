@@ -15,16 +15,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_129769</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Dianthus monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.0h3m4rx</ns5:sameAsItem>
-      <ns5:sameAsItem>http://yago-knowledge.org/resource/Dianthus_monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q974680</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Dianthus_monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>http://da.dbpedia.org/resource/Montpelliernellike</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Œillet_de_Montpellier</ns5:sameAsItem>
-      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Dianthus_monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Dianthus_monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>http://war.dbpedia.org/resource/Dianthus_monspessulanus</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/57DAX</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

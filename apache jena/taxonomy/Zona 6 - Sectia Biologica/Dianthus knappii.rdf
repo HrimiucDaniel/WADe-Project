@@ -15,12 +15,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_746776</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Dianthus knappii</ns5:sameAsItem>
-      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Dianthus_knappii</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q15547953</ns5:sameAsItem>
-      <ns5:sameAsItem>http://bs.dbpedia.org/resource/Knapov_karanfil</ns5:sameAsItem>
-      <ns5:sameAsItem>http://de.dbpedia.org/resource/Dianthus_knappii</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Dianthus_knappii</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/YPKX</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

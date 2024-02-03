@@ -2,7 +2,7 @@
 <rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica/plant/Zinnia">
     <rdfs:label>Zinnia</rdfs:label>
-    <ns2:abstract xml:lang="en">Zinnia este un gen de plante ale tribului Heliantheae în cadrul familiei Asteraceae.Aceștia sunt originari pentru a freca și usca pajiști într -o zonă care se întinde din sud -vestul Statelor Unite până la America de Sud, cu un centru de diversitate în Mexic.Membrii genului sunt notabili pentru solitarii lor cu un tulpină lungă de 12 flori de petale care vin într-o varietate de culori strălucitoare.Numele de gen îl onorează pe maestrul german botanist Johann Gottfried Zinn (1727–59).</ns2:abstract>
+    <ns2:abstract xml:lang="en">Zinnia este un gen de plante ale tribului Heliantheae în cadrul familiei Asteraceae.Sunt originari pentru a freca și usca pajiști într -o zonă care se întinde din sud -vestul Statelor Unite până la America de Sud, cu un centru de diversitate în Mexic.Membrii genului sunt notabili pentru solitarii lor cu un tulpină lungă de 12 flori de petale care vin într-o varietate de culori strălucitoare.Numele de gen îl onorează pe maestrul german botanist Johann Gottfried Zinn (1727–59).</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>

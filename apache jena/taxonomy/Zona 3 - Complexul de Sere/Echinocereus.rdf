@@ -8,7 +8,7 @@
     </ns3:subspecies>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Echinocereusis Un gen din tribul echinocereeae în subfamilia cactadeae a familiei Cactaceae. Cacideaee poate fi împărțit în continuare în două clade surori, Cacideae I și II.Echinocereus este situat în cadrul Cacideae I Clade în interiorul pachycereeae Trib, un trib care reprezintă un reprezintă un Clade I în interiorul pachycereeae tribdiversificare care a dat forme columnare și arborescente. Echinocereusemerged cu 4,6 ± 1,7 milioane de ani în urmă. Echinocereusis Un gen monofiletic puternic susținut, care este sora tostenocereus, deși istoric a existat o dezbatere substanțială cu privire la clasificarea infragenericului din cauza ratelor ridicate de variație morfologică a genului și a evoluției convergente.Echinocereusechinocereusechinocereusstenocereus,</ns6:taxonomy>
+    <ns6:taxonomy>Echinocereus este un gen din tribul Echinocereeae în subfamilia Cactoideae a familiei Cactaceae.Cactoideae poate fi împărțit în două clade surori, Cactoideae I și II.Echinocereus este situat în cadrul Cacideae I Clade în tribul Pachycereeae, un trib care reprezintă o diversificare care a dat forme columnare și arborescente.Echinocereus a apărut 4. 6 ± 1. acum 7 milioane de ani.Echinocereus este un gen monofiletic puternic susținut, care este sora lui Stenocereus, deși istoric a existat o dezbatere substanțială despre clasificarea infragenerică din cauza ratelor mari de variație morfologică și evoluția convergentă.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186275"/>

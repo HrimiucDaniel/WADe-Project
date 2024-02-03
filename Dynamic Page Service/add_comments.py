@@ -1,19 +1,18 @@
 import requests
 
 
-def add_comments_to_plant(plant_uri, comments):
+def add_comments_to_plant(plant_uri, comment):
     # Fuseki server details
     fuseki_endpoint = "http://localhost:3030/plants/update"
 
     # Constructing a SPARQL Update query for each comment
     queries = []
-    for comment in comments:
-        query = f"""
-        INSERT DATA {{
-            <{plant_uri}> <https://dbpedia.org/property/comments> "{comment}" .
-        }}
-        """
-        queries.append(query)
+    query = f"""
+    INSERT DATA {{
+        <{plant_uri}> <https://dbpedia.org/property/comments> "{comment}" .
+    }}
+    """
+    queries.append(query)
 
     # Sending the SPARQL Update queries to the Fuseki server using PATCH method
     headers = {'Content-Type': 'application/sparql-update'}

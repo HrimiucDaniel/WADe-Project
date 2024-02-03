@@ -7,7 +7,7 @@
       <ns3:subspeciesItem>https://dbpedia.org/page/[[#Modern classification, subdivision and synonymy</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <ns6:ecology>Cu frunzele sale fără păr, p.Daurica, nu pare să fie adaptat unui climat tipic mediteranean, ci în circumstanțe destul de umede vara.Populația Onmount Orjengrows în pădure constând din FIR SILVER, FAECH EUROPEAN, ALUSC TURKISH, PSEUDOPLAtanusanda specii de arțar.Intermedium, andash, și este însoțit în continuare de specii răspândite, cum ar fi un fus aseuropean, cireș de munte, cireșul care se înnebunește, crinul lui Turk, dar și cu endemici precum Theorjen Iris.P.Dauricamount Orjensilver Fireuropean Beechturkish Hazelacer pseudoplatanusacer pseudoplatanusa.intermedia.intermediasheuropean spindlemountain cherrydrooping bittercressturk's cap lilyorjen iris</ns6:ecology>
+    <ns6:ecology>Cu frunzele sale fără păr, P. daurica, nu pare să fie adaptat unui climat tipic mediteranean, ci în circumstanțe destul de umede vara.Populația de pe Muntele Orjen crește în pădure formată din brad de argint, fag european, alun turcesc, speciile de arțar Acer Pseudoplatanus și A. intermedium și cenușă, și este însoțită în continuare de specii răspândite, cum ar fi fusul european, cireșul montan, amarcres, care se înnebunește,Capul lui Turk, dar și cu endemici precum Orjen Iris.</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%206%20-%20Sectia%20Biologica</rdf:zone>
@@ -17,20 +17,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_1123981</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Paeonia daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.0b77mth</ns5:sameAsItem>
-      <ns5:sameAsItem>http://yago-knowledge.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q1307422</ns5:sameAsItem>
-      <ns5:sameAsItem>http://arz.dbpedia.org/resource/بايونيا_دوريكا</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://de.dbpedia.org/resource/Krim-Pfingstrose</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ka.dbpedia.org/resource/მლოკოსევიჩის_იორდასალამი</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Пион_крымский</ns5:sameAsItem>
-      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Півонія_кримська</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://war.dbpedia.org/resource/Paeonia_daurica</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/L7fs</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

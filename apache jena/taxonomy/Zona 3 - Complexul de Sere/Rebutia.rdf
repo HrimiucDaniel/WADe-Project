@@ -6,7 +6,7 @@
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Genul a fost desemnat în 1895, Bykarl Moritz Schumannand, numit Afterpierre Rebut (1828–1902), un crez din Cactus francez.Specia de tip ISR.Minuscula, care a fost în cultivare din 1887. Karl Moritz Schumannpierre Rebutr.minuscula</ns6:taxonomy>
+    <ns6:taxonomy>Genul a fost desemnat în 1895 de Karl Moritz Schumann și numit după Pierre Rebut (1828-1902), un crez din Cactus francez.Specia de tip este R. minuscula, care a fost în cultivare din 1887. </ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%203%20-%20Complexul%20de%20Sere</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_186277"/>

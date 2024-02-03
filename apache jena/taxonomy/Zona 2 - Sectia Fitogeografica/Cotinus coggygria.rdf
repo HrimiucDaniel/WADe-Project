@@ -4,7 +4,7 @@
     <rdfs:label>Cotinus coggygria</rdfs:label>
     <ns2:abstract xml:lang="en">Cotinus coggygria, syn.Rhus cotinus, Smoketree -ul european, Smoketree eurasiatică, arborele de fum, tufișul de fum, sumach venețian sau sumach -ul lui Dyer, este o specie eurasiatică de plante cu flori din familia Anacardiaceae.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>Specia nu este o suprafață mare din sudul Europei, la est, în Asia Centrală și Himalaya până la nordul Chinei.</ns3:habitat>
+    <ns3:habitat>Specia este originară dintr -o suprafață mare din sudul Europei, la est, în Asia Centrală și Himalaya până la nordul Chinei.</ns3:habitat>
     <ns6:ecology/>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>

@@ -6,7 +6,7 @@
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Atropa belladonnais în thenightshadefamily (Solanaceae), pe care o împărtășește cu persoane, roșii, vinete, jimsonweed, tutun, lup, andchili ardei.The common names for this species include belladonna, deadly nightshade, divale, dwale,banewort, devil's berries, death cherries, beautiful death, devil's herb, great morel, and dwayberry.Atropa belladonnanightshadeSolanaceaeSolanaceaepotatoestomatoeseggplantsjimsonweedtobaccowolfberrychili peppers</ns6:taxonomy>
+    <ns6:taxonomy>Atropa Belladonna se află în familia Nightshade (Solanaceae), pe care o împărtășește cu cartofi, roșii, vinete, jimsonweed, tutun, lup și ardei iute.Numele obișnuite pentru această specie includ Belladonna, Deadly Nightshade, Divale, Dwale, Banewort, Berries Diavol, cireșe de moarte, moarte frumoasă, Herb's Devil, Great Morel și Dwayberry.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_24609"/>

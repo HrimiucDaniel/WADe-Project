@@ -10,7 +10,7 @@
     </ns3:subspecies>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Main article:List of Euphorbiaceae generaList of Euphorbiaceae generaThe family Euphorbiaceae is the fifth-largest flowering plant familyand has about 7,500 speciesorganised into 300 genera,37 tribes, and three subfamilies:Acalyphoideae,CrotonoideaeandEuphorbioideae.Amongst the oldest fossils of the group include thepermineralisedfruitEuphorbiotheca deccanensisfrom theIntertrappeanBedsof India, dating to the lateMaastrichtianat the end of the Cretaceous, around 66 million years ago.AcalyphoideaeAcalyphoideaeCrotonoideaeCrotonoideaeEuphorbioideaeEuphorbioideaepermineralisedEuphorbiotheca deccanensisEuphorbiotheca deccanensisIntertrappean BedsMaastrichtian</ns6:taxonomy>
+    <ns6:taxonomy>Lista de genuri de genuri Euphorbiaceae a genurilor Euphorbiaceae Familia Euphorbiaceae este a cincea cea mai mare familie de plante cu flori și are aproximativ 7, 500 de specii organizate în 300 de genuri, 37 de triburi și trei subfamilii: acalyphoideae, Crotonoideae și Euphorbioideae.Printre cele mai vechi fosile ale grupului se numără Euphorbiotheca Deccanensis de fructe permineralizate din paturile intertrappean din India, care datează de regretatul Maastrichtian la sfârșitul cretaceului, în urmă cu aproximativ 66 de milioane de ani.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3646"/>

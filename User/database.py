@@ -137,4 +137,5 @@ class DatabaseHandler:
 if __name__ == "__main__":
     # Execută această secțiune doar când rulezi acest script, nu când îl importi în alt modul
     with app.app_context():
+        #db.drop_all()
         create_tables()

@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Intersectii</title>
 </head>
 <body>
+    {% if username %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogout()">Logout</button>
+        </div>
+    </header>
+    {% else %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogin()">Login</button>
+        </div>
+    </header>
+    {% endif %}
+    </header>
     <h1>Intersectii</h1>
     <ul>
         {% for obj in objects %}

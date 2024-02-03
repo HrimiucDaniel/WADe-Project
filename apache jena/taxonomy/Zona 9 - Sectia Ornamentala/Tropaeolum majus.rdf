@@ -5,7 +5,7 @@
     <ns2:abstract xml:lang="en">Tropaeolum Majus, Grădina Nasturtium, Nasturtium, Cress Indian sau Cress Monks, este o specie de plante cu flori din familia Tropaeolaceae, originară din Anzi din Bolivia la nord până la Columbia.O perenă anuală sau de scurtă durată, cu frunze în formă de disc și flori galbene, portocalii sau roșii strălucitoare, este de origine cultivată, probabil hibridă.Nu este strâns legat de genul Nasturtium (care include creșă de apă).</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <ns6:ecology>Grădina Nasturtium este folosită ca plantă alimentară de către thelarvaeof somelepidopteraspecie, inclusiv molia, covorul garden Mothand thelarge alb sau varză alb fluture.</ns6:ecology>
+    <ns6:ecology>Grădina Nasturtium este folosită ca plantă alimentară de larvele unor specii de Lepidoptera, inclusiv molia punctului, molia de covoare de grădină și fluturele alb alb sau de varză.</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%209%20-%20Sectia%20Ornamentala</rdf:zone>

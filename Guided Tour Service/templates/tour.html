@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/tour.css') }}">
 </head>
 <body>
-    <h1>Choose tour options:</h1>
-
-    <h2>Choose zone</h2>
+    <h1>Alege zonele pentru turul guidat:</h1>
     <form action="/tour" method="post">
         <select name="options[]" multiple>
             {% for option in options %}

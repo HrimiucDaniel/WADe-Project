@@ -1,129 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro" xmlns="http://www.w3.org/1999/xhtml" xmlns:schema="http://schema.org/">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/plants.css') }}">
-
 </head>
 <body>
-    <h1>{{ title }}</h1>
+    {% if username %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogout()">Logout</button>
+        </div>
+    </header>
+    {% else %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogin()">Login</button>
+        </div>
+    </header>
+    {% endif %}
+    <h1 property="schema:name" typeof="schema:Plant">{{ title }}</h1>
 
     {% if abstract %}
-        <h2>Abstract</h2>
+        <h2 property="schema:description">Abstract</h2>
         <p>{{ abstract }}</p>
     {% endif %}
 
-    {% if subspecies %}
-        <h2>Subspecies</h2>
-        <ul>
-            {% for item in subspecies %}
-                <li>{{ item }}</li>
-            {% endfor %}
-        </ul>
-    {% endif %}
 
     {% if ecology %}
-        <h2>Ecology</h2>
+        <h2 property="schema:about">Ecologie</h2>
         <p>{{ ecology }}</p>
     {% endif %}
 
     {% if taxonomy %}
-        <h2>Taxonomy</h2>
+        <h2 property="schema:about">Taxonomie</h2>
         <p>{{ taxonomy }}</p>
     {% endif %}
 
     {% if habitat %}
-        <h2>Habitat</h2>
+        <h2 property="schema:about">Habitat</h2>
         <p>{{ habitat }}</p>
     {% endif %}
 
     {% if classification %}
-        <h2>Main Group of plants:</h2>
-        <a href={{classification[0]}}><p>{{ classification[1] }}</a> : {{classification[2]}}</p>
+        <h2>Grupare principala:</h2>
+        <p><a href="{{ classification[0] }}" property="schema:classification">{{ classification[1] }}</a> : <span property="schema:name">{{ classification[2] }}</span></p>
     {% endif %}
 
     {% if other %}
-        <h2>Synonim:</h2>
+        <h2 property="schema:sameAs">Sinonim cu:</h2>
         <p>{{ other.capitalize() }}</p>
     {% endif %}
 
     {% if zone %}
-    <h2>Zone Name</h2>
-    {% set last_substring = zone.split("/")[-1] %}
-    <p>{{ last_substring }}</p>
-{% endif %}
+        <h2>Zona de care apartie:</h2>
+        <p property="schema:locationCreated">{{ zone }}</p>
+    {% endif %}
 
     <!-- Add a form for adding comments -->
-    <h2>Add Comment</h2>
-    <form method="post" action="{{ url_for('add_comment', zone_name=zone, plant_name=title) }}">
-        <textarea name="comment"></textarea>
-        <input type="submit" value="Add Comment">
-    </form>
+    {% if Username %}
+        <h2>Adauga un comentariu:</h2>
+        <form method="post" action="{{ url_for('add_comment', zone_name=zone, plant_name=title) }}">
+            <textarea name="comment"></textarea>
+            <input type="submit" value="Add Comment">
+        </form>
+    {% endif %}
 
     {% if comments %}
-        <h2>Comments</h2>
+        <h2 property="schema:comment">Comentarii</h2>
         <ul>
             {% for comment in comments %}
-                <li>{{ comment }}</li>
+                <li property="schema:commentText">{{ comment }}</li>
             {% endfor %}
         </ul>
     {% endif %}
 
-
-    <h2>Add Images</h2>
-    <form action="{{ url_for('upload_image', zone_name=zone, plant_name=title) }}" method="post" enctype="multipart/form-data">
-        <label for="images">Upload Images:</label>
-        <input type="file" name="images" accept="image/*" multiple>
-        <button type="submit">Upload</button>
-    </form>
+    {% if Username %}
+        <h2>Adauga o imagine:</h2>
+        <form action="{{ url_for('upload_image', zone_name=zone, plant_name=title) }}" method="post" enctype="multipart/form-data">
+            <label for="images">Upload Images:</label>
+            <input type="file" name="images" accept="image/*" multiple>
+            <button type="submit">Upload</button>
+        </form>
+    {% endif %}
 
     {% if images %}
-        <h2>Images</h2>
+        <h2>Imagini</h2>
         <ul>
             {% for image_path in images %}
-                <li><img src="{{ image_path }}" alt="Image"></li>
+                {% set path_parts = image_path.split(':', 1) %}
+                {% set image_url = path_parts[1].strip("''[]") %}
+                <li>
+                    <p>{{ path_parts[0] }}</p>
+                    <img src="{{ image_url }}" alt="Image">
+                </li>
             {% endfor %}
         </ul>
     {% endif %}
 
-    <h2>Add Relation</h2>
-    <form method="post" action="{{ url_for('add_relation', zone_name=zone, plant_name=title) }}">
-        <textarea name="relation"></textarea>
-        <select name="near_by_option">
-            {% if near_by_list %}
-                {% for option in near_by_list %}
-                    {% set parts = option.split('/') %}
-                    {% set last_part = parts[-1] %}
-                    <option value="{{ last_part }}">{{ last_part }}</option>
-                {% endfor %}
-            {% endif %}
-        </select>
-        <input type="submit" value="Add Relation">
-    </form>
+    {% if Username %}
+        <h2>Adauga o relatie cu o planta apropiata:</h2>
+        <form method="post" action="{{ url_for('add_relation', zone_name=zone, plant_name=title) }}">
+            <textarea name="relation" maxlength="50" oninput="this.value = this.value.replace(/[\n\r]/g, '');"></textarea>
+            <!-- Change the maxlength value as per your requirement -->
+            <select name="near_by_option">
+                {% if near_by_list %}
+                    {% for option in near_by_list %}
+                        {% set parts = option.split('/') %}
+                        {% set last_part = parts[-1] %}
+                        <option value="{{ last_part }}">{{ last_part }}</option>
+                    {% endfor %}
+                {% endif %}
+            </select>
+            <input type="submit" value="Add Relation">
+        </form>
+    {% endif %}
 
     {% if relations %}
-    <h2>User Relations:</h2>
-    <ul>
-        {% for key, value in relations.items() %}
-            {% set predicate_parts = key.split('/') %}
-            {% set predicate_name = predicate_parts[-1]|replace('%20', ' ') %}
-            {% if value is iterable and value is not string %}
-                {% for obj in value %}
-                    {% set object_parts = obj.split('/') %}
+        <h2>Relatii adaugate de utilizatori:</h2>
+        <ul>
+            {% for key, value in relations.items() %}
+                {% set predicate_parts = key.split('/') %}
+                {% set predicate_name = predicate_parts[-1]|replace('%20', ' ') %}
+                {% if value is iterable and value is not string %}
+                    {% for obj in value %}
+                        {% set object_parts = obj.split('/') %}
+                        {% set object_name = object_parts[-1]|replace('%20', ' ') %}
+                        <li><strong>{{ predicate_name }}-</strong><a href={{obj}}> {{ object_name }}</a></li>
+                    {% endfor %}
+                {% else %}
+                    {% set object_parts = value.split('/') %}
                     {% set object_name = object_parts[-1]|replace('%20', ' ') %}
-                    <a href = {{key}}><li><strong>{{ predicate_name }}:</strong></a><a href={{obj}}> {{ object_name }}</li></a>
-                {% endfor %}
-            {% else %}
-                {% set object_parts = value.split('/') %}
-                {% set object_name = object_parts[-1]|replace('%20', ' ') %}
-                <a href = {{key}}><li><strong>{{ predicate_name }}:</strong></a><a href={{value}}> {{ object_name }}</li></a>
-            {% endif %}
-        {% endfor %}
-    </ul>
-{% endif %}
+                    <li><strong>{{ predicate_name }}-</strong><a href={{value}}> {{ object_name }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    {% endif %}
 
-
+    <script>
+        function redirectToLogout() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/logout";
+        }
+        function redirectToLogin() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/login";
+        }
+        function redirectToMain() {
+            window.location.href = "http://127.0.0.1:5002";
+        }
+    </script>
 </body>
 </html>

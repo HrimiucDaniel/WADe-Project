@@ -1,26 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro" xmlns="http://www.w3.org/1999/xhtml" xmlns:schema="http://schema.org/">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zones</title>
+    <title>Zone</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/zones.css') }}">
 </head>
+
 <body>
+    {% if username %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogout()">Logout</button>
+        </div>
+    </header>
+    {% else %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogin()">Login</button>
+        </div>
+    </header>
+    {% endif %}
+
     <div class="container">
-        <h1>Zones</h1>
+        <h1>Zone</h1>
         <ul>
             {% for label in labels %}
-            <li class="li-item">
+            <li class="li-item" typeof="schema:Place">
                 <div class="img-container">
-                    <a href="{{ generate_url('zone', label) }}">
-                        <img src="/static/images/{{ loop.index }}.jpg" alt="{{ label }}">
+                    <a property="schema:url" href="{{ generate_url('zone', label).replace(" ", "%20") }}">
+                        <img property="schema:image" src="/static/images/{{ loop.index }}.jpg" alt="{{ label }}">
                     </a>
-                    <div class="img-label">{{ label }}</div>
+                    <div property="schema:name" class="img-label">{{ label }}</div>
                 </div>
             </li>
             {% endfor %}
         </ul>
     </div>
+    <script>
+        function redirectToLogout() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/logout";
+        }
+        function redirectToLogin() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/login";
+        }
+        function redirectToMain() {
+            window.location.href = "http://127.0.0.1:5002";
+        }
+    </script>
+
 </body>
 </html>

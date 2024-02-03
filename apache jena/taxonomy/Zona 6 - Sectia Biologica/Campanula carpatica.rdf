@@ -15,30 +15,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_171910</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Campanula carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.06szb0</ns5:sameAsItem>
-      <ns5:sameAsItem>http://lod.geospecies.org/ses/l95qc</ns5:sameAsItem>
-      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/165259</ns5:sameAsItem>
-      <ns5:sameAsItem>http://yago-knowledge.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q159198</ns5:sameAsItem>
-      <ns5:sameAsItem>http://arz.dbpedia.org/resource/كامبانولا_كارباتيكا</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://de.dbpedia.org/resource/Karpaten-Glockenblume</ns5:sameAsItem>
-      <ns5:sameAsItem>http://es.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Karpaattienkello</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hsb.dbpedia.org/resource/Karpatowe_zwónčki</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Kárpáti_harangvirág</ns5:sameAsItem>
-      <ns5:sameAsItem>http://is.dbpedia.org/resource/Hjartaklukka</ns5:sameAsItem>
-      <ns5:sameAsItem>http://lt.dbpedia.org/resource/Karpatinis_katilėlis</ns5:sameAsItem>
-      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Karpatenklokje</ns5:sameAsItem>
-      <ns5:sameAsItem>http://pl.dbpedia.org/resource/Dzwonek_karpacki</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Колокольчик_карпатский</ns5:sameAsItem>
-      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Karpaterklocka</ns5:sameAsItem>
-      <ns5:sameAsItem>http://uk.dbpedia.org/resource/Дзвоники_карпатські</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>http://war.dbpedia.org/resource/Campanula_carpatica</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/aUoJ</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

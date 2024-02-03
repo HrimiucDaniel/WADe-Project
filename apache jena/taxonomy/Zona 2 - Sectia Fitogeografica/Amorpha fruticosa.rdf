@@ -4,8 +4,8 @@
     <rdfs:label>Amorpha fruticosa</rdfs:label>
     <ns2:abstract xml:lang="en">Amorpha fruticosa este o specie de plante cu flori din familia leguminoasă Fabaceae, cunoscută de mai multe nume comune, inclusiv de deșert false indigo, false indigo-bush și nepăsător de nefericit.Este originar din America de Nord.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
-    <ns3:habitat>Gama autohtonă se extinde printr -o mare parte din Statele Unite și Sud în Mexic. Habitatele native includ marginile fluxului și iazului, pădurile deschise, drumurile și canioanele. Specia a scăpat de cultivare în altă parte și este prezentă ca specii de anintroduse, Asia și alte continente.Este adesea cultivată ca plantă anornamentală, iar unele populații sălbatice pot fi descendente din escperii de grădină.</ns3:habitat>
-    <ns6:ecology>Este o gazdă larvă a sulfului cu voce vestimentară, a părului gri, marginea hoary, molia io, albastru marin, skipper cu pete argintiu și dogface de la sudul.Atât albinele, cât și fluturii folosesc florile ca sursă de nectar.</ns6:ecology>
+    <ns3:habitat>Gama autohtonă se extinde printr -o mare parte din Statele Unite și Sud în Mexic.Habitatele sale native includ margini de flux și iaz, păduri deschise, drumuri și canioane.Specia a scăpat de cultivare în altă parte și este prezentă ca o specie introdusă în Europa, Asia și alte continente.Este adesea cultivată ca o plantă ornamentală, iar unele populații sălbatice pot fi descendente din evadările de grădină.Specie introdusă Europa flori de flori de plante ornamentale</ns3:habitat>
+    <ns6:ecology>Este o gazdă larvă a sulfului tulbure, a părului gri, marginea hoary, molia io, albastru marin, skipper cu pete argintii și dogface sudică.Semințele abundente sunt o sursă de hrană pentru prepelița bobwhite.Atât albinele, cât și fluturii folosesc florile ca sursă de nectar.</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%202%20-%20Sectia%20Fitogeografica</rdf:zone>

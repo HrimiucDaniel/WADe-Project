@@ -6,7 +6,7 @@
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>O ilustrare botanică din ilustrația botanică din 1891a din 1891 Specia a fost descrisă pentru prima dată pentru prima dată de Bylinnaeusin 1753 și i -a dat epitetul specific al lui Siliquastrum care este derivat din thelatinwordsiliqua, adică „pod”.Acest instrument al țesătorului de către semințe plate, lemnoase. ecarpabornm.hebecarpanothosubsp.yaltikirii (ponert) Govaertsyaltikiriivar.siliquastruumsiliquastrumvar.albawestonalba</ns6:taxonomy>
+    <ns6:taxonomy>Specia a fost descrisă pentru prima dată de Linnaeus în 1753 și i -a dat epitetul specific al siliquastrumului care este derivat din cuvântul latin siliqua, însemnând „pod”.Numele generic provine de la grecescul Kerkis, o „navetă”, care se referă la asemănarea prezentată la instrumentul țesătorului de către sedpod -urile plate, lemnoase.Linnaeus siliqastrum latin siliqua nume generic navetă de kerkis grecesc Există mai multe soiuri și subspecii.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%2010%20-%20Sectia%20Rosarium</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_49800"/>

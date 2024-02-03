@@ -5,7 +5,7 @@
     <ns2:abstract xml:lang="en"/>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
-    <ns6:ecology>O plantă poate produce mii de fructe, cele mai multe dintre ele fiind mâncate de păsări.Privet este folosită ca plantă alimentară de larvele de somelepidopterapecie, inclusiv de smarald, covor comun de marmură, de cupru, degresat, frumusețe mototerată, alun scalloped, nuanțe cu unghiuri mici, nuanțe de unghiuri mici, V-PUG, Privet Hawk Mothandwillow Beauty.Lepidopteracmon Emeraldcommon MaropetenGrailedMottled BeautyScalloped Hazelv-Pugprivet Hawk Mothwillow Beauty</ns6:ecology>
+    <ns6:ecology>O plantă poate produce mii de fructe, cele mai multe dintre ele fiind mâncate de păsări.Privet este folosit ca plantă alimentară de larvele unor specii de Lepidoptera, inclusiv smaraldul comun, covorul comun cu marmură comună, suferința de cupru, frumusețea gravată, mototonata, alunul cu batjocură, nuanțele de unghiuri mici, V-Pug, molia de șoim privet și frumusețea de salcie.Lepidoptera comună de smarald comună covor marmorat;</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>

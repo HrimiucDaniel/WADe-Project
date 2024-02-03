@@ -15,10 +15,9 @@ def get_plant_info(zone, name):
     query = """
         SELECT DISTINCT ?predicate ?object WHERE {
             <%s> ?predicate ?object .
-            FILTER(STRSTARTS(STR(?predicate), "http://127.0.0.1:5000/relations/"))
+            FILTER(CONTAINS(STR(?predicate), "relations/"))
         }
-    """% (subject_uri)
-
+    """ %(subject_uri)
     # Set the SPARQL query
     sparql.setQuery(query)
 

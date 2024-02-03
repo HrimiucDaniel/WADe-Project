@@ -1,10 +1,10 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
+import plant_url
 from flask import request, jsonify, render_template, url_for, session
 from werkzeug.utils import redirect
-
+import requests
 from database import DatabaseHandler, app as base_app
 
 app = base_app
@@ -29,6 +29,7 @@ def register():
             if DatabaseHandler.add_user(username, password, email):
                 session['logged_in'] = True
                 session['username'] = username
+                send_username_to_port_5000(username)
                 return redirect(url_for('get_main_page'))
             else:
                 error_message = 'Username or email already exist!'
@@ -48,11 +49,23 @@ def login():
             if DatabaseHandler.check_user_credentials(username, password):
                 session['logged_in'] = True
                 session['username'] = username
+                send_username_to_port_5000(username)
                 return redirect(url_for('get_main_page'))
             else:
                 error_message = 'Username or password not found!'
 
     return render_template('login.html', error_message=error_message)
+
+
+def send_username_to_port_5000(username):
+    url = 'http://127.0.0.1:5000/receive-username'
+    data = {'username': username}
+    print(username)
+    response = requests.post(url, data=data)
+    if response.status_code == 200:
+        print('Username sent successfully to port 5000')
+    else:
+        print('Failed to send username to port 5000')
 
 
 @app.route('/users', methods=['GET'])
@@ -84,6 +97,8 @@ def get_main_page():
         if not session.get('logged_in'):
             return render_template('main.html')
         username = session['username']
+        # print(username)
+        # print(username)
         user = DatabaseHandler.get_user_by_name(username)
 
         return render_template('user_profile.html', username=user.username, email=user.email)
@@ -131,11 +146,13 @@ def get_exhibition_by_name(name):
         if not session.get('logged_in'):
             return jsonify({'error': 'Not authorized'}), 403
         exhibition = DatabaseHandler.get_exhibition_by_name(name)
+        plant_name = exhibition.plant_name
+        url_plant = plant_url.get_plant_name(plant_name)
         user = DatabaseHandler.get_user_by_name(session['username'])
         if exhibition is None:
             return jsonify({'error': f'Exhibition with name {name} not found'}), 404
 
-        return render_template('exhibition.html', exhibition=exhibition, user=user)
+        return render_template('exhibition.html', exhibition=exhibition, user=user, plant_url=url_plant)
 
     except Exception as e:
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500

@@ -27,7 +27,13 @@ def process_xml_files_in_directory(directory_path):
         label = rdf_data["label"] if rdf_data["label"] is not None else []
         abstract = rdf_data["abstract"] if rdf_data["abstract"] is not None else ""
         if abstract != "" and abstract is not None:
-            abstract = translate_to_romanian(str(abstract.replace("\n", "")))
+            abstract = abstract.replace("\n", " ")
+            abstract = abstract.replace("  ", " ")
+            abstract = abstract.replace(" .", ".")
+            abstract = abstract.replace(" ,", ",")
+            abstract = abstract.replace(".", ". ")
+            abstract = abstract.replace(",", ", ")
+            abstract = translate_to_romanian(str(abstract))
         subspecies = rdf_data["subspecies"] if rdf_data["subspecies"] is not None else []
         if subspecies is not None:
             subspecies_url = [f"https://dbpedia.org/page/{sub.lstrip()}" for sub in subspecies]
@@ -36,14 +42,35 @@ def process_xml_files_in_directory(directory_path):
         habitat = rdf_data["habitat"] if rdf_data["habitat"] is not None else ""
         if habitat != "" and habitat is not None:
             #print("Hab", habitat.replace("\n", ""))
-            habitat = translate_to_romanian(str(habitat.replace("\n", "")))
+            habitat = habitat.replace("\n", " ")
+            habitat = habitat.replace("  ", " ")
+            habitat = habitat.replace(" .", ".")
+            habitat = habitat.replace(" ,", ",")
+            habitat = habitat.replace(".", ". ")
+            habitat = habitat.replace(",", ", ")
+            habitat = translate_to_romanian(str(habitat.replace("\n", " ")))
+
         ecology = rdf_data["ecology"] if rdf_data["ecology"] is not None else ""
         if ecology != "" and ecology is not None:
-            ecology = translate_to_romanian(str(ecology.replace("\n", "")))
+            ecology = ecology.replace("\n", " ")
+            ecology = ecology.replace("  ", " ")
+            ecology = ecology.replace(" .", ".")
+            ecology = ecology.replace(" ,", ",")
+            ecology = ecology.replace(".", ". ")
+            ecology = ecology.replace(",", ", ")
+            ecology = translate_to_romanian(str(ecology.replace("\n", " ")))
+
         taxonomy = rdf_data["taxonomy"] if rdf_data["taxonomy"] is not None else ""
-        #print(label)
         if taxonomy != "" and taxonomy is not None:
-            taxonomy = translate_to_romanian(str(taxonomy.replace("\n", "")))
+            print(label)
+            taxonomy = taxonomy.replace("\n", " ")
+            taxonomy = taxonomy.replace("  ", " ")
+            taxonomy = taxonomy.replace(" .", ".")
+            taxonomy = taxonomy.replace(" ,", ",")
+            taxonomy = taxonomy.replace(".", ". ")
+            taxonomy = taxonomy.replace(",", ", ")
+            print(taxonomy)
+            taxonomy = translate_to_romanian(str(taxonomy))
         subClassOf = rdf_data["subClassOf"] if rdf_data["subClassOf"] is not None else []
         synonym = rdf_data["synonym"] if rdf_data["synonym"] is not None else []
         rank = rdf_data["rank"] if rdf_data["rank"] is not None else []

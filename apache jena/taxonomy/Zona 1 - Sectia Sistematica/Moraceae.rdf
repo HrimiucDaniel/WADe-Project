@@ -8,7 +8,7 @@
     </ns3:subspecies>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Formerly included within the now defunct orderUrticales, recent molecular studies have resulted in the family's placement within theRosalesin a clade called the urticalean rosids that also includesUlmaceae,Celtidaceae,Cannabaceae, andUrticaceae.Cecropia, which has variously been placed in the Moraceae, Urticaceae, or theirFamilia proprie, Cecropiaceae, este acum inclusă în urticaceae.urticalesrosalesulmaceaeceltidaceaecannabaceaeurticaceaecropiacecropiadioecyeecannabaceaeurticaceaecropiacecropiadioecy (având persoane cu sexe separate) pare să fie statul primitiv în Moraceae.Dioecimonoec a evoluat în mod independent de cel puțin patru ori în familia.</ns6:taxonomy>
+    <ns6:taxonomy>Fosturi incluse în Urticalles de ordinul acum defunct, studiile moleculare recente au dus la plasarea familiei în Rosales într -un cladă numit Rosids Urticalean care include, de asemenea, Ulmaceae, Celtidaceae, Cannabaceae și Urticaceae.Cecropia, care a fost plasată diferit în Moraceae, Urticaceae sau în familia lor, Cecropiaceae, este acum inclusă în Urticaceae.Urticales rosales ulmaceae celltidaceae cannabaceae urticaceae cecropia cecropia dioecia (având persoane cu sexe separate) pare a fi starea primitivă în Moraceae.Monoecia a evoluat independent de cel puțin patru ori în cadrul familiei.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_3744"/>

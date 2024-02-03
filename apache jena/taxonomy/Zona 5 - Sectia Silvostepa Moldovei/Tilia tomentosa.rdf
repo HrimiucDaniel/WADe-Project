@@ -2,8 +2,7 @@
 <rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%205%20-%20Sectia%20Silvostepa%20Moldovei/plant/Tilia%20tomentosa">
     <rdfs:label>Tilia tomentosa</rdfs:label>
-    <ns2:abstract xml:lang="en">Tilia tomentosa, cunoscută sub numele de Silver Linden în SUA și var de argint în Marea Britanie, este o specie de plante înflorite din familia Malvaceae, originară din sud -estul Europei și din sud -vestul Asiei, din România și Balcanii la est până la vestul Turciei, care apare la altitudini moderate.</ns2:abstract>
-    <ns3:subspecies rdf:parseType="Resource"/>
+    <ns2:abstract xml:lang="en">Tilia tomentosa, cunoscută sub numele de Silver Linden în SUA și var de argint în Marea Britanie, este o specie de plante cu flori din familia Malvaceae, originară din sud -estul Europei și din sud -vestul Asiei, din România și Balcanii la est până la vestul Turciei, care apare la altitudini moderate.</ns2:abstract>
     <ns3:habitat/>
     <ns6:ecology/>
     <ns6:taxonomy/>

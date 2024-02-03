@@ -10,6 +10,18 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: right;
+  padding: 10px;
+}
 
 h1 {
   text-align: center;
@@ -50,4 +62,21 @@ img {
 
 .label {
   font-size: 18px; /* Adjust label font size */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+strong {
+  font-size: 20px;
 }

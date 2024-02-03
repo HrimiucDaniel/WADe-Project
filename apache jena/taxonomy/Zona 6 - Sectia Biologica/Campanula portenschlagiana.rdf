@@ -15,31 +15,6 @@
     <ns5:owlsameAs rdf:parseType="Resource">
       <ns5:sameAsItem>http://purl.obolibrary.org/obo/NCBITaxon_361394</ns5:sameAsItem>
       <ns5:sameAsItem>https://dbpedia.org/page/Campanula portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://rdf.freebase.com/ns/m.05zn_5k</ns5:sameAsItem>
-      <ns5:sameAsItem>http://commons.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q50839917</ns5:sameAsItem>
-      <ns5:sameAsItem>http://www.wikidata.org/entity/Q847433</ns5:sameAsItem>
-      <ns5:sameAsItem>http://arz.dbpedia.org/resource/كامبانولا_بورتنشلاجيانا</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ceb.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://cy.dbpedia.org/resource/Clychlys_Adria</ns5:sameAsItem>
-      <ns5:sameAsItem>http://da.dbpedia.org/resource/Krybeklokke</ns5:sameAsItem>
-      <ns5:sameAsItem>http://es.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://et.dbpedia.org/resource/Portenschlagi_kellukas</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fi.dbpedia.org/resource/Muurikello</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Campanula_muralis</ns5:sameAsItem>
-      <ns5:sameAsItem>http://fr.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hr.dbpedia.org/resource/Portenšlagova_zvončika</ns5:sameAsItem>
-      <ns5:sameAsItem>http://hu.dbpedia.org/resource/Dalmát_harangvirág</ns5:sameAsItem>
-      <ns5:sameAsItem>http://is.dbpedia.org/resource/Urðaklukka</ns5:sameAsItem>
-      <ns5:sameAsItem>http://it.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://nl.dbpedia.org/resource/Dalmatiëklokje</ns5:sameAsItem>
-      <ns5:sameAsItem>http://ru.dbpedia.org/resource/Колокольчик_Портеншлага</ns5:sameAsItem>
-      <ns5:sameAsItem>http://sv.dbpedia.org/resource/Murklocka</ns5:sameAsItem>
-      <ns5:sameAsItem>http://vi.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>http://war.dbpedia.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
-      <ns5:sameAsItem>https://global.dbpedia.org/id/51cDZ</ns5:sameAsItem>
-      <ns5:sameAsItem>http://eunis.eea.europa.eu/species/165068</ns5:sameAsItem>
-      <ns5:sameAsItem>http://yago-knowledge.org/resource/Campanula_portenschlagiana</ns5:sameAsItem>
     </ns5:owlsameAs>
   </rdf:Description>
 </rdf:RDF>

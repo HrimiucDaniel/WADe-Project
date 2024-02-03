@@ -18,7 +18,7 @@
       <ns3:subspeciesItem>https://dbpedia.org/page/†Sapindopsis</ns3:subspeciesItem>
     </ns3:subspecies>
     <ns3:habitat/>
-    <ns6:ecology>Polenisanisanemofil;Înflorirea începe de la începutul primăverii când se încolțesc noile frunze.Capetele care susțin fructele s -au vărsat în mod normal în anul după ce s -au maturizat, în timpul toamnei. Dispersionul corpurilor de fructificare individuale, cu acesta, este anemochor (uneori sunt dispersate de apă ca mecanism secundar).în climele temperate și se găsesc frecvent pe malurile râurilor și fluxurilor.Sunt total absente din zone uscate sau excesiv de reci.</ns6:ecology>
+    <ns6:ecology>Polenizarea este anemofilă;Înflorirea începe de la începutul primăverii când se încolțesc noile frunze.Capetele care susțin fructele au vărsat în mod normal anul după ce s -au maturizat, în timpul toamnei.Dispersia corpurilor de fructificare individuale, cu acesta, este anemochor (sunt uneori dispersate de apă ca mecanism secundar).POLLINARE DISPERSIE ANEMOFILĂ PLANTELE cresc în situații reci în climele temperate și se găsesc frecvent pe malurile râurilor și fluxurilor.Sunt total absente din zone uscate sau excesiv de reci.</ns6:ecology>
     <ns6:taxonomy/>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica</rdf:zone>

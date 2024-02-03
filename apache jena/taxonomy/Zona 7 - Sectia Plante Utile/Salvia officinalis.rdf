@@ -6,7 +6,7 @@
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>
-    <ns6:taxonomy>Salvia officinaliswas a descris ByCarl Linnaeusin 1753. A fost cultivată de secole în vechea lume pentru proprietățile sale de mâncare și vindecare și a fost adesea descrisă în Oldherbals pentru numeroasele proprietăți miraculoase atribuite acesteia.- Theofticinawas Depozitul tradițional al unei mănăstiri în care au fost depozitate ierburi și medicamente.Officinalishas a fost clasificat sub multe alte nume științifice de -a lungul anilor, inclusiv șase nume diferite din 1940. Este doar speciile de tip Genussalvia.salvia officinaliscarl Linnaeusherbalsofticinalisofticofticofticinas.Officalistype speciessalvia</ns6:taxonomy>
+    <ns6:taxonomy>Salvia officinalis a fost descrisă de Carl Linnaeus în 1753. A fost cultivată de secole în Lumea Veche pentru proprietățile sale de mâncare și vindecare și a fost adesea descrisă în vechile ierburi pentru numeroasele proprietăți miraculoase atribuite acesteia.Numele binar, Officinalis, se referă la utilizarea medicinală a plantei - Officina a fost depozitarea tradițională a unei mănăstiri unde au fost depozitate ierburi și medicamente.S. officinalis a fost clasificat sub multe alte nume științifice de -a lungul anilor, inclusiv șase nume diferite din 1940.Este specia de tip pentru genul Salvia.</ns6:taxonomy>
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
     <rdf:zone>http://127.0.0.1:5000/zone/Zona%207%20-%20Sectia%20Plante%20Utile</rdf:zone>
     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2291027"/>

@@ -2,7 +2,7 @@
 <rdf:RDF xmlns:ns1="http://www.geneontology.org/formats/oboInOwl#" xmlns:ns2="https://dbpedia.org/ontology/" xmlns:ns3="https://dbpedia.org/property/" xmlns:ns4="http://purl.obolibrary.org/obo/ncbitaxon#" xmlns:ns5="https://www.w3.org/2002/07/" xmlns:ns6="https://dbpedia.org/page/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <rdf:Description rdf:about="http://127.0.0.1:5000/zone/Zona%201%20-%20Sectia%20Sistematica/plant/Echinops%20bannaticus">
     <rdfs:label>Echinops bannaticus</rdfs:label>
-    <ns2:abstract xml:lang="en">Echinops Bannaticus, cunoscut sub numele de Thristle Blue Globe, este o specie de plante cu flori din familia Asteraceae, originară din sud-estul Europei.Este un ciulin perenă erbacee, care crește la 120 cm (47 in), cu frunze înțepătoare și capete de flori albastre sferice vara.Epitetul specific latin Bannicus se referă la Banat, o regiune din Europa Centrală (acum împărțită între România, Ungaria și Serbia) unde se găsește planta.</ns2:abstract>
+    <ns2:abstract xml:lang="en">Echinops Bannaticus, cunoscut sub numele de Thristle Blue Globe, este o specie de plante cu flori din familia Asteraceae, originară din sud-estul Europei.Este un ciulin perenă erbacee, care crește la 120 cm (47 in), cu frunze înțepătoare și capete de flori albastre sferice vara.Epitetul specific latin Bannaticus se referă la Banat, o regiune din Europa Centrală (acum împărțită între România, Ungaria și Serbia) unde se găsește planta.</ns2:abstract>
     <ns3:subspecies rdf:parseType="Resource"/>
     <ns3:habitat/>
     <ns6:ecology/>

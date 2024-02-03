@@ -1,7 +1,7 @@
 import requests
 
 
-def add_images_to_plant(plant_uri, image_urls):
+def add_images_to_plant(plant_uri, image_url, username):
     # Fuseki server details
     fuseki_endpoint = "http://localhost:3030/plants/update"
 
@@ -12,15 +12,15 @@ def add_images_to_plant(plant_uri, image_urls):
 
     # Constructing a SPARQL Update query for each image
     queries = []
-    for image_url in image_urls:
-        query = f"""
-        {prefix}
-        INSERT DATA {{
-            <{plant_uri}> prop:images <{image_url}> .
-        }}
-        """
-        print(f"Constructed Query: {query}")
-        queries.append(query)
+    image = f"{username}:{image_url}"
+    query = f"""
+    {prefix}
+    INSERT DATA {{
+        <{plant_uri}> prop:images "{image}" .
+    }}
+    """
+    print(f"Constructed Query: {query}")
+    queries.append(query)
 
     # Sending the SPARQL Update queries to the Fuseki server using PATCH method
     headers = {'Content-Type': 'application/sparql-update'}
