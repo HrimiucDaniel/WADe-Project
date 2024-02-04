@@ -42,6 +42,13 @@ class User(db.Model):
     email = db.Column(db.String(200), nullable=False)
 
 
+class Reservation(db.Model):
+    __tablename__ = 'Reservations'
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    exhibition_name = db.Column(db.String(100), nullable=False)
+    username = db.Column(db.String(200), nullable=False)
+
+
 @app.before_first_request
 def create_tables():
     db.create_all()
@@ -133,9 +140,15 @@ class DatabaseHandler:
             print(f"An error occurred while retrieving barcode by text: {str(e)}")
             return None
 
+    @staticmethod
+    def add_reservation(exhibition_name, username):
+        new_reservation = Reservation(exhibition_name=exhibition_name, username=username)
+        db.session.add(new_reservation)
+        db.session.commit()
+        return new_reservation
+
 
 if __name__ == "__main__":
     # Execută această secțiune doar când rulezi acest script, nu când îl importi în alt modul
     with app.app_context():
-        #db.drop_all()
         create_tables()

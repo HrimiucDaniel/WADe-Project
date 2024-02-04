@@ -190,7 +190,8 @@ def reserve_exhibition(name):
 
         if DatabaseHandler.book_exhibition(session['username'], name):
             user = DatabaseHandler.get_user_by_name(session['username'])
-            send_confirmation_email(user.username, user.email, exhibition.name, exhibition.start_date)
+            reservation = DatabaseHandler.add_reservation(name, session['username'])
+            send_confirmation_email(user.username, user.email, exhibition.name, exhibition.start_date, reservation.id)
             return render_template('reservation.html', text="Locul a fost rezervat cu succes!")
         else:
             return render_template('reservation.html',
@@ -199,7 +200,7 @@ def reserve_exhibition(name):
         return jsonify({'error': str(e)}), 500
 
 
-def send_confirmation_email(user_username, user_email, exhibition_name, start_date):
+def send_confirmation_email(user_username, user_email, exhibition_name, start_date, id_reservation):
     try:
         smtp_server = 'smtp.mail.yahoo.com'
         smtp_port = 587
@@ -213,6 +214,7 @@ def send_confirmation_email(user_username, user_email, exhibition_name, start_da
                 <p>Salut <strong>{user_username}</strong>!</p>
                 <p>Mulțumim pentru rezervarea la expoziția: <strong>{exhibition_name}</strong>. Rezervarea ta a fost confimata.</p>
                 <p>Expoziția va începe pe: {start_date}.</p>
+                <p>ID unic rezervare: {id_reservation}.</p>
                 <p>Pentru mai multe detalii vizitează siteul nostru.</p>
             </body>
             </html>
