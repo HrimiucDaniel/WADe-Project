@@ -24,16 +24,40 @@
 
     <section>
         <h2>Introduction</h2>
+         <p>This application is complex and the creation of a single module and server to manage all these functionalities would not be efficient at all. So we turned to the service-based architecture to divide the functionality of the application into different independent services.</p>
+         <p>The main services of the application would be:</p>
+         <ul>
+        	<li>Login/Register Service</li>
+        	<li>Reservation Service</li>
+        	<li>Guide Tour Service</li>
+        	<li>Zones and Plants Service</li>
+        	<li>API Service</li>
+    	</ul>
       </section>
 
 
     <section>
-        <h2>API</h2>
-
+         <h2>API</h2>
+         <p> Our service provides data in JSON format, making it accessible for anyone who wishes to retrieve information from our application. It is designed to be available for the general public.</p>
+   	 <p>Explore the following routes using the GET method:</p>
+   	 <ul>
+       		 <li><strong>/users</strong>: Returns a list of all users.</li>
+       		 <li><strong>/users/{username}</strong>: Returns details for a specific user identified by their username.</li>
+                 <li><strong>/zones</strong>: Returns a list of all zones.</li>
+                 <li><strong>/zones/{zone_name}</strong>: Returns details for a specific zone identified by its name.</li>
+                 <li><strong>/exhibitions/{exhibition_name}</strong>: Returns details for a specific exhibition identified by its name.</li>
+                 <li><strong>/plants</strong>: Returns a list of all plants.</li>
+                 <li><strong>/plants/{plant_name}</strong>: Returns details for a specific plant identified by its name.</li>
+    	</ul>
+    	<p>To access the data in JSON format, simply make GET requests to the respective routes. </p>
     </section>
 
     <section>
         <h2>Authentication Service</h2>
+         <p>The authentication/login service is a simple one with the role of adding a user to the application to be able to make reservations at the exhibitions available at the botanical garden.</p>
+         <p>To create an account in the application, we must enter the registration page and fill in the username, password and email fields. Remember that you must have a valid email because here you will receive the confirmation of the exhibition reservation that you will use at the entrance.</p>
+         <p>The other two functionalities of the application can be used without having to register. But if we have an account, we can add images, comments and other facilities offered only to users who have an account in the application. Logging in is simple with a username and password.</p>
+        
     </section>
 
     <section>
@@ -48,6 +72,26 @@
 
     <section>
       <h2>Reservation Service</h2>
+       <p>This service is also very important in the application because we had to model the exhibitions manually. We could not extract data from databases because the data had to be based on our already existing plants. So I had to create a separate table for exhibitions and manually populate it with possible exhibitions at this botanical garden.</p>
+       <p>We have structured our exhibition model with the following key attributes:</p>
+	<ul>
+    		<li><strong>id</strong>: Unique identifier for each exhibition.</li>
+   		<li><strong>name</strong>: The name of the exhibition.</li>
+		<li><strong>description</strong>: The description of the exhibition.</li>
+    		<li><strong>start_date</strong>: The starting date of the exhibition.</li>
+    		<li><strong>end_date</strong>: The ending date of the exhibition.</li>
+    		<li><strong>current_seats</strong>: The number of currently occupied seats at the exhibition.</li>
+    		<li><strong>total_seats</strong>: The total number of available seats at the exhibition.</li>
+    		<li><strong>plant</strong>: Name of the plant associated with this exhibition.</li>
+	</ul>
+
+         <p>Our application features two routes related to the exhibition module:</p>
+
+	<ul>
+    	<li><strong>/exhibitions</strong>: Displays a list of all exhibitions with brief details.</li>
+    	<li><strong>/exhibitions/{exhibition_name}</strong>: Dedicated page for a specific exhibition, providing in-depth details. It also includes a reservation button to secure a seat at the exhibition.</li>
+	</ul>
+	<p>Upon clicking the reservation button, you will receive a unique identifier (ID), and a confirmation email will be sent to your registered email address, verifying that the seat has been successfully reserved. You have the flexibility to make multiple reservations from the same account.</p>
      </section>
 
     <section>
@@ -116,6 +160,14 @@
 
     <section>
       <h2>Conclusion</h2>
+       <p>Our project represents a complex and integrated solution for managing a botanical garden. With various features such as booking services, guided tours, and detailed information about areas and plants, the project provides a comprehensive experience for users.</p>
+
+    <p>By implementing a robust API, we've made it easy for a wide audience to access our data by providing clear routes and a standardized data form in JSON format.</p>
+
+    <p>The booking service brings a practical dimension to the project, allowing users to secure seats at exhibitions and receive quick email confirmations. This adds a level of interactivity and convenience.</p>
+
+    <p>With a structure that can be easily expanded by adding new services to the application, this project is easy to expand in the future and represents a viable solution for managing a botanical garden.</p>
+
     </section>
 
     <footer>

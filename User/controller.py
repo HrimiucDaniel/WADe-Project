@@ -211,7 +211,7 @@ def send_confirmation_email(user_username, user_email, exhibition_name, start_da
             <html>
             <body>
                 <p>Salut <strong>{user_username}</strong>!</p>
-                <p>Mulțumim pentru rezervarea la expoziția: <strong>{exhibition_name}</strong>. Your reservation has been confirmed.</p>
+                <p>Mulțumim pentru rezervarea la expoziția: <strong>{exhibition_name}</strong>. Rezervarea ta a fost confimata.</p>
                 <p>Expoziția va începe pe: {start_date}.</p>
                 <p>Pentru mai multe detalii vizitează siteul nostru.</p>
             </body>
