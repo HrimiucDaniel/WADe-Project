@@ -1,3 +1,4 @@
+from SPARQLWrapper import SPARQLWrapper, JSON
 from flask import jsonify
 
 from database import DatabaseHandler, app as base_app
@@ -85,6 +86,122 @@ def get_exhibition_by_name(name):
 
     except Exception as e:
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500
+
+
+@app.route('/plants', methods=['GET'])
+def get_all_plants():
+    endpoint_url = "http://localhost:3030/plants/sparql"
+    sparql = SPARQLWrapper(endpoint_url)
+    query = """
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT ?object
+    WHERE {
+        ?subject rdfs:label ?object.
+    }
+    """
+
+    sparql.setQuery(query)
+
+    # Set the query result format to JSON
+    sparql.setReturnFormat(JSON)
+
+    # Execute the query and get the results
+    results = sparql.query().convert()
+    result_list = []
+    for result in results["results"]["bindings"]:
+        result_list.append(result["object"]["value"])
+
+    return jsonify({'plants': result_list})
+
+
+@app.route('/plants/{plant_name}', methods=['GET'])
+def get_plant(plant_name):
+    endpoint_url = "http://localhost:3030/plants/sparql"
+    sparql = SPARQLWrapper(endpoint_url)
+    query = """
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT ?subject ?predicate ?object
+    WHERE {
+        ?subject rdfs:label "%s".
+        ?subject ?predicate ?object.
+
+    }
+    """ % (plant_name)
+
+    sparql.setQuery(query)
+
+    # Set the query result format to JSON
+    sparql.setReturnFormat(JSON)
+
+    # Execute the query and get the results
+    results = sparql.query().convert()
+    result_dict = {}
+    for result in results["results"]["bindings"]:
+        result_dict["subject"] = result["subject"]["value"]
+        result_dict["predicate"] = result["predicate"]["value"]
+        result_dict["object"] = result["object"]["value"]
+
+    return jsonify(result_dict, 'plant')
+
+
+@app.route('/zones', methods=['GET'])
+def get_all_zones():
+    endpoint_url = "http://localhost:3030/zones/sparql"
+    sparql = SPARQLWrapper(endpoint_url)
+    query = """
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT ?object
+    WHERE {
+        ?subject rdfs:label ?object.
+    }
+    """
+
+    sparql.setQuery(query)
+
+    # Set the query result format to JSON
+    sparql.setReturnFormat(JSON)
+
+    # Execute the query and get the results
+    results = sparql.query().convert()
+    result_list = []
+    for result in results["results"]["bindings"]:
+        result_list.append(result["object"]["value"])
+
+    return jsonify(result_list, 'zones')
+
+
+@app.route('/zones/<zone_name>', methods=['GET'])
+def get_zone(zone_name):
+    endpoint_url = "http://localhost:3030/zones/sparql"
+    sparql = SPARQLWrapper(endpoint_url)
+    query = """
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT ?subject ?predicate ?object
+    WHERE {
+        ?subject rdfs:label "%s".
+        ?subject ?predicate ?object.
+
+    }
+    """ % (zone_name)
+
+    sparql.setQuery(query)
+
+    # Set the query result format to JSON
+    sparql.setReturnFormat(JSON)
+
+    # Execute the query and get the results
+    results = sparql.query().convert()
+    result_dict = {}
+    for result in results["results"]["bindings"]:
+        result_dict["subject"] = result["subject"]["value"]
+        result_dict["predicate"] = result["predicate"]["value"]
+        result_dict["object"] = result["object"]["value"]
+
+    return jsonify(result_dict, 'zone')
 
 
 if __name__ == '__main__':
