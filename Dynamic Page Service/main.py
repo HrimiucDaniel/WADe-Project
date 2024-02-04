@@ -14,6 +14,7 @@ from googletrans import Translator
 
 app = Flask(__name__)
 
+Username="Daniel"
 
 def translate_to_romanian(text):
     translator = Translator()
@@ -65,7 +66,7 @@ def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 
-Username = ""
+#Username = ""
 
 
 @app.route('/receive-username', methods=['POST'])
