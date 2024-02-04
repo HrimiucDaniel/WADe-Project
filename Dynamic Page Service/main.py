@@ -14,7 +14,7 @@ from googletrans import Translator
 
 app = Flask(__name__)
 
-Username="Daniel"
+Username="Alex"
 
 def translate_to_romanian(text):
     translator = Translator()
