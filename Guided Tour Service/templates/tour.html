@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/tour.css') }}">
 </head>
 <body>
+    {% if username %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogout()">Logout</button>
+        </div>
+    </header>
+    {% else %}
+    <header>
+        <div>
+            <span>{{ username }}</span>
+            <span> | </span>
+            <button onclick="redirectToMain()">Main</button>
+            <button onclick="redirectToLogin()">Login</button>
+        </div>
+    </header>
+    {% endif %}
     <h1>Alege zonele pentru turul guidat:</h1>
     <form action="/tour" method="post">
         <select name="options[]" multiple>
@@ -16,5 +35,18 @@
         </select>
         <input type="submit" value="Submit">
     </form>
+    <script>
+        function redirectToLogout() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/logout";
+        }
+        function redirectToLogin() {
+            // Redirect to /logout
+            window.location.href = "http://127.0.0.1:5002/login";
+        }
+        function redirectToMain() {
+            window.location.href = "http://127.0.0.1:5002";
+        }
+    </script>
 </body>
 </html>

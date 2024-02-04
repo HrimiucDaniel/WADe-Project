@@ -79,3 +79,13 @@ li {
 li:last-child {
   border-bottom: none;
 }
+ol > li {
+  /* Add your styles for direct child list items of <ol> here */
+  font-weight: bold; /* Example: Bold font for direct child list items of <ol> */
+}
+
+/* Styles for direct child list items of unordered lists */
+ol > ul > li {
+  /* Add your styles for direct child list items of <ul> inside <ol> here */
+  font-style: italic; /* Example: Italic font for direct child list items of <ul> inside <ol> */
+}

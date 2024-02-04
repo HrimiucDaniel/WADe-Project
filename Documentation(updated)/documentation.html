@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/documentation.css">
+    <title>Bogx - Documentation</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bogx - Documentation</h1>
+        <p>Authors: Hrimiuc Daniel-Marin and Chirila Sabin</p>
+        <p>Date: February 3, 2024</p>
+    </header>
+
+    <section>
+        <h2>Abstract - The requirements of the project</h2>
+
+        <p>Develop a service-oriented system offering features regarding botanical gardens' cartography, including the digital ways to explore and display educational information about species of plants. Additionally, the application will be able to manage different dataflows/workflows concerning guided tours, plant/art exhibitions (e.g., the annual Chrysanthemums autumnal exhibition), taxonomic-oriented studies (i.e. learning about plant classification), specific activities (plant conservation, soil preparation, seeding procedures, pollution prevention, etc.) and others. For each item (thing), the user could specify useful information like comments, images, relations with other near-by objects – for example, "Rosa bunda" variety of roses is placed in the centre of the rosarium section of the Botanical Gardens of Iasi. Available knowledge will be accessed via a SPARQL endpoint, in conjunction to other sources of interest such as DBpedia and/or Wikidata. Bonus: adopting (multilingual) conversational user interactions.</p>
+        <p>The main purpose of the web application is to provide an integrated environment where users can find out information about the areas, the plants of a botanical garden, can make reservations for the exhibitions organized by the botanical garden and can also contribute to the community with their own comments and images related to different plants.</p>
+    
+    </section>
+
+    <section>
+        <h2>Introduction</h2>
+
+        <p>BogX (Botanical Gardens Smart Explorer)" is a service-oriented system that provides functionality related to the mapping of botanical gardens, including digital ways to explore and display educational information about plant species.</p>
+    </section>
+
+
+    <section>
+        <h2>API</h2>
+
+        <p>Within our application, we will use the REST paradigm, so we will have several APIs that we will use:</p>
+        <h3>Areas</h3>
+        <ul>
+            <li>GET /areas  - to get all areas of botanic garden</li>
+            <li>GET /areas/{name_area} - to get a specific area of botanic garden</li>
+        </ul>
+        <h3>Users</h3>
+        <ul>
+            <li>GET /users  - to get all users</li>
+            <li>GET/user/{user_name} - to get a user by name</li>
+            <li>POST /user/{user_name} - to post a new user with specific name</li>
+            <li>PUT /user/{user_name} - to modify a user</li>
+        </ul>
+        <h3>Users</h3>
+        <ul>
+            <li>GET /users  - to get all users</li>
+            <li>GET/user/{user_name} - to get a user by name</li>
+            <li>POST /user/{user_name} - to post a new user with specific name</li>
+            <li>PUT /user/{user_name} - to modify a user</li>
+        </ul>
+        <h3>Plants</h3>
+        <ul>
+            <li>GET /plants - to get all  plants</li>
+            <li>GET /plants/{plant_name} - to get a plant by name</li>
+            <li>GET /plants/category/{category_name} - to get all plants by a specific category</li>
+        </ul>
+        <h3>Exhibitions</h3>
+        <ul>
+            <li>GET/exhibitions - to get all exhibitions avaible</li>
+            <li>GET /exhibitions/{exhibition_name} - to get a exhibition by name</li>
+        </ul>
+
+
+    
+
+    </section>
+
+    <section>
+        <h2>Authentication Service</h2>
+
+        <p>In order to use all the services available in our application, we will first have to create an account and log in to the application.</p>
+        <p>Without logging in, we can get recommendations for visiting the botanical garden, depending on which options we will tick there, but we will not be able to make reservations for exhibitions.</p>
+        <p>Therefore, we will have a separate service for creating accounts, managing them, as well as logging into the application.</p>
+    </section>
+
+    <section>
+        <h2>Guided Tour Service</h2>
+
+        <p>This service is in charge of providing personalized recommendations for routes in the garden botany.</p>
+        <p>The botanical garden is conceptualized as a connected graph, where specific areas and attractions are represented as interconnected nodes. The process starts by marking areas or plants of interest, and then advanced algorithms from graph theory are applied to determine the shortest path between these points of interest.</p>
+        <p>Through the service, users are guided through a unique itinerary so that they can discover the plants and attractions that fascinate them the most. This personalized trail maximizes time and provides detailed information about the plants along the trail, contributing to a rich and educational experience in the botanical garden.</p>
+        <p>This combined approach of user data, graph theory and interactive interface creates a complete and personalized experience within the botanic garden, enhancing the attraction and accessibility for all visitors.</p>
+    </section>
+
+    <section>
+      <h2>Reservation Service</h2>
+
+      <p>This is a service designed to make it easier for users to make reservations for the exhibitions offered by the botanical garden. To benefit from this service, users are invited to create an account in the dedicated web application and log in</p>
+      <p>Through this service, users have access to an intuitive interface that allows them to view all the exhibitions proposed by the botanical garden. This detailed overview provides information on the theme, duration and location of each exhibition, helping you make an informed choice.</p>
+      <p>A distinctive aspect of the service is the ability to reserve seats for desired exhibitions. The booking functionality is available exclusively to authenticated users, guaranteeing security and booking management. After logging in, users can explore exhibition options, select the desired event and make a reservation.</p>
+    </section>
+
+    <section>
+      <h2>Modeling a Taxonomy</h2>
+      <p>We aim to construct a computational model of the Botanical Garden of Iasi. This entails characterizing two main components: the distinct zones within the Botanical Garden and the taxonomic classification and representation of the plant species inhabiting each respective zone. The acquisition of zone classifications and the associated plant species within each zone will be obtained directly from the official website of the Botanical Garden of Iasi. The garden comprises a total of ten delineated zones, categorized according to thematic distinctions, each encompassing a diverse array of plants.</p>
+      <p>We intend to create RDF (Resource Description Framework) data for the zones as the initial step in establishing a taxonomy. Each zone will be represented by a unique URL and will possess several properties, including a label, a description, and a list of associated plants. To facilitate this representation, we will introduce a new type, "Zone," which will be defined as an RDF-schema Class. The label property will adhere to the URL specified by the RDF-schema, while we will model the description and list_of_plants properties. The description property will be domain-specific to a zone and will have a string as its range, while the list of plants property will also be domain-specific to a zone, with a list of URLs representing the plants within that zone as its range. Through this approach, we aim to comprehensively model all zones within the Botanical Garden, subsequently storing them as triples in our Apache Fuseki Database Server under a new database named "/Zones".</p>
+      <p>Modeling the plants within the Botanical Garden presents a significant challenge due to the vast number of species—exceeding 100—distributed across its various zones. Our approach involves organizing the plant data into distinct folders, each corresponding to a specific zone within the garden. As the Botanical Garden's website lacks comprehensive information about individual plant species, we rely on manual search processes to compile data for each plant. For every plant identified within a zone, we create a separate file.</p>
+      <p>Given the limited information available, we construct URLs for each plant using a standardized format that incorporates the respective zone and plant names, structured as follows: "localhost:5000/zone/<zone_name>/plant/<plant_name>". Despite having only partial information about the plant labels and their corresponding zones, we aim to gather additional details, such as taxonomic classifications, habitat descriptions, and potential subspecies, to enrich the dataset. This process will contribute to a more comprehensive understanding of the botanical diversity within the Botanical Garden of Iasi.</p>
+
+      
+    </section>
+
+    <section>
+      <h2>Use of external/knowledge resources</h2>
+
+      <p>Our strategy involves leveraging a variety of external resources to enrich the representation of plant properties within our taxonomy. Initially, we utilize DBpedia and employ SPARQL queries to retrieve pertinent data based on the labels obtained from the Botanical Garden's website. Among the data provided by DBpedia, we prioritize extracting information regarding the abstract and subspecies properties, which are pre-defined within the DBpedia ontology, and thereby accessible via specific URLs.    </p>
+      <p>Recognizing the limitations of DBpedia in providing comprehensive plant information, we transition to utilizing the Plant Ontology (PO) available at "https://www.ebi.ac.uk/ols4/search?q=plant&ontology=po". This ontology furnishes a broader array of properties, including type (Class), sub_Class_of, has_rank, and hasExactSynonym, each accompanied by pre-defined URLs within the ontology structure.</p>
+      <p>To facilitate cross-referencing and integration of data sources, we introduce the "Owl:sameAs" property, associating each plant with its corresponding DBpedia and ontology pages. By amalgamating information from DBpedia and Plant Ontology, we construct a comprehensive taxonomy structure that encompasses essential details about plants and their respective zones within the Botanical Garden of Iasi.</p>
+      <p>To address the lack of information regarding plant taxonomy, ecology, and habitat, we intend to parse Wikipedia pages associated with each plant using a Python API. By doing so, we aim to extract pertinent details to augment our dataset. Specifically, we will retrieve taxonomy, ecology, and habitat information from the Wikipedia pages.</p>
+      <p>By incorporating this additional data, we enrich our existing dataset with a multitude of plant-related information. Subsequently, we plan to integrate these enriched data sets into our triple store, establishing a new database labeled "/Plants". This database will serve as a repository for storing and organizing the diverse array of plant information collected from various external sources, including DBpedia, Plant Ontology, and Wikipedia. Through this comprehensive approach, we aspire to create a robust and informative taxonomy structure that encapsulates essential attributes of plant species found within the Botanical Garden of Iasi.</p>
+    </section>
+
+    <section>
+      <h2>The Dynamic Page Service</h2>
+
+      <p>To implement the service that presents and allows user interaction with the botanical data, we'll utilize Flask endpoints in Python. Here's an outline of the endpoint structure and functionality:</p>
+      <ol>
+        <li>"/zones" Endpoint:</li>
+        <ul>
+            <li>Displays a list of all zones stored in the database along with representative images for each zone.</li>
+            <li>Each zone is represented by a URL, and clicking on a zone or its image navigates the user to the next level.</li>
+        </ul>
+        <li>"/zone/{zone_name}" Endpoint:</li>
+        <ul>
+            <li>Displays a dedicated webpage for the selected zone.</li>
+            <li>The title displays the name of the zone, accompanied by a description and a list of plants within the zone.</li>
+            <li>The plant list consists of URLs that redirect users to individual plant pages. </li>
+        </ul>
+        <li> "/zone/{zone_name}/plant/{plant_name}" Endpoint:</li>
+        <ul>
+            <li>Presents all triples associated with the selected plant in an easily readable format.</li>
+            <li>Utilizes the Google Translate API to translate information into Romanian, with predicates serving as subtitles and objects as values.</li>
+            <li>Provides an interactive section for logged-in users where they have the next functionalities.</li>
+            <li>Specify comments about the plant.</li>
+            <li>Upload images of the plant.</li>
+            <li>Add relations with other plants in the same zone.</li>
+            <li>User-generated content undergoes administrative review and management.</li>
+        </ul>
+      </ol>
+    
+    <p>This service aims to offer users comprehensive access to botanical data, allowing exploration and interaction with plant information while ensuring data integrity and user engagement through administrative oversight.</p>
+    </section>
+
+    <section>
+
+    <section>
+      <h2>Conclusion</h2>
+
+      <p>In summary, our overarching objective is to significantly enhance the user experience for individuals interested in the Botanical Garden of Iasi. This enhancement will be achieved through the provision of real-time information regarding the diverse array of plants available for viewing, guidance on optimal routes to explore specific plant species, notifications about upcoming exhibitions, and the capability to reserve time slots for attendance.</p>
+      <p>Beyond the informative aspects, users will be actively encouraged to engage in discussions through the comment service, sharing their unique experiences within the botanical garden. Additionally, users can contribute to a shared visual narrative by uploading pictures and applying specific tags to highlight their favorite botanical specimens.</p>
+      <p>Furthermore, the application could be taken to the next step through the potential gamification of the social aspect of the application. This entails the introduction of a scoring mechanism wherein users accrue points based on the reception of likes for their photos and commentaries. Additionally, users can earn virtual medals or achievements through consistent and meaningful use of relevant tags in their contributions, fostering a sense of community and competition within the application. This multifaceted approach is intended to create a dynamic, interactive, and socially rewarding platform for enthusiasts and visitors of the Botanical Garden of Iasi.</p>
+    </section>
+
+    <footer>
+        <p class="citation">Hrimiuc Daniel-Marin and Chirila Sabin. (2024). "Documentation - Bogx"; Web Application Development Project</p>
+    </footer>
+
+</body>
+</html>

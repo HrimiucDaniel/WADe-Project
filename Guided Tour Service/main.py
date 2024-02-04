@@ -7,6 +7,8 @@ import re
 
 app = Flask(__name__)
 
+Username = "Daniel"
+
 
 @app.route('/uploads/<filename>')
 def serve_image(filename):
@@ -60,22 +62,20 @@ def get_image_from_element(element, help=0):
     return title
 
 
-
-
 @app.route('/tour', methods=['GET', 'POST'])
 def tour():
     if request.method == 'GET':
         options = zone_labels.get_labels_from_sparql()
-        return render_template('tour.html', options=options)
+        return render_template('tour.html', options=options, username=Username)
     elif request.method == 'POST':
         selected_options = request.form.getlist('options[]')
-        return redirect(url_for('tour_option', options=selected_options))
+        return redirect(url_for('tour_option', options=selected_options, username=Username))
 
 
 @app.route('/tour/<options>')
 def tour_option(options):
     zone_urls = []
-    place_images=[]
+    place_images = []
     # print(options)  # Debugging print
     options = options.replace("'", "")
     options = options.replace("[", "")
@@ -127,17 +127,17 @@ def tour_option(options):
             if pair[0] == "inainte":
                 destination = "Mergeti inainte pana la urmatoare intersectie"
                 if "8" in pair[1]:
-                    if "5" in path_list[len(new_list)-1][0][1]:
+                    if "5" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 5))
                     else:
                         place_images.append(get_image_from_element(pair[1], 9))
                 elif "9" in pair[1]:
-                    if "8" in path_list[len(new_list)-1][0][1]:
+                    if "8" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 8))
                     else:
                         place_images.append(get_image_from_element(pair[1], 10))
                 elif "10" in pair[1]:
-                    if "7" in path_list[len(new_list)-1][0][1]:
+                    if "7" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 7))
                     else:
                         place_images.append(get_image_from_element(pair[1], 11))
@@ -146,26 +146,26 @@ def tour_option(options):
             else:
                 destination = f'Mergeti la {pair[0]} la urmatoare intersectie'
                 if "8" in pair[1]:
-                    if "5" in path_list[len(new_list)-1][0][1]:
+                    if "5" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 5))
                     else:
                         place_images.append(get_image_from_element(pair[1], 9))
                 elif "9" in pair[1]:
-                    if "8" in path_list[len(new_list)-1][0][1]:
+                    if "8" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 8))
                     else:
                         place_images.append(get_image_from_element(pair[1], 10))
                 elif "10" in pair[1]:
-                    if "7" in path_list[len(new_list)-1][0][1]:
+                    if "7" in path_list[len(new_list) - 1][0][1]:
                         place_images.append(get_image_from_element(pair[1], 7))
                     else:
                         place_images.append(get_image_from_element(pair[1], 11))
                 else:
                     place_images.append(get_image_from_element(pair[1]))
         new_list.append(destination)
-    #print(place_images)
+    # print(place_images)
 
-    return render_template('tour_option.html', places=new_list, images=place_images)
+    return render_template('tour_option.html', places=new_list, images=place_images, username=Username)
 
 
 if __name__ == '__main__':
