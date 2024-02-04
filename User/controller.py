@@ -1,15 +1,16 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import plant_url
+
+import requests
 from flask import request, jsonify, render_template, url_for, session
 from werkzeug.utils import redirect
-import requests
+
+import plant_url
 from database import DatabaseHandler, app as base_app
-from SPARQLWrapper import SPARQLWrapper, JSON
 
 app = base_app
-app.config['SECRET_KEY'] = 'secret_key_here'  # Adaugă o cheie secretă pentru sesiuni
+app.config['SECRET_KEY'] = 'secret_key_here'
 
 
 @app.before_first_request
@@ -33,7 +34,7 @@ def register():
                 send_username_to_port_5000(username)
                 return redirect(url_for('get_main_page'))
             else:
-                error_message = 'Username or email already exist!'
+                error_message = 'Numele de utilizator sau emailul exista deja!'
 
     return render_template('register.html', error_message=error_message)
 
@@ -53,7 +54,7 @@ def login():
                 send_username_to_port_5000(username)
                 return redirect(url_for('get_main_page'))
             else:
-                error_message = 'Username or password not found!'
+                error_message = 'Numele de utilizator si parola nu sunt gasite!'
 
     return render_template('login.html', error_message=error_message)
 
@@ -104,9 +105,6 @@ def get_all_users():
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500
 
 
-
-
-
 @app.route('/', methods=['GET'])
 def get_main_page():
     try:
@@ -121,7 +119,8 @@ def get_main_page():
         for element in elements:
             urls[element] = plant_url.get_url(element)
 
-        return render_template('user_profile.html', username=user.username, email=user.email, elements=elements, urls=urls)
+        return render_template('user_profile.html', username=user.username, email=user.email, elements=elements,
+                               urls=urls)
 
     except Exception as e:
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500
@@ -192,9 +191,10 @@ def reserve_exhibition(name):
         if DatabaseHandler.book_exhibition(session['username'], name):
             user = DatabaseHandler.get_user_by_name(session['username'])
             send_confirmation_email(user.username, user.email, exhibition.name, exhibition.start_date)
-            return render_template('reservation.html', text="Exhibition successfully booked")
+            return render_template('reservation.html', text="Locul a fost rezervat cu succes!")
         else:
-            return render_template('reservation.html', text="Exhibition not found or no available seats.")
+            return render_template('reservation.html',
+                                   text="Expoziția nu a fost găsita sau locurile sunt deja ocupate!")
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
@@ -210,10 +210,10 @@ def send_confirmation_email(user_username, user_email, exhibition_name, start_da
         html_body = f'''
             <html>
             <body>
-                <p>Hi <strong>{user_username}</strong>!</p>
-                <p>Thank you for booking the exhibition: <strong>{exhibition_name}</strong>. Your reservation has been confirmed.</p>
-                <p>You are expected at the exhibition on {start_date}.</p>
-                <p>For more details, please visit our website.</p>
+                <p>Salut <strong>{user_username}</strong>!</p>
+                <p>Mulțumim pentru rezervarea la expoziția: <strong>{exhibition_name}</strong>. Your reservation has been confirmed.</p>
+                <p>Expoziția va începe pe: {start_date}.</p>
+                <p>Pentru mai multe detalii vizitează siteul nostru.</p>
             </body>
             </html>
         '''

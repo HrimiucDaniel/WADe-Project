@@ -24,12 +24,12 @@
             color: white;
             padding: 15px 20px;
             font-size: 16px;
-            margin: 10px;
+            margin: 5px;
             cursor: pointer;
         }
 
         .exhibition-details {
-            max-width: 600px;
+            max-width: 700px;
             margin: 50px auto;
             padding: 20px;
             border: 1px solid #ddd;
@@ -46,7 +46,7 @@
             color: white;
             padding: 15px 20px;
             font-size: 16px;
-            margin-top: 20px;
+            margin-top: 30px;
             cursor: pointer;
             display: block;
             margin-left: auto;
@@ -64,21 +64,21 @@
             <span>{{ user.username }}</span>
             <span> | </span>
             <span>{{ user.email }}</span>
-            <button onclick="redirectToExhibitions()">Exhibitions</button>
-            <button onclick="redirectToLogout()">Log out</button>
+            <button onclick="redirectToExhibitions()">Lista expozitii</button>
+            <button onclick="redirectToLogout()">Deconectare</button>
         </div>
     </header>
     <div class="exhibition-details">
         <h1>{{ exhibition.name }} Exhibition</h1>
-        <p><strong>Plant:</strong><a href={{ plant_url }}> {{ exhibition.plant_name }}</p></a>
-        <p><strong>Description:</strong> {{ exhibition.description }}</p>
-        <p><strong>Start Date:</strong> {{ exhibition.start_date }}</p>
-        <p><strong>End Date:</strong> {{ exhibition.end_date }}</p>
-        <p><strong>Total Seats:</strong> {{ exhibition.total_seats }}</p>
-        <p><strong>Current Seats:</strong> {{ exhibition.current_seats }}</p>
+        <p><strong>Planta:</strong><a href={{ plant_url }}> {{ exhibition.plant_name }}</p></a>
+        <p><strong>Descriere:</strong> {{ exhibition.description }}</p>
+        <p><strong>Data incepere:</strong> {{ exhibition.start_date }}</p>
+        <p><strong>Data sfarsit:</strong> {{ exhibition.end_date }}</p>
+        <p><strong>Total locuri:</strong> {{ exhibition.total_seats }}</p>
+        <p><strong>Locuri ocupate:</strong> {{ exhibition.current_seats }}</p>
 
         <a href="/reserve/{{ exhibition.name }}">
-            <button class="reservation-button">Reserve Exhibition</button>
+            <button class="reservation-button">Rezervare loc</button>
         </a>
     </div>
 <script>

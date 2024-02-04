@@ -78,10 +78,10 @@
         <h2>Login</h2>
 
         <form action="/login" method="post">
-            <label for="username">Username:</label>
+            <label for="username">Nume de utilizator:</label>
             <input type="text" id="username" name="username" required><br>
 
-            <label for="password">Password:</label>
+            <label for="password">Parola:</label>
             <input type="password" id="password" name="password" required><br>
 
             <input type="submit" value="Login">
@@ -91,7 +91,7 @@
             <p style="color: red;">{{ error_message }}</p>
         {% endif %}
        
-        <p>Don't have an account? <a href="/register">Register here</a></p>
+        <p>Inca nu ai cont? <a href="/register">Inregistreaza-te aici</a></p>
 
     </div>
 

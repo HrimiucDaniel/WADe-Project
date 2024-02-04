@@ -88,13 +88,13 @@
         <h2>Register</h2>
 
         <form action="/register" method="post" onsubmit="return validateForm()">
-            <label for="username">Username:</label>
+            <label for="username">Nume de utilizator:</label>
             <input type="text" id="username" name="username" required><br>
 
-            <label for="password">Password:</label>
+            <label for="password">Parola:</label>
             <input type="password" id="password" name="password" required><br>
 
-            <label for="confirm_password">Confirm Password:</label>
+            <label for="confirm_password">Confirma parola:</label>
             <input type="password" id="confirm_password" name="confirm_password" required>
             <span id="passwordError" style="color: red;"></span><br>
 
@@ -108,7 +108,7 @@
             <p>{{ error_message }}</p>
         {% endif %}
 
-        <p>Already have an account? <a href="/login">Login here</a></p>
+        <p>Ai deja un cont? <a href="/login">Conecteaza-te aici</a></p>
 
     </div>
 

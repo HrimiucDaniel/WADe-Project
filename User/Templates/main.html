@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Profile</title>
+    <title>Main</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f2f2f2;
         }
 
         header {
@@ -21,15 +22,21 @@
 
         h1 {
             margin-top: 50px;
+            text-align: center;
+            color: #333;
         }
 
         button {
             background-color: #4CAF50;
             color: white;
-            padding: 15px 20px;
-            font-size: 16px;
+            padding: 15px 30px;
+            font-size: 18px;
             margin: 10px;
             cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
         }
 
         button:hover {
@@ -38,20 +45,35 @@
 
         .button-container {
             text-align: center;
+            margin-top: 50px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
         <div>
-            <button onclick="redirectToLogin()">Login</button>
-            <button onclick="redirectToRegister()">Register</button>
+            <button onclick="redirectToLogin()">Logare</button>
+            <button onclick="redirectToRegister()">Inregistrare</button>
         </div>
     </header>
 
-    <div class="button-container">
-        <button onclick="viewZones()">View Zones</button>
-        <button onclick="guideTour()">Guide Tour</button>
+    <div class="container">
+        <h1>Bine ati venit!</h1>
+        
+        <div class="button-container">
+            <button onclick="viewZones()">Vizualizeaza zone</button>
+            <button onclick="guideTour()">Tur ghidat</button>
+        </div>
     </div>
 
     <script>
