@@ -119,6 +119,7 @@ def get_all_plants():
 def get_plant(plant_name):
     endpoint_url = "http://localhost:3030/plants/sparql"
     sparql = SPARQLWrapper(endpoint_url)
+    #plant_name = plant_name.replace("%20", " ")
     query = """
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
@@ -128,7 +129,7 @@ def get_plant(plant_name):
         ?subject ?predicate ?object.
 
     }
-    """ % (plant_name)
+    """ %(plant_name)
 
     sparql.setQuery(query)
 
@@ -142,6 +143,8 @@ def get_plant(plant_name):
         result_dict["subject"] = result["subject"]["value"]
         result_dict["predicate"] = result["predicate"]["value"]
         result_dict["object"] = result["object"]["value"]
+
+    print(result_dict)
 
     return jsonify(result_dict, 'plant')
 
