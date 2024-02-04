@@ -7,7 +7,7 @@ import re
 
 app = Flask(__name__)
 
-Username = "Daniel"
+Username = ""
 
 
 @app.route('/uploads/<filename>')
@@ -70,6 +70,15 @@ def tour():
     elif request.method == 'POST':
         selected_options = request.form.getlist('options[]')
         return redirect(url_for('tour_option', options=selected_options, username=Username))
+
+
+@app.route('/receive-username', methods=['POST'])
+def receive_username():
+    global Username
+    username = request.form.get('username')
+    # Do something with the received username
+    print(f"Received username on port 5000: {username}")
+    Username = username
 
 
 @app.route('/tour/<options>')

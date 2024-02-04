@@ -92,3 +92,12 @@ button:hover {
 strong {
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 400px; /* Adjust the width as per your requirement */
+  height: 300px; /* Adjust the height as per your requirement */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+}

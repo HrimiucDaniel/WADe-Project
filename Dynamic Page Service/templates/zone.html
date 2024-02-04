@@ -26,9 +26,9 @@
         </div>
     </header>
     {% endif %}
-    <h1 property="schema:name" typeof="schema:Place">{{ zone_name }}</h1>
+    <a href="http://www.w3.org/2000/01/rdf-schema#label"><h1 property="schema:name" typeof="schema:Place">{{ zone_name }}</h1></a>
 
-    <p property="schema:description">{{ description }}</p>
+    <a href="https://www.w3.org/2000/01/rdf-schema#description" ><p property="schema:description">{{ description }}</p></a>
 
     <ul typeof="schema:ItemList" property="schema:itemListElement" typeof="schema:Plant">
         {% for plant in plants %}

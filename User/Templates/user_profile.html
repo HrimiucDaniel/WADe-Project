@@ -10,6 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
         }
 
         header {
@@ -38,6 +39,44 @@
 
         .button-container {
             text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Input field and searchable list styling */
+        #searchBar {
+            padding: 10px;
+            width: 300px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .searchable-list {
+            display: none; /* Initially hidden */
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .searchable-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .searchable-list li:last-child {
+            border-bottom: none;
+        }
+
+        .searchable-list a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .searchable-list a:hover {
+            color: #555;
         }
     </style>
 </head>
@@ -47,18 +86,57 @@
             <span>{{ username }}</span>
             <span> | </span>
             <span>{{ email }}</span>
-            <!-- Adăugați butonul de logout aici -->
+            <!-- Add the logout button here -->
             <button onclick="redirectToLogout()">Logout</button>
         </div>
     </header>
 
     <div class="button-container">
+        <!-- Input field for search -->
+        <input type="text" id="searchBar" onkeyup="search()" placeholder="Search...">
+
+        <!-- Searchable list -->
+        <ul class="searchable-list">
+            {% for element in elements %}
+                <li><a href="{{ urls[element] }}">{{ element }}</a></li>
+            {% endfor %}
+        </ul>
+
+        <!-- Buttons for different actions -->
         <button onclick="viewZones()">View Zones</button>
         <button onclick="guideTour()">Guide Tour</button>
         <button onclick="redirectToExpositions()">Exhibition</button>
     </div>
+    
 
     <script>
+        function search() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById('searchBar');
+            filter = input.value.toUpperCase();
+            ul = document.getElementsByClassName("searchable-list")[0];
+            li = ul.getElementsByTagName('li');
+    
+            // Check if the search input has at least two characters
+            if (filter.length >= 2) {
+                ul.style.display = "block"; // Display the searchable list
+            } else {
+                ul.style.display = "none"; // Hide the searchable list
+                return; // Exit the function early if the input has less than two characters
+            }
+    
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    
+
         function viewZones() {
             // Handle View Zones action
             window.location.href = "http://127.0.0.1:5000/zones";

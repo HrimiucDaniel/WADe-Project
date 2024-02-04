@@ -26,42 +26,42 @@
         </div>
     </header>
     {% endif %}
-    <h1 property="schema:name" typeof="schema:Plant">{{ title }}</h1>
+    <a href="http://www.w3.org/2000/01/rdf-schema#>label"><h1 property="schema:name" typeof="schema:Plant">{{ title }}</h1></a>
 
     {% if abstract %}
-        <h2 property="schema:description">Abstract</h2>
+       <a href="https://dbpedia.org/ontology/abstract"><h2 property="schema:description">Abstract</h2></a> 
         <p>{{ abstract }}</p>
     {% endif %}
 
 
     {% if ecology %}
-        <h2 property="schema:about">Ecologie</h2>
+        <a href="http://www.berkeleybop.org/ontologies/ncbitaxon#ecology"><h2 property="schema:about">Ecologie</h2></a>
         <p>{{ ecology }}</p>
     {% endif %}
 
     {% if taxonomy %}
-        <h2 property="schema:about">Taxonomie</h2>
+        <a href="http://www.berkeleybop.org/ontologies/ncbitaxon#taxonomy"><h2 property="schema:about">Taxonomie</h2></a>
         <p>{{ taxonomy }}</p>
     {% endif %}
 
     {% if habitat %}
-        <h2 property="schema:about">Habitat</h2>
+        <a href="https://dbpedia.org/property/habitat"><h2 property="schema:about">Habitat</h2></a>
         <p>{{ habitat }}</p>
     {% endif %}
 
     {% if classification %}
-        <h2>Grupare principala:</h2>
+        <a href="http://www.w3.org/2000/01/rdf-schema#subClassof"><h2>Grupare principala:</h2></a>
         <p><a href="{{ classification[0] }}" property="schema:classification">{{ classification[1] }}</a> : <span property="schema:name">{{ classification[2] }}</span></p>
     {% endif %}
 
     {% if other %}
-        <h2 property="schema:sameAs">Sinonim cu:</h2>
+        <a href="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"><h2 property="schema:sameAs">Sinonim cu:</h2></a>
         <p>{{ other.capitalize() }}</p>
     {% endif %}
 
     {% if zone %}
-        <h2>Zona de care apartie:</h2>
-        <p property="schema:locationCreated">{{ zone }}</p>
+        <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#zone"><h2>Zona de care apartie:</h2></a>
+        <a href={{zone_url}}><p property="schema:locationCreated">{{ zone }}</p></a>
     {% endif %}
 
     <!-- Add a form for adding comments -->
@@ -74,7 +74,7 @@
     {% endif %}
 
     {% if comments %}
-        <h2 property="schema:comment">Comentarii</h2>
+        <a href="https://www.w3.org/2000/01/rdf-schema#comment"><h2 property="schema:comment">Comentarii</h2></a>
         <ul>
             {% for comment in comments %}
                 <li property="schema:commentText">{{ comment }}</li>
@@ -92,7 +92,7 @@
     {% endif %}
 
     {% if images %}
-        <h2>Imagini</h2>
+        <a href="https://dbpedia.org/property/image"><h2>Imagini</h2></a>
         <ul>
             {% for image_path in images %}
                 {% set path_parts = image_path.split(':', 1) %}
@@ -124,7 +124,7 @@
     {% endif %}
 
     {% if relations %}
-        <h2>Relatii adaugate de utilizatori:</h2>
+        <a href="https://dbpedia.org/property/relations"><h2>Relatii adaugate de utilizatori:</h2></a>
         <ul>
             {% for key, value in relations.items() %}
                 {% set predicate_parts = key.split('/') %}

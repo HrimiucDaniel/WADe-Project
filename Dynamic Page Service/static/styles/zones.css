@@ -80,3 +80,6 @@ button:hover {
 strong {
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+}

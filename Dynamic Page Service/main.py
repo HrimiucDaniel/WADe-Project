@@ -66,7 +66,7 @@ def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
 
-#Username = ""
+# xUsername = ""
 
 
 @app.route('/receive-username', methods=['POST'])
@@ -179,7 +179,7 @@ def plant(zone_name, plant_name):
     return render_template('plant.html', title=plant_name, abstract=abstract, ecology=ecology,
                            taxonomy=taxonomy, zone=zone_name, comments=comments, images=image,
                            near_by_list=near_by_list, relations=relation_dict, classification=classification,
-                           other=other, habitat=habitat, Username=Username, username=Username)
+                           other=other, habitat=habitat, Username=Username, username=Username, zone_url=zone_url)
 
 
 @app.route('/zone/<zone_name>/plant/<plant_name>/add_comment', methods=['POST'])

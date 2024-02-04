@@ -6,6 +6,7 @@ from flask import request, jsonify, render_template, url_for, session
 from werkzeug.utils import redirect
 import requests
 from database import DatabaseHandler, app as base_app
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 app = base_app
 app.config['SECRET_KEY'] = 'secret_key_here'  # Adaugă o cheie secretă pentru sesiuni
@@ -57,6 +58,17 @@ def login():
     return render_template('login.html', error_message=error_message)
 
 
+def send_username_to_port_5001(username):
+    url = 'http://127.0.0.1:5001/receive-username'
+    data = {'username': username}
+    print(username)
+    response = requests.post(url, data=data)
+    if response.status_code == 200:
+        print('Username sent successfully to port 5001')
+    else:
+        print('Failed to send username to port 5001')
+
+
 def send_username_to_port_5000(username):
     url = 'http://127.0.0.1:5000/receive-username'
     data = {'username': username}
@@ -66,6 +78,7 @@ def send_username_to_port_5000(username):
         print('Username sent successfully to port 5000')
     else:
         print('Failed to send username to port 5000')
+    send_username_to_port_5001(username)
 
 
 @app.route('/users', methods=['GET'])
@@ -91,6 +104,9 @@ def get_all_users():
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500
 
 
+
+
+
 @app.route('/', methods=['GET'])
 def get_main_page():
     try:
@@ -100,8 +116,12 @@ def get_main_page():
         # print(username)
         # print(username)
         user = DatabaseHandler.get_user_by_name(username)
+        elements = plant_url.get_all_plants()
+        urls = {}
+        for element in elements:
+            urls[element] = plant_url.get_url(element)
 
-        return render_template('user_profile.html', username=user.username, email=user.email)
+        return render_template('user_profile.html', username=user.username, email=user.email, elements=elements, urls=urls)
 
     except Exception as e:
         return jsonify({'error': f'An error occurred: {str(e)}'}), 500
